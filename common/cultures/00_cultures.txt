@@ -2171,6 +2171,18 @@ byzantine = {
 			"of Gothia"
 		}
 	}
+	anatolian_greek = {
+		graphical_culture = easterngfx
+	}
+	karchidoniac = {
+		graphical_culture = easterngfx
+	}
+	egyptian_greek = {
+		graphical_culture = easterngfx
+	}
+	persic = {
+		graphical_culture = easterngfx
+	}
 	#BtPLegacy Culture
 	cappadocian = {
 		graphical_culture = easterngfx

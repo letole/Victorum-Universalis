@@ -20,7 +20,10 @@ native_size = 20
 native_ferocity = 1
 native_hostileness = 3
 
-
+add_permanent_province_modifier = {
+    name = bay_of_fundy
+    duration = -1
+}
 
 discovered_by = north_american
 
