@@ -1055,6 +1055,32 @@ pudget_sound_modifier:0 "The Pudget Sound"
  desc_bt_spanish_colonial_enthusiasm:0 "Large groups of ambitious people are interested in moving to the colonies."
  bt_daring_navigator:0 "A Daring Explorer"
  desc_bt_daring_navigator:0 "This country is employing an ambitious and daring explorer who is determined to push further than anyone has before and discover new lands on distant shores."
+ 
+ ##########################
+ # New province modifiers
+ ##########################
+ baltic_amber_small:0 "Baltic amber"
+ desc_baltic_amber_small:0 "Province's shores are rich in amber - fossilized tree resin that many consider very precious. Though it is not at rich in amber as coast of Sambia, it still adds some trade value to the province."
+ black_forest:0 "Black Forest"
+ desc_black_forest:0 "A large forested mountain range in close proximity to Rrhine River. It is bounded by the Rhine valley to the west and south. A great source of wood and other resources for nearby areas."
+ black_marble:0 "Black marble"
+ desc_black_marble:0 "An unique type of marble is extracted from this Basque province. Due to its unusual appearance and rarity, it is considered much more valuable than common white marble. Marble quarry in Markina that extracts it, seems to be the only source of black marble in Europe."
+ sea_of_dead_palestine:0 "Dead Sea"
+ desc_sea_of_dead_palestine:0 "While not the largest, it is surely the saltiest one. Barren wastelands of salty grounds surround this body of water located in Jordan Valley. Great place to harvest salt but not so great for development."
+ ancient_egypt_temple:0 "Temple ruins of Thebes"
+ desc_ancient_egypt_temple:0 "Ruins of the ancient city of Thebes are home to many old temples and obelisks. In ancient time, this place was one of the most important sites in Egyptian Kingdom but times of pharaohs are long gone and now the whole complex slowly fades in desert winds. Though nobody remembers the purpose of all those monuments anymore, they are still notable."
+ masurian_lakes:0 "Masurian Lakeland"
+ desc_masurian_lakes:0 "Masurian Lands host countless amount of lakes scattered among rich forests."
+ bay_of_fundy:0 "Bay of Fundy"
+ desc_bay_of_fundy:0 "Unique geography of the bay allows for the formation of the highest tides on the Earth. Ideal envirorment for tidal fishing and naval buisness."
+ volcan_soil:0 "Volcanic Grounds"
+ desc_volcan_soil:0 "Terrain of this province has been shaped by volcanic eruptions. While the soil is often extra fertile, it is not an easy place to live in."
+ warm_coast_ire:0 "Irish Golden Coast"
+ desc_warm_coast_ire:0 "Good climate and warm streams bring prosperity to the coast of Ireland. Weather conditions even allow to grow palm trees. Truly a warm oceanic temperate climate at its finest."
+ rich_black_soil:0 "Chernozem"
+ desc_rich_black_soil:0 "The specific soil type makes this land especially fertile and excellent for agricultural production."
+ aurora_borealis:0 "Aurora Borealis"
+ desc_aurora_borealis:0 "Beautiful aurora can often be seen in the region. For many local people the lights in the sky have special religious meaning."
 
 
 
