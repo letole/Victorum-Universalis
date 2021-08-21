@@ -14,9 +14,9 @@ is_city = yes
 add_core = OTM
 
 add_permanent_province_modifier = {
-    name = navalbase_modifier_2
+    name = navalbase_modifier
     duration = -1
-}
+}	
 
 discovered_by = chinese
 discovered_by = japanese

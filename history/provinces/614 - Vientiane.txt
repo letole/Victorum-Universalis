@@ -19,6 +19,11 @@ discovered_by = indian
 extra_cost = 8
 center_of_trade = 2
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}
+
 1535.1.1 = { discovered_by = POR }
 1579.1.1 = { unrest = 5 } # Revolt against vassalization
 1580.1.1 = { unrest = 0 }

@@ -10,7 +10,7 @@ base_manpower = 2
 native_size = 40
 native_ferocity = 4
 native_hostileness = 9
-
+center_of_trade = 1
 capital = "Wayao"
 
 discovered_by = east_african

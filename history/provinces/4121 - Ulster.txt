@@ -16,6 +16,10 @@ capital = "Cois Abhann Dalla"
 #capital = "Carraig Fhearghais"
 is_city = yes
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
 
 discovered_by = western
 discovered_by = muslim

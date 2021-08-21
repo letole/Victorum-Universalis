@@ -38,7 +38,7 @@ categories =  {
 			
 			
 			#Beyond Typus
-			4728 8111 13 7773 3134 4149 5342 4305 4288 710 4471 4442 4437 4438 2028 2043 4461 4511 2065 4463 4513 4508 2094 4494 2061 562 4486 2047 4488 5756 728 4191 1027 5691 2856 5378 5383 4782 5367 905 916 908 988 2586 987 2519 942 4922 946 884 4910 4914 2672 901 2008 2007 907 2511 2510 909 2502 2503 4919 4920 5624 2596 5785 5197 5636 5637 5852 5904 2499 4915 890 5830 5832 5066 5858 867 5042 5751 4340 4299 7256 4787 2584 913 917 5755 2666 790 2851 406 2314 7455 8729 581 2046 2045 2042 566 2038 5290 2800 1222 5285 2797 5302 5281 5279 5277 2322 5278 7090 130 4252 3277 5683 5651 4213 8683 2081 4474 2175 2172 683 2159 2146 4475 4476 4479 2668 4904 904 5812 2483 7643 7646 3213 3214 7642 7641 7637 7687 7616 7615 7529 7530 7674 4768 8513 8514 2975 8486 8485 8021 8430 169 175 7922 7007 7006 7005 7155 7154 4753 7753 7755 7032 7081 7067 7079 111 7096 7086 7087 7602 6439 4557 4556 3108 1750 8075 4498 4499 4497 4495 2055 4490 4487 4472 4411 2062 2080 4418 4419 543 2084 4652 4417 4415 4416 2085 2101 4457 4504 505 2072 4509 2086 4505 2076 4396 8679 2399 8677 8651 8556 8567 4832 4833 8624 8597 2188 2110 712 2192 460 1973 440 4339 426 4289 4290 2311 409 4291 4292 2308 2454 5225 2317 4318 5284 1149 599 4815 7673 2848 4903 2020 5775 4531 3064 4769 4388 4316 4317 4940 4950 5795 5765 5797 5799 870 5766 7075 7085 7057 7078 1774 2985 7068 7028 7031 106 7136 107 7744 4638 5856 7756 7754 2469 2998 7758 7757 8018 8015 8020 7976 7974 7994 7993 7989 7995 7971 7992 7928 8440 8503 8506 8531 7612 7613 7614
+			4728 8111 13 7773 3134 4149 5342 4305 4288 710 4471 4442 4437 4438 2028 2043 4461 4511 2065 4463 4513 4508 2094 4494 2061 562 4486 2047 4488 5756 728 4191 1027 5691 2856 5378 5383 4782 5367 905 916 908 988 2586 987 2519 942 4922 946 884 4910 4914 2672 901 2008 2007 907 2511 2510 909 2502 2503 4919 4920 5624 2596 5785 5197 5636 5637 5852 5904 2499 4915 890 5830 5832 5066 5858 867 5042 5751 4340 4299 4787 2584 913 917 5755 2666 790 2851 406 2314 7455 8729 581 2046 2045 2042 566 2038 5290 2800 1222 5285 2797 5302 5281 5279 5277 2322 5278 7090 130 4252 3277 5683 5651 4213 8683 2081 4474 2175 2172 683 2159 2146 4475 4476 4479 2668 4904 904 5812 2483 7643 7646 3213 3214 7642 7641 7637 7687 7616 7615 7529 7530 7674 4768 8513 8514 2975 8486 8485 8021 8430 169 175 7922 7007 7006 7005 7155 7154 4753 7753 7755 7032 7081 7067 7079 111 7096 7086 7087 7602 6439 4557 4556 3108 1750 8075 4498 4499 4497 4495 2055 4490 4487 4472 4411 2062 2080 4418 4419 543 2084 4652 4417 4415 4416 2085 2101 4457 4504 505 2072 4509 2086 4505 2076 4396 8679 2399 8677 8651 8556 8567 4832 4833 8624 8597 2188 2110 712 2192 460 1973 440 4339 426 4289 4290 2311 409 4291 4292 2308 2454 5225 2317 4318 5284 1149 599 4815 7673 2848 4903 2020 5775 4531 3064 4769 4388 4316 4317 4940 4950 5795 5765 5797 5799 870 5766 7075 7085 7057 7078 1774 2985 7068 7028 7031 106 7136 107 7744 4638 5856 7756 7754 2469 2998 7758 7757 8018 8015 8020 7976 7974 7994 7993 7989 7995 7971 7992 7928 8440 8503 8506 8531 7612 7613 7614
 			
 			#BT13.0
 			8175
@@ -117,8 +117,8 @@ categories =  {
 			4667 4673
 			
 			#Beyond Typus
-			4629 2006 5638 5618 2009 2508 5615 725 466 2419 3265 288 468 283 1974 7200 2412 1965 287 2199 2208 3263 2416 2447 3244 7193 7192 7191 284 456 2352 2368 459 2356 1969 477 2361 2358 4684 2118 2434 4687 4686 2354 479 2357 2359 4692 723 4666 4678 5065 4675 4202 2187 5629 2501 2598 5634 5635 5034 892 891 5616 5633 5623 5627 5786 5632 5617 4917  1809 2506 5845 2507 5620 5619 2625 2500 4909 2497 885 889 5844 882 2496 3242 7251 3243 7197 7209 7277 7279 3159 7203 2413 2409
-			2705 3266 467
+			4629 7256 2006 5638 5618 2009 2508 5615 725 466 2419 3265 288 468 283 1974 7200 2412 1965 287 2199 2208 3263 2416 2447 3244 7193 7192 7191 284 456 2352 2368 459 2356 1969 477 2361 2358 4684 2118 2434 4687 4686 2354 479 2357 2359 4692 723 4666 4678 5065 4675 4202 2187 5629 2501 2598 5634 5635 5034 892 891 5616 5633 5623 5627 5786 5632 5617 4917  1809 2506 5845 2507 5620 5619 2625 2500 4909 2497 885 889 5844 882 2496 3242 7251 3243 7197 7209 7277 7279 3159 7203 2413 2409
+			3266 467
 		}	
 	}
 	
@@ -145,7 +145,7 @@ categories =  {
 			4537 7220 7219 7218 7221
 			
 			#Beyond Typus
-			3231  2523 2528 895 4923 4887 4921 2535 926 933 4882 4880 2538 2546 2545 937 4878 955 962 954 2561 5060 4893 990 959 5038 989 4892 2522 2521 2587 5039 5037 4610 2807 2912 2921 754 2858 2859 777 2853 772 2852 779 2866 2865 2860 2861 6210 6213 6177 6180 4253 3276 5659 5657 3290 4251 5665 5669 4255 5679 5682 296 2408 5668 3268 5667 5666 4116 4254 1956 4250 2422 4264 4267 2421 2407 7250 4542 7255 7252 7249 4543 2405 7199 268 261 7275 7254 4540 3241 7246 3239 7207 4538 7268 3301 4260 3273 7873 4148 7217 7216 7214 273 7846 37 7861 4534 271 7840 3226 7838 7839 7225 7211 3225 7835 8101 8102 4548 7767 7 7768 7609 7769 7770 7771 7607 7778 7775 4771 53 7810 7811 2996 3203 69 7514 3202 7515 7507 2971 7506 56 7505 7504 7503 7508 7509 2973 7512 7513 7526 7527 7317 7528 7523 7519 7623 7635 58 7634 7633 7631 7542 7632 7648 4744 7636 7544 7691 7589 7592 7600 7599 7590 7591 7578 7579 7583 7584 7582 4714 7552 7553 7551 7604 8477 7944 8467 8471 8472 7938 8032 8120 3058 99 4381 8512 3063 8017 8511 8019 8517 8490 4770 95 181 7977 7966 7956 7955 4392 7951 8441 7953 7965 171 185 7988 3075 7979 7980 7937 7936 4776 7933 3077 7932 7926 7927 8231 4525 7264 8233 1938 4524 2997 258 8226 8227 8228 8245 8244 2967 2970 8254 8185 135 4240 8193 4126 8192 8201 8189 1953 8202 8203 7269 2 4165 8437 4242 26 1982 3121 8138 7859 7858 7853 1960 7793 3120 3122 8157 8156 8162 4379 8165 8166 375 7420 7439 7433 7435 7299 7206 7239 7259 7208 7272 7271 1954 8188 7682 7683 155 3148 8200 8199 1864 8442 4764 7939 8444 7942 8443 8030 7946 8448 8450 189 7516 7617 7813 7812 59 7314 8265 8256 4533 4527 8232 8230 4528 1940 7836 7837 5644 34 7870 7849 7229 7235 7882 5685 5670 3270 7248 1945 2423 304 2415 302 2543 951 2524 2520 940 941 939 4883 919 4884 2509 4885 894 2669 4911 2014 887 2665 2514 4906 5628 4900 2513 4901 4877 2549 2547 938 2541 2542 2539 2537 4881 920 925 5680 4244 5672 7212 7210 7242 4247 7244 7253 7243 35 259 7862 8241 8242 8247 2966 8243 8240 8229 8246 2993 4749 7815 7958 1743 7963 7962 8438 7959 179 7934 7935 7991 8013 4386 7925 4888 3083 4387 4697 3279 3293 4786 4166 5642 5643 5645 5660 5653 5656 4248 4249 1778 5664 5663 5662 4243 3271 5661 5654 5681 5646 5684 7790 7792 7872 7871 7879 7878 7880 7881 7877 7841 7844 7845 7848 7852 7854 7855 7856 7876 3229 3229 39 3227 7213 4535 4246 7869 4261 7868 7238 7821 7818 7847 7223 7224
+			3231 4526 7826 767 7831 7830 2958 42 5097 7825 78262 7823 4747 7819 8733 4746 7817 2523 2528 895 4923 4887 4921 2535 926 933 4882 4880 2538 2546 2545 937 4878 955 962 954 2561 5060 4893 990 959 5038 989 4892 2522 2521 2587 5039 5037 4610 2807 2912 2921 754 2858 2859 777 2853 772 2852 779 2866 2865 2860 2861 6210 6213 6177 6180 4253 3276 5659 5657 3290 4251 5665 5669 4255 5679 5682 296 2408 5668 3268 5667 5666 4116 4254 1956 4250 2422 4264 4267 2421 2407 7250 4542 7255 7252 7249 4543 2405 7199 268 261 7275 7254 4540 3241 7246 3239 7207 4538 7268 3301 4260 3273 7873 4148 7217 7216 7214 273 7846 37 7861 4534 271 7840 3226 7838 7839 7225 7211 3225 7835 8101 8102 4548 7767 7 7768 7609 7769 7770 7771 7607 7778 7775 4771 53 7810 7811 2996 3203 69 7514 3202 7515 7507 2971 7506 56 7505 7504 7503 7508 7509 2973 7512 7513 7526 7527 7317 7528 7523 7519 7623 7635 58 7634 7633 7631 7542 7632 7648 4744 7636 7544 7691 7589 7592 7600 7599 7590 7591 7578 7579 7583 7584 7582 4714 7552 7553 7551 7604 8477 7944 8467 8471 8472 7938 8032 8120 3058 99 4381 8512 3063 8017 8511 8019 8517 8490 4770 95 181 7977 7966 7956 7955 4392 7951 8441 7953 7965 171 185 7988 3075 7979 7980 7937 7936 4776 7933 3077 7932 7926 7927 8231 4525 7264 8233 1938 4524 2997 258 8226 8227 8228 8245 8244 2967 2970 8254 8185 135 4240 8193 4126 8192 8201 8189 1953 8202 8203 7269 2 4165 8437 4242 26 1982 3121 8138 7859 7858 7853 1960 7793 3120 3122 8157 8156 8162 4379 8165 8166 375 7420 7439 7433 7435 7299 7206 7239 7259 7208 7272 7271 1954 8188 7682 7683 155 3148 8200 8199 1864 8442 4764 7939 8444 7942 8443 8030 7946 8448 8450 189 7516 7617 7813 7812 59 7314 8265 8256 4533 4527 8232 8230 4528 1940 7836 7837 5644 34 7870 7849 7229 7235 7882 5685 5670 3270 7248 1945 2423 304 2415 302 2543 951 2524 2520 940 941 939 4883 919 4884 2509 4885 894 2669 4911 2014 887 2665 2514 4906 5628 4900 2513 4901 4877 2549 2547 938 2541 2542 2539 2537 4881 920 925 5680 4244 5672 7212 7210 7242 4247 7244 7253 7243 35 259 7862 8241 8242 8247 2966 8243 8240 8229 8246 2993 4749 7815 7958 1743 7963 7962 8438 7959 179 7934 7935 7991 8013 4386 7925 4888 3083 4387 4697 3279 3293 4786 4166 5642 5643 5645 5660 5653 5656 4248 4249 1778 5664 5663 5662 4243 3271 5661 5654 5681 5646 5684 7790 7792 7872 7871 7879 7878 7880 7881 7877 7841 7844 7845 7848 7852 7854 7855 7856 7876 3229 3229 39 3227 7213 4535 4246 7869 4261 7868 7238 7821 7818 7847 7223 7224
 			
 			#BT13.0
 			8170 8223
@@ -227,7 +227,7 @@ categories =  {
 			2890 2294 96 4706 7759 7076 362 5261 7194 7195 1192 1901
 
 			#Beyond Typus
-			2534 922 3085 8435 7230 7263 7262 269 7226 7245 7741 7740 7718 7739 1767 4544 7241 7233 1941 7228 7232 7237 7236 7234 7240 4115  7215 7222 7851 7843 4241 7850 7857 7833 4151 2994 7842 47 4745 7777 7776 4141 3135 7774 7511 54 7498 7501 7502 4382 7500 7499 7954 100 8119 7975 7765 7894 5650 1051 1046 2438 7496 4258 5648 7866 1776 7865 7864 5678 2425 3285 4257 2429 1069 4691 1073 2445 1070 1067 2430 561 2039 2376 8650 5184 5174 923 928 4968 5178 2599 4986 5006 2516 2530 1004 4991 4970 4976 2533 1000 1002 2589 2591 1003 5005 5593 5057 5014 5592 5015 5008 5594 5003 1806 2594 5587 5580 5068 5639 5002 5900 2601 5084 5001 5573 2595 4978 4980 4983 5082 5081 4985 4989 4969 8012 4971 5076 5075 5074 5073 5072 1812 5071 5070 5069 1811 5067 4990 4992 4993 4994 4995 4996 4997 4998 998 1805 5007 5087 5175 5176 5177 5915 5918 999 1005 1006 2592 4925 5913 5641 5916 5917 5919 4924 8002 8003
+			2534 7824 922 3085 8435 7230 7263 7262 269 7226 7245 7741 7740 7718 7739 1767 4544 7241 7233 1941 7228 7232 7237 7236 7234 7240 4115  7215 7222 7851 7843 4241 7850 7857 7833 4151 2994 7842 47 4745 7777 7776 4141 3135 7774 7511 54 7498 7501 7502 4382 7500 7499 7954 100 8119 7975 7765 7894 5650 1051 1046 2438 7496 4258 5648 7866 1776 7865 7864 5678 2425 3285 4257 2429 1069 4691 1073 2445 1070 1067 2430 561 2039 2376 8650 5184 5174 923 928 4968 5178 2599 4986 5006 2516 2530 1004 4991 4970 4976 2533 1000 1002 2589 2591 1003 5005 5593 5057 5014 5592 5015 5008 5594 5003 1806 2594 5587 5580 5068 5639 5002 5900 2601 5084 5001 5573 2595 4978 4980 4983 5082 5081 4985 4989 4969 8012 4971 5076 5075 5074 5073 5072 1812 5071 5070 5069 1811 5067 4990 4992 4993 4994 4995 4996 4997 4998 998 1805 5007 5087 5175 5176 5177 5915 5918 999 1005 1006 2592 4925 5913 5641 5916 5917 5919 4924 8002 8003
 			
 			#BT13.0
 			
@@ -373,7 +373,7 @@ categories =  {
 
 
 			#Beyond Typus
-			1117 2930 747 8708 2692 8621 8695 595 8702 8697 4802 8701 4795 8611 2701 7188 8709 8279 8275 666 4062 1144 2258 7373 1106 623 4056 4071 4066 4065 4074 7497 4096 4080 1168 4085 2949 7492 4079 2256 2254 7472 1122 1152 2289 1147 1119 7470 7372 7374 1118 4408 4409 4407 4473 567 4478 4393 8678 4394 1815 2387 592 8577 2391 2392 597 598 4836 8572 2384 8728 608 8684 4827 2378 1823 4828 8637 8642 2379 8590 8589 4826 8625 2377 657 8273 8268 8286 7189 8290 8716 654 8720 7179 7180 4355 2704 4805 8560 8558 4803 8557 8686 2706 2707 2708 8627 8563 638 2709 4850 4849 4848 6201 4847 4867 4810 4809 2674 8691 8602 8601 8692 2677 2678 8694 626 625 646 2713 4845 2716 2720 1245 645 2889 2804 742 2811 4087 744 800 842 8551 4405 4622 2932 2724 8696 4816 8603 8668 8671 8581 8632 2684 8690 2683 659 2679 4799 4790 8704 8706 8544 648 8635 8633 2717 647 8723 8569 2725 1236 2696 1238 6983 8285 2699 8289 8294 7184 8721 2733 2732 6205 6204 2729 2728 799 2882 2903 2881 2909 2911 2910 5140 5141 2803 2814 2815 4596 4599 1121 2730 2830 2722 2651 2905 2718 2634 2650 2900 2901 2902 2832 2833 2904 815 818 822 2816 2928 2935 2938 2937 2944 2719 2721 2723 639 620 2676 4083 4091 4089 4090 4105 
+			1117 2705 2930 747 8708 2692 8621 8695 595 8702 8697 4802 8701 4795 8611 2701 7188 8709 8279 8275 666 4062 1144 2258 7373 1106 623 4056 4071 4066 4065 4074 7497 4096 4080 1168 4085 2949 7492 4079 2256 2254 7472 1122 1152 2289 1147 1119 7470 7372 7374 1118 4408 4409 4407 4473 567 4478 4393 8678 4394 1815 2387 592 8577 2391 2392 597 598 4836 8572 2384 8728 608 8684 4827 2378 1823 4828 8637 8642 2379 8590 8589 4826 8625 2377 657 8273 8268 8286 7189 8290 8716 654 8720 7179 7180 4355 2704 4805 8560 8558 4803 8557 8686 2706 2707 2708 8627 8563 638 2709 4850 4849 4848 6201 4847 4867 4810 4809 2674 8691 8602 8601 8692 2677 2678 8694 626 625 646 2713 4845 2716 2720 1245 645 2889 2804 742 2811 4087 744 800 842 8551 4405 4622 2932 2724 8696 4816 8603 8668 8671 8581 8632 2684 8690 2683 659 2679 4799 4790 8704 8706 8544 648 8635 8633 2717 647 8723 8569 2725 1236 2696 1238 6983 8285 2699 8289 8294 7184 8721 2733 2732 6205 6204 2729 2728 799 2882 2903 2881 2909 2911 2910 5140 5141 2803 2814 2815 4596 4599 1121 2730 2830 2722 2651 2905 2718 2634 2650 2900 2901 2902 2832 2833 2904 815 818 822 2816 2928 2935 2938 2937 2944 2719 2721 2723 639 620 2676 4083 4091 4089 4090 4105 
 		}
 	}	
 	
@@ -3913,7 +3913,7 @@ categories =  {
         local_development_cost = -0.20
         allowed_num_of_buildings = 4
         defence = 1
-        local_defensiveness = 30
+        local_defensiveness = 0.30
         nation_designer_cost_multiplier = 1.50
         local_build_time = -0.30
         local_build_cost = -0.25
@@ -5216,13 +5216,12 @@ categories =  {
         supply_limit = 10
         movement_cost = 1.0
         local_development_cost = -0.40
-        
-        local_defensiveness = 20
+        trade_goods_expanded = 1
+        local_defensiveness = 0.20
         allowed_num_of_buildings = 4
         nation_designer_cost_multiplier = 1.50
         local_build_time = -0.30
         local_build_cost = -0.25
-
 		terrain_override = {
 			134
 		}
@@ -19025,22 +19024,22 @@ categories =  {
 		}
     }
     # Poland
-	urban_greifenberg = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			7823
-		}
-    }
+	#urban_greifenberg = {
+		#color = { 177 156 217 }
+        #type = forest
+        #sound_type = forest
+        #supply_limit = 4
+       # movement_cost = 1.10
+        #local_development_cost = -0.10
+        #allowed_num_of_buildings = 3
+        #nation_designer_cost_multiplier = 1.4
+        #defence = 1
+        #local_defensiveness = 0.1
+        #local_build_cost = -0.1
+		#terrain_override = {
+			#7823
+		#}
+    #}
     # Russia
 	urban_tula = {
 		color = { 177 156 217 }
@@ -19094,22 +19093,22 @@ categories =  {
 		}
     }
     # Poland
-	urban_neidenburg = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			7830
-		}
-    }
+	#urban_neidenburg = {
+		#color = { 177 156 217 }
+        #type = forest
+        #sound_type = forest
+        #supply_limit = 4
+        #movement_cost = 1.10
+        #local_development_cost = -0.10
+        #allowed_num_of_buildings = 3
+        #nation_designer_cost_multiplier = 1.4
+        #defence = 1
+        #local_defensiveness = 0.1
+        #local_build_cost = -0.1
+		#terrain_override = {
+			#7830
+		#}
+    #}
     # Poland
 	urban_ortelsburg = {
 		color = { 177 156 217 }
@@ -19314,22 +19313,22 @@ categories =  {
 		}
     }
     # Poland
-	urban_arnswalde = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			7819
-		}
-    }
+	#urban_arnswalde = {
+		#color = { 177 156 217 }
+        #type = forest
+        #sound_type = forest
+        #supply_limit = 4
+        #movement_cost = 1.10
+        #local_development_cost = -0.10
+        #allowed_num_of_buildings = 3
+        #nation_designer_cost_multiplier = 1.4
+        #defence = 1
+        #local_defensiveness = 0.1
+        #local_build_cost = -0.1
+		#terrain_override = {
+			#7819
+		#}
+    #}
     # Poland
 	urban_kulm = {
 		color = { 177 156 217 }
@@ -19348,22 +19347,22 @@ categories =  {
 		}
     }
     # Poland
-	urban_lyck = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			767
-		}
-    }
+	#urban_lyck = {
+		#color = { 177 156 217 }
+        #type = forest
+        #sound_type = forest
+        #supply_limit = 4
+        #movement_cost = 1.10
+        #local_development_cost = -0.10
+        #allowed_num_of_buildings = 3
+        #nation_designer_cost_multiplier = 1.4
+        #defence = 1
+        #local_defensiveness = 0.1
+        #local_build_cost = -0.1
+		#terrain_override = {
+			#767
+		#}
+    #}
     # Poland
 	urban_marienwerder = {
 		color = { 177 156 217 }
@@ -19382,39 +19381,39 @@ categories =  {
 		}
     }
     # Poland
-	urban_osterode = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			2958
-		}
-    }
+	#urban_osterode = {
+		#color = { 177 156 217 }
+        #type = forest
+        #sound_type = forest
+        #supply_limit = 4
+        #movement_cost = 1.10
+        #local_development_cost = -0.10
+        #allowed_num_of_buildings = 3
+        #nation_designer_cost_multiplier = 1.4
+        #defence = 1
+        #local_defensiveness = 0.1
+        #local_build_cost = -0.1
+		#terrain_override = {
+			#2958
+		#}
+    #}
     # Germany
-	urban_locknitz = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			7817
-		}
-    }
+	#urban_locknitz = {
+		#color = { 177 156 217 }
+       # type = forest
+        #sound_type = forest
+       # supply_limit = 4
+       # movement_cost = 1.10
+        #local_development_cost = -0.10
+       # allowed_num_of_buildings = 3
+        #nation_designer_cost_multiplier = 1.4
+       # defence = 1
+       # local_defensiveness = 0.1
+       #local_build_cost = -0.1
+		#terrain_override = {
+			#7817
+		#}
+    #}
     # Denmark
 	urban_ribe = {
 		color = { 177 156 217 }
@@ -19466,39 +19465,39 @@ categories =  {
 		}
     }
     # Poland
-	urban_berent = {
-		color = { 177 156 217 }
-        type = hills
-        sound_type = mountains
-        supply_limit = 2
-        movement_cost = 1.80
-        local_development_cost = 0.10
-        allowed_num_of_buildings = 2
-        nation_designer_cost_multiplier = 1.3
-        defence = 2
-        local_defensiveness = 0.2
-        local_build_time = 0.25
-		terrain_override = {
-			5097
-		}
-    }
+	#urban_berent = {
+		#color = { 177 156 217 }
+        #type = hills
+        #sound_type = mountains
+        #supply_limit = 2
+        #movement_cost = 1.80
+        #local_development_cost = 0.10
+        #allowed_num_of_buildings = 2
+        #nation_designer_cost_multiplier = 1.3
+       # defence = 2
+        #local_defensiveness = 0.2
+        #local_build_time = 0.25
+		#terrain_override = {
+			#5097
+		#}
+    #}
     # Poland
-	urban_stargrad = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			4746
-		}
-    }
+	#urban_stargrad = {
+		#color = { 177 156 217 }
+        #type = forest
+       # sound_type = forest
+        #supply_limit = 4
+        #movement_cost = 1.10
+        #local_development_cost = -0.10
+        #allowed_num_of_buildings = 3
+        #nation_designer_cost_multiplier = 1.4
+        #defence = 1
+        #local_defensiveness = 0.1
+        #local_build_cost = -0.1
+		#terrain_override = {
+			#4746
+		#}
+    #}
     # Poland
 	urban_stolp = {
 		color = { 177 156 217 }
@@ -19857,22 +19856,22 @@ categories =  {
 		}
     }
     # Poland
-	urban_lauenburg_pommern = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			7825
-		}
-    }
+	#urban_lauenburg_pommern = {
+		#color = { 177 156 217 }
+        #type = forest
+        #sound_type = forest
+       # supply_limit = 4
+        #movement_cost = 1.10
+        #local_development_cost = -0.10
+        #allowed_num_of_buildings = 3
+       # nation_designer_cost_multiplier = 1.4
+        #defence = 1
+        #local_defensiveness = 0.1
+        #local_build_cost = -0.1
+		#terrain_override = {
+			#7825
+		#}
+    #}
     # Ireland
 	urban_drogheda = {
 		color = { 177 156 217 }
@@ -19960,22 +19959,22 @@ categories =  {
 		}
     }
     # Germany
-	urban_pyritz = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			8733
-		}
-    }
+	#urban_pyritz = {
+		#color = { 177 156 217 }
+        #type = forest
+        #sound_type = forest
+        #supply_limit = 4
+        #movement_cost = 1.10
+        #local_development_cost = -0.10
+        #allowed_num_of_buildings = 3
+        #nation_designer_cost_multiplier = 1.4
+        #defence = 1
+        #local_defensiveness = 0.1
+        #local_build_cost = -0.1
+		#terrain_override = {
+			#8733
+		#}
+    #}
     # Russia
 	urban_uglich = {
 		color = { 177 156 217 }
@@ -20046,22 +20045,22 @@ categories =  {
 		}
     }
     # Poland
-	urban_dramburg = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			4747
-		}
-    }
+	#urban_dramburg = {
+		#color = { 177 156 217 }
+       # type = forest
+       # sound_type = forest
+       # supply_limit = 4
+       # movement_cost = 1.10
+       # local_development_cost = -0.10
+        #allowed_num_of_buildings = 3
+        #nation_designer_cost_multiplier = 1.4
+        #defence = 1
+        #local_defensiveness = 0.1
+        #local_build_cost = -0.1
+		#terrain_override = {
+			#4747
+		#}
+    #}
     # Russia
 	urban_kargopol = {
 		color = { 177 156 217 }
@@ -20080,22 +20079,22 @@ categories =  {
 		}
     }
     # Poland
-	urban_ermland = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			42
-		}
-    }
+	#urban_ermland = {
+		#color = { 177 156 217 }
+        #type = forest
+        #sound_type = forest
+        #supply_limit = 4
+        #movement_cost = 1.10
+        #local_development_cost = -0.10
+        #allowed_num_of_buildings = 3
+        #nation_designer_cost_multiplier = 1.4
+        #defence = 1
+        #local_defensiveness = 0.1
+        #local_build_cost = -0.1
+		#terrain_override = {
+			#42
+		#}
+    #}
     # Poland
 	urban_radom = {
 		color = { 177 156 217 }
@@ -20148,40 +20147,40 @@ categories =  {
 		}
     }
     # Poland
-	urban_schlawe = {
-		color = { 177 156 217 }
-        type = marsh
-        sound_type = forest
-        supply_limit = 2
-        movement_cost = 1.50
-        local_development_cost = 0.10
-        allowed_num_of_buildings = 2
-        nation_designer_cost_multiplier = 1.30
-        defence = 2
-        local_defensiveness = 0.2
-        local_build_time = 0.25
-        local_build_cost = 0.25
-		terrain_override = {
-			7824
-		}
-    }
+	#urban_schlawe = {
+		#color = { 177 156 217 }
+        #type = marsh
+        #sound_type = forest
+        #supply_limit = 2
+       # movement_cost = 1.50
+       # local_development_cost = 0.10
+       # allowed_num_of_buildings = 2
+        #nation_designer_cost_multiplier = 1.30
+        #defence = 2
+        #local_defensiveness = 0.2
+        #local_build_time = 0.25
+        #local_build_cost = 0.25
+		#terrain_override = {
+			#7824
+		#}
+    #}
     # Poland
-	urban_butow = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			7826
-		}
-    }
+	#urban_butow = {
+		#color = { 177 156 217 }
+       # type = forest
+        #sound_type = forest
+       # supply_limit = 4
+       # movement_cost = 1.10
+       # local_development_cost = -0.10
+       # allowed_num_of_buildings = 3
+        #nation_designer_cost_multiplier = 1.4
+        #defence = 1
+        #local_defensiveness = 0.1
+        #local_build_cost = -0.1
+		#terrain_override = {
+			#7826
+		#}
+    #}
     # Sweden
 	urban_lulea = {
 		color = { 177 156 217 }
@@ -20236,22 +20235,22 @@ categories =  {
 		}
     }
     # Poland
-	urban_gniezno = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			4526
-		}
-    }
+	#urban_gniezno = {
+		#color = { 177 156 217 }
+        #type = forest
+       # sound_type = forest
+       # supply_limit = 4
+        #movement_cost = 1.10
+       # local_development_cost = -0.10
+        #allowed_num_of_buildings = 3
+        #nation_designer_cost_multiplier = 1.4
+        #defence = 1
+        #local_defensiveness = 0.1
+        #local_build_cost = -0.1
+		#terrain_override = {
+			#4526
+		#}
+    #}
     # Germany
 	urban_goslar = {
 		color = { 177 156 217 }

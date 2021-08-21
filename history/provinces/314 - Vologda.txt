@@ -10,12 +10,12 @@ hre = no
 base_tax = 6
 base_production = 6
 trade_goods = fur			#don't think there was really a tonne of fur, here, but it was a major trading hub for the north and a great many furs passed south and west this way
-base_manpower = 2 
+base_manpower = 3 
 capital = "Vologda"
 is_city = yes
 add_core = MOS
 add_core = NOV # Novgorodian claims
-center_of_trade = 1
+center_of_trade = 2
 extra_cost = 8
 
 
