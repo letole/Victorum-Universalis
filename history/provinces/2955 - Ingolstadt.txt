@@ -20,6 +20,11 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}
+
 1537.1.1 = { fort_16th = yes } #Landesfestung Ingolstadt
 1546.1.1 = { trade_goods = grain } #Beer
 1654.1.1 = { fort_16th = no fort_17th = yes } #Modernized

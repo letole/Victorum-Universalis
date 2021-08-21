@@ -16,10 +16,7 @@ add_core = SMZ
 discovered_by = chinese
 discovered_by = japanese
 
-add_permanent_province_modifier = {
-    name = navalbase_modifier_2
-    duration = -1
-}
+
 
 discovered_by = MCH
 discovered_by = KHA

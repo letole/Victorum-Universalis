@@ -14,7 +14,7 @@ trade_goods = wine
 capital = "Erlangen"
 is_city = yes
 hre = yes
-
+center_of_trade = 1
 discovered_by = english
 discovered_by = french
 discovered_by = german_group

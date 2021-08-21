@@ -17,10 +17,7 @@ discovered_by = chinese
 discovered_by = japanese
 discovered_by = chinese
 
-add_permanent_province_modifier = {
-    name = navalbase_modifier_2
-    duration = -1
-}
+
 
 discovered_by = MCH
 discovered_by = KHA

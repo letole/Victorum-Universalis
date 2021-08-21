@@ -12,12 +12,16 @@ base_manpower = 3
 trade_goods = livestock # surprisingly not a placeholder for cheese, since this area is famous for meat delicacies, could also be fish
 is_city = yes
 hre = yes
-
+center_of_trade = 1
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
 
 #Province history completed by - Nikicaga
 #First Shattering not used
