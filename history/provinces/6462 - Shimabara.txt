@@ -30,8 +30,5 @@ discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
-
 extra_cost = 8
-
-
 1542.1.1 = { discovered_by = POR }

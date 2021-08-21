@@ -18,10 +18,9 @@ is_city = yes
 add_core = SHN
 
 add_permanent_province_modifier = {
-    name = navalbase_modifier_3
+    name = navalbase_modifier_2
     duration = -1
 }
-
 
 discovered_by = chinese
 discovered_by = japanese

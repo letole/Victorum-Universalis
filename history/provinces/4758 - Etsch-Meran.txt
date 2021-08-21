@@ -13,7 +13,7 @@ base_manpower = 3
 trade_goods = wine			#modern beer, as well. Also apparently a bookbinding center after the 15th century.
 is_city = yes
 hre = yes
-
+center_of_trade = 1
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

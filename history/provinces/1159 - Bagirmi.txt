@@ -7,12 +7,12 @@ culture = bilala #bagirmi
 religion = shamanism #Fetishism
 capital = "Massenya"
 is_city = yes
-base_manpower = 2 
+base_manpower = 3
 trade_goods = ivory
 hre = no
 base_tax = 6 
 base_production = 6
-center_of_trade = 1
+center_of_trade = 2
 
 
 discovered_by = sub_saharan

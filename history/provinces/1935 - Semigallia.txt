@@ -14,7 +14,7 @@ trade_goods = naval_supplies
 base_manpower = 1 
 capital = "Jelgava"			#DE Mitau
 is_city = yes # Estimated
-
+center_of_trade = 1
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

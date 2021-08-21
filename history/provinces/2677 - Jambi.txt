@@ -13,6 +13,11 @@ base_manpower = 3
 is_city = yes
 add_core = JMB
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
