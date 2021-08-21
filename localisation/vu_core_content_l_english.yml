@@ -98,6 +98,10 @@
  cappadocian:0 "Cappadocian"
  cypriot:0 "Cypriot"
  griko:0 "Griko"
+ anatolian_greek:0 "Antiochene" # May also be Phrygian or Pamphylian
+ karchidoniac:0 "Karchidoniac"
+ egyptian_greek:0 "Alexandrian" # May also Ptolemean or Aigyptios
+ persic:0 "Persic"
  berber_group:0 "Berber"
  shilha:0 "Shilha"
  riffian:0 "Riffian"
