@@ -4892,7 +4892,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			305
@@ -5098,7 +5098,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			314
@@ -5117,7 +5117,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			1963
@@ -6871,7 +6871,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			7448
@@ -6890,7 +6890,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			7446
@@ -7665,7 +7665,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			1124
@@ -9103,7 +9103,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			529
@@ -9501,7 +9501,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			579
