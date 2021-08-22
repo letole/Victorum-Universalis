@@ -1085,6 +1085,8 @@ pudget_sound_modifier:0 "The Pudget Sound"
  desc_rich_black_soil:0 "The specific soil type makes this land especially fertile and excellent for agricultural production."
  aurora_borealis:0 "Aurora Borealis"
  desc_aurora_borealis:0 "Beautiful aurora can often be seen in the region. For many local people the lights in the sky have special religious meaning."
+ plitvice:0 "Plitvice lakes"
+ desc_plitvice:0 "Region of Plitvice is home to unique terrain type, among which a boutfiul of beautiful lakes is scattered."
 
 
 

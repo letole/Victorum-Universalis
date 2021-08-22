@@ -6,6 +6,7 @@ baltic_amber_small = { # Some provinces on Baltic coast without Amber Coast modi
 	trade_goods_size = 0.5
 	trade_value = 0.2
 	local_tax_modifier = 0.1
+	picture = "local_tax_modifier"
 }
 
 black_forest = { # Few provinces in Baden, East of Rhine
@@ -19,6 +20,7 @@ black_marble = { # 209 Markina
 	prestige = 0.01
 	trade_goods_size = 0.25
 	province_trade_power_value = 1
+	picture = "province_trade_power_value"
 }
 
 sea_of_dead_palestine = { # Around Dead Sea
@@ -39,6 +41,7 @@ masurian_lakes = { # Masuria, 7832 & 767
 	trade_goods_size = 0.1
 	dip_tech_cost_modifier = -0.01
 	province_trade_power_value = 0.5
+	picture = "estuary_icon"
 }
 
 bay_of_fundy = { # 984
@@ -80,4 +83,10 @@ aurora_borealis = { # Extreme latitude provinces, weaker than Polar Lights modif
 	trade_value = 0.1
 	local_missionary_strength = 0.0025
 	picture = "idea_cost"
+}
+
+plitvice = { # Plitvice lakes in Croatia
+	trade_value = 0.5
+	local_unrest = -0.5
+	picture = "estuary_icon"
 }
