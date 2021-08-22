@@ -19,7 +19,7 @@ country_event = {
 	trigger = {
 		is_year = 1499
 		owns = 90			#Owns Brugge
-		90 = { province_has_center_of_trade_of_level = 3 }
+		90 = { province_has_center_of_trade_of_level = 5 }
 	}
 
 	mean_time_to_happen = {
@@ -132,7 +132,7 @@ country_event = {
 	trigger = {
 		is_year = 1576
 		owns = 1744			#Owns Antwerp
-		1744 = { province_has_center_of_trade_of_level = 3 }	#Antwerp has a Centre of Trade, ie. Brugge didn't keep it
+		1744 = { province_has_center_of_trade_of_level = 5 }	#Antwerp has a Centre of Trade, ie. Brugge didn't keep it
 		OR = {	#OR lines, any one of these will enable the event
 			1744 = { controller = { is_in_deficit = yes } }	#Controller running in deficit
 			1744 = { controller = { is_bankrupt = yes } }	#Controller is bankrupt
@@ -302,7 +302,7 @@ country_event = {
 			add_base_manpower = 3
 		}
 		if = {
-			limit = { 97 = { NOT = { province_has_center_of_trade_of_level = 3 } } }
+			limit = { 97 = { NOT = { province_has_center_of_trade_of_level = 5 } } }
 			97 = {
 				center_of_trade = 1
 			}
@@ -324,7 +324,7 @@ province_event = {
 	trigger = {
 		NOT = { has_dlc = "Dharma" }
 		province_id = 112
-		province_has_center_of_trade_of_level = 3
+		province_has_center_of_trade_of_level = 5
 		owner = {
 			NOT = {
 				OR = {
@@ -370,7 +370,7 @@ province_event = {
 	trigger = {
 		NOT = { has_dlc = "Dharma" }
 		province_id = 101
-		province_has_center_of_trade_of_level = 3
+		province_has_center_of_trade_of_level = 5
 		owner = {
 			NOT = {
 				OR = {
@@ -416,7 +416,7 @@ province_event = {
 	trigger = {
 		NOT = { has_dlc = "Dharma" }
 		province_id = 45
-		province_has_center_of_trade_of_level = 3
+		province_has_center_of_trade_of_level = 5
 		owner = {
 			NOT = {
 				OR = {
