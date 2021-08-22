@@ -130,6 +130,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		is_year = 1576
 		owns = 1744			#Owns Antwerp
 		1744 = { province_has_center_of_trade_of_level = 3 }	#Antwerp has a Centre of Trade, ie. Brugge didn't keep it
 		OR = {	#OR lines, any one of these will enable the event
