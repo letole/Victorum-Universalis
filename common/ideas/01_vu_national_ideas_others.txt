@@ -2858,3 +2858,51 @@ SLL_ideas = {
 		development_cost = -0.1
 	}
 }
+
+#VU Duchy of Warsaw ideas by docRobert
+DWA_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		production_efficiency = 0.1
+	}
+	bonus = {
+		prestige_from_land = 0.5
+	}
+	
+	trigger = {
+		tag = DWA
+	}
+	free = yes
+	
+	dwa_legions = {
+		land_morale = 0.1
+		leader_land_manuever = 1
+		may_recruit_female_generals = yes
+	}
+	dwa_constitution = {
+		global_manpower_modifier = 0.1
+		administrative_efficiency = 0.1
+		yearly_corruption = -0.1
+	}
+	dwa_saxons = {
+		num_accepted_cultures = 1
+		adm_advisor_cost = -0.1
+	}
+	dwa_departaments = {
+		governing_capacity_modifier = 0.1
+		global_trade_goods_size_modifier = 0.1
+	}
+	dwa_french_emissary = {
+		global_institution_spread = 0.15
+		diplomats = 1
+	}
+	dwa_polish_uhlans = {
+		fire_damage_recieved = -0.1
+		land_attrition = -0.15
+		movement_speed = 0.1
+	}
+	dwa_state_reforms = {
+		state_maintenance_modifier = -0.2
+		free_policy = 1
+	}
+}
