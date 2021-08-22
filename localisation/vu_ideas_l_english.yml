@@ -1190,6 +1190,24 @@
  PDV_idea7:0 "City Expansion"
  PDV_idea7_desc:0 "The expansion of Padua was a steady process over the centuries and although many have since wished to incorporate our cities into their own domains, we must instead continue to expand our own territory so that it shall be their domains that will fall under our sphere of influence!"
  
+ DWA_ideas:0 "Warsaw Ideas"
+ DWA_ideas_start:0 "Warsaw Traditions"
+ DWA_ideas_bonus:0 "Warsaw Ambition"
+ dwa_legions:0 "Polish Legions"
+ dwa_legions_desc:0 "After fall of Polish nation, Polish legions were founded in Northern Italy to fight alongside French revolutionary forces. The primary polish military organization was highly successful in combat."
+ dwa_constitution:0 "Polish Constitution 1807"
+ dwa_constitution_desc:0 "Created by Napoleon and granted to Duchy of Warsaw constitution was foundation of law and order in the country."
+ dwa_saxons:0 "Saxons in power"
+ dwa_saxons_desc:0 "Duchy of Warsaw maintained close relations with Saxony. Formally bonded in personal union, duchy adopted many customs from them."
+ dwa_departaments:0 "Departments"
+ dwa_departaments_desc:0 "Departments were main administrative division in Duchy of Warsaw. At first nation was divided in 6 departments. Another 4 were later added as country expanded."
+ dwa_french_emissary:0 "French Emissaries"
+ dwa_french_emissary_desc:0 "Duchy of Warsaw kept close relations with French Nation during its existance. Help from French people was always appreciated by the state."
+ dwa_polish_uhlans:0 "Uhlan Army"
+ dwa_polish_uhlans_desc:0 "Uhlans were highly-effective and highly-trained soldiers within polish army. Together with great leadership, they were a formidable force against the opponents."
+ dwa_state_reforms:0 "State Reforms"
+ dwa_state_reforms_desc:0 "Reforms of the state in enlightment spirit were necessary to keep the duchy running."
+ 
  
  #Helena stuff
  #Irish tweak
