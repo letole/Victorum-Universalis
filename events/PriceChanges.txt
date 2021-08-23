@@ -1265,7 +1265,7 @@ country_event = {
 		}
 		change_price = {
 			trade_goods = copper
-			key = BRONZE_CANNlONS
+			key = BRONZE_CANNONS
 			value = 0.50
 			duration = -1
 		}

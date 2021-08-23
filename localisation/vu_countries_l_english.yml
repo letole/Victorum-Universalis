@@ -177,7 +177,7 @@
  RPL:0 "Rappoltstein"
  RPL_ADJ:0 "Rappoltsteinan"
  SAB:0 "Subanen"
- SAB_ADJ:0 "Subanan
+ SAB_ADJ:0 "Subanan"
  SAY:0 "Sayn"
  SAY_ADJ:0 "Saynan"
  SCH:0 "Steinfurt"
@@ -557,6 +557,8 @@
  VBZ_ADJ:0 "Velbazhdi"
  RUG:0 "Rugen"
  RUG_ADJ:0 "Rugener"
+ ROH:0 "Rohan"
+ ROH_ADJ:0 "Rohan"
 
  #Old World Countries - Neprut's old tags repurposed for BT
  GTA:0 "Gotaland"

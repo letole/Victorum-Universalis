@@ -91,4 +91,24 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//oil_well.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_fort_siege_1"
+		texturefile = "gfx//interface//buildings//fort_siege_1.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_siege_2"
+		texturefile = "gfx//interface//buildings//fort_siege_2.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_siege_3"
+		texturefile = "gfx//interface//buildings//fort_siege_3.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_siege_4"
+		texturefile = "gfx//interface//buildings//fort_siege_4.tga"
+		loadType = "INGAME"
+	}
 }

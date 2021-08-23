@@ -2,7 +2,6 @@
  #Development doubling tax mechanic alterations
  PP_BASE_TAX_VALUE2:0 "La valeur fiscale est $VAL|Y$, avec chaque niveau donnant:\nRevenus fiscaux annuels: §G+0.5§!¤\nTemps du recrutement local: §G-0.5%§!"
  IMPR_TAX_IMCOME:0 "Revenus d'impôt mensuels: §G+$VAL$§!¤"
- BASE:0 "x2 la valeur fiscale de base:"
  YEARLY_INC_TXT:0 "(24 months = $VAL|Y$¤)"
  provincial_tax_income:0 "Revenus d'impôt mensuels"
  TAX_INCOME:0 "Revenus fiscaux de base annuels"

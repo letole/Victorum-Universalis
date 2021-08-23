@@ -227,7 +227,7 @@ categories =  {
 			2890 2294 96 4706 7759 7076 362 5261 7194 7195 1192 1901
 
 			#Beyond Typus
-			2534 7824 922 3085 8435 7230 7263 7262 269 7226 7245 7741 7740 7718 7739 1767 4544 7241 7233 1941 7228 7232 7237 7236 7234 7240 4115  7215 7222 7851 7843 4241 7850 7857 7833 4151 2994 7842 47 4745 7777 7776 4141 3135 7774 7511 54 7498 7501 7502 4382 7500 7499 7954 100 8119 7975 7765 7894 5650 1051 1046 2438 7496 4258 5648 7866 1776 7865 7864 5678 2425 3285 4257 2429 1069 4691 1073 2445 1070 1067 2430 561 2039 2376 8650 5184 5174 923 928 4968 5178 2599 4986 5006 2516 2530 1004 4991 4970 4976 2533 1000 1002 2589 2591 1003 5005 5593 5057 5014 5592 5015 5008 5594 5003 1806 2594 5587 5580 5068 5639 5002 5900 2601 5084 5001 5573 2595 4978 4980 4983 5082 5081 4985 4989 4969 8012 4971 5076 5075 5074 5073 5072 1812 5071 5070 5069 1811 5067 4990 4992 4993 4994 4995 4996 4997 4998 998 1805 5007 5087 5175 5176 5177 5915 5918 999 1005 1006 2592 4925 5913 5641 5916 5917 5919 4924 8002 8003
+			2534 7824 922 3085 8435 7230 7263 7262 269 7226 7245 7741 7740 7718 7739 1767 4544 7241 7233 1941 7228 7232 7237 7236 7234 7240 4115  7215 7222 7851 7843 4241 7850 7857 7833 4151 2994 7842 47 4745 7777 7776 4141 3135 7774 7511 54 7498 7501 7502 4382 7500 7499 7954 100 8119 7975 7765 7894 5650 1051 1046 2438 7496 4258 5648 7866 1776 7865 7864 5678 2425 3285 4257 2429 1069 4691 1073 2445 1070 1067 2430 561 2039 2376 8650 5184 5174 923 928 4968 5178 2599 4986 5006 2516 2530 1004 4991 4970 4976 2533 1000 1002 2589 2591 1003 5005 5593 5057 5014 5592 5015 5008 5594 5003 1806 2594 5587 5580 5068 5639 5002 5900 2601 5084 5001 5573 2595 4978 4980 4983 5082 5081 4985 4989 4969 8012 4971 5076 5075 5074 5073 5072 1812 5071 5070 5069 1811 5067 4990 4992 4993 4994 4995 4996 4997 4998 998 1805 5007 5087 5175 5176 5177 5915 5918 999 1005 1006 2592 4925 5913 5641 5916 5917 5919 4924 8002 8003 8735
 			
 			#BT13.0
 			
@@ -4062,7 +4062,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -4079,7 +4079,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -4096,7 +4096,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -4886,13 +4886,13 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			305
@@ -5092,13 +5092,13 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			314
@@ -5111,13 +5111,13 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			1963
@@ -5181,7 +5181,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -5216,7 +5216,7 @@ categories =  {
         supply_limit = 10
         movement_cost = 1.0
         local_development_cost = -0.40
-        trade_goods_expanded = 1
+        trade_goods_size = 1
         local_defensiveness = 0.20
         allowed_num_of_buildings = 4
         nation_designer_cost_multiplier = 1.50
@@ -5336,7 +5336,7 @@ categories =  {
         supply_limit = 10
         movement_cost = 1.0
         local_development_cost = -0.30
-        local_defensiveness = 20
+        local_defensiveness = 0.20
         allowed_num_of_buildings = 4
         nation_designer_cost_multiplier = 1.50
         local_build_time = -0.30
@@ -5824,7 +5824,7 @@ categories =  {
         movement_cost = 1.0
         local_development_cost = -0.20
         allowed_num_of_buildings = 4
-        local_defensiveness = 30
+        local_defensiveness = 0.30
         defence = 2
         nation_designer_cost_multiplier = 1.50
         local_build_time = -0.30
@@ -6871,7 +6871,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			7448
@@ -6890,7 +6890,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			7446
@@ -7665,7 +7665,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			1124
@@ -9103,7 +9103,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			529
@@ -9501,7 +9501,7 @@ categories =  {
         defence = 2
         local_defensiveness = 0.2
         local_build_time = 0.25
-[8:28 PM]
+
 
 		terrain_override = {
 			579
@@ -10926,7 +10926,7 @@ categories =  {
         movement_cost = 1.0
         local_development_cost = -0.30
         defence = 2
-        local_defensiveness = 30
+        local_defensiveness = 0.30
         allowed_num_of_buildings = 4
         nation_designer_cost_multiplier = 1.50
         local_build_time = -0.30
@@ -11246,7 +11246,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -12027,7 +12027,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -12094,7 +12094,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -12111,7 +12111,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -12128,7 +12128,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -12723,7 +12723,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -16320,7 +16320,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -16337,7 +16337,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -16354,7 +16354,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -16474,7 +16474,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -16508,7 +16508,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -19540,7 +19540,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -19948,7 +19948,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -20016,7 +20016,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -20068,7 +20068,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -20188,7 +20188,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -20309,7 +20309,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -20413,7 +20413,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -20430,7 +20430,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -20515,7 +20515,7 @@ categories =  {
         sound_type = forest
         supply_limit = 2
         movement_cost = 1.50
-        local_development_cost = .0
+        local_development_cost = -0.10
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2

@@ -51,8 +51,17 @@ discovered_by = western
 
 #1444 on
 
+1478.3.1 = {
+	owner = POM
+	controller = POM
+	add_core = POM
+} # Reunited under Bogislaw X
 1524.1.1 = { religion = protestant } # One of the first pomeranian towns to implement Luther's reformation
 1529.1.1 = { add_core = BRA } # Conflict between Brandenburg and Pomerania that will last for many years. Brandenburg claims their right for Pomerania.
+1532.6.1 = {
+	owner = STE
+	controller = STE
+} # Pomerania divided again
 1634.6.1 = {
 	base_production = 1
 	base_manpower = 1

@@ -2,7 +2,6 @@
  #Development doubling tax mechanic alterations
  PP_BASE_TAX_VALUE2:0 "Basissteuersatz ist $VAL|Y$, und jede Stufe gibt:\nJährliche Steuereinnahmen: §G+0.5§!¤\nLokale Rekrutierungsgeschwindigkeit: §G-0.5%§!"
  IMPR_TAX_IMCOME:0 " Monatliche Steuereinnahmen: §G+$VAL$§!¤"
- BASE:0 "x2 Basissteuersatz:"
  YEARLY_INC_TXT:0 "(24 months = $VAL|Y$¤)"
  provincial_tax_income:0 "Monatliche Steuereinnahmen"
  TAX_INCOME:0 "Jährliche Basis-Steuereinnahmen"
