@@ -39,11 +39,11 @@
  isonokami_d_title: "Isonokami"
  state_shinto_title: "Nationalization of Shinto"
  #JAPANESE EMPIRE
- japan.5.t:"Samurai Revolts!" 1
+ japan.5.t:"Samurai Revolts!"
  japan.5.a:"Equal rights for all!"
  japan.5.b:"Give samurai concessions"
  japan.5.d:"Samurai have taken up arms against us due to the revocation of their privileges!"
- japan.6.t:"A capital for Japan" 2
+ japan.6.t:"A capital for Japan"
  japan.6.a:"Tokyo"
  japan.6.b:"Kyoto"
  japan.6.c:"Osaka"
