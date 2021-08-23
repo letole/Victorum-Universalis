@@ -3,7 +3,7 @@ ludwig_canal = {
 	start = 7606
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	# Ottoman date for conception
+	# German date for conception
 	date = 1569.06.20
 	
 	#time to build
@@ -28,7 +28,7 @@ ludwig_canal = {
 		FROM = {
 			owns_or_vassal_of = 7606
 			is_subject = no			
-			adm_tech = 22
+			adm_tech = 27
 			treasury = 7500
 		}
 	}
@@ -208,7 +208,7 @@ don_and_volga_canal = {
 		FROM = {
 			owns_or_vassal_of = 1971
 			is_subject = no			
-			adm_tech = 22
+			adm_tech = 27
 			treasury = 10000
 		}
 	}
@@ -388,7 +388,7 @@ kiel_canal = {
 			owns_or_vassal_of = 1775
 			owns_or_vassal_of = 4141
 			is_subject = no			
-			adm_tech = 22
+			adm_tech = 27
 			treasury = 10000
 		}
 	}
@@ -568,7 +568,7 @@ suez_canal = {
 			owns_or_vassal_of = 4316
 			owns_or_vassal_of = 2315
 			is_subject = no
-			adm_tech = 22
+			adm_tech = 27
 			treasury = 20000
 		}
 	}
@@ -747,7 +747,7 @@ panama_canal = {
 		FROM = {
 			owns_or_vassal_of = 835
 			is_subject = no
-			adm_tech = 22
+			adm_tech = 27
 			treasury = 30000
 		}
 	}
