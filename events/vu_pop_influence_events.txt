@@ -404,14 +404,14 @@ country_event = {
 			modifier = {
 				factor = 2
 				has_province_modifier = {
-				enlightenment = 100
-			}
+					enlightenment = 100
+				}
 			}
 			modifier = {
 				factor = 5
 				has_province_modifier = {
-				enlightenment = 100
-			}
+					enlightenment = 100
+				}
 			}
 			modifier = {
 				factor = 2
@@ -603,7 +603,7 @@ country_event = {
 			}
 			has_province_modifier = {
 				enlightenment = 100
-			}
+				}
 			}
 		}
 		add_prestige = 15
