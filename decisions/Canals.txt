@@ -81,7 +81,7 @@ country_decisions = {
 		allow = {
 			owns_or_vassal_of = 1971
 			is_subject = no			
-			adm_tech = 17
+			adm_tech = 22
 			treasury = 10000
 		}
 		effect = {
