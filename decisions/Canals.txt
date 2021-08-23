@@ -22,7 +22,7 @@ country_decisions = {
 					has_construction = ludwig_canal
 				}
 			}
-			adm_tech = 13
+			adm_tech = 22
 		}
 		provinces_to_highlight = {
 			province_id = 7606
@@ -34,7 +34,7 @@ country_decisions = {
 		allow = {
 			owns_or_vassal_of = 7606
 			is_subject = no			
-			adm_tech = 17
+			adm_tech = 27
 			treasury = 10000
 		}
 		effect = {
@@ -69,7 +69,7 @@ country_decisions = {
 					has_construction = don_and_volga_canal
 				}
 			}
-			adm_tech = 13
+			adm_tech = 22
 		}
 		provinces_to_highlight = {
 			province_id = 1971
@@ -81,7 +81,7 @@ country_decisions = {
 		allow = {
 			owns_or_vassal_of = 1971
 			is_subject = no			
-			adm_tech = 22
+			adm_tech = 27
 			treasury = 10000
 		}
 		effect = {
@@ -129,7 +129,7 @@ country_decisions = {
 					has_construction = kiel_canal
 				}
 			}
-			adm_tech = 18
+			adm_tech = 22
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -145,7 +145,7 @@ country_decisions = {
 			owns_or_vassal_of = 1775
 			owns_or_vassal_of = 4141
 			is_subject = no			
-			adm_tech = 22
+			adm_tech = 27
 			treasury = 15000
 		}
 		effect = {
@@ -180,7 +180,7 @@ country_decisions = {
 					has_construction = suez_canal
 				}
 			}
-			adm_tech = 18
+			adm_tech = 22
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -196,7 +196,7 @@ country_decisions = {
 			owns_or_vassal_of = 363
 			owns_or_vassal_of = 2315
 			is_subject = no
-			adm_tech = 22
+			adm_tech = 27
 			treasury = 20000
 		}
 		effect = {
@@ -232,7 +232,7 @@ country_decisions = {
 					has_construction = panama_canal 
 				}
 			}
-			adm_tech = 18
+			adm_tech = 22
 		}
 		provinces_to_highlight = {
 			province_id = 835
@@ -244,7 +244,7 @@ country_decisions = {
 		allow = {
 			owns_or_vassal_of = 835
 			is_subject = no
-			adm_tech = 22
+			adm_tech = 27
 			treasury = 25000
 		}
 		effect = {
