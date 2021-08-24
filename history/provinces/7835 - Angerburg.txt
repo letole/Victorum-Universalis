@@ -18,6 +18,7 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
+# History for VU completed by docRobert
 
 #Province history completed by - Draiocht
 #1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
@@ -67,3 +68,34 @@ discovered_by = western
 #} #Return to proper mod added owners and cuts vanilla core, typically.
 
 #1444 on
+
+1454.6.1 = {
+	unrest = 5
+} # Prussian Confederation
+1466.10.19 = {
+	owner = TEU
+	controller = TEU
+	add_core = TEU
+	unrest = 0
+} # 2nd Peace of Thorn, Granted to Poland
+1525.4.10 = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+	remove_core = TEU
+	religion = protestant
+} # Secularisation of Teutonic Order
+1618.8.28 = {
+	add_core = BRA
+} # Prussia in a personal union with Brandenburg
+1701.1.18 = {
+	remove_core = BRA
+} # Kingdom of Prussia
+1772.1.1 = {
+	base_manpower = 2
+}
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+} # Unification of Germany, peace in Versailles
