@@ -32,7 +32,7 @@ discovered_by = ottoman
 center_of_trade = 2
 extra_cost = 15
 
-
+# History completed by docRobert
 
 1569.7.1 = {
 	owner = PLC
