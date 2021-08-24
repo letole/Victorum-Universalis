@@ -95,7 +95,7 @@ discovered_by = ottoman
 	fort_17th = yes
 }
 1914.9.1 = {
-	controller = GEM
+	controller = GER
 } # WWI
 1918.3.3 = {
 	remove_core = RUS

@@ -73,9 +73,9 @@ discovered_by = ottoman
 	unrest = 0
 }
 1871.1.18 = {
-	owner = GEM
-	controller = GEM
-	add_core = GEM
+	owner = GER
+	controller = GER
+	add_core = GER
 	fort_17th = no
 	fort_18th = yes
 } # Unification of Germany, peace in Versailles
@@ -85,4 +85,5 @@ discovered_by = ottoman
 	controller = POL
 	add_core = POL
 	owner = POL
+	remove_core = GER
 } # Peace of Versallies
