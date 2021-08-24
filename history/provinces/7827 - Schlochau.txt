@@ -117,7 +117,7 @@ discovered_by = western
 	base_production = 5
 } # Connected to railway network, industry develops
 1871.1.18 = {
-	owner = GEM
-	controller = GEM
-	add_core = GEM
+	owner = GER
+	controller = GER
+	add_core = GER
 } # Unification of Germany, peace in Versailles

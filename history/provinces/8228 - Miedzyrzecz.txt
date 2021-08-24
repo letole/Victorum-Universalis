@@ -85,9 +85,9 @@ discovered_by = ottoman
 	unrest = 0
 }
 1871.1.18 = {
-	owner = GEM
-	controller = GEM
-	add_core = GEM
+	owner = GER
+	controller = GER
+	add_core = GER
 } # Unification of Germany, peace in Versailles
 1918.12.28 = { revolt = { type = nationalist_rebels size = 4 } controller = REB }
 1919.6.28 = {
@@ -95,4 +95,5 @@ discovered_by = ottoman
 	controller = POL
 	add_core = POL
 	owner = POL
+	remove_core = GER
 } # Peace of Versallies

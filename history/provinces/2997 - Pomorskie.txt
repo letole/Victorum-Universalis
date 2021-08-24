@@ -58,13 +58,13 @@ discovered_by = eastern
 	remove_core = PLC
 } # Sejm renounces claims to lost lands
 1871.1.18 = {
-	owner = GEM
-	controller = GEM
-	add_core = GEM
+	owner = GER
+	controller = GER
+	add_core = GER
 } # Unification of Germany, peace in Versailles
 1919.6.28 = {
 	owner = POL
 	controller = POL
 	add_core = POL
-	remove_core = GEM
+	remove_core = GER
 } # Treaty of Versailles, ceded to Poland

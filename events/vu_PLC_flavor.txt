@@ -419,6 +419,10 @@ country_event = { # Second Peace of Thorn
 				}
 			}
 		}
+		has_won_war_against = {
+			who = TEU
+			max_years_since = 25
+		}
 	}
 	
 	option = { # Don't agree to Peace
@@ -445,28 +449,28 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				exists = PMS
-				PMS = { is_subject = yes }
+				PMS = { ai = yes }
 			}
 			inherit = PMS
 		}
 		if = {
 			limit = {
 				exists = KLL
-				KLL = { is_subject = yes }
+				KLL = { ai = yes }
 			}
 			inherit = KLL
 		}
 		if = {
 			limit = {
 				exists = WRM
-				WRM = { is_subject = yes }
+				WRM = { ai = yes }
 			}
 			inherit = WRM
 		}
 		if = {
 			limit = {
 				exists = SGA
-				SGA = { is_subject = yes }
+				SGA = { ai = yes }
 			}
 			inherit = SGA
 		}
@@ -811,5 +815,8 @@ country_event = { # Second Peace of Thorn
 			}
 		}
 		add_prestige = 10
+		TEU = {
+			override_country_name = VU_DUCAL_PRUSSIA
+		}
 	}
 }
