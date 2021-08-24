@@ -54,8 +54,8 @@
  world_port:0 "Port"
  world_port_desc:0 "This province contains a Port which has facilities for boats or ships to call into and usually a village, town, or city attached. Goods from all over the world regularly pass through here and any settlement attaching itself to this place is known throughout the world."
  #Inland
- church_sale:0 "Church Sale"
- church_sale_desc:0 "This province contains a Church Sale where for many years both the clergy and local paritioners have mingled to traded with local merchants."
+ local_sale:0 "Local Sale"
+ local_sale_desc:0 "This province contains a Local Sale where for many years the locals have mingled to trade with local merchants."
  emporium:0 "Farmer's Market"
  emporium_desc:0 "This province contains a Farmer's Market where farmers sell freshly picked vegetables, meats and various other produce to the locals."
  market_town:0 "County Fair"

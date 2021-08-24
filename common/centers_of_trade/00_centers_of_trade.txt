@@ -59,7 +59,7 @@ world_port = { #Port
     }
 }
 
-church_sale = { #Church Sale
+local_sale = { #Local Sale
     level = 1
 	cost = 600
     type = inland
