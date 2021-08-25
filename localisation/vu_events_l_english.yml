@@ -79,3 +79,7 @@
  flavor_pol.18.c:0 "We need Piasts to return!"
  flavor_pol.18.tooltip:0 "Piast dynasty will be brought back. \nSilesian duchies ruled by Piasts may turn to your side."
  #
+ vu_plc.6.t:0 "Administrative rework"
+ vu_plc.6.d:0 "Now that Grand Duchy of Lithuania is under personal union with us for quite some time, it is suggested we reorganize administrative relations and dependancies within Grand Duchy."
+ vu_plc.6.a:0 "But muh vassal swarm!"
+ vu_plc.6.b:0 "Lithuanian tributary system must be reformed"
