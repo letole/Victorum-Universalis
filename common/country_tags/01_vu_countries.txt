@@ -458,7 +458,7 @@ ZUL = "countries/Zulu.txt"
 #BT - Middle East
 ALI = "countries/Alaiye.txt"
 AZD = "countries/Azd.txt"
-CAP = "countries/Cappadocia.txt"
+CAA = "countries/Cappadocia.txt"
 CIK = "countries/Canik.txt"
 CIL = "countries/Cilicia.txt"
 FDI = "countries/Fadhli.txt"
