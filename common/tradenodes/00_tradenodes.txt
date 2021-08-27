@@ -2206,7 +2206,7 @@ porto_trade={
 	}
 }
 sevilla={
-	location=224
+	location=1293
 	color={
 		204 221 107 
 	}
