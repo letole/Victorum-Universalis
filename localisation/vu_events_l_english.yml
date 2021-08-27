@@ -71,3 +71,15 @@
  vu_plc.4.b:0 "It's a reasonable solution"
  vu_plc.4.tooltip:0 "We will recreate the historical outcome of 2nd Peace \nof Thorn as accurately as it is possible"
  VU_DUCAL_PRUSSIA:0 "Ducal Prussia"
+ vu_plc.5.t:0 "Acquisition of Frauenstadt"
+ vu_plc.5.d:0 "We are facing an unique offer. Polish crown is looking for new development opportunities in Upper Silesia region. Town of Frauenstadt caught attention of our investors as it is very close to city of Krakow and within zone of our historical influence. Current posessor - one of Silesian dukes is in a need of founds and accepts to sell Frauenstadt to the Crown for a reasonable price."
+ vu_plc.5.a:0 "It's not worth it"
+ vu_plc.5.b:0 "Make a deal"
+ #Successor of Wladyslaw
+ flavor_pol.18.c:0 "We need Piasts to return!"
+ flavor_pol.18.tooltip:0 "Piast dynasty will be brought back. \nSilesian duchies ruled by Piasts may turn to your side."
+ #
+ vu_plc.6.t:0 "Administrative rework"
+ vu_plc.6.d:0 "Now that Grand Duchy of Lithuania is under personal union with us for quite some time, it is suggested we reorganize administrative relations and dependancies within Grand Duchy."
+ vu_plc.6.a:0 "But muh vassal swarm!"
+ vu_plc.6.b:0 "Lithuanian tributary system must be reformed"

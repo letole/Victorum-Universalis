@@ -820,3 +820,202 @@ country_event = { # Second Peace of Thorn
 		}
 	}
 }
+
+country_event = { # Purchase of Frauenstadt
+	id = vu_plc.5
+	title = vu_plc.5.t
+	desc = vu_plc.5.d
+	picture = WESTERNIZATION_eventPicture
+	
+	goto = 8176
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = POL
+			tag = PLC
+		}
+		is_at_war = no
+		is_year = 1450
+		8176 = {
+			OR = {
+				owned_by = ASC
+				owned_by = BOH
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = vu_plc.5.a
+		add_adm_power = 10
+		add_treasury = 10
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = vu_plc.5.b
+		add_adm_power = -10
+		add_treasury = -25
+		ai_chance = {
+			factor = 90
+		}
+		ASC = {
+			add_treasury = 25
+		}
+		hidden_effect = {
+			BOH = {
+				add_treasury = 25
+			}
+		}
+		8176 = {
+			remove_core = ASC
+			cede_province = ROOT
+			add_core = ROOT
+		}
+	}
+}
+
+country_event = { # Lithuania integrates some vassals
+	id = vu_plc.6
+	title = vu_plc.6.t
+	desc = vu_plc.6.d
+	picture = WESTERNIZATION_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = POL
+		}
+		senior_union_with = LIT
+	}
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	option = {
+		name = vu_plc.6.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = vu_plc.6.b
+		add_adm_power = -10
+		add_dip_power = -10
+		ai_chance = {
+			factor = 90
+		}
+		if = {
+			limit = {
+				exists = BSV
+				BSV = {
+					ai = yes
+					is_subject_of = LIT
+				}
+			}
+			LIT = {
+				inherit = BSV
+			}
+		}
+		if = {
+			limit = {
+				exists = KIE
+				KIE = {
+					ai = yes
+					is_subject_of = LIT
+				}
+			}
+			LIT = {
+				inherit = KIE
+			}
+		}
+		if = {
+			limit = {
+				exists = SMG
+				SMG = {
+					ai = yes
+					is_subject_of = LIT
+				}
+			}
+			LIT = {
+				inherit = SMG
+			}
+		}
+		if = {
+			limit = {
+				exists = CHR
+				CHR = {
+					ai = yes
+					is_subject_of = LIT
+					owns = 4246
+				}
+			}
+			4246 = {
+				cede_province = LIT
+				add_core = LIT
+			}
+		}
+		if = {
+			limit = {
+				exists = CHR
+				CHR = {
+					ai = yes
+					is_subject_of = LIT
+					owns = 7238
+				}
+			}
+			7238 = {
+				cede_province = LIT
+				add_core = LIT
+			}
+		}
+		if = {
+			limit = {
+				exists = CHR
+				CHR = {
+					ai = yes
+					is_subject_of = LIT
+					owns = 7229
+				}
+			}
+			7229 = {
+				cede_province = LIT
+				add_core = LIT
+			}
+		}
+		if = {
+			limit = {
+				exists = CHR
+				CHR = {
+					ai = yes
+					is_subject_of = LIT
+					owns = 7240
+				}
+			}
+			7240 = {
+				cede_province = LIT
+				add_core = LIT
+			}
+		}
+		if = {
+			limit = {
+				exists = CHR
+				CHR = {
+					ai = yes
+					is_subject_of = LIT
+					owns = 4115
+				}
+			}
+			4115 = {
+				cede_province = LIT
+				add_core = LIT
+			}
+		}
+	}
+}
