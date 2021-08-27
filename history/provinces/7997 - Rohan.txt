@@ -9,7 +9,7 @@ capital = "Pontivy"
 base_tax = 4
 base_production = 4
 base_manpower = 2
-trade_goods = cloth
+trade_goods = tin
 is_city = yes
 hre = no
 
