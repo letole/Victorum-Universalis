@@ -2624,7 +2624,7 @@ hokkaido_area = { #5
 }
 
 kurils_area = {
-	1032 6424 6425
+	1032 6425
 }
 
 hokuriku_area = { #3
@@ -2641,7 +2641,7 @@ kanto_area = { #3 #Western Kanto
 }
 
 eastern_kanto_area = { #3
-	1028 4189 4190 6445 6466 3258
+	1028 4189 4190 6424 6445 6466 3258
 }
 
 ryukyu_area = {

@@ -657,15 +657,37 @@
  north_atlantic_area:0 "Central North Atlantic"
  denmark_strait_area:0 "Arctic Sea"
 
- #TCOP additions - cultures
+ #TCOP additions - Primary Cultures & Culture Groups
+ #EUROPEAN - Primary Cultures
  alemannic:0 "Alemannic"
  alsatian:0 "Alsatian"
- filipino_i:0 "Proto-Austronesian"
  holsatian:0 "Holsatian"
  eastphalian:0 "Eastphalian"
  #lotharingian:0 "Lotharingian"
  #lorrainian:0 "Lorrainian"
  #luxembourgish:0 "Luxembourgish"
+ #
+ #AFRICAN - Primary Cultures
+ mbangala:0 "Imbangala"
+ mbundu:0 "Ambundu"
+ chokwe:0 "Tchokwe"
+ #NEW Farsen Entries by San Felipe
+ bakongo:0 "Bakongo"
+ mucubal:0 "Mucubal"
+ ovimbundu:0 "Ovimbundu"
+ nyaneka_humbe:0 "Nyaneka-Nkhumbi"
+ ganguela:0 "Ganguela"
+ xindonga:0 "Xindonga"
+ mbunda:0 "Mbunda"
+ malwena:0 "Malwena"
+ malwimbi:0 "Malwimbi"
+ #
+ #AFRICAN - Culture Groups
+ east_angolan:0 "East Angolan"
+ southwestern_bantu:0 "Southwestern Bantu"
+ #
+ #ASIAN - Culture Group
+ filipino_i:0 "Proto-Austronesian"
 
  #TCOP additions - regions
  angola_region:0 "Angola"
