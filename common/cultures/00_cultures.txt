@@ -8735,10 +8735,16 @@ southern_african = {
 			Zulu
 		}
 		male_names = {
-			Bonginkosi Kagiso Bhekizizwe Bhekumbuso Shaka Funani Kgabu Solomon Gatsha Langa Phila Msizi Nkosiyabo Mpilo Siyanda Nkanyezi Bafana Lwandle Sfiso Thulani Thando Sanele Anele Lungelo Dumisani Bangizwe Fanyana Bhekimuzi Mandla Maphikelela Mpumelelo Mthunzi Philani Musawenkosi Nkosenye Nkosinhle Phiwokwakhe Sifiso Zithulele Sithembiso Sipho Siphiwe Sibusiso Velaphi Thamsanqa Vusumuzi Themba Zenzele Ndleleni
+			Bonginkosi Kagiso Bhekizizwe Bhekumbuso Shaka Funani Kgabu Solomon Gatsha Langa Phila Msizi Nkosiyabo Mpilo Siyanda 
+			Nkanyezi Bafana Lwandle Sfiso Thulani Thando Sanele Anele Lungelo Dumisani Bangizwe Fanyana Bhekimuzi Mandla Maphikelela 
+			Mpumelelo Mthunzi Philani Musawenkosi Nkosenye Nkosinhle Phiwokwakhe Sifiso Zithulele Sithembiso Sipho Siphiwe Sibusiso 
+			Velaphi Thamsanqa Vusumuzi Themba Zenzele Ndleleni
 		}
 		female_names = {
-			Ayanda Uluthando Nofoto Yibanathi Thadie Ulwazi Lerato Amahle Khulekani Jabulile Mthunzi Sindisiwe Inyoni Ntombizodwa Zobuhle Samukelisiwe Nonhlanhla Nhlakanipho Liyana Nonjabulo Ntokozo Nokuthula Buhle Isisa Thobeka Thabisa Zanele Sizani Nkosingiphile Mhambi Nomvula Thulisile Lukhona Mbalienhle Sizakele Khethiwe Nolwazi Sinenhlanhla Ayize Duduzile Busisiwe Hlengiwe Jabulile Khanyisile Nandi Ndondoloza Nozipho Nonkululeko Sibongile Siphephelo
+			Ayanda Uluthando Nofoto Yibanathi Thadie Ulwazi Lerato Amahle Khulekani Jabulile Mthunzi Sindisiwe Inyoni Ntombizodwa Zobuhle 
+			Samukelisiwe Nonhlanhla Nhlakanipho Liyana Nonjabulo Ntokozo Nokuthula Buhle Isisa Thobeka Thabisa Zanele Sizani Nkosingiphile 
+			Mhambi Nomvula Thulisile Lukhona Mbalienhle Sizakele Khethiwe Nolwazi Sinenhlanhla Ayize Duduzile Busisiwe Hlengiwe Jabulile 
+			Khanyisile Nandi Ndondoloza Nozipho Nonkululeko Sibongile Siphephelo
 		}
 	}
 	#BtPLegacy Culture
@@ -8787,16 +8793,54 @@ southern_african = {
 	}
 }
 
-kongo_group = {
+kongo_group = { #Group 1
 	graphical_culture = africangfx
-	lunda = {
-		primary = LND
-	}
+	mbundu = { #ambundu (Change name in loc file!
+        primary = NDO
+        male_names = {
+            Mbombo Mbumba Fundanga Ngonga Njali Mbandi Kilwanji Ngudi Hadi Muhongo Ndala Mussudi Ndambi Kambolo Nzaji Kituxi Masoxi
+        }
+        female_names = {
+            Mwongo Bebeka Ndémbu Fúxi Ngongo Lemba Kifunji Kambu Kumbi Maxongo Makufu Samba Kangala Kamana Masoxi
+        }
+		dynasty_names = {
+	        Mbombo Mbumba Fundanga Ngonga Njali Mbandi Kilwanji Ngudi Hadi Muhongo Ndala Mussudi Ndambi Kambolo Nzaji Kituxi Masoxi 
+		    Mwongo Bebeka Ndémbu Fúxi Ngongo Lemba Kifunji Kambu Kumbi Maxongo Makufu Samba Kangala Kamana Masoxi
+	    }
+    }
+	bakongo = { NEW Farsen entry by San Felipe
+        #primary = XXX
+        male_names = {
+            Lukeni Nimi Nanga Nlaza Nzinga Mvemba Mpanzu Nkumbi Mpudi Mbiki Misaki Nganga Mwanda Myala Kyese Nkembi Lusala Mbunga Nkuwu 
+        }
+        female_names = {
+            Lukeni Nzinga Kyaku Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi Nkuwu 
+        }
+		dynasty_names = {
+	        Lukeni Nimi Nanga Nlaza Nzinga Mvemba Mpanzu Nkumbi Mpudi Mbiki Misaki Nganga Mwanda Myala Kyese Nkembi Lusala Mbunga Nkuwu 
+			Lukeni Nzinga Kyaku Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi
+	    }
+    }
 	luba = {
 		primary = LUB
 	}
 	kongolese = {
 		primary = KON
+		dynasty_names = { #generic
+	        Mbombo Mbumba Fundanga Ngonga Njali Mbandi Kilwanji Ngudi Hadi Muhongo Ndala Mussudi Ndambi Kambolo Nzaji Kituxi Masoxi 
+			Mwongo Bebeka Ndémbu Fúxi Ngongo Lemba Kifunji Kambu Kumbi Maxongo Makufu Samba Kangala Kamana Masoxi Lukeni Nimi Nanga 
+			Nlaza Nzinga Mvemba Mpanzu Nkumbi Mpudi Mbiki Misaki Nganga Mwanda Myala Kyese Nkembi Lusala Mbunga Lukeni Nzinga Kyaku 
+			Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi Nkuwu Lusati
+	    }
+	    male_names = { #generic
+		    Garcia Álvaro Pedro Afonso Ntinu Nkuwu Henrique António Bernardo José Ambrósio Aleixo André Daniel Diogo 
+			Nicolau Nzinga Nkuwa Sebastião Ilunga Sanza Kumwimba Kasongo Kekenya Kaumbo Miketo Nday Mwine Maloba 
+			Kitamba Cibind Nawej Munying Kateng Cakasekene Cikombe Kalong Mutand Mbala Mukaz Mpemba Nkuwu Lusati
+	    }
+	    female_names = { #generic
+		    Jetta Vandana Zody Lukeni Nzinga Kyaku Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi 
+			Mwongo Bebeka Ndémbu Fúxi Ngongo Lemba Kifunji Kambu Kumbi Maxongo Makufu Samba Kangala Kamana Masoxi Nkuwu Lusati
+		}
 	}
 	yaka = {
 		primary = YAK
@@ -8804,44 +8848,191 @@ kongo_group = {
 	kuba = {
 		primary = KUB
 	}
-	mbundu = {
-		primary = NDO
-	}
-	chokwe = {
-		primary = CKW
-	}
-	mbangala = {
+	mbangala = { #Imbangala (Change name in loc file!
 		primary = KSJ
 	}
-	jukun = {
-
+	jukun = { #OLD
+	    #primary = XXX
 	}
-	sawabantu = {
-
+	sawabantu = { #OLD
+	    #primary = XXX
 	}
 	#BtPLegacy Culture
-	tegali_culture = {
+	tegali_culture = { #OLD
 		primary = TEG
 	}
-	#BtPLegacy Culture
-	ovambo_culture = {
-		#primary = XXX
+	dynasty_names = { #generic
+	    Mbombo Mbumba Fundanga Ngonga Njali Mbandi Kilwanji Ngudi Hadi Muhongo Ndala Mussudi Ndambi Kambolo Nzaji Kituxi Masoxi 
+		Mwongo Bebeka Ndémbu Fúxi Ngongo Lemba Kifunji Kambu Kumbi Maxongo Makufu Samba Kangala Kamana Masoxi Lukeni Nimi Nanga 
+		Nlaza Nzinga Mvemba Mpanzu Nkumbi Mpudi Mbiki Misaki Nganga Mwanda Myala Kyese Nkembi Lusala Mbunga Lukeni Nzinga Kyaku 
+		Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi Nkuwu
 	}
-	#BtPLegacy Culture
-	kavango_culture = {
-		#primary = XXX
-	}
-	dynasty_names = {
-		Lukeni Loanga Kalumbwe Kikondja Imbangala Kasanje Shila Kazembe Lunda Kuba
-	}
-	male_names = {
+	male_names = { #generic
 		Garcia Álvaro Pedro Afonso Ntinu Nkuwu Henrique António Bernardo José Ambrósio Aleixo André Daniel Diogo 
 		Nicolau Nzinga Nkuwa Sebastião Ilunga Sanza Kumwimba Kasongo Kekenya Kaumbo Miketo Nday Mwine Maloba 
-		Kitamba Cibind Nawej Munying Kateng Cakasekene Cikombe Kalong Mutand Mbala Mukaz Mpemba
+		Kitamba Cibind Nawej Munying Kateng Cakasekene Cikombe Kalong Mutand Mbala Mukaz Mpemba Nkuwu
 	}
-	female_names = {
-		Jetta Vandana Zody
+	female_names = { #generic
+		Jetta Vandana Zody Lukeni Nzinga Kyaku Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi
+		 Mwongo Bebeka Ndémbu Fúxi Ngongo Lemba Kifunji Kambu Kumbi Maxongo Makufu Samba Kangala Kamana Masoxi Nkuwu 
 	}
+}
+
+southwest_bantu = { #Group 2
+    graphical_culture = africangfx
+    ovambo_culture = { #OLD
+        #primary = XXX
+		male_names = { #generic
+            Kambungo Mandume Ndemufayo Akwenye Amunime Amutenya Angula Uukongo Uusiku Tulitungeni Ndewtelela Mwaifanange Hasondisi Hashetu Nghidulika Nghilifilwa 
+		    Nghinashamunhu Lipuleni Shafodino Shiepo Shikudule Shilengifa Shimwefeleni
+        }
+		female_names = { #generic
+            Ndapona Namatembu Namutenya Nangula Nathinge Nuusiku Etuhole Nghinashamunhu Ndafyaalako Ndapunikwa Ndateelela Ndeshihafela Ndeshipanda Ndeshiyala Ndilipofina 
+		    Ndilokelwa Kuwilileni
+        }
+		dynasty_names = { #generic
+	        Kambungo Mandume Ndemufayo Akwenye Amunime Amutenya Angula Uukongo Uusiku Tulitungeni Ndewtelela Mwaifanange Hasondisi Hashetu Nghidulika Nghilifilwa 
+		    Nghinashamunhu Lipuleni Shafodino Shiepo Shikudule Shilengifa Shimwefeleni Ndapona Namatembu Namutenya Nangula Nathinge Nuusiku Etuhole Nghinashamunhu 
+		    Ndafyaalako Ndapunikwa Ndateelela Ndeshihafela Ndeshipanda Ndeshiyala Ndilipofina Ndilokelwa Kuwilileni
+	    }
+    }
+	#BtPLegacy Culture
+	kavango_culture = { #OLD
+		#primary = XXX
+	}
+	mucubal = { #herero & NEW Farsen entry by San Felipe
+        #primary = XXX
+    }
+    ovimbundu = { #NEW Farsen entry by San Felipe
+        #primary = XXX
+    }
+    nyaneka_humbe = { #nhaneca_humbe & NEW Farsen entry by San Felipe
+        #primary = XXX
+		male_names = { #generic
+            Tyapukulwa Tchilunlum Mumbanda Pefiko Nkhole Sekulo Mukongo Kataleko Fito Nandjila Tchipito Tchimutambo Mutenya Wolumba Mbula Muholo Muhepe Mahuku Nangula 
+			Nangombe Lyeniveni Hinambendi Hinaounye Hamba Hitali Hulya Kahali Kaike Kandjala Kalitoko Kalukilwe Kambwale Katito Kavemundi 
+        }
+		female_names = { #generic
+		    Nangula Nangombe Tyapukulwa Tchilunlum Mumbanda Pefiko Nkhole Sekulo Mukongo Ndenge Kataleko Fito Nandjila Tchipito Tchimutambo Mutenya Wolumba Mbula Muholo 
+			Muhepe Mahuku Lyeniveni Hinambendi Hinaounye Hitali Hulya Kahali Kaike Kalukilwe Katito Kavemundi
+        }
+		dynasty_names = { #generic
+	        Tyapukulwa Tchilunlum Mumbanda Pefiko Nkhole Sekulo Mukongo Kataleko Fito Nandjila Tchipito Tchimutambo Mutenya Wolumba Mbula Muholo Muhepe Mahuku Nangula 
+			Nangombe Lyeniveni Hinambendi Hinaounye Hamba Hitali Hulya Kahali Kaike Kandjala Kalitoko Kalukilwe Kambwale Katito Kavemundi Nangula Nangombe Tyapukulwa
+			Tchilunlum Mumbanda Pefiko Nkhole Sekulo Mukongo Ndenge Kataleko Fito Nandjila Tchipito Tchimutambo Mutenya Wolumba Mbula Muholo Muhepe Mahuku Lyeniveni
+			Hinambendi Hinaounye Hitali Hulya Kahali Kaike Kalukilwe Katito Kavemundi
+		}
+    }
+	male_names = { #generic
+        Enyama Kaihemba Kalei Kangwe Katahali Katito Kanyanga Katema Kasandi Tchakoko Tchika Epalanga Kalunga Kandimba Tchilepule Wambu Livenge Ndunduma Numa Kalandula
+		Samakaka Joloma Ekuikui Viye Ulundu Eyambi Njilahulu Kangombe Kawewe Mbandwa Kakembembe Liambwla Kayangula Mukinda Nguvenge Konya Njamba Cyioka 
+    }
+    female_names = { #generic
+        Ayondela Caimile Cisanganda Cisengu Citalala Cokovenda Caungula Cinawendela Katema Kasandi Tchakoko Tchika Epalanga Kalunga Kandimba Natula Nasoma Tchilepule
+    }
+	dynasty_names = { #generic
+	    Enyama Kaihemba Kalei Kangwe Katahali Katito Ayondela Caimile Cisanganda Cisengu Citalala Cokovenda Caungula Cinawendela Katema Kasandi Tchakoko Tchika 
+		Epalanga Kalunga Kandimba Natula Nasoma Tchilepule Kanyanga Katema Kasandi Tchakoko Tchika Epalanga Kalunga Kandimba Tchilepule Wambu Livenge Ndunduma Numa 
+		Kalandula Samakaka Joloma Ekuikui Viye Ulundu Eyambi Njilahulu Kangombe Kawewe Mbandwa Kakembembe Liambwla Kayangula Mukinda Nguvenge Konya Njamba Cyioka 
+	}
+}
+
+east_angolan = { #NEW Group 3
+    graphical_culture = africangfx
+    chokwe = {#tchokwe (Change name in loc file!
+        primary = CKW
+    }
+	lunda = {
+		primary = LND
+	}
+	ganguela = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+	}
+	mbunda = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+		male_names = { #generic
+            Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili 
+		}
+		female_names = { #generic
+		    Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo Kahuti Lamba Vusiwa Kayando Ndzita Katye 
+			Kavindama Masozi
+		}
+		dynasty_names = { #generic
+		    Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo 
+			Kahuti Lamba Vusiwa Kayando Ndzita Katye Kavindama Masozi
+		}
+	}
+	malwena = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+		male_names = { #generic
+            Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili 
+		}
+		female_names = { #generic
+		    Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo Kahuti Lamba Vusiwa Kayando Ndzita Katye 
+			Kavindama Masozi
+		}
+		dynasty_names = { #generic
+		    Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo 
+			Kahuti Lamba Vusiwa Kayando Ndzita Katye Kavindama Masozi
+		}
+	}
+	malwimbi = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+		male_names = { #generic
+            Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili 
+		}
+		female_names = { #generic
+		    Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo Kahuti Lamba Vusiwa Kayando Ndzita Katye 
+			Kavindama Masozi
+		}
+		dynasty_names = { #generic
+		    Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo 
+			Kahuti Lamba Vusiwa Kayando Ndzita Katye Kavindama Masozi
+		}
+	}
+	xindonga = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+	}
+	male_names = { #generic
+        Mwambumba Mwakahya Ngunji Nanjimi Mwatchisenge Satchikuta Tchikuta Tchicolasonhi Matfuka Mafo Tchikamamba Ngombe Sekesa Muchingweno Museheno Kaxita Muxete 
+		Napasa Kafunga Mwambeno Mulambeno Kufa Kachala
+    }
+    female_names = { #generic
+        Kaxita Matfuka Mafwo Tchikamamba Ngombe Muxete Napasa Kafunga Mwambeno Mulambeno Kufa Kachala
+    }
+	dynasty_names = { #generic
+	    Mwambumba Mwakahya Ngunji Nanjimi Mwatchisenge Satchikuta Tchikuta Tchicolasonhi Matfuka Mafo Tchikamamba Ngombe Sekesa Muchingweno Museheno Kaxita Muxete 
+		Napasa Kafunga Mwambeno Mulambeno Kufa Kachala Kaxita Matfuka Mafwo Tchikamamba Ngombe Muxete Napasa Kafunga Mwambeno Mulambeno Kufa Kachala
+	}
+}
+
+southwestern_bantu = { #NEW Group 2
+    graphical_culture = africangfx
+    ovambo_culture = {
+        primary = XXX
+        male_names = {
+            Kambungo Mandume Ndemufayo Akwenye Amunime Amutenya Angula Uukongo Uusiku Tulitungeni Ndewtelela Mwaifanange Hasondisi Hashetu Nghidulika Nghilifilwa Nghinashamunhu Lipuleni Shafodino Shiepo Shikudule Shilengifa Shimwefeleni
+        }
+        female_names = {
+            Ndapona Namatembu Namutenya Nangula Nathinge Nuusiku Etuhole Nghinashamunhu Ndafyaalako Ndapunikwa Ndateelela Ndeshihafela Ndeshipanda Ndeshiyala Ndilipofina Ndilokelwa Kuwilileni
+        }
+    }
+	#BtPLegacy Culture
+	kavango_culture = { #Move to Group 2
+		#primary = XXX
+	}
+	male_names = {
+        Kambungo Mandume Ndemufayo Akwenye Amunime Amutenya Angula Uukongo Uusiku Tulitungeni Ndewtelela Mwaifanange Hasondisi Hashetu Nghidulika Nghilifilwa Nghinashamunhu Lipuleni Shafodino Shiepo Shikudule Shilengifa Shimwefeleni
+    }
+    female_names = {
+        Ndapona Namatembu Namutenya Nangula Nathinge Nuusiku Etuhole Nghinashamunhu Ndafyaalako Ndapunikwa Ndateelela Ndeshihafela Ndeshipanda Ndeshiyala Ndilipofina Ndilokelwa Kuwilileni
+    }
 }
 
 great_lakes_group = {
