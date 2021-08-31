@@ -419,10 +419,14 @@ country_event = { # Second Peace of Thorn
 				}
 			}
 		}
-		has_won_war_against = {
-			who = TEU
-			max_years_since = 25
-		}
+		#has_won_war_against = { # Supposedly doesn't work and causes problems
+		#	who = TEU
+		#	max_years_since = 25
+		#}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
 	}
 	
 	option = { # Don't agree to Peace
@@ -479,7 +483,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7828 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			7828 = {
@@ -490,7 +497,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7825 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			7825 = {
@@ -501,7 +511,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7826 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			7826 = {
@@ -512,7 +525,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7828 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			7828 = {
@@ -523,7 +539,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7827 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			7827 = {
@@ -534,7 +553,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				5097 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			5097 = {
@@ -545,7 +567,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				2997 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			2997 = {
@@ -556,7 +581,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				43 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			43 = {
@@ -567,7 +595,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7819 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			7819 = {
@@ -578,7 +609,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				4747 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			4747 = {
@@ -589,7 +623,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				49 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			49 = {
@@ -600,7 +637,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				1859 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			1859 = {
@@ -611,7 +651,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				1841 = {
-					owned_by = TEU
+					OR = {
+						owned_by = TEU
+						owned_by = MAZ
+					}
 				}
 			}
 			1841 = {
@@ -622,7 +665,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7829 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			7829 = {
@@ -634,7 +680,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7830 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			7830 = {
@@ -646,7 +695,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				2958 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			2958 = {
@@ -661,6 +713,7 @@ country_event = { # Second Peace of Thorn
 					OR = {
 						owned_by = TEU
 						owned_by = ROOT
+						owned_by = MAZ
 					}
 				}
 			}
@@ -673,7 +726,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7831 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			7831 = {
@@ -685,7 +741,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7832 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			7832 = {
@@ -697,7 +756,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7862 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			7862 = {
@@ -709,7 +771,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				767 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			767 = {
@@ -721,7 +786,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				41 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			41 = {
@@ -733,7 +801,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7835 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			7835 = {
@@ -745,7 +816,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				3224 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			3224 = {
@@ -757,7 +831,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7837 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			7837 = {
@@ -769,7 +846,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7836 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			7836 = {
@@ -781,7 +861,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7834 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			7834 = {
@@ -793,7 +876,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				7833 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			7833 = {
@@ -805,7 +891,10 @@ country_event = { # Second Peace of Thorn
 		if = {
 			limit = {
 				40 = {
-					owned_by = ROOT
+					OR = {
+						owned_by = MAZ
+						owned_by = ROOT
+					}
 				}
 			}
 			40 = {
