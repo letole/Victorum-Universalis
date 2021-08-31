@@ -1,6 +1,6 @@
 government = republic
 add_government_reform = cossacks_reform
-technology_group = nomad_group
+technology_group = eastern
 religion = orthodox
 primary_culture = cossack
 add_accepted_culture = ruthenian
