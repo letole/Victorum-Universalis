@@ -132,8 +132,8 @@ vassal = {
 vassal = {
 	first = HAB
 	second = TES
-	start_date = 1560.6.1
-	end_date = 1571.5.4
+	start_date = 1526.8.30
+	end_date = 1653.6.1
 }
 
 vassal = {
