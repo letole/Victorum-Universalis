@@ -5,8 +5,8 @@
 #Core Details
 capital = "Nagyszeben"
 is_city = yes
-owner = HUN
-controller = HUN
+owner = SZE
+controller = SZE # Should be Szaszfold but no tag yet
 
 #Demographics
 culture = transylvanian_saxons
@@ -21,6 +21,7 @@ trade_goods = cloth
 #Cores and Occupation (Alphabetical after current)
 add_core = HUN
 add_core = TRA
+add_core = SZE
 
 #Other Political
 hre = no

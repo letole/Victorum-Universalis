@@ -5,8 +5,8 @@
 #Core Details
 capital = "Szászrégen"
 is_city = yes
-owner = HUN
-controller = HUN
+owner = TRA
+controller = TRA
 
 #Demographics
 culture = romanian

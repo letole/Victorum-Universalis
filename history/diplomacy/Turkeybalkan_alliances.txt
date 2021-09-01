@@ -128,6 +128,21 @@ vassal = {
 	end_date = 1462.11.1
 }
 
+# Hungarian vassals in Transylvania
+vassal = {
+	first = HUN
+	second = TRA
+	start_date = 1444.1.1
+	end_date = 1526.8.30
+}
+
+vassal = {
+	first = HUN
+	second = SZE
+	start_date = 1444.1.1
+	end_date = 1526.8.30
+}
+
 ##########
 # Unions #
 ##########
