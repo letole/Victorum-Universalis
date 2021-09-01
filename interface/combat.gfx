@@ -4991,8 +4991,8 @@ spriteTypes = {
         texturefile = "gfx/interface/passau.dds"
     }
             spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_inglostadt"
-        texturefile = "gfx/interface/inglostadt.dds"
+        name = "GFX_combat_terrain_urban_ingolstadt"
+        texturefile = "gfx/interface/ingolstadt.dds"
     }
             spriteType = {                                                        
         name = "GFX_combat_terrain_urban_regensburg"
@@ -5164,7 +5164,7 @@ spriteTypes = {
     }
             spriteType = {                                                        
         name = "GFX_combat_terrain_urban_brydoszcz"
-        texturefile = "gfx/interface/.dds"
+        texturefile = "gfx/interface/brydoszcz.dds"
     }
             spriteType = {                                                        
         name = "GFX_combat_terrain_urban_gdynia"

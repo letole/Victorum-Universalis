@@ -17360,7 +17360,7 @@ categories =  {
 		}
     }
 	# Germany
-	urban_inglostadt = {
+	urban_ingolstadt = {
 		color = { 177 156 217 }
         type = plains
         sound_type = plains
