@@ -7,3 +7,4 @@ add_government_reform = feudalism_reform
 
 religion = catholic
 primary_culture = szekely
+add_accepted_culture = transylvanian_saxons # Temporarily since they also represent Szaszfold

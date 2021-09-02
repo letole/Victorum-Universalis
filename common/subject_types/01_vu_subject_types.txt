@@ -355,3 +355,117 @@ hanseatic_league_member_bt = {
 	overlord_opinion_modifier = is_vassal
 	subject_opinion_modifier = is_vassal
 }
+
+silesian_duke = {
+	copy_from = default
+	
+	# Graphics:
+	sprite = GFX_icon_silesian_duke
+	diplomacy_overlord_sprite = GFX_diplomacy_leadsilesian_duke
+	diplomacy_subject_sprite = GFX_diplomacy_amsilesian_duke
+
+	# Properties:
+	can_fight_independence_war = yes
+	transfer_trade_power = yes
+	joins_colonial_wars = no
+	is_voluntary = no
+	joins_overlords_wars = yes
+	takes_diplo_slot = no
+	can_be_annexed = yes
+	can_transfer_in_peace = yes
+	can_release_in_peace = yes
+	has_power_projection = no
+	gets_help_with_rebels = yes
+	overlord_protects_external = yes
+	counts_for_borders = yes
+	can_use_claims = yes
+	can_set_mil_focus = yes
+	can_send_missionary_to_subject = yes
+	overlord_can_fabricate_for = yes
+	does_overlord_size_count_for_warscore_cost = no
+	can_concentrate_development = no
+	
+	max_government_rank = 1
+	cities_required_for_bonuses = 0
+	trust_on_start = 35
+	
+	base_liberty_desire = -20.0
+	liberty_desire_negative_prestige = 10.0
+	liberty_desire_development_ratio = 0.25
+	liberty_desire_same_dynasty = -5.0
+	liberty_desire_revolution = 35.0
+	pays_overlord = 1.0
+	forcelimit_to_overlord = 0.15
+
+	relative_power_class = 2
+	
+	can_fight = { # Silesian dukes can fight between each other
+		same_overlord = silesian_duke
+		same_overlord = vassal
+	}
+	can_rival = {
+		same_overlord = yes
+	}
+	can_ally = {
+		same_overlord = silesian_duke
+		same_overlord = vassal
+		same_overlord = march
+	}
+	can_marry = {
+		same_overlord = silesian_duke
+		same_overlord = vassal
+		same_overlord = march
+	}
+	
+	restoration_cb = cb_disloyal_vassal
+	
+	# Subject Interactions:
+	scutage = yes
+	place_relative_on_throne = yes
+	seize_territory = yes
+	enforce_religion = yes
+	grant_core_claim = yes
+	placate_rulers = yes
+	enforce_culture = yes
+	siphon_income = yes
+	takeondebt = yes
+	knowledge_sharing = yes
+
+	# Modifiers:
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = silesian_duke_modifier
+	}
+	
+	modifier_subject = { # Actually penalities vassal recieves for being too large since silesian duchies were rather small and fractured
+		trigger = {
+			num_of_cities = 5
+		}
+		modifier = silesian_duke_size_modifier
+	}
+	modifier_subject = {
+		trigger = {
+			num_of_cities = 7
+		}
+		modifier = silesian_duke_size_modifier
+	}
+	modifier_subject = {
+		trigger = {
+			num_of_cities = 10
+		}
+		modifier = silesian_duke_size_modifier
+	}
+	modifier_subject = {
+		trigger = {
+			num_of_cities = 14
+		}
+		modifier = silesian_duke_size_modifier
+	}
+	
+	modifier_overlord = {
+		modifier = vassal_subject
+	}
+
+	overlord_opinion_modifier = is_vassal
+	subject_opinion_modifier = is_vassal
+}
