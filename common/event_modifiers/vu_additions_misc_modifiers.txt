@@ -3,3 +3,41 @@ bt_minorities_expelled = {
 	local_culture_conversion_cost = -0.25
 	local_missionary_strength = 0.02
 }
+
+# Bonus/cost of being silesian duchy subject
+silesian_duke_modifier = {
+	shock_damage_received = -0.05
+	envoy_travel_time = -0.15
+	claim_duration = 0.2
+	unjustified_demands = 0.1
+	diplomatic_reputation = 1
+	improve_relation_modifier = 0.15
+	state_maintenance_modifier = -0.15
+	production_efficiency = 0.05
+	advisor_cost = -0.1
+	heir_chance = 0.25
+	fort_maintenance_modifier = -0.10
+	infantry_power = -0.05
+	max_absolutism = -20
+	governing_capacity_modifier = -0.25
+	promote_culture_cost = -0.2
+	global_own_trade_power = 0.1
+	trade_efficiency = 0.05
+}
+
+# Penalty for silesian duchies growing too large, scales up to 4 times
+silesian_duke_size_modifier = {
+	production_efficiency = -0.03
+	unjustified_demands = 0.05
+	state_maintenance_modifier = 0.05
+	governing_capacity_modifier = -0.04
+	infantry_power = -0.01
+	max_absolutism = 5
+	improve_relation_modifier = -0.04
+	liberty_desire = 5
+	stability_cost_modifier = 0.1
+	min_autonomy = 5
+	state_governing_cost = 0.075
+	institution_spread_from_true_faith = 0.05
+	ae_impact = 0.05
+}

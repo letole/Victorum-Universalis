@@ -18,7 +18,8 @@
 # Vassals #
 ###########
 
-vassal = {
+dependency = {
+	subject_type = silesian_duke
 	first = BOH
 	second = GLG
 	start_date = 1444.1.1
@@ -32,14 +33,16 @@ vassal = {
 	end_date = 1488.5.25
 }
 
-vassal = {
+dependency = {
+	subject_type = silesian_duke
 	first = BOH
 	second = LEG
 	start_date = 1444.1.1
 	end_date = 1526.8.30
 }
 
-vassal = {
+dependency = {
+	subject_type = silesian_duke
 	first = HAB
 	second = LEG
 	start_date = 1526.8.30
