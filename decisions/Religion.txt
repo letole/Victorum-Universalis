@@ -1916,5 +1916,39 @@ country_decisions = {
 		ai_will_do = {
 			factor = 0
 		}
+	}
+	religious_conversions_romuva = {
+		potential = {
+			OR = {
+				tag = SMG
+				any_owned_province = {
+					religion = baltic_pagan_reformed
+				}
+				NOT = { religion = baltic_pagan_reformed }
+			}
+		}
+		allow = {
+			OR = {
+				tag = SMG
+				dominant_religion = baltic_pagan_reformed
+				num_of_religion = {
+					religion = baltic_pagan_reformed
+					value = 0.5
+				}
+			}
+		}
+		effect = {
+			add_stability = -1
+			add_adm_power = -25
+			add_dip_power = -25
+			add_prestige = -50
+			add_legitimacy = -25
+			add_corruption = 2
+			add_splendor = -250
+			change_religion = baltic_pagan_reformed
+			capital_scope = {
+				change_religion = baltic_pagan_reformed
+			}
+		}
 	}	
 }

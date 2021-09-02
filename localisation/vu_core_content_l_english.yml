@@ -1476,6 +1476,8 @@ pudget_sound_modifier:0 "The Pudget Sound"
  create_the_kingdom_of_ireland_as_england_desc:0 "We have established dominance over Ireland, but we face the wrath of other European countries because of this annexation, and the rebellious nature of this frontier makes it difficult to govern effectively. The ideal solution may be to create a new Irish viceroyalty, similar to the former feudal system but significantly more organised, who may rule in our stead and protect our interests while distancing us from direct governance."
  cede_stragglers_to_koi_as_ruler_title:0 "Cede Irish Territory to Our Vassal"
  cede_stragglers_to_koi_as_ruler_desc:0 "We own land which de jure belongs to Ireland, our vassal kingdom. We may gift this land to them as a gesture of good will."
+ religious_conversions_romuva_title:0 "Revert back to old gods"
+ religious_conversions_romuva_desc:0 "As baltic pagans following Romuva faith remain strong, it is time for us to abandon our current faith and revert to the old ways."
  #Beyond Typus and BTPL Decisions
  #sweads_and_geats_one_big_happy_family_title:0 "Unify Swedish Culture"         #removed in 11.5
  #sweads_and_geats_one_big_happy_family_desc:0 "The two primary peoples of Sweden, the Swedes in the north and the Geats in the south, have lived together under the Swedish banner for many years and despite occasional friction, the two groups largely accept one another and recognise each other as kin. It is time we made it official and formally proclaim Swedes and Geats to be one and the same people, for the glory of Sweden!"         #removed in 11.5
