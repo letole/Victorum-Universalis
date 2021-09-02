@@ -26,7 +26,8 @@ dependency = {
 	end_date = 1476.2.22
 }
 
-vassal = {
+dependency = {
+	subject_type = silesian_duke
 	first = BOH
 	second = GLG
 	start_date = 1480.6.1

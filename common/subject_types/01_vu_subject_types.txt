@@ -389,7 +389,7 @@ silesian_duke = {
 	cities_required_for_bonuses = 0
 	trust_on_start = 35
 	
-	base_liberty_desire = -5.0
+	base_liberty_desire = -20.0
 	liberty_desire_negative_prestige = 10.0
 	liberty_desire_development_ratio = 0.25
 	liberty_desire_same_dynasty = -5.0
