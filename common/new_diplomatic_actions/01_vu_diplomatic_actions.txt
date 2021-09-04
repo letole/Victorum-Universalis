@@ -196,7 +196,7 @@ vu_create_silesian_duchy = {
 	
 	on_accept = {
 		create_subject = {
-			subject = ROOT
+			subject = FROM
 			subject_type = silesian_duke
 		}
 		add_truce_with = FROM
