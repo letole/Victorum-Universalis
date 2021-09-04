@@ -9,7 +9,7 @@ capital = "Treptow"				#or Spantekow. Also Anklam and Demmin are nearby and much
 base_tax = 2
 base_production = 2
 base_manpower = 3
-trade_goods = grain
+trade_goods = lumber		# West Pomerania for long has been a lakeland with dense forests
 is_city = yes
 hre = yes
 
