@@ -155,6 +155,8 @@
  PROV502:0 "Iëre"
  PROV653:0 "Iligan" #Formerly Lanao del Norte
  PROV657:0 "Namacpacan" #Formerly La Union
+ PROV665:0 "Jiangmen" #Formerly Shiuhing
+ PROV695:0 "Tientsin" #Formerly Shiuhing
  PROV738:0 "Siraya"
  PROV756:0 "Kirimurê"          #Credit to Arga
  PROV763:0 "Goanã-pará"          #Credit to Arga
@@ -372,6 +374,7 @@
  PROV2020:0 "Boho'inee"
  PROV2021:0 "Ramai"
  PROV2022:0 "K'íis Gwáayaay" #Xaayda 
+ PROV2143:0 "Huainan"
  PROV2154:0 "Ketangalan"
  PROV2296:0 "Dardanelles"
  PROV2297:0 "Magnesia"
