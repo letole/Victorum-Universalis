@@ -40,6 +40,7 @@
 703 = "Singtak" #Chengde
 707 = "Yukmoon" #Yumen
 708 = "Jeungyik" #Zhangye
+730 = "Jilin" #Girin
 #738 Sakam
 1816 = "Peking" #Beijing
 1821 = "Namking" #Nanjing
