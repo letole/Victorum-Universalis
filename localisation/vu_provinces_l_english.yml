@@ -4171,6 +4171,8 @@
  PROV_ADJ8734:0 "Louth"
  PROV8735:0 "Mulabbis"
  PROV_ADJ8735:0 "Mulabbian"
+ PROV8736:0 "Pindus Mountains"
+ PROV_ADJ8736:0 "Pindus Mountains"
 
  # Beyond Typus province adjectives. Please note these are extremely incomplete, but appear? to only be seen when the province in question is selected as a capital for a custom nation. So I'm treating them as a secondary concern for the moment. -Draiocht
  PROV_ADJ4846:0 "Woolna"
