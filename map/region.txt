@@ -515,7 +515,6 @@ persia_region = {
 		persian_gulf_coast
 		tabriz_area
 		khuzestan_area
-		shahrizor_area
 		mogostan_area
 	}
 }
@@ -1768,6 +1767,7 @@ mesopotamia_region = {
 		basra_area
 		north_kurdistan_area
 		erzurum_area
+		shahrizor_area
 		#BTADDITIONS
 		mardin_area
 	}
