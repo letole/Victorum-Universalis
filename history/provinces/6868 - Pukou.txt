@@ -6,11 +6,11 @@ add_core = MNG
 culture = jianghuai
 religion = confucianism
 capital = "Pukou"
-trade_goods = rice
+trade_goods = zinc
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 3
 is_city = yes
 
 discovered_by = chinese

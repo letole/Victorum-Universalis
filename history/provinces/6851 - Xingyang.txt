@@ -8,11 +8,11 @@ add_core = LNG
 culture = zhongyuan
 religion = confucianism
 capital = "Xingyang"
-trade_goods = jade #Duyo Jade
+trade_goods = carpet
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 4
+base_manpower = 4
 is_city = yes
 
 discovered_by = chinese

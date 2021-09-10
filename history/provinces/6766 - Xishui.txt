@@ -14,9 +14,9 @@ religion = confucianism
 capital = "Xishui"
 trade_goods = rice
 hre = no
-base_tax = 1
+base_tax = 2
 base_production = 1
-base_manpower = 1
+base_manpower = 3
 is_city = yes
 
 discovered_by = chinese
