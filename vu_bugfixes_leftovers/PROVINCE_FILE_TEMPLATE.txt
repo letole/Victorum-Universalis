@@ -1,0 +1,106 @@
+# Use this template when adding new provinces to the game
+#========================================================
+
+# All stuff after "#" will be ignored, use it to add comments
+# Name of the .txt file shall be "number - province_name", where
+# number = province's ID and province_name = name of the province.
+# Delete this introduction and unnecesseary lines behind "##" when you're done, 
+# to reduce file's size.
+
+
+#########################################################
+
+#0000 - Province_name
+#Area - Area_name
+#Region - Region_name
+
+#Core details
+capital = "Capital_name"
+is_city = yes
+owner = XXX
+controller = XXX
+## Alterantively, if province is uncolonized, remove is_city line
+
+#Demographics
+culture = english
+religion = catholic
+## If province is uncolonized, use:
+## native_size = 1
+## native_feorcity = 1
+## native_hostileness = 1
+
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 1
+center_of_trade = 1
+trade_goods = grain
+## If province is uncolonized, use "trade_goods = unknown"
+## In VU mod centers of trade can have values from 1 to 5
+## Remove the line if province does not have center of trade
+
+Cores and Occupation (Alphabetical after current)
+add_core = XXX
+## add_core = XXX
+## add_core = XXX
+## ...
+## All nations that have core on the province
+## Doesn't apply if is uncolonized
+
+#Other Political
+hre = no
+extra_cost = 1
+## Remove "extra_cost" line if it's not needed
+
+#Fort/Other Buildings
+fort_15th = yes
+## Use "building_name = yes" to add other buildings you want
+
+#Special Modfiers
+add_permanent_province_modifier = { # Exaple
+    name = navalbase_modifier
+    duration = -1
+}
+## Ignore if province shouldn't have any unique starting modifiers
+## Otherwise, use this:
+## 	add_permenent_province_modifier = {
+##		name = modifier_name
+##		duration = -1
+##	}
+
+#Discoveries
+discovered_by = culture_group
+discovered_by = TAG
+## Who can see the province, both tags and culture groups may be used
+
+
+#History Files
+
+
+1450.11.11 = { # Example
+	add_core = XXX
+	owner = XXX
+	controller = XXX
+	unrest = 5
+	add_local_autonomy = 50
+} # Example reason why such change occured should be here.
+
+## All history files should go there
+## History should include period from 1444.11.11 to 1920.11.11
+## Please try to complete the history files for the province as best as you can.
+## Even basic history notes would be extremely useful and save ton of work during
+## addition new bookmarks. Please add something there.
+
+## Use:
+## YYYY.MM.DD = {
+##	example_command = ...
+##	...
+## }
+## as a template to add new history notes.
+## Try keep it chronological.
+## Setting date before 11th November 1444 will result in changes already displayed 
+## at the game start.
+## All lines in this file can be used as commands to edit province's properties.
+## All other commands that directly change province's attributes can be used here
+## as well.
+## Chack Paradox forum for more info about avaliable commands.
