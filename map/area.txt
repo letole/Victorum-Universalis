@@ -1445,7 +1445,7 @@ syrian_desert_area = { #3
 gulf_of_arabia_area = { color = { 19 219 75 } }
 
 al_wahat_area = { #3
-	1233 5273 2325 4323 5272 5301
+	1233 5273 2325 5272 5301
 }
 
 east_sahara_area = { #3
@@ -4858,7 +4858,7 @@ unused_area = {
 
 	#Removed Paradox & BtP provinces (mostly wastelands), which seems to want an area anyway, or they fill up the error log
 	3107 3116 3132 3133 3136 3186 3189 3272 3275 4140 4328 4347
-	5114 5115 5122 5128 5113
+	5114 5115 5122 5128 5113 4323w
 
 	8610 8660 8661 8662 8663 8664 8665 8666			# Removed Sea Provinces from CR's SEA
 
