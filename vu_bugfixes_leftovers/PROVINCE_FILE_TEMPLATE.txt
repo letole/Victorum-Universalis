@@ -39,7 +39,7 @@ trade_goods = grain
 ## In VU mod centers of trade can have values from 1 to 5
 ## Remove the line if province does not have center of trade
 
-Cores and Occupation (Alphabetical after current)
+#Cores and Occupation (Alphabetical after current)
 add_core = XXX
 ## add_core = XXX
 ## add_core = XXX
