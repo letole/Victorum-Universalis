@@ -9,7 +9,7 @@ capital = "Ceva"
 base_tax = 4
 base_production = 4
 base_manpower = 2
-trade_goods = grain
+trade_goods = gunpowder	#was grain, gunpowder introduced from east and brought by genoese traders but not putting it in Genoa intself
 is_city = yes
 hre = yes
 
