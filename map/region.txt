@@ -1761,12 +1761,14 @@ northwest_territories_region = {
 
 mesopotamia_region = {
 	areas = {
-		rakka_area			#Cut in 1.23, but keeping it in BT for now
 		al_jazira_area
-		iraq_arabi_area
 		basra_area
-		north_kurdistan_area
 		erzurum_area
+		iraq_arabi_area
+		kuwait_area
+		north_kurdistan_area
+		mosul_area
+		rakka_area			#Cut in 1.23, but keeping it in BT for now
 		shahrizor_area
 		#BTADDITIONS
 		mardin_area
@@ -2047,6 +2049,12 @@ labrador_sea_region = {
 		baffin_bay_area
 	}
 }
+
+#test_region = {
+#	areas = {
+#		test_area
+#	}
+#}
 
 #Cut regions
 

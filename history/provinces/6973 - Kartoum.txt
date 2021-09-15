@@ -15,8 +15,9 @@ is_city = yes
 add_local_autonomy = 95
 center_of_trade = 1
 
-discovered_by = east_african
 discovered_by = muslim
+discovered_by = east_african
+discovered_by = ottoman
 
 add_permanent_province_modifier = {
     name = navalbase_modifier

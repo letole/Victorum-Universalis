@@ -165,11 +165,11 @@ country_decisions = {
 				ai = no
 				AND = {
 					treasury = 40000
-					owns_or_vassal_of = 363
+					owns_or_vassal_of = 2315
 				}
 			}
-			has_discovered = 363
-			363 = {
+			has_discovered = 2315
+			2315 = {
 				range = ROOT
 				NOT = { 
 					has_great_project = {
@@ -184,8 +184,8 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 363
 				province_id = 2315
+				province_id = 6537
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -193,15 +193,66 @@ country_decisions = {
 			}
 		}
 		allow = {
-			owns_or_vassal_of = 363
 			owns_or_vassal_of = 2315
+			owns_or_vassal_of = 6537
 			is_subject = no
 			adm_tech = 27
 			treasury = 20000
 		}
 		effect = {
-			363 = {	# Damietta
+			2315 = {	# Damietta
 				add_great_project = suez_canal
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	construct_second_suez_canal = {
+		major = yes
+		potential = {
+			OR = {
+				ai = no
+				AND = {
+					treasury = 40000
+					owns_or_vassal_of = 5261
+				}
+			}
+			has_discovered = 5261
+			5261 = {
+				range = ROOT
+				NOT = { 
+					has_great_project = {
+						type = second_suez_canal
+					}
+				}
+				NOT = { 
+					has_construction = second_suez_canal
+				}
+			}
+			adm_tech = 22
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 5261
+				province_id = 6537
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
+			}
+		}
+		allow = {
+			owns_or_vassal_of = 5261
+			owns_or_vassal_of = 6537
+			is_subject = no
+			adm_tech = 28
+			treasury = 20000
+		}
+		effect = {
+			5261 = {	# Suez
+				add_great_project = second_suez_canal
 			}
 		}
 		ai_will_do = {
@@ -336,19 +387,44 @@ country_decisions = {
 		major = yes
 		potential = {
 			ai = no
-			owns_or_vassal_of = 363
+			owns_or_vassal_of = 2315
 			is_subject = no
-			363 = {
+			2315 = {
 				has_construction = suez_canal
 			}
 		}
 		allow = {
-			363 = {
+			2315 = {
 				has_construction = suez_canal
 			}
 		}
 		effect = {
-			363 = {	# Damietta
+			2315 = {	# Suez
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	cancel_second_suez_canal = {
+		major = yes
+		potential = {
+			ai = no
+			owns_or_vassal_of = 5261
+			is_subject = no
+			5261 = {
+				has_construction = second_suez_canal
+			}
+		}
+		allow = {
+			5261 = {
+				has_construction = second_suez_canal
+			}
+		}
+		effect = {
+			5261 = {	# Port Said
 				cancel_construction = yes
 			}
 		}

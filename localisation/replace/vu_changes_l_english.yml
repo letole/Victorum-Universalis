@@ -1135,6 +1135,26 @@
  canal_events.24.t:0 "Ludwig Canal Finished"
  canal_events.24.d:0 "By what has been considered an unprecedented construction effort in the region, the construction of the Ludwig Canal connecting the Main and Danube rivers with the Atlantic ocean and Black sea has been completed in [Root.GetName]. Our fleet can now move between these key areas quicker and safer, giving us opportunity for unique military maneuvers and trade projects."
  #
+ construct_suez_canal_title:0 "Construct the Suez Canal - First Phase"
+ construct_suez_canal_desc:0 "Our vision for a canal linking both the Red and Mediterranean seas cannot be completed in one go. This means project will comprise of two stages, with the first phase involving cutting a canal from the Red Sed across al-Suweis and Ishmaila to the Great Bitter Lake. The second stage will then involve cutting a canal from the Great Bitter Lake across Ishmaila towards Port Said, where it will end and enter the Mediterranean sea. Despite the astronomical cost our government will have to fork out, our economics experts have already caculated and reasured state that the benefits will surpass the overall cost, not forgetting the shortening of travel time between Europe and Asia due to the linking of the Mediterranean and Red seas but also bestow on our country tremendous prestige and glory in the form of this monument that will hopefully endure the test of time long after we are gone."
+ cancel_suez_canal_title:0 "Cancel Suez Canal - First Phase"
+ cancel_suez_canal_desc:0 "Our project to construct the Suez canal has been deemed too costly and will be canceled."
+ great_project_suez_canal:0 "Suez Canal - First Phase"
+ suez_canal:0 "Suez Canal - First Phase"
+ suez_canal_title:0 "Suez Canal - First Phase"
+ canal_events.24.t:0 "Suez Canal - First Phase Finished"
+ canal_events.24.d:0 "By what has been considered an unprecedented construction effort in the region, the construction of the Suez Canal - First Phase connecting the Red Sea to the Great Bitter Lake has been completed in [Root.GetName]. Let us now begin on the Second Phase of this Great Project's construction so that we may finally complete our overall goal of linking both the Red and Mediterranean seas."
+ #
+ construct_second_suez_canal_title:0 "Construct the Suez Canal - Second Phase"
+ construct_second_suez_canal_desc:0 "Our vision for a canal linking both the Red and Mediterranean seas cannot be completed in one go. This means project will comprise of two stages, with the first phase involving cutting a canal from the Red Sed across al-Suweis and Ishmaila to the Great Bitter Lake. The second stage will then involve cutting a canal from the Great Bitter Lake across Ishmaila towards Port Said, where it will end and enter the Mediterranean sea. Despite the astronomical cost our government will have to fork out, our economics experts have already caculated and reasured state that the benefits will surpass the overall cost, not forgetting the shortening of travel time between Europe and Asia due to the linking of the Mediterranean and Red seas but also bestow on our country tremendous prestige and glory in the form of this monument that will hopefully endure the test of time long after we are gone."
+ cancel_second_suez_canal_title:0 "Cancel Suez Canal - Second Phase"
+ cancel_second_suez_canal_desc:0 "Our project to construct the Suez canal has been deemed too costly and will be canceled."
+ great_project_second_suez_canal:0 "Suez Canal - Second Phase"
+ second_suez_canal:0 "Suez Canal - Second Phase"
+ second_suez_canal_title:0 "Suez Canal - Second Phase"
+ canal_events.24.t:0 "Suez Canal - Second Phase Finished"
+ canal_events.24.d:0 "By what has been considered an unprecedented construction effort in the region, the construction of the Suez Canal - Second Phase connecting the Great Bitter Lake to the Mediterranean Sea has now been completed in [Root.GetName]. Not only this, but we have now finally completed our goal of linking both the Red and Mediterranean seas. Our fleets can now move between these two key areas quicker and safer, giving us opportunity for both unique military maneuvers and trade projects."
+ #
  #GREAT WORKS - Added in TCOP and by San Felipe
  MODIFIER_YEARS_OF_NATIONALISM:0 "Years of Separatism"
  nationalism:0 "Separatism"

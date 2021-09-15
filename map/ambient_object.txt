@@ -905,7 +905,7 @@ type={
 		name="Seagulls_english_channel"
 		hidden_on_start=no
 		position={
-			3127.000 0.100 1493.000 
+			3129.000 0.100 1493.000 
 		}
 		rotation={
 			0.000 -60.000 0.000 
@@ -1963,7 +1963,7 @@ type={
 		name="Seagulls_english_channel"
 		hidden_on_start=no
 		position={
-			3120.000 -0.250 1485.000 
+			3119.000 -0.700 1487.000 
 		}
 		rotation={
 			0.000 0.000 0.000 
@@ -2363,8 +2363,8 @@ type={
 }
 type={
 	type="suez_canal"
-	use_animation=no
-	scale=0.850000
+	use_animation=yes
+	scale=0.300000
 	time_duration=300.000000
 	always_visible=yes
 	visible_in_all_map_modes=yes
@@ -2372,20 +2372,28 @@ type={
 		name="suez_canal"
 		hidden_on_start=yes
 		position={
-			3146.500 -0.400 1491.000 
+			3147.000 0.100 1486.000 
 		}
 		rotation={
-			0.000 1.500 0.000 
+			0.000 1.000 0.000 
+		}
+	}
+	object={
+		name="second_suez_canal"
+		hidden_on_start=yes
+		position={
+			3144.000 0.100 1502.000 
+		}
+		rotation={
+			0.000 -15.000 0.000 
 		}
 	}
 }
 type={
 	type="panama_canal"
-	use_animation=no
-	scale=1.700000
+	use_animation=yes
+	scale=0.500000
 	time_duration=300.000000
-	always_visible=yes
-	visible_in_all_map_modes=yes
 	object={
 		name="panama_canal"
 		hidden_on_start=yes
@@ -2402,8 +2410,6 @@ type={
 	use_animation=no
 	scale=1.300000
 	time_duration=300.000000
-	always_visible=yes
-	visible_in_all_map_modes=yes
 	object={
 		name="ludwig_canal"
 		hidden_on_start=yes
@@ -2420,8 +2426,6 @@ type={
 	use_animation=no
 	scale=1.300000
 	time_duration=300.000000
-	always_visible=yes
-	visible_in_all_map_modes=yes
 	object={
 		name="don_and_volga_canal"
 		hidden_on_start=yes
@@ -2617,4 +2621,10 @@ type={
 			0.000 0.000 0.000 
 		}
 	}
+}
+type={
+	type="seuz_canal"
+	use_animation=yes
+	scale=0.250000
+	time_duration=300.000000
 }
