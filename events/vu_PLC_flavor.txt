@@ -836,6 +836,7 @@ country_event = { # Second Peace of Thorn
 					OR = {
 						owned_by = MAZ
 						owned_by = ROOT
+						owned_by = DNZ
 					}
 				}
 			}
@@ -851,6 +852,7 @@ country_event = { # Second Peace of Thorn
 					OR = {
 						owned_by = MAZ
 						owned_by = ROOT
+						owned_by = DNZ
 					}
 				}
 			}
