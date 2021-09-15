@@ -1,4 +1,4 @@
-#6470 - Auswintz
+#7678 - Auswintz
 
 latent_trade_goods = {
 	coal

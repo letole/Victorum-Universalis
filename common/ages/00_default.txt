@@ -810,6 +810,7 @@ age_of_change = {
 				OR = {
 					has_great_project = { type = kiel_canal }
 					has_great_project = { type = suez_canal }
+					has_great_project = { type = second_suez_canal }
 					has_great_project = { type = panama_canal }
 					has_great_project = { type = ludwig_canal }
 					has_great_project = { type = don_and_volga_canal }

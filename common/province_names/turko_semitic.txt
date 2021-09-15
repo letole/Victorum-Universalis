@@ -12,7 +12,7 @@
 357 = "Darnah"
 358 = "Iskandariyya"
 361 = "Qahirah"
-362 = "Rashid"
+362 = "Kafr"
 363 = "Dumyat"
 364 = "Ghazzah"
 365 = "Sina"
@@ -60,6 +60,8 @@
 2753 = "Arbouna"
 2754 = "Al-Mansha"
 2755 = "Madinat Salim"
+6524 = "Rashid"
+5261 = "Borsa'id"
 
 124 = "Massina"
 125 = "Balarm"

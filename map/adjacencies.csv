@@ -35,8 +35,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1767;8188;sea;8355;-1;-1;-1;-1;Szlavonia-Zombor
 4706;1756;sea;8344;-1;-1;-1;-1;Tulcea-Basarabia
 7451;7452;sea;7296;-1;-1;-1;-1;Afula-Irbid
-358;362;sea;7391;-1;-1;-1;-1;Alexandria-Rashid
-5261;4316;sea;8338;-1;-1;-1;-1;Damietta-Phelbes
+361;5264;sea;8339;-1;-1;-1;-1;Qahira-Giza
+5267;6574;sea;8339;-1;-1;-1;-1;Beni_Suef-Sandafa
+5181;364;sea;6548;-1;-1;-1;-1;Nekhel-Gazzah
 1146;1145;sea;7303;-1;-1;-1;-1;Ife-Nupe
 987;4872;sea;7341;-1;-1;-1;-1;Windsor-Buffalo
 988;944;sea;7342;-1;-1;-1;-1;Simcoe-Detroit
@@ -105,7 +106,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 8363;8365;canal;1971;-1;-1;-1;-1;don_and_volga_canal
 1268;5494;canal;1775;-1;-1;-1;-1;kiel_canal
 1548;1515;canal;835;-1;-1;-1;-1;panama_canal
-1328;1316;canal;363;-1;-1;-1;-1;suez_canal
+1328;7393;canal;2315;-1;-1;-1;-1;suez_canal
+7393;1316;canal;5261;-1;-1;-1;-1;second_suez_canal
 2348;318;sea;5493;-1;-1;-1;-1;Chios-Sugla
 4700;2296;sea;1319;-1;-1;-1;-1;Lesbos-Biga
 3245;2447;sea;1323;-1;-1;-1;-1;Kerch-Mapa
@@ -315,4 +317,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 491;2808;sea;1519;-1;-1;-1;-1;Curacao-Coro
 2807;830;sea;1519;-1;-1;-1;-1;Altagracia-Maracaibo
 134;7672;sea;8355;-1;-1;-1;-1;Wein-Donaustadt
+6560;1233;sea;5301;-1;-1;-1;-1;Said-Kharga
+1233;6563;sea;5301;-1;-1;-1;-1;Kharga-Esna
 -1;-1;;-1;-1;-1;-1;-1;-1;

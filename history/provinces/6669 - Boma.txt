@@ -1,0 +1,21 @@
+#6669 - Boma
+
+owner = KON
+controller = KON
+add_core = KON
+culture = kongolese
+religion = shamanism #Fetishism
+capital = "Boma"
+trade_goods = spices
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+add_permanent_province_modifier = {
+	name = kongo_estuary_modifier
+	duration = -1
+}
+
+discovered_by = central_african

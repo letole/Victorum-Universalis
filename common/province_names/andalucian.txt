@@ -43,6 +43,8 @@
 2982 = "Saraqusa"
 2988 = "Tarrakunah"
 2990 = "Tirwal"
+5261 = "Borsa'id"
+6524 = "Rashid"
 
 332 = "Mar'ash"
 336 = "Tilimsan"
@@ -53,7 +55,7 @@
 357 = "Darnah"
 358 = "Iskandariyya"
 361 = "Qahirah"
-362 = "Rashid"
+362 = "Kafr"
 363 = "Dumyat"
 364 = "Ghazzah"
 365 = "Sina"
