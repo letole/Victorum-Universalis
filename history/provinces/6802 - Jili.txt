@@ -1,5 +1,9 @@
 #6802 - Jili
 
+latent_trade_goods = {
+	coal
+}
+
 owner = MNG
 controller = MNG
 add_core = MNG
@@ -9,8 +13,8 @@ religion = confucianism
 capital = "Jili"
 trade_goods = chinaware
 hre = no
-base_tax = 3
-base_production = 3
+base_tax = 1
+base_production = 1
 base_manpower = 1
 is_city = yes
 
