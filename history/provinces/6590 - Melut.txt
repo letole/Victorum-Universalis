@@ -14,6 +14,7 @@ base_production = 1
 base_manpower = 1
 
 discovered_by = east_african
+discovered_by = muslim
 
 1503.1.1 = {
 	owner = NUB

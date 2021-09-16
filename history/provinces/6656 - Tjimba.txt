@@ -1,4 +1,4 @@
 #6656 - Tjimba
 
-1488.1.1 = { discovered_by = POR } # Bartolomeu Dias
-1616.1.1 = { discovered_by = NED } # Dirk Hartog
+discovered_by = central_african
+discovered_by = sub_saharan
