@@ -9,7 +9,7 @@ capital = "Alessandria"
 base_tax = 8
 base_production = 8
 base_manpower = 4
-trade_goods = grain
+trade_goods = gunpowder #was grain, gunpowder introduced from east and brought by genosese traders
 is_city = yes
 hre = yes
 

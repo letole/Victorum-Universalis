@@ -7,10 +7,10 @@ add_core = WUU
 culture = wu
 religion = confucianism
 capital = "Yiwu"
-trade_goods = rice
+trade_goods = pearls
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 3
+base_production = 4
 base_manpower = 1
 is_city = yes
 

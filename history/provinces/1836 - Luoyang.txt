@@ -1,8 +1,5 @@
 #1836 - Nanyang
 
-latent_trade_goods = {
-	coal
-}
 
 owner = MNG
 controller = MNG
