@@ -9,7 +9,7 @@ capital = "Fontainebleau"
 base_tax = 2
 base_production = 3
 base_manpower = 2
-trade_goods = cheese
+trade_goods = gunpowder
 is_city = yes
 hre = no
 

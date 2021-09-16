@@ -6,9 +6,9 @@ add_core = MNG
 culture = zhongyuan
 religion = confucianism
 capital = "Zhumadian"
-trade_goods = silk
+trade_goods = apiculture
 hre = no
-base_tax = 1 
+base_tax = 2 
 base_production = 1
 base_manpower = 1
 

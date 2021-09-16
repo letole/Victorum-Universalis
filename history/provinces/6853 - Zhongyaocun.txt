@@ -1,8 +1,5 @@
 #6853 - Zhongyaocun
 
-latent_trade_goods = {
-	coal
-}
 
 owner = MNG
 controller = MNG
@@ -11,11 +8,11 @@ add_core = LNG
 culture = zhongyuan
 religion = confucianism
 capital = "Zhongyaocun"
-trade_goods = chinaware
+trade_goods = opium
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 5
+base_manpower = 5
 is_city = yes
 
 discovered_by = chinese

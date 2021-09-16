@@ -10,7 +10,7 @@ capital = "Siles"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = saffron
+trade_goods = cotton		# Too much saffron in the region
 is_city = yes
 hre = no
 

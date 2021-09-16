@@ -12,6 +12,7 @@
 231 = "Oporto"
 232 = "Braganza"
 333 = "Baleares"
+361 = "El Cairo"
 367 = "Azores"
 1748 = "Jaén"
 1749 = "Cádiz"
@@ -33,6 +34,7 @@
 1865 = { "Gante" "Gante" }
 4769 = { "Lila" "Lila" }
 4770 = "Bolduque"
+5261 = "Puerto Said"
 
 102 = { "Niza" "Niza" }
 103 = { "Turín" "Turín" }

@@ -1,0 +1,17 @@
+#6652 - Lubango
+
+owner = MUC
+controller = MUC
+add_core = MUC
+culture = mbundu
+religion = shamanism #Fetishism
+capital = "Lubango"
+trade_goods = slaves
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+1488.1.1 = { discovered_by = POR } # Bartolomeu Dias
+1616.1.1 = { discovered_by = NED } # Dirk Hartog

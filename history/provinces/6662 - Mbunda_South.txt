@@ -1,0 +1,17 @@
+#6662 - Mbunda_South
+
+owner = MBU
+controller = MBU
+add_core = MBU
+culture = mbunda
+religion = shamanism #Fetishism
+capital = "Mbunda"
+trade_goods = slaves
+hre = no
+base_tax = 2
+base_production = 3 
+base_manpower = 2 
+is_city = yes
+
+1488.1.1 = { discovered_by = POR } # Bartolomeu Dias
+1616.1.1 = { discovered_by = NED } # Dirk Hartog

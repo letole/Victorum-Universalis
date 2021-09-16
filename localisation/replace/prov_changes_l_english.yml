@@ -46,6 +46,7 @@
  PROV241:0 "Glamorgan"
  PROV243:0 "Lincoln"
  PROV244:0 "Lancaster"
+ PROV245:0 "York"
  PROV249:0 "Ayr"
  PROV251:0 "Aberdeen"
  PROV253:0 "Outer Hebrides"
@@ -92,12 +93,12 @@
  PROV357:0 "Derna"
  PROV358:0 "Alexandria"
  PROV359:0 "Faiyum"
- PROV360:0 "Caene"         #Or Gesa, or Keft
+ PROV360:0 "Qus" #Formerly Caene
  PROV361:0 "Cairo"
- PROV362:0 "Rosetta"
- PROV363:0 "Pelusia"         #made up 'modern' version of Pelusium
+ PROV362:0 "Kafr"
+ PROV363:0 "Dumyat"         #made up 'modern' version of Pelusium
  PROV364:0 "Arish"
- PROV365:0 "Sinai"
+ PROV365:0 "Sinai Desert"
  PROV366:0 "Las Palmas"
  PROV377:0 "Aleppo"
  PROV378:0 "Tripoli"
@@ -238,6 +239,8 @@
  PROV1108:0 "Te Moana-a-toi"
  PROV1109:0 "Otago"
  PROV1110:0 "Agadir"
+ PROV1158:0 "Lac"
+ PROV1172:0 "Ganda a Kawe"
  PROV1174:0 "Tsoakhaub"
  PROV1175:0 "Gariep"
  PROV1176:0 "'Han'ami"
@@ -376,6 +379,7 @@
  PROV2022:0 "K'íis Gwáayaay" #Xaayda 
  PROV2143:0 "Huainan"
  PROV2154:0 "Ketangalan"
+ PROV2288:0 "Kanem"
  PROV2296:0 "Dardanelles"
  PROV2297:0 "Magnesia"
  PROV2298:0 "Attalia"
@@ -394,11 +398,11 @@
  PROV2316:0 "Tanta"
  PROV2317:0 "Minya"
  PROV2318:0 "Bahariya"
- PROV2319:0 "Lycon"
+ PROV2319:0 "Asyut"
  PROV2320:0 "Ras Gharib"
  PROV2321:0 "Qoseir"
  PROV2322:0 "Faras"
- PROV2323:0 "Murat"
+ PROV2323:0 "Bir Tawil"
  PROV2324:0 "Hala'ib"
  PROV2325:0 "Marina"
  PROV2326:0 "Tobruk"
@@ -667,16 +671,17 @@
  PROV4315:0 "Chaldia"          #Formerly 5169
  PROV4316:0 "Phelbes"           #or Zagazig. Formerly 5262
  PROV4317:0 "Temenhor"          #Formerly 5263
- PROV4318:0 "Busiris"          #Formerly 5265
+ PROV4318:0 "Atfih"          #Formerly 5265
  PROV4319:0 "Thebes"          #Formerly 5269
  PROV4320:0 "This"         #or Ptolemais, or Chemmis, or Panopolis, or Girga, Formerly 5268
- PROV4321:0 "Attia"          #Formerly 5270
+ PROV4321:0 "Eastern Desert"          #Formerly 5270
  PROV4322:0 "Ababda"              #Or Blemmyia, Formerly 5276
  PROV4323:0 "Dakhla"          #Formerly 5275
  PROV4340:0 "Talysh"          #Formerly 3257
  PROV4350:0 "Mangya"          #Formerly Mindoro
  PROV4351:0 "Buglas"
  PROV4355:0 "Kalag"          #Formerly Agusan del Sur
+ PROV4367:0 "Hull"
  #1.25 changes
  PROV4381:0 "Overijssel"          #Formerly 3059
  PROV4382:0 "Ommelanden"          #Formerly 3057
@@ -803,8 +808,7 @@
  #PROV4787:0 "Ribatejo"
  #PROV4788:0 "Plasencia"
  #PROV4789:0 "Segovia"
- PROV4367:0 "Hull"
- PROV245:0 "York"
+ PROV5267:0 "Beni Suef"
  PROV6924:0 "Île Saint-Louis"
  PROV6925:0 "Upper Thames River"
  PROV6926:0 "Lower Seine River"

@@ -9,7 +9,7 @@ capital = "Finale"	#Ligurie
 base_tax = 6
 base_production = 6
 base_manpower = 4
-trade_goods = grain
+trade_goods = gunpowder	#was grain, gunpowder introduced from east and brought by genoese traders but not putting it in Genoa intself
 is_city = yes
 hre = yes
 

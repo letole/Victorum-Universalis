@@ -14,7 +14,7 @@ religion = catholic
 hre = yes
 base_tax = 12
 base_production = 12
-trade_goods = cloth
+trade_goods = gunpowder #was cloth
 base_manpower = 6
 
 discovered_by = english
