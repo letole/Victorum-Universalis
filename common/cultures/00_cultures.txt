@@ -9715,31 +9715,6 @@ lost_cultures_group = {
 			"Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti
 		}
 	}
-	roman = { #EU Rome
-		dynasty_names = {
-			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
-			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
-			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia
-			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
-			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
-		}
-		male_names = {
-			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
-			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo
-			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
-			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto
-			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
-			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
-			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
-			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher
-			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna
-			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus
-			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
-		}
-		female_names = {
-			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
-		}
-	}
 	jan_mayenese = {
 		dynasty_names = {
 			Beliy Medved Bjorn Rawrrorr Rrrrr Grrr Gyp Qoi Styrbjorn Blomstfjellet
@@ -9926,6 +9901,95 @@ lost_cultures_group = {
 		}
 	}
 }
+old_latin = {
+	graphical_culture = westerngfx
+	roman = { #EU Rome
+		dynasty_names = {
+			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia
+			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+		}
+		male_names = {
+			Augustus Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+		}
+		female_names = {
+			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+			Aeliana Albia Antonia Aquilia Argentia Camilla Cassia Clemensia Decima Flavia Florentina Fortunata Gaia Galle
+			Drusilla Dulcia Fabia Faustina Flavia Hilaria Horatia Julia Junia Laelia Laurentia Mercella Marilla 
+			Martia Maxima Mila Nerilla Octavia Prima Priscilla Quintia Sabina Septima Sergia Tanaquil Tatana
+			Tauria Tertia Tullia Urbana Valentina Varinia Vita
+		}
+	}
+	gallo_roman = {
+		male_names = {
+			Appius Aulus Decimus Gaius Gnaeus Kaeso Lucius Mamercus Manius Mercus Numerius Publius Quintus Servius Sextus
+			Spurius Tiberius Titus Agrippa Ancus Caesar Faustus Hostus Opiter Postumus Proculus Sertor Statius Tullus Volero 
+			Vopiscus Adaryn Abenzio Abhann Allan "Ap Owen" Arthmeal Arto 
+			Belenus Biorach Bran Breanainn Briano Brigh Brog Bruaich
+			Cadan Caol Caradoc Carden Ceall Ceallair Cearbh Chadh Cionnaith
+			Craeg Deoradhan Donaghy Dorran Dougal Drausus Drest Dubno
+			Eburacon Edgan Egan Eimh Eirdirsceaol Ferghus Fear Faol
+			Keeland Kegan Laogh Lorcc Lugubelenus Lugus Maccus Maoilios 
+			Nuireadhach Phelan Raigan Seaghdh Teigen Trahern Tremaine 
+			Tristian Tristram Aius Amaina Amia Avaro Bilinos
+		}
+	}
+	afro_roman = {
+	
+	}
+	illyro_roman = {
+	
+	}
+	romano_britanian = {
+	
+	}
+	hispanic_roman = {
+	
+	}
+	romano_pannonian = {
+	
+	}
+	
+	dynasty_names = {
+		Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+		Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+		Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia
+		Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+		Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+	}
+	male_names = {
+		Augustus Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+		Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo
+		Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+		Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto
+		Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+		Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+		Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+		Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher
+		Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna
+		Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus
+		Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+	}
+	female_names = {
+		Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+		Aeliana Albia Antonia Aquilia Argentia Camilla Cassia Clemensia Decima Flavia Florentina Fortunata Gaia Galle
+		Drusilla Dulcia Fabia Faustina Flavia Hilaria Horatia Julia Junia Laelia Laurentia Mercella Marilla 
+		Martia Maxima Mila Nerilla Octavia Prima Priscilla Quintia Sabina Septima Sergia Tanaquil Tatana
+		Tauria Tertia Tullia Urbana Valentina Varinia Vita
+	}
+}
 
 
 
@@ -10046,6 +10110,28 @@ illyrian = {
 	}
 	arvanite = {
 		#primary = #no tag so no seperatists
+	}
+	old_illyrian = {
+		#primary = #no tag, maybe Illyria in the future
+		
+		male_names = {
+			Cadmus Hyllus Galatea Encheleus Autarieus Dardanus Maedus Taulas Perrhaebus Triballus Sirras Bardylis Pleuratus
+			Cleitus Monunius Mytilus Agron Scerdilaidas Pinnes Gentius Galaurus Gentius Epulon Opis Bato Baton Astius Nicetas 
+			Decius Probus Diocletian Jovian Scordiscus Triballus 
+			Gjergj Lekë Gjon Lulëzim Pal Tanush Aleksandër Karolus Filippo Adnan Agim 
+			Dardan Dritëro Elidon Erjon Flamur Florin Hekuran Ilir Klodian Luigj
+			Pashko Pëllumb Përparim Pjetër Rrok Shpëtim Tahir Viktor Xhevat Ylli Zenel Halil Ali
+			Ramiz Edi Demaci Edon Dukagjin Haxhi Lishëndri Mensur Rahman Nxhiku Riza Rexhep Bujar Nikolla Enver
+		}
+		female_names = {
+			Teuta Partho Daortho Dassaro Gjylo Afërdita Blerta Bora Dafina Dardana Era Flutura Gentiana Jehona Lindita Lule Luljeta Pranvera Shpresa 
+			Shqipe Teuta Venera Vera Vesa Yllka
+		}
+		dynasty_names = {
+			Cadmio Hyllio Galatea Enchelea Dardanea Taulai Epuloi Batoi Batonoi Astinoi Nicetai Cadmusai Hyllusai Pinnai Batoai Batonai 
+			Deciu Diocletiai Joviae Triballai Agronai Mytilai Maedai 
+			Trpimirovic Svetoslavic Kosovic Kresimirovic Zrinski Domagojevic Hrvatinic Kotromanic Brankovic Lazarevic
+		}
 	}
 	male_names = {
 		Gjergj Lekë Gjon Kostandin Lulëzim Pal Tanush Aleksandër Karolus Filippo Adnan Agim Bashkim Besnik 
