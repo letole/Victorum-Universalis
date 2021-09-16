@@ -108,6 +108,14 @@
  karchidoniac:0 "Karchidoniac"
  egyptian_greek:0 "Alexandrian" # May also be Ptolemean or Aigyptios
  persic:0 "Persic"
+ old_latin:0 "Old Latin"        # Can also be Old Roman
+ gallo_roman:0 "Gallo-Roman"
+ afro_roman:0 "African Romance" # Romano-African, African Roman or Afro-Roman also fit
+ illyro_roman:0 "Illyrian Roman"        # May also be Istriot
+ romano_britanian:0 "Romano Brytanic"   # May also be British, Britanican or British Latin
+ hispanic_roman:0 "Hispanic"    # May also be Iberian, Hispanic Roman or Ibero-Romance
+ romano_pannonian:0 "Pannonian Romance" # May also be Pannonian
+ old_illyrian:0 "Illyrian"      # Old native Illyrians before Huns genocided them all
  berber_group:0 "Berber"
  shilha:0 "Shilha"
  riffian:0 "Riffian"
