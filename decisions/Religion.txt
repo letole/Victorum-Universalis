@@ -1921,10 +1921,12 @@ country_decisions = {
 		potential = {
 			OR = {
 				tag = SMG
-				any_owned_province = {
-					religion = baltic_pagan_reformed
+				AND = {
+					any_owned_province = {
+						religion = baltic_pagan_reformed
+					}
+					NOT = { religion = baltic_pagan_reformed }
 				}
-				NOT = { religion = baltic_pagan_reformed }
 			}
 		}
 		allow = {
