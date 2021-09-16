@@ -1,3 +1,5 @@
+#1463 - Gulf_of_Kongo
+
 discovered_by = MAL
 discovered_by = SOF
 discovered_by = ASH
@@ -11,6 +13,8 @@ discovered_by = KON
 discovered_by = JOL
 discovered_by = NDO
 
+discovered_by = central_african
+discovered_by = sub_saharan
 
 1481.1.1 = { discovered_by = POR }
 1529.6.1 = { discovered_by = FRA } # Parmentier Brothers

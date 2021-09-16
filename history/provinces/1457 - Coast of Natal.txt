@@ -1,7 +1,11 @@
+#1457 - Coast_of_Natal
 
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = zulu
+discovered_by = muslim
+discovered_by = ottoman
 discovered_by = east_african
-
-
 
 1421.1.1 = { discovered_by = MNG }
 1498.1.15 = { discovered_by = POR }

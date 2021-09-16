@@ -10,6 +10,8 @@ base_tax = 6
 base_production = 4
 base_manpower = 6
 is_city = yes
+
 discovered_by = central_african
+discovered_by = sub_saharan
 
 1556.1.1 = { discovered_by = POR }
