@@ -6,10 +6,10 @@ add_core = MAM
 culture = al_misr_arabic
 religion = sunni
 capital = "Ismailia"
-trade_goods = grain
+trade_goods = seafood		# or fish... or salt... Great Bitter Lake was used for fishing mostly
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 3
 base_manpower = 1
 is_city = yes
 

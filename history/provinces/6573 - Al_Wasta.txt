@@ -6,11 +6,11 @@ add_core = MAM
 culture = coptic_culture
 religion = coptic
 capital = "al-Wasta"
-trade_goods = paper
+trade_goods = carpet
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 4
 is_city = yes
 add_core = KEM
 

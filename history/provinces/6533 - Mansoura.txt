@@ -6,11 +6,11 @@ add_core = MAM
 capital = "Mansoura"
 culture = coptic_culture
 religion = coptic
-trade_goods = grain
+trade_goods = rice
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 3
 is_city = yes
 add_core = KEM
 
