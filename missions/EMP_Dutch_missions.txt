@@ -751,34 +751,18 @@ emp_ned_slot3_branch = {
 		required_missions = { emp_ned_charter_the_voc }
 		position = 6
 		completed_by = 1652.1.1
-		
+
 		provinces_to_highlight = {
-			OR = {
-				province_id = 5356 #Screw Graaff-Reinet. All my homies say screw Graaff-Reinet.
-				province_id = 1177
-				province_id = 1179
-			}
-			NOT = { owned_by = ROOT }
+			colonial_region = colonial_cape
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
 		}
 				
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = ned_south_africa_colony.tooltip
-				OR = {
-					5356 = {
-						owned_by = ROOT
-						is_city = yes
-					}
-					1177 = {
-						owned_by = ROOT
-						is_city = yes
-					}
-					1179 = {
-						owned_by = ROOT
-						is_city = yes
-					}
-				}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 1
+				colonial_region = colonial_cape
+				is_city = yes
 			}
 		}
 		
