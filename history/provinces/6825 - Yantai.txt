@@ -7,11 +7,11 @@ add_core = QIC
 culture = shandong_culture
 religion = confucianism
 capital = "Yantai"
-trade_goods = naval_supplies
+trade_goods = iron
 hre = no
-base_tax = 4
-base_production = 3
-base_manpower = 3
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = yes
 
 discovered_by = chinese

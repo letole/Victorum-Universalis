@@ -3,7 +3,7 @@
 358 = {"Alexandria" "Alexandria" }
 360 = "Qena"
 361 = "Cairo"
-362 = "Rosetta"
+362 = "Kafr"
 363 = "Damietta"
 364 = "Gaza"
 377 = "Aleppo" 
@@ -36,6 +36,8 @@
 5371 = { "Durban" "Durban" }
 5419 = { "Gaborone" "Gaborone" }
 5855 = "Los Angeles"
+5261 = "Port Said"
+6524 = "Rosetta"
 
 873 = "Astoria"
 893 = { "New Orleans" "New Orleans" }

@@ -1,24 +1,34 @@
-#1229 - Berber
+#1229 - Amarrar
 
-culture = beja 
+owner = BEJ
+controller = BEJ
+add_core = BEJ
+culture = beja
 religion = sunni
-capital = "Ta Gara"			#Questionable translation based on a questionable online english-Beja dictionary meaning 'the village' in nom. sing. def. fem.
-base_manpower = 1 
-trade_goods = unknown
+capital = "Amarrar"
+is_city = yes
+base_manpower = 1
+base_tax = 1
+base_production = 1
+trade_goods = slaves
 hre = no
-base_tax = 1  
-base_production = 1 
-native_size = 10
-native_ferocity = 9
-native_hostileness = 5
 
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
 discovered_by = east_african
 
-1550.1.1 = { discovered_by = TUR }
-1750.1.1 = {
+1510.1.1 = {
+	discovered_by = NUB
+	owner = NUB
+	controller = NUB
+	add_core = NUB
+	remove_core = MAM
+} # Funj replace Mamluks in control of Suakin
+1524.1.1 = {
 	owner = TUR
 	controller = TUR
-	add_core = TUR
-	is_city = yes
-	trade_goods = livestock
-} #Exact situation unclear, but it appears Ottoman influence was definite by around this point.
+	add_core = TUR	
+} # Ottomans occupy Suakin
+1571.1.1 = { unrest = 8 } # Local Beja revolt against Ottoman governors
+1572.1.1 = { unrest = 0 } # Ottomans crush Beja revolt

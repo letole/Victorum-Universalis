@@ -749,6 +749,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_suez_canal.dds"
 	}
 	spriteType = {
+		name = "GFX_great_project_second_suez_canal"
+		texturefile = "gfx//interface//great_projects//great_project_second_suez_canal.dds"
+	}
+	spriteType = {
 		name = "GFX_great_project_panama_canal"
 		texturefile = "gfx//interface//great_projects//great_project_panama_canal.dds"
 	}

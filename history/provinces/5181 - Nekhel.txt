@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus or Beyond the Pale Legacy province
+#5181 - Nekhel
 
 owner = MAM
 controller = MAM
@@ -8,9 +8,9 @@ religion = sunni
 capital = "Nekhel"
 trade_goods = camel
 hre = no
-base_tax = 2 
-base_production = 2 
-base_manpower = 2 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = yes
 fort_15th = yes
 
