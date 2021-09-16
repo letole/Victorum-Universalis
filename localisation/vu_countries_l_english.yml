@@ -813,7 +813,7 @@
  OUE:0 "Ogigayatsu-Uesugi"
  OUE_ADJ:0 "Ogigayatsu-Uesugi"
 
- #VU Korea addition by San Felipe
+ #VU Korea additions by San Felipe
  GOG: "Guryeo"
  GOG_ADJ: "Guryean"
  BKJ: "Baekje"
@@ -826,3 +826,27 @@
  TAM_ADJ: "Tamnan"
  KRE: "Korea"
  KRE_ADJ: "Korean"
+ 
+ #VU Angola additions by San Felipe
+ KSM: "Kisama"
+ KSM_ADJ: "Kisaman"
+ MBW: "Mbwila"
+ MBW_ADJ: "Mbwilan"
+ MTB: "Matamba"
+ MTB_ADJ: "Matamban"
+ KWA: "Kwanyama"
+ KWA_ADJ: "Kwanyaman"
+ MBE: "Mbegela"
+ MBE_ADJ: "Mbegelan"
+ WMB: "Wambu"
+ WMB_ADJ: "Wambun"
+ MUC: "Mucubal"
+ MUC_ADJ: "Mucubalan"
+ MWI: "Mwila"
+ MWI_ADJ: "Mwilan"
+ MBU: "Mbunda"
+ MBU_ADJ: "Mbundan"
+ MBB: "Mbalundu"
+ MBB_ADJ: "Mbalundan"
+ VYE: "Vye"
+ VYE_ADJ: "Vyean"
