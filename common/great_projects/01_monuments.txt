@@ -10520,9 +10520,8 @@ walls_of_theodosius = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-		    defensiveness = 0.1
-			hostile_attrition = 1
-			garrison_size = 0.1
+		    local_defensiveness = 0.1
+			local_hostile_attrition = 1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -10553,9 +10552,8 @@ walls_of_theodosius = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-		    defensiveness = 0.15
-			hostile_attrition = 1.5
-			garrison_size = 0.15
+		    local_defensiveness = 0.2
+			local_hostile_attrition = 2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -10592,9 +10590,8 @@ walls_of_theodosius = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-		    defensiveness = 0.2
-			hostile_attrition = 2
-			garrison_size = 0.2
+		    local_defensiveness = 0.4
+			local_hostile_attrition = 2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -10735,7 +10732,7 @@ alcazar = {
         }
 
         province_modifiers = {
-		    development_cost = -0.1
+		    local_development_cost = -0.1
         }
 
         area_modifier = {
@@ -10766,7 +10763,7 @@ alcazar = {
         }
 
         area_modifier = {
-		    build_cost = -0.1
+		    local_build_cost = -0.1
         }
 
         country_modifiers = {
