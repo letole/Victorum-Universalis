@@ -2139,6 +2139,11 @@
  PROV6677:0 "Qarun Lake"
  PROV6678:0 "Lough Neagh"
  PROV6679:0 "Goshen Branch"
+ PROV6680:0 "Bang Lamung" 
+ PROV6681:0 "Phimai "
+ PROV6682:0 "Bang Narom"
+ PROV6683:0 "Chachoengsao"
+ PROV6684:0 "Chanthaburi"
  #End of 2nd Group of New African and Middle-Eastern Additions
  #New Asian Additions by San Felipe
  PROV6698:0 "Upper Huaihe River"
@@ -2368,7 +2373,7 @@
  PROV6922:0 "Ben Tre"
  PROV6923:0 "Ban Mai"
  PROV6935:0 "San Gimignano"
- PROV6936:0 "Min Buri"
+ PROV6936:0 "Nakhon Nayok"
  PROV6937:0 "Bang Khae"
  PROV6938:0 "Samut Sakhon"
  PROV6939:0 "Bang Na"
