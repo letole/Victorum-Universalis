@@ -308,6 +308,53 @@ country_decisions = {
 		}
 	}
 	
+	construct_kra_canal = {
+		major = yes
+		potential = {
+			OR = {
+				ai = no
+				AND = {
+					treasury = 30000
+					owns_or_vassal_of = 2390
+				}
+			}
+			has_discovered = 2390
+			2390 = {
+				range = ROOT
+				NOT = { 
+					has_great_project = { 
+						type = kra_canal 
+					}
+				}
+				NOT = { 
+					has_construction = kra_canal
+				}
+			}
+			adm_tech = 22
+		}
+		provinces_to_highlight = {
+			province_id = 2390
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
+			}
+		}
+		allow = {
+			owns_or_vassal_of = 2390
+			is_subject = no			
+			adm_tech = 22
+			treasury = 30000
+		}
+		effect = {
+			2390 = {	# Chaiya
+				add_great_project = kra_canal
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	cancel_ludwig_canal = {
 		major = yes
 		potential = {
@@ -450,6 +497,31 @@ country_decisions = {
 		}
 		effect = {
 			835 = {	# Panama
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	cancel_kra_canal = {
+		major = yes
+		potential = {
+			ai = no
+			owns_or_vassal_of = 2390
+			is_subject = no
+			2390 = {
+				has_construction = kra_canal
+			}
+		}
+		allow = {
+			2390 = {
+				has_construction = kra_canal
+			}
+		}
+		effect = {
+			2390 = { # Chaiya
 				cancel_construction = yes
 			}
 		}
