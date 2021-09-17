@@ -6,10 +6,10 @@ add_core = MAM
 culture = bedouin_arabic
 religion = sunni
 capital = "Tor"
-trade_goods = camel
+trade_goods = pearls
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 3
 base_manpower = 1
 is_city = yes
 
