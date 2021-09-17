@@ -332,5 +332,11 @@ canal_definition = {
 	y = 1779
 }
 
+canal_definition = {
+	name = "kra_canal"
+	x = 4151
+	y = 1127
+}
+
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
 tree = { 3 4 7 10 }
