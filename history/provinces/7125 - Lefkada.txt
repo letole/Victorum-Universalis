@@ -9,7 +9,7 @@ capital = "Lefkada"				#Tough call. This province is intentionally a mix of Lefk
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = olives			#no real reason
+trade_goods = olive_oil			#no real reason
 is_city = yes
 hre = no
 
