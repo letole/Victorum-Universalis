@@ -32,3 +32,13 @@
 #	height = 33
 #	#height = 3
 #}
+
+Victoria Lake
+lake = {
+    triangle_strip = { 
+        3203 997  #1
+        3123 925  #2
+        3130 1029 #3
+    }
+    height = 21
+}
