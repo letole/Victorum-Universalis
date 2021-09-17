@@ -53,6 +53,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3242;7256;sea;8361;-1;-1;-1;-1;Buhogard-Kremenchuk
 303;2418;sea;8366;-1;-1;-1;-1;Saratov-Ukek
 8362;8365;canal;1971;-1;-1;-1;-1;don_and_volga_canal
+1365;1347;canal;2390;-1;-1;-1;-1;kra_canal
 7954;6951;sea;8326;-1;-1;-1;-1;Helder-Hoorn
 97;6951;sea;8352;-1;-1;-1;-1;Amsterdam-Hoorn
 7954;100;sea;8326;-1;-1;-1;-1;Helder-Friesland
