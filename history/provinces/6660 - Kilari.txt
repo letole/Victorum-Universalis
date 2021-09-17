@@ -12,6 +12,8 @@ native_size = 5
 native_ferocity = 5
 native_hostileness = 3
 
+discovered_by = central_african
+discovered_by = sub_saharan
 
 1488.1.1 = { discovered_by = POR } # Bartolomeu Dias
 1616.1.1 = { discovered_by = NED } # Dirk Hartog

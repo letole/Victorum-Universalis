@@ -1,8 +1,8 @@
-#6663 - Menonge
+#6663 - Barotseland
 
 culture = kwadi_culture
 religion = shamanism 
-capital = "Menonge" 
+capital = "Barotseland" 
 trade_goods = unknown
 hre = no 
 base_tax = 1 
@@ -12,6 +12,5 @@ native_size = 5
 native_ferocity = 5
 native_hostileness = 3
 
-
-1488.1.1 = { discovered_by = POR } # Bartolomeu Dias
-1616.1.1 = { discovered_by = NED } # Dirk Hartog
+discovered_by = central_african
+discovered_by = sub_saharan

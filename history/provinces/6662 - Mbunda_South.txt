@@ -13,5 +13,5 @@ native_ferocity = 1
 native_hostileness = 3
 center_of_trade = 1
 
-1488.1.1 = { discovered_by = POR } # Bartolomeu Dias
-1616.1.1 = { discovered_by = NED } # Dirk Hartog
+discovered_by = central_african
+discovered_by = sub_saharan
