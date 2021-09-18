@@ -1498,6 +1498,8 @@ pudget_sound_modifier:0 "The Pudget Sound"
  cede_stragglers_to_koi_as_ruler_desc:0 "We own land which de jure belongs to Ireland, our vassal kingdom. We may gift this land to them as a gesture of good will."
  religious_conversions_romuva_title:0 "Revert back to old gods"
  religious_conversions_romuva_desc:0 "As baltic pagans following Romuva faith remain strong, it is time for us to abandon our current faith and revert to the old ways."
+ religious_conversions_suomenusko_title:0 "Adopt Suomenusko paganism as dominant faith"
+ religious_conversions_suomenusko_desc:0 "As northern scandinavian pagans following Suomenusko fath grow ever-stronger, it is time for us to abandon our current faith and adopt their ways of life instead."
  #Beyond Typus and BTPL Decisions
  #sweads_and_geats_one_big_happy_family_title:0 "Unify Swedish Culture"         #removed in 11.5
  #sweads_and_geats_one_big_happy_family_desc:0 "The two primary peoples of Sweden, the Swedes in the north and the Geats in the south, have lived together under the Swedish banner for many years and despite occasional friction, the two groups largely accept one another and recognise each other as kin. It is time we made it official and formally proclaim Swedes and Geats to be one and the same people, for the glory of Sweden!"         #removed in 11.5
