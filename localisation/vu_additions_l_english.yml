@@ -218,6 +218,12 @@
  ship_upkeep_CCL:0 "Ship Upkeep"
  desc_ship_upkeep_CCL:0 "Due to our lack of forests and materials needed to build and equip the navy, our nation has had to in recent years rely on the importation wood and naval supplies, which has increased the cost of building ships for our fleets. This of-course cannot go on but unless we find new sources of wood suitable for shipbuilding, then I'm afraid we have very little choice in the matter."
  #
+ 
+ #NEW TERRAIN
+ tundra_terrain:0 "Tundra"
+ tundra_terrain_desc:0 "Cold regions with scarse vegetation and animal life. Where it's too cold for trees to grow but not cold enough for ice sheet to form. Tundra suffers from severe winters and short, chill summer. It's dominated by shrubs and grass which makes it somewhat easy to traverse. Terrain can vary from flat to hilly but it's generally swampy."
+ 
+ #
  #URBAN_PLACE_HOLDERS
  urban_london:0 "London"
  urban_westminster:0 "Westminster"
