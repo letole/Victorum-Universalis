@@ -70,6 +70,7 @@ carpet = {	base_price = 3 }
 champagne = {	base_price = 4 }
 cheese = {	base_price = 3 }
 rum = {	base_price = 4 }
+vodka = { base_price = 3 }
 
 # Refined goods
 books = {	base_price = 4.0 }

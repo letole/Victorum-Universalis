@@ -1972,7 +1972,7 @@ country_decisions = {
 		}
 		allow = {
 			OR = {
-				tag = SMG
+				tag = SMI
 				dominant_religion = finnish_pagan_reformed
 				num_of_religion = {
 					religion = finnish_pagan_reformed
