@@ -1,3 +1,4 @@
+
 oil = {
 	color = { 0.71 0.08 0.98 }
 	is_latent = yes
@@ -3500,71 +3501,3 @@ vegetables = {
 #		}
 #	}
 #}
-#Added in Eastern Europe expansion
-
-vodka = { #Limited to Russia and Eastern Europe
-	color = { 0.50 0.87 0.95 }
-	
-	modifier = {
-		reform_progress_growth = -0.05
-		stability_cost_modifier = -0.1
-	}
-	
-	province = {
-		local_unrest = -4
-		regiment_recruit_speed = 0.1
-	}
-	
-	chance = {
-		factor = 25
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = { superregion = eastern_europe_superregion }
-				NOT = { superregion = tartary_superregion }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			OR = {
-				has_terrain = forest
-				has_terrain = woods
-				has_terrain = hills
-			}
-		}
-		modifier = {
-			factor = 1.5
-			has_winter = normal_winter
-		}
-		modifier = {
-			factor = 1.7
-			has_terrain = farmlands
-		}
-		modifier = {
-			factor = 0.5
-			OR = {
-				has_terrain = mountains
-				has_terrain = marsh
-			}
-		}
-		modifier = {
-			factor = 1.75
-			OR = {
-				region = russia_region
-				region = ural_region
-			}
-		}
-
-		modifier = {
-			factor = 1.5
-			development = 10
-		}
-		modifier = {
-			factor = 0.5
-			OR = {
-				region = mongolia_region
-				region = central_asia_region
-			}
-		}
-	}
-}

@@ -112,9 +112,7 @@
  rumDESC: "Rum is a distilled alcoholic drink made from sugarcane byproducts, such as molasses, or directly from sugarcane juice, by a process of fermentation and distillation. The distillate, a clear liquid, is then usually aged in oak barrels."
  canned_goods: "Canned Goods"
  canned_goodsDESC: "Canned Goods are small hand-sized metalic boxes or cylinders containing preserved, salted meats and fish. Canned goods are very useful for source of nourishment, especially on long-haul journeys and expeditions."
- vodka: "Vodka"
- vodkaDESC: "Vodka is a strong alcohol distilled from grains and produced mostly in Easern Europe. Originated and popularised in Rus, evetually spreaded to other slavic countries. Drink of the masses and pesants due to its very cheap production compared to other alochols. Manufactured from all sorts of grains and later mostly from potatoes once they were introduced. As they say, Pesant saturated with vodka is too drunk to revolt and think for himself."
-
+ 
  # Refined goods
  books: "Books"
  booksDESC: "A book is a medium for recording information in the form of writing or images, typically composed of many pages bound together and protected by a cover."
