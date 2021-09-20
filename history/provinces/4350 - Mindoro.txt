@@ -5,7 +5,7 @@ controller = MNA
 add_core = MNA
 culture = filipino
 religion = mahayana
-capital = "Caminawit"
+capital = "Mangarin"
 trade_goods = pearls
 hre = no
 base_tax = 2 
@@ -14,7 +14,6 @@ base_manpower = 1
 is_city = yes
 
 discovered_by = chinese
-
 
 1500.1.1 = {
 	owner = BEI
@@ -25,8 +24,13 @@ discovered_by = chinese
 1571.1.1 = {
 	owner = SPA
 	controller = SPA
-	religion = catholic
 	add_core = SPA
+	culture = katsila
+	religion = catholic
+	capital = "Caminawit"
+	base_tax = 3
+	base_production = 3
+	base_manpower = 2
 }
 1762.10.6 = {
 	controller = GBR

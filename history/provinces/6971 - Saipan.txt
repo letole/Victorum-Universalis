@@ -1,4 +1,5 @@
-#Saipan
+#6971 - Saipan
+#VU Discovery Bug Fix
 
 culture = papuan
 religion = animism

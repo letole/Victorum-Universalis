@@ -1,4 +1,5 @@
 #2728 - Tiwi
+#VU Discovery Bug Fix
 
 add_core = TIW
 owner = TIW
@@ -18,10 +19,8 @@ native_hostileness = 9
 
 discovered_by = aboriginal_tech
 
-
-
-discovered_by = MKS
-discovered_by = TER
-discovered_by = TID
+# discovered_by = MKS
+# discovered_by = TER
+# discovered_by = TID
 
 1642.11.24 = { discovered_by = NED } # Abel Tasman

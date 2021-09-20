@@ -3712,10 +3712,10 @@
  PROV8267:0 "Babuyan Islands"
  PROV8268:0 "Bangui" #Formerly Ilocos del Norte
  PROV8269:0 "Kalinga"
- PROV8270:0 "Abra"
+ PROV8270:0 "Banaoang"
  PROV8271:0 "Apayao"
  PROV8272:0 "Baguio" #Formerly Cordillera
- PROV8273:0 "Vigan" #Formerly Ilocos del Sur
+ PROV8273:0 "Bee Gan" #Formerly Ilocos del Sur
  PROV8274:0 "Benguet"
  PROV8275:0 "Cabarroguis" #Formerly Quirino
  PROV8276:0 "Aritao" #Formerly Nueva Viscaya
@@ -3730,7 +3730,7 @@
  PROV8285:0 "Isarog" #Formerly Camarines del Norte
  PROV8286:0 "Iraya" #Formerly Camarines del Sur
  PROV8287:0 "Albay"
- PROV8288:0 "Catanduanes"
+ PROV8288:0 "Katanduan"
  PROV8289:0 "Marinduque"
  PROV8290:0 "Pinamalayan" #Formerly Mindoro Oriental
  PROV8291:0 "Antique"
@@ -4320,8 +4320,8 @@
  PROV_ADJ8712:0 "Romblonan"
  PROV8713:0 "Bohol"
  PROV_ADJ8713:0 "Bohol"
- PROV8714:0 "Northern Zamboanga" #Formerly Subanen
- PROV_ADJ8714:0 "Subanen"
+ PROV8714:0 "Subanon" #Formerly Subanen
+ PROV_ADJ8714:0 "Subanonan"
  PROV8715:0 "Blaan"
  PROV_ADJ8715:0 "Blaan"
  PROV8716:0 "Masbate"

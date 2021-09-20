@@ -1,19 +1,46 @@
-#Misamis Oriental
+#7167 - Misamis Oriental
 
-culture = danao
-religion = animism
-capital = "Butuan"
-trade_goods = gems
-hre = no
-base_tax = 4  
-base_production = 4
-base_manpower = 4
-is_city = yes
-discovered_by = chinese
 owner = BTU
 controller = BTU
 add_core = BTU
+culture = danao
+religion = animism
+capital = "Himologan"
+trade_goods = gems
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
 extra_cost = 8
 
-
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan
+
+1571.1.25 = { 
+    owner = SPA
+	controller = SPA
+	add_core = SPA
+	culture = katsila
+	religion = catholic
+	base_tax = 4
+	base_production = 5
+	base_manpower = 3
+	capital = "Cagayán"
+	is_city = yes
+	trade_goods = gems 
+}
+
+1622.1.1 = { 
+    owner = SPA
+	controller = SPA
+	add_core = SPA
+	culture = katsila
+	religion = catholic
+	base_tax = 5
+	base_production = 6
+	base_manpower = 4
+	capital = "Cagayan de Oro"
+	is_city = yes
+	trade_goods = gems 
+}
