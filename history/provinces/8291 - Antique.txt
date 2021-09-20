@@ -2,7 +2,7 @@
 
 culture = visayan
 religion = animism
-capital = "Antique"
+capital = "Odtohan"
 trade_goods = sugar
 hre = no
 base_tax = 6 

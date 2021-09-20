@@ -464,6 +464,8 @@ VYE = "countries/Vye.txt"
 MUC = "countries/Mucubal.txt"
 MWI = "countries/Mwila.txt"
 MBU = "countries/Mbunda.txt"
+#South Africa
+SLD = "countries/Stelland.txt"
 
 ########
 # Asia #

@@ -2,7 +2,7 @@
 
 culture = filipino
 religion = animism
-capital = "Caminawit"
+capital = "Kalapang"
 trade_goods = unknown
 hre = no
 base_tax = 2
@@ -13,5 +13,21 @@ native_size = 40
 native_ferocity = 2
 native_hostileness = 9
 
-1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan
+1570.5.8 = { discovered_by = SPA } #
+
+1733.1.1 = {
+    owner = SPA
+	controller = SPA
+	add_core = SPA
+	culture = katsila
+	religion = catholic
+	base_tax = 4
+	base_production = 5
+	base_manpower = 3
+	capital = "Calapan"
+	is_city = yes
+	trade_goods = gems 
+}
+
+
 
