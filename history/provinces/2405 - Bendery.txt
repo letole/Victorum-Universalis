@@ -13,6 +13,11 @@ base_manpower = 3
 is_city = yes
 add_core = MOL
 
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

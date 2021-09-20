@@ -10,7 +10,7 @@ capital = "Vozia"
 base_tax = 1
 base_production = 2
 base_manpower = 1
-trade_goods = livestock
+trade_goods = vodka	#no particular reason, was livestock
 is_city = yes
 hre = no
 
