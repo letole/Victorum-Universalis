@@ -529,13 +529,19 @@ country_event = {
 		change_price = {
 			trade_goods = sweet_confectioneries
 			key = TEA_AND_SUGAR
-			value = 0.6			#BTAddOn changed from 0.25 - Now goes 2.5-3-4 (Vanilla was 2-2.5-3)
+			value = 0.6			#VU addon
 			duration = -1
 		}
 		change_price = {
 			trade_goods = chocolates
 			key = TEA_AND_SUGAR
-			value = 0.8			#BTAddOn changed from 0.25 - Now goes 2.5-3-4 (Vanilla was 2-2.5-3)
+			value = 0.8			#VU addon
+			duration = -1
+		}
+		change_price = {
+			trade_goods = canned_goods
+			key = TEA_AND_SUGAR
+			value = 0.9         #VU addon
 			duration = -1
 		}
 		change_price = {
@@ -782,13 +788,19 @@ country_event = {
 		change_price = {
 			trade_goods = sweet_confectioneries #Spoiled by the cold
 			key = LITTLE_ICE_AGE
-			value = -0.6			#TCOPAddOn
+			value = -0.6			#VU AddOn
 			duration = 3650
 		}
 		change_price = {
 			trade_goods = chocolates
-			key = TEA_AND_SUGAR
-			value = -0.8			#TCOPAddon
+			key = LITTLE_ICE_AGE
+			value = -0.8			#VU Addon
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = canned_goods	#Food Preservation.
+			key = LITTLE_ICE_AGE
+			value = -0.7            #VU Addon
 			duration = 3650
 		}
 		#BTAddOn removed - fish often becomes the only available source of food during a little ice age, as vegetation dies and causes a cascade effect on land. Doesn't make sense to reduce fish prices. Besides, people can fish in the Arctic (in fact, it is often better fishing there than in the south).
@@ -813,7 +825,7 @@ country_event = {
 		change_price = {
 			trade_goods = bison_hides #Increased demand due to colder climate.
 			key = LITTLE_ICE_AGE
-			value = 0.8			#Tcop addon
+			value = 0.8			#VU  addon
 			duration = 3650
 		}
 	}
@@ -957,13 +969,13 @@ country_event = {
 		change_price = {
 			trade_goods = agave
 			key = REGULATED_UNIFORMS
-			value = 0.03			#Tcop addon
+			value = 0.03			#VU  addon
 			duration = -1
 		}
 		change_price = {
 			trade_goods = alpaca_wool
 			key = REGULATED_UNIFORMS
-			value = 0.04			#Tcop addon
+			value = 0.04			#VU  addon
 			duration = -1
 		}
 		change_price = {
@@ -1112,7 +1124,7 @@ country_event = {
 		change_price = {
 			trade_goods = bison_hides
 			key = DEPLETION_OF_EUROPEAN_BEAVER
-			value = 0.6			#TCop addon
+			value = 0.6			#VU  addon
 			duration = -1
 		}
 	}
@@ -1413,6 +1425,10 @@ country_event = {
 			trading_part = {
 				trade_goods = chocolates
 				value = 0.08
+			}
+			trading_part = {
+				trade_goods = canned_goods
+				value = 0.09
 			}
 		}
 		NOT = { has_global_flag = popularization_of_sugar_happened }
@@ -2353,6 +2369,8 @@ country_event = {
 			}
 			OR = {
 				trade_goods = grain
+				trade_goods = vegetables
+				trade_goods = copra
 				trade_goods = fruit
 				trade_goods = livestock
 			}
@@ -2366,6 +2384,8 @@ country_event = {
 				}
 				OR = {
 					trade_goods = grain
+					trade_goods = vegetables
+					trade_goods = copra
 					trade_goods = fruit
 					trade_goods = livestock
 				}
@@ -2379,6 +2399,8 @@ country_event = {
 					}
 					OR = {
 						trade_goods = grain
+						trade_goods = vegetables
+						trade_goods = copra
 						trade_goods = fruit
 						trade_goods = livestock
 					}
@@ -2403,6 +2425,18 @@ country_event = {
 			trade_goods = fruit
 			key = COLUMBIAN_EXCHANGE
 			value = 0.20
+			duration = -1
+		}
+		change_price = { #VU addon
+			trade_goods = vegetables
+			key = COLUMBIAN_EXCHANGE
+			value = 0.20
+			duration = -1
+		}
+		change_price = { #VU addon
+			trade_goods = copra
+			key = COLUMBIAN_EXCHANGE
+			value = 0.25
 			duration = -1
 		}
 		change_price = {
@@ -2760,13 +2794,13 @@ country_event = {
 		change_price = {
 			trade_goods = agave #From the New World
 			key = SELECTIVE_BREEDING
-			value = 0.3			#TCop addon
+			value = 0.3			#VU  addon
 			duration = -1
 		}
 		change_price = {
 			trade_goods = alpaca_wool #From the New World
 			key = SELECTIVE_BREEDING
-			value = 0.4			#TCop addon
+			value = 0.4			#VU  addon
 			duration = -1
 		}
 		change_price = {
