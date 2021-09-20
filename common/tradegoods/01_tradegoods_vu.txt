@@ -1,4 +1,3 @@
-
 oil = {
 	color = { 0.71 0.08 0.98 }
 	is_latent = yes
@@ -2469,9 +2468,9 @@ uniforms = {
 	province = {
 		regiment_recruit_speed = -0.5
 	}
-		chance = {
-			factor = 0
-		}
+	chance = {
+		factor = 0
+	}
 }
 
 #New Additions by San Felipe
@@ -2557,72 +2556,177 @@ agave = {
 	}
 }
 
-#Added in Eastern Europe expansion
-
-vodka = { #Limited to Russia and Eastern Europe
-	color = { 0.50 0.87 0.95 }
-	
+canned_goods = {
+	color = { 144 107 53 }
 	modifier = {
-		reform_progress_growth = -0.05
-		stability_cost_modifier = -0.1
+		global_unrest = -3
 	}
-	
 	province = {
-		local_unrest = -4
-		regiment_recruit_speed = 0.1
+		local_culture_conversion_cost = -0.30
 	}
-	
+	chance = {
+		factor = 0
+	}
+}
+
+copra = {
+	color = { 161 137 101 }
+	modifier = {
+		development_cost = -0.05
+	}
+	province = {
+		local_build_cost = -0.2
+	}
 	chance = {
 		factor = 25
 		modifier = {
 			factor = 0
-			OR = {
-				NOT = { superregion = eastern_europe_superregion }
-				NOT = { superregion = tartary_superregion }
-			}
-		}
-		modifier = {
-			factor = 1.25
-			OR = {
-				has_terrain = forest
-				has_terrain = woods
-				has_terrain = hills
-			}
+			NOT = { has_terrain = jungle }
+			NOT = { has_climate = tropical }
+			NOT = { province_id = 1240 }
 		}
 		modifier = {
 			factor = 1.5
-			has_winter = normal_winter
-		}
-		modifier = {
-			factor = 1.7
-			has_terrain = farmlands
+			area = amazon_area
 		}
 		modifier = {
 			factor = 0.5
 			OR = {
-				has_terrain = mountains
+				region = malaya_region
+				region = moluccas_region
+				region = indonesia_region
+				region = borneo_region
+				region = sumatran_region
+				region = celebes_region
+				region = philippines_region
+				region = brazil_region
+				region = colombia_region
+				region = oceanea_region
+				region = niger_region
+				region = guinea_region
+				region = lower_guinea_region
+				region = east_africa_region
+				region = angola_region
+				region = cameroon_region
+				region = kongo_region
+				region = madagascar_region
+				region = uganda_region
+				region = coromandel_region
+				region = bengal_region
+			}
+		}
+	}
+}
+
+vegetables = {
+	color = { 57 85 28 }
+	modifier = {
+		naval_attrition = -0.1
+	}
+	province = {
+		local_monthly_devastation = -0.1
+	}
+	chance = {
+		factor = 20
+		modifier = {
+			factor = 0
+			is_random_new_world = no
+			OR = {
+				region = alaska_region
+				region = northwest_territories_region
+				region = hudson_bay_region
+				region = west_siberia_region
+				region = east_siberia_region
+				region = sahel_region
+			}			#Vegetables disabled in these regions
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					has_winter = severe_winter
+					NOT = { area = lower_fraser_area }
+				}
+				has_climate = arid
+				has_climate = arctic
+				has_terrain = glacier
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				has_terrain = desert
+				has_terrain = coastal_desert
+				has_terrain = steppe
+			}
+		}
+		modifier = {
+			factor = 0.25
+			OR = {
+				has_terrain = mountain
+				has_terrain = highlands
+				has_terrain = forest
 				has_terrain = marsh
 			}
 		}
 		modifier = {
-			factor = 1.75
-			OR = {
-				region = russia_region
-				region = ural_region
-			}
-		}
-
-		modifier = {
-			factor = 1.5
-			development = 10
-		}
-		modifier = {
 			factor = 0.5
 			OR = {
-				region = mongolia_region
-				region = central_asia_region
+				has_winter = normal_winter
+				has_terrain = farmlands			#Counterintuitive, but in core farming areas we would typically prefer grain or rich goods like cloth.
+				has_terrain = savannah
+				has_terrain = woods
 			}
 		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				has_terrain = jungle
+				has_climate = tropical
+			}
+		}
+		#Specific areas or provinces
+		modifier = {
+			factor = 0
+			area = newfoundland_area
+		}
+		modifier = {
+			factor = 0.0
+			is_random_new_world = no
+			OR = {
+				area = east_alaska_area
+				area = hecate_strait_area
+				area = queen_charlotte_sound_area
+			}
+		}
+		modifier = {
+			factor = 0.25
+			is_random_new_world = no
+			OR = {
+				area = lucayan_area
+				area = vancouver_island_area
+				area = straits_of_georgia_area
+			}
+		}
+		modifier = {
+			factor = 1.25
+			is_random_new_world = no
+			region = carribeans_region
+		}
+		modifier = {
+			factor = 4
+			region = oceanea_region
+		}
+		modifier = {
+			factor = 40
+			is_random_new_world = no
+			OR = {
+				area = salish_sea_area
+				province_id = 5746
+				province_id = 5880
+				province_id = 5805
+			}
+		}	#Apples, cherries, raspberries, peas, pears, onions, carrots, & hops of the Lower Columbia and NE Cascades. Today this area produces a strong majority of the entire US's supply of most of these things (except onions, California produces tonnes of those). It didn't in period, true.... but it also wasn't settled in the period, so moot point.
 	}
 }
 
@@ -3396,3 +3500,71 @@ vodka = { #Limited to Russia and Eastern Europe
 #		}
 #	}
 #}
+#Added in Eastern Europe expansion
+
+vodka = { #Limited to Russia and Eastern Europe
+	color = { 0.50 0.87 0.95 }
+	
+	modifier = {
+		reform_progress_growth = -0.05
+		stability_cost_modifier = -0.1
+	}
+	
+	province = {
+		local_unrest = -4
+		regiment_recruit_speed = 0.1
+	}
+	
+	chance = {
+		factor = 25
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { superregion = eastern_europe_superregion }
+				NOT = { superregion = tartary_superregion }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_terrain = forest
+				has_terrain = woods
+				has_terrain = hills
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_winter = normal_winter
+		}
+		modifier = {
+			factor = 1.7
+			has_terrain = farmlands
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				has_terrain = mountains
+				has_terrain = marsh
+			}
+		}
+		modifier = {
+			factor = 1.75
+			OR = {
+				region = russia_region
+				region = ural_region
+			}
+		}
+
+		modifier = {
+			factor = 1.5
+			development = 10
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				region = mongolia_region
+				region = central_asia_region
+			}
+		}
+	}
+}
