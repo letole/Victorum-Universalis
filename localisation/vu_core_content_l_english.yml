@@ -1547,6 +1547,10 @@ pudget_sound_modifier:0 "The Pudget Sound"
  move_trade_to_mogador_desc:0 "The ancient trading port of Safi no longer suits our purposes, and trade flows in and out of our many semi-autonomous ports largely outside of our control, and more importantly, outside of the reach of our tax collection. The solution is to create a new trading capital firmly under our control and give it a monopoly on all foreign trade. Let us hire the greatest architects and workers to create a beautiful, grand, new port!"
 
  #New World
+ 
+ #Misc
+ remove_primitive_nations_all_title:0 "Remove primitive nations"
+ remove_primitive_nations_all_desc:0 "Removes all primitive nations that should not be considered a proper state at this moment. This applies to most of America and Oceania but not only. Will also reduce lag of the game!"
 
 
 
