@@ -761,7 +761,7 @@ podolia_volhynia_area = { #4
 }
 
 volhynia_area = { # 4
-	279 1940 4538 7266 7268 7243 7253
+	261 279 1940 4538 7266 7268 7243 7253
 }
 
 pripyat_area = { #3
@@ -3844,7 +3844,7 @@ danubian_plain_area = {
 }
 
 bukovina_area = {
-	261 3156 7274 7275
+	3156 7274 7275 8737
 }
 
 eastern_volhynia_area = {
