@@ -3095,6 +3095,12 @@
  construct_escola_de_sagres_title: "Form the School of Sagres"
  construct_escola_de_sagres_desc: "The School of Sagres or "Ecole de Sagres" was a group of scientific Portuguese personalities and techniques related to ocean navigation during the fifteenth century, formed around the infante Enrique "Henry the Navigator" in Sagres, Algarve near Cape St. Vincent on the southwestern end of the Iberian Peninsula."
  #
+ great_project_romuva_temple: "Grand Temple of Romowe"
+ romuva_temple: "Grand Temple of Romowe"
+ romuva_temple_title: "Build Grand Temple of Romowe"
+ construct_romuva_temple_title: "Build Grand Temple of Romowe"
+ construct_romuva_temple_desc: "Romuva or Romowe is an old centre of pagan worship in the western parts of Sambia. One of the most important places of cult for old Baltic paganism. Temple as well as baltic pagans centered around it were erradicated in early XIV by the expansion Teutonic Order. "
+ #
  #Purple Phoenix DLC Only Missions
  recover_west_anatolia_title:0 "Recover Anatolia"
  recover_west_anatolia_desc:0 "Like a great phoenix, Rome has risen from the ashes of the devastation wrought be Arabs, Turks, Franks, and others. Now, we must turn our attention to reclaiming our lost land in Anatolia."

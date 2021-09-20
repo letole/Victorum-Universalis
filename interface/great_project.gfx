@@ -703,6 +703,11 @@ spriteTypes = {
         texturefile = "gfx//interface//great_projects//great_project_ciutat_de_carcassona.dds"
     }
 	
+	spriteType = {
+		name = "GFX_great_project_romuva_temple"
+		texturefile = "gfx//interface//great_projects//great_project_romuva_temple.dds"
+	}
+	
 	#END of Emile additions
 
 ### NEW EU4 Vanilla Monuments ###
