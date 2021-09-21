@@ -708,6 +708,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_romuva_temple.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_great_project_warsaw_castle"
+		texturefile = "gfx//interface//great_projects//great_project_warsaw_castle.dds"
+	}
+	
 	#END of Emile additions
 
 ### NEW EU4 Vanilla Monuments ###

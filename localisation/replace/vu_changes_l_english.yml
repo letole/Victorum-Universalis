@@ -3101,6 +3101,12 @@
  construct_romuva_temple_title: "Build Grand Temple of Romowe"
  construct_romuva_temple_desc: "Romuva or Romowe is an old centre of pagan worship in the western parts of Sambia. One of the most important places of cult for old Baltic paganism. Temple as well as baltic pagans centered around it were erradicated in early XIV by the expansion Teutonic Order. "
  #
+ great_project_warsaw_castle: "Warsaw Royal Castle"
+ warsaw_castle: "Warsaw Royal Castle"
+ warsaw_castle_title: "Build Warsaw Royal Castle"
+ construct_warsaw_castle_title: "Build Warsaw Royal Castle"
+ construct_warsaw_castle_desc: "Warsaw Royal Castle is central point of Warsaw. Originaly erected by Mazovian Dukes, served as main residence for their rule and cetral object of conducting diplomatic affairs. After integration of Mazovia, served the same purpose but for polish kings, which also greatly expanded it. Palace rises high above Vistula River and is surrounded by magnificant royal gardens."
+ #
  #Purple Phoenix DLC Only Missions
  recover_west_anatolia_title:0 "Recover Anatolia"
  recover_west_anatolia_desc:0 "Like a great phoenix, Rome has risen from the ashes of the devastation wrought be Arabs, Turks, Franks, and others. Now, we must turn our attention to reclaiming our lost land in Anatolia."
