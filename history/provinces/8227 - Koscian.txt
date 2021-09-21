@@ -16,7 +16,7 @@ religion = catholic
 base_tax = 2
 base_production = 2
 base_manpower = 2
-trade_goods = cloth
+trade_goods = vodka	#no particular reason why here, Poland was also producer of vodka
 
 #Cores and Occupation (Alphabetical after current)
 add_core = POL

@@ -753,7 +753,7 @@ malopolska_area = { #5
 }
 
 red_ruthenia_area = { #4
-	7269 7271 7273 2961 4541 7270 2424 7267
+	261 7269 7271 7273 2961 4541 7270 2424 7267
 }
 
 podolia_volhynia_area = { #4
@@ -3844,7 +3844,7 @@ danubian_plain_area = {
 }
 
 bukovina_area = {
-	261 3156 7274 7275
+	3156 7274 7275 8737
 }
 
 eastern_volhynia_area = {
