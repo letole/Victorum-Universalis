@@ -1145,7 +1145,7 @@ country_event = { # Elective monarchy estates influence
 		add_estate_influence_modifier = {
 			estate = estate_nobles
 			desc = EST_VAL_ELECTIVE_MONARCHY_SUPPORT
-			influence = 10
+			influence = 7
 			duration = 3650
 		}
 	}
@@ -1157,7 +1157,7 @@ country_event = { # Elective monarchy estates influence
 		add_estate_influence_modifier = {
 			estate = estate_magnates
 			desc = EST_VAL_ELECTIVE_MONARCHY_SUPPORT
-			influence = 10
+			influence = 7
 			duration = 3650
 		}
 	}
@@ -1169,7 +1169,7 @@ country_event = { # Elective monarchy estates influence
 		add_estate_influence_modifier = {
 			estate = estate_burghers
 			desc = EST_VAL_ELECTIVE_MONARCHY_SUPPORT
-			influence = 10
+			influence = 7
 			duration = 3650
 		}
 	}
@@ -1181,15 +1181,197 @@ country_event = { # Elective monarchy estates influence
 		add_estate_influence_modifier = {
 			estate = estate_church
 			desc = EST_VAL_ELECTIVE_MONARCHY_SUPPORT
-			influence = 10
+			influence = 7
 			duration = 3650
 		}
 	}
 	option = { # No influence
 		name = vu_plc.7.f
 		add_legitimacy = -20
-		add_adm_power = -25
-		add_dip_power = -25
-		add_mil_power = -25
+		add_adm_power = -20
+		add_dip_power = -20
+		add_mil_power = -20
 	}
+}
+
+country_event = { # Estate influence from foreign ruler based on his nationality
+	id = vu_plc.8
+	title = vu_plc.8.t
+	desc = vu_plc.8.d
+	picture = SEJM_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_reform = elective_monarchy
+		OR = {
+			has_estate = estate_church
+			has_estate = estate_nobles
+			has_estate = estate_magnates
+			has_estate = estate_burghers
+		}
+		OR = {
+			ruler_is_foreigner = yes
+			NOT = { ruler_culture = ROOT }
+		}
+	}
+	
+	option = { # Habsburg or French or lithuanian
+		name = vu_plc.8.a
+		ai_chance = {
+			factor = 99
+		}
+		trigger = {
+			has_estate = estate_nobles
+			OR = {
+				ruler_culture = austrian
+				ruler_culture = cosmopolitan_french
+				ruler_culture = lithuanian
+			}
+		}
+		add_estate_influence_modifier = {
+			estate = estate_nobles
+			desc = EST_VAL_ELECTIVE_MONARCHY_SUPPORT
+			influence = 10
+			duration = 3650
+		}
+	}
+	option = { # Russian or english or italian or hungarian
+		name = vu_plc.8.b
+		ai_chance = {
+			factor = 99
+		}
+		trigger = {
+			has_estate = estate_magnates
+			OR = {
+				ruler_culture = russian
+				ruler_culture = english
+				ruler_culture = lombard
+				ruler_culture = tuscan
+				ruler_culture = romagnan
+				ruler_culture = ligurian
+				ruler_culture = venetian
+				ruler_culture = neapolitan
+				ruler_culture = hungarian
+				ruler_culture = umbrian
+				ruler_culture = piedmontese
+			}
+		}
+		add_estate_influence_modifier = {
+			estate = estate_magnates
+			desc = EST_VAL_ELECTIVE_MONARCHY_SUPPORT
+			influence = 10
+			duration = 3650
+		}
+	}
+	option = { #Prussian or saxon
+		name = vu_plc.8.c
+		ai_chance = {
+			factor = 99
+		}
+		trigger = {
+			has_estate = estate_burghers
+			OR = {
+				ruler_culture = prussian
+				ruler_culture = pommeranian
+				ruler_culture = lower_saxon
+				ruler_culture = saxon
+			}
+		}
+		add_estate_influence_modifier = {
+			estate = estate_burghers
+			desc = EST_VAL_ELECTIVE_MONARCHY_SUPPORT
+			influence = 10
+			duration = 3650
+		}
+	}
+	option = { # Bavarian or swedish or czech
+		name = vu_plc.8.e
+		ai_chance = {
+			factor = 99
+		}
+		trigger = {
+			has_estate = estate_church
+			OR = {
+				ruler_culture = swedish
+				ruler_culture = bavarian
+				ruler_culture = czech
+			}
+		}
+		add_estate_influence_modifier = {
+			estate = estate_church
+			desc = EST_VAL_ELECTIVE_MONARCHY_SUPPORT
+			influence = 10
+			duration = 3650
+		}
+	}
+	option = { # Other culture, always active
+		name = vu_plc.8.f
+		ai_chance = {
+			factor = 1
+		}
+		random_list = {
+			25 = {
+				add_estate_influence_modifier = {
+					estate = estate_church
+					desc = EST_VAL_ELECTIVE_MONARCHY_SUPPORT
+					influence = 10
+					duration = 3650
+				}
+			}
+			25 = {
+				add_estate_influence_modifier = {
+					estate = estate_burghers
+					desc = EST_VAL_ELECTIVE_MONARCHY_SUPPORT
+					influence = 10
+					duration = 3650
+				}
+			}
+			25 = {
+				add_estate_influence_modifier = {
+					estate = estate_nobles
+					desc = EST_VAL_ELECTIVE_MONARCHY_SUPPORT
+					influence = 10
+					duration = 3650
+				}
+			}
+			25 = {
+				add_estate_influence_modifier = {
+					estate = estate_magnates
+					desc = EST_VAL_ELECTIVE_MONARCHY_SUPPORT
+					influence = 10
+					duration = 3650
+				}
+			}
+		}
+	}
+	#option = { # We a certain historical ruler, add more options below
+	#	name = vu_plc.8.g
+	#	ai_chance = {
+	#		factor = 25
+	#	}
+	#	trigger = {
+	#		NOT = { has_country_flag = pol_had_ruler_xxx
+	#		
+	#	}
+	#	highlight = yes
+	#	add_legitimacy = -10
+	#	add_adm_power = -25
+	#	add_dip_power = -25
+	#	add_mil_power = -25
+	#	define_ruler = {
+	#		name = "."
+	#		dynasty = "."
+	#		adm = 
+	#		dip = 
+	#		mil = 
+	#		fixed = yes
+	#		culture =
+	#		religion =
+	#		age = 
+	#		claim = 
+	#		male/female =
+	#	}
+	#	set_country_flag = pol_had_ruler_xxx
+	#}
 }
