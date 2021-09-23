@@ -139,8 +139,13 @@ on_new_monarch = {
 				ruler_is_foreigner = yes
 				NOT = { ruler_culture = ROOT }
 			}
+			OR = {
+				culture = polish
+				tag = POL
+				tag = PLC
+			}
 		}
-		country_event = { id = vu_plc.8 }		# Estates influence from foreign elected ruler
+		country_event = { id = vu_plc.8 }		# Estates influence from foreign elected ruler in Poland
 	}
 	#ambrosian_republic_effect = yes
 	succession_culture_religion_effect = yes
