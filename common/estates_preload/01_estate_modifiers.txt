@@ -1,0 +1,17 @@
+estate_magnates = {
+	modifier_definition = {
+		type = loyalty
+		key = magnates_loyalty_modifier
+		trigger = {
+			has_estate = estate_magnates
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = magnates_influence_modifier
+		trigger = {
+			has_estate = estate_magnates
+		}
+	}
+}
