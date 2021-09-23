@@ -1345,33 +1345,154 @@ country_event = { # Estate influence from foreign ruler based on his nationality
 			}
 		}
 	}
-	#option = { # We a certain historical ruler, add more options below
-	#	name = vu_plc.8.g
-	#	ai_chance = {
-	#		factor = 25
-	#	}
-	#	trigger = {
-	#		NOT = { has_country_flag = pol_had_ruler_xxx
-	#		
-	#	}
-	#	highlight = yes
-	#	add_legitimacy = -10
-	#	add_adm_power = -25
-	#	add_dip_power = -25
-	#	add_mil_power = -25
-	#	define_ruler = {
-	#		name = "."
-	#		dynasty = "."
-	#		adm = 
-	#		dip = 
-	#		mil = 
-	#		fixed = yes
-	#		culture =
-	#		religion =
-	#		age = 
-	#		claim = 
-	#		male/female =
-	#	}
-	#	set_country_flag = pol_had_ruler_xxx
-	#}
+	option = { # We a certain historical ruler, add more options below
+		name = vu_plc.8.g
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			NOT = { has_country_flag = pol_had_ruler_henry_devalois }
+			is_year = 1550
+			NOT = { is_year = 1600 }
+		}
+		highlight = yes
+		add_legitimacy = -10
+		add_adm_power = -25
+		add_dip_power = -25
+		add_mil_power = -25
+		define_ruler = {
+			name = "Henry III"
+			dynasty = "de Valois"
+			adm = 2
+			dip = 4
+			mil = 4
+			fixed = yes
+			culture = cosmopolitan_french
+			religion = catholic
+			age = 22
+			claim = 70
+			male = yes
+		}
+		set_country_flag = pol_had_ruler_henry_devalois
+	}
+	option = { # We a certain historical ruler, add more options below
+		name = vu_plc.8.h
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			NOT = { has_country_flag = pol_had_ruler_stefan_batory }
+			is_year = 1560
+			NOT = { is_year = 1610 }
+		}
+		highlight = yes
+		add_legitimacy = -10
+		add_adm_power = -25
+		add_dip_power = -25
+		add_mil_power = -25
+		define_ruler = {
+			name = "Stephen"
+			dynasty = "Bathory"
+			adm = 5
+			dip = 4
+			mil = 6
+			fixed = yes
+			culture = romanian
+			religion = catholic
+			age = 43
+			claim = 80
+			male = yes
+		}
+		set_country_flag = pol_had_ruler_stefan_batory
+	}
+	option = { # We a certain historical ruler, add more options below
+		name = vu_plc.8.i
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			NOT = { has_country_flag = pol_had_ruler_sigismund_vasa }
+			is_year = 1590
+			NOT = { is_year = 1640 }
+		}
+		highlight = yes
+		add_legitimacy = -10
+		add_adm_power = -25
+		add_dip_power = -25
+		add_mil_power = -25
+		define_ruler = {
+			name = "Sigismund"
+			dynasty = "Vasa"
+			adm = 5
+			dip = 5
+			mil = 5
+			fixed = yes
+			culture = swedish
+			religion = catholic
+			age = 20
+			claim = 80
+			male = yes
+		}
+		set_country_flag = pol_had_ruler_sigismund_vasa
+	}
+	option = { # We a certain historical ruler, add more options below
+		name = vu_plc.8.j
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			NOT = { has_country_flag = pol_had_ruler_jan_sobieski }
+			is_year = 1640
+			NOT = { is_year = 1690 }
+		}
+		highlight = yes
+		add_legitimacy = -10
+		add_adm_power = -25
+		add_dip_power = -25
+		add_mil_power = -25
+		define_ruler = {
+			name = "Jan III"
+			dynasty = "Sobieski"
+			adm = 4
+			dip = 6
+			mil = 6
+			fixed = yes
+			culture = polish
+			religion = catholic
+			age = 35
+			claim = 80
+			male = yes
+		}
+		set_country_flag = pol_had_ruler_jan_sobieski
+	}
+	option = { # We a certain historical ruler, add more options below
+		name = vu_plc.8.k
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			NOT = { has_country_flag = pol_had_ruler_august_sas }
+			is_year = 1690
+			NOT = { is_year = 1730 }
+		}
+		highlight = yes
+		add_legitimacy = -10
+		add_adm_power = -25
+		add_dip_power = -25
+		add_mil_power = -25
+		define_ruler = {
+			name = "Augustus II the Strong"
+			dynasty = "von Wettin"
+			adm = 4
+			dip = 4
+			mil = 2
+			fixed = yes
+			culture = polish
+			religion = catholic
+			age = 35
+			claim = 80
+			male = yes
+		}
+		set_country_flag = pol_had_ruler_august_sas
+	}
 }
