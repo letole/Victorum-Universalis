@@ -3107,6 +3107,18 @@
  construct_warsaw_castle_title: "Build Warsaw Royal Castle"
  construct_warsaw_castle_desc: "Warsaw Royal Castle is central point of Warsaw. Originaly erected by Mazovian Dukes, served as main residence for their rule and cetral object of conducting diplomatic affairs. After integration of Mazovia, served the same purpose but for polish kings, which also greatly expanded it. Palace rises high above Vistula River and is surrounded by magnificant royal gardens."
  #
+ great_project_vilnius_basilica: "Vilnius Cathedral Basilica"
+ vilnius_basilica: "Vilnius Cathedral Basilica"
+ vilnius_basilica_title: "Build Vilnius Cathedral Basilica"
+ construct_vilnius_basilica_title: "Build Vilnius Cathedral Basilica"
+ construct_vilnius_basilica_desc: "Vilnius Cathedral Basilica is a center point of Vilnius Town. Built when Lithuania officially converted to catholicism. Remains central point of life in Vilnius and main base of Lithuanian clergy."
+ #
+ great_project_tre_kronor: "Tre Kronor"
+ tre_kronor: "Tre Kronor"
+ tre_kronor_title: "Build Tre Kronor"
+ construct_tre_kronor_title: "Build Tre Kronor"
+ construct_tre_kronor_desc: "Seriously, is monument description even visible anywhere? If you are reading this during your game, contact curious mod dev."
+ #
  #Purple Phoenix DLC Only Missions
  recover_west_anatolia_title:0 "Recover Anatolia"
  recover_west_anatolia_desc:0 "Like a great phoenix, Rome has risen from the ashes of the devastation wrought be Arabs, Turks, Franks, and others. Now, we must turn our attention to reclaiming our lost land in Anatolia."
