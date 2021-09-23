@@ -118,6 +118,16 @@ on_new_monarch = {
 		}
 		country_event = { id = china_events.32 }	# History of last ruler
 	}
+	if = {
+		limit = {
+			has_reform = elective_monarchy
+			OR = {
+				technology_group = western
+				technology_group = eastern
+			}
+		}
+		country_event = { id = vu_plc.7 }		# Estates influence in elected monarch
+	}
 	#ambrosian_republic_effect = yes
 	succession_culture_religion_effect = yes
 	sheik_ul_islam_effect = yes

@@ -723,6 +723,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_tre_kronor.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_great_project_kiev_golden_gate"
+		texturefile = "gfx//interface//great_projects//great_project_kiev_golden_gate.dds"
+	}
+	
 	#END of Emile additions
 
 ### NEW EU4 Vanilla Monuments ###
