@@ -1587,6 +1587,44 @@
  trade_company_rouen_trade:0 "Welsh Charter"
  TRADE_COMPANY_ROUEN_Root_Culture_GetName:0 "[Root.Culture.GetName] Welsh Company"
  TRADE_COMPANY_ROUEN_European_Trade_Company:0 "Welsh Trade Company"
+ 
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ #OnlyKarlos' work
+ #################################################################################
+ #################################################################################
+ #################################################################################
+ 
+ colonial_formosa:0 "Colonial Formosa"
+ short_colonial_formosa:0 "Formosa"
+ COLONIAL_FORMOSA_Formosa:0 "Formosa"
+ COLONIAL_FORMOSA_Formosa_ADJ:0 "Formosan"
+ 
+ colonial_philippines:0 "Colonial Philippines"
+ short_colonial_philippines:0 "Philippines"
+ COLONIAL_PHILIPPINES_Philippines:0 "Philippines"
+ COLONIAL_PHILIPPINES_Philippines_ADJ:0 "Filipino"
+ 
+ colonial_burma:0 "Colonial Burma"
+ short_colonial_burma:0 "Burma"
+ COLONIAL_BURMA_Burma:0 "Burma"
+ COLONIAL_BURMA_Burma_ADJ:0 "Burmese"
+ 
+ colonial_indochina:0 "Colonial Indochina"
+ short_colonial_indochina:0 "Indochina"
+ COLONIAL_INDOCHINA_Indochina:0 "Indochina"
+ COLONIAL_INDOCHINA_Indochina_ADJ:0 "Indochinese"
+ 
+ colonial_indonesia:0 "Colonial Indonesia"
+ short_colonial_indonesia:0 "Indonesia"
+ COLONIAL_INDONESIA_Indonesia:0 "Indonesia"
+ COLONIAL_INDONESIA_Indonesia_ADJ:0 "Indonesian"
+ 
+ colonial_malaysia:0 "Colonial Malaysia"
+ short_colonial_malaysia:0 "Malaysia"
+ COLONIAL_MALAYSIA_Malaysia:0 "Malaysia"
+ COLONIAL_MALAYSIA_Malaysia_ADJ:0 "Malaysian"
 
  #################################################################################
  #################################################################################
