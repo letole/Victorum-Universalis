@@ -1849,3 +1849,166 @@ country_event = {
 		}
 	}
 }
+
+################################
+# BT Addon, written by docRobert
+################################
+
+#Swedish nobles unhappy from Danish rule
+country_event = {
+	id = flavor_dan.23
+	title = "flavor_dan.23.t"
+	desc = "flavor_dan.23.d"
+	picture = ADVISOR_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = DAN
+		is_year = 1510
+		NOT = { is_year = 1600 }
+		SWE = {
+			is_subject_of = ROOT
+			liberty_desire = 10
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {	#Pay nobles to stop complaining
+		name = "flavor_dan.23.a"
+		ai_chance = {
+			factor = 15
+		}
+		add_treasury = -2000
+	}
+	option = {	#Execute them
+		name = "flavor_dan.23.b"
+		ai_chance = {
+			factor = 85
+		}
+		SWE = {
+			add_liberty_desire = 75
+		}
+		hidden_effect = {
+			SWE = {
+				country_event = {
+					id = flavor_dan.24
+					days = 15
+				}	
+			}
+		}
+	}
+}
+
+#Swedish war for independence
+country_event = {
+	id = flavor_dan.24
+	title = "flavor_dan.24.t"
+	desc = "flavor_dan.24.d"
+	picture = REVOLUTION_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {	#Obey Danish rule
+		name = "flavor_dan.24.a"
+		ai_chance = {
+			factor = 10
+		}
+		add_prestige = -20
+	}
+	option = {	#Vasa will lead us to victory
+		name = "flavor_dan.24.b"
+		highlight = yes
+		ai_chance = {
+			factor = 90
+		}
+		custom_tooltip = flavor_dan.24.tooltip
+		define_ruler = {
+			name = "Gustav I"
+			dynasty = "Vasa"
+			adm = 4
+			dip = 3
+			mil = 6
+			fixed = yes
+			age = 27
+			claim = 70
+			culture = swedish
+			male = yes
+		}
+		define_heir = {
+			name = "Eric XIV"
+			dynasty = "Vasa"
+			adm = 3
+			dip = 3
+			mil = 3
+			fixed = yes
+			age = 5
+			claim = 80
+			culture = swedish
+			male = yes
+		}
+		create_general = { tradition = 80 }
+		hidden_effect = {
+			SWE = {
+				declare_war_with_cb = {
+					who = DAN
+					casus_belli = cb_independence_war
+				}
+				add_stability = 2
+				add_prestige = 25
+				add_legitimacy = 25
+				add_treasury = 500
+				add_years_of_income = 1
+				add_manpower = 20
+				build_to_forcelimit = {
+					infantry = 0.6
+					cavalry = 0.1
+					artillery = 0.3
+				}
+				random_owned_province = {
+					limit = { has_port = yes }
+					light_ship = ROOT
+				}
+				random_owned_province = {
+					limit = { has_port = yes }
+					light_ship = ROOT
+				}
+				random_owned_province = {
+					limit = { has_port = yes }
+					light_ship = ROOT
+				}
+				random_owned_province = {
+					limit = { has_port = yes }
+					light_ship = ROOT
+				}
+				random_owned_province = {
+					limit = { has_port = yes }
+					light_ship = ROOT
+				}
+				add_war_exhaustion = -20
+				add_country_modifier = {
+					name = swedish_military_miracle
+					duration = 54750 #150 years
+					hidden = no
+				}
+			}
+			DAN = {
+				kill_units = {	#Some units desert
+					who = DAN
+					type = infantry
+					amount = 10	#May need adjustment
+				}
+				add_war_exhaustion = 4
+			}
+		}
+	}
+}

@@ -1080,6 +1080,10 @@ pudget_sound_modifier:0 "The Pudget Sound"
  silesian_duke_size_modifier:0 "Large Silesian Duchy"
  desc_silesian_duke_size_modifier:0 "Our duchy is gorwing too large for its diplomatic capabilities"
  
+ 
+ swedish_military_miracle:0 "Swedish military golden age"
+ desc_swedish_military_miracle:0 ""
+ 
  ##########################
  # New province modifiers
  ##########################

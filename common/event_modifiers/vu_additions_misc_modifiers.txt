@@ -52,3 +52,8 @@ magnates_settled_rus = {
 	local_build_cost = -0.1
 	local_manpower_modifier = -0.1
 }
+
+# Swedish boost to mil rulers
+swedish_military_miracle = {
+	monarch_military_power = 4
+}
