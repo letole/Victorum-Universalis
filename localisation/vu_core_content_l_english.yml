@@ -1080,6 +1080,14 @@ pudget_sound_modifier:0 "The Pudget Sound"
  silesian_duke_size_modifier:0 "Large Silesian Duchy"
  desc_silesian_duke_size_modifier:0 "Our duchy is gorwing too large for its diplomatic capabilities"
  
+ 
+ swedish_military_miracle:0 "Swedish military golden age"
+ desc_swedish_military_miracle:0 ""
+ gave_vodka_timer:0 "Gave vodka timer"
+ desc_gave_vodka_timer:0 ""
+ vodka_distributed:0 "Distributed vodka to masses"
+ desc_vodka_distributed:0 ""
+ 
  ##########################
  # New province modifiers
  ##########################
@@ -1500,6 +1508,8 @@ pudget_sound_modifier:0 "The Pudget Sound"
  religious_conversions_romuva_desc:0 "As baltic pagans following Romuva faith remain strong, it is time for us to abandon our current faith and revert to the old ways."
  religious_conversions_suomenusko_title:0 "Adopt Suomenusko paganism as dominant faith"
  religious_conversions_suomenusko_desc:0 "As northern scandinavian pagans following Suomenusko fath grow ever-stronger, it is time for us to abandon our current faith and adopt their ways of life instead."
+ distribute_vodka_to_masses_title:0 "Distribute vodka to pesants"
+ distribute_vodka_to_masses_desc:0 "Spend some of our vodka production and distribute it to poor pesants across our nation. This will hopefully keep the population drunk and calm. Such promotion of alcoholism will have negative impact on our population but such population will be much easier to rule over. Ditributing vodka for free will also satisfy nobles."
  #Beyond Typus and BTPL Decisions
  #sweads_and_geats_one_big_happy_family_title:0 "Unify Swedish Culture"         #removed in 11.5
  #sweads_and_geats_one_big_happy_family_desc:0 "The two primary peoples of Sweden, the Swedes in the north and the Geats in the south, have lived together under the Swedish banner for many years and despite occasional friction, the two groups largely accept one another and recognise each other as kin. It is time we made it official and formally proclaim Swedes and Geats to be one and the same people, for the glory of Sweden!"         #removed in 11.5

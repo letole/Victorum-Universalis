@@ -52,3 +52,24 @@ magnates_settled_rus = {
 	local_build_cost = -0.1
 	local_manpower_modifier = -0.1
 }
+
+# Swedish boost to mil rulers
+swedish_military_miracle = {
+	monarch_military_power = 4
+}
+
+#Gave vodka timer for decision
+gave_vodka_timer = {
+}
+
+#Distributed vodka to pesants decision
+vodka_distributed = {
+	global_unrest = -3
+	nobles_loyalty_modifier = 0.1
+	stability_cost_modifier = -0.05
+	global_manpower_modifier = -0.1
+	production_efficiency = -0.1
+	state_governing_cost = -0.05
+	autonomy_change_time = -0.2
+	culture_conversion_cost = -0.1
+}
