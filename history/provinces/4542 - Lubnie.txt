@@ -16,6 +16,11 @@ add_core = KIE
 add_core = CHR
 #fort_15th = yes
 
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

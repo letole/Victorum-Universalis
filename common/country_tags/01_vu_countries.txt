@@ -417,6 +417,7 @@ SMG = "countries/Samogitia.txt"
 STP = "countries/Stolp.txt"
 #SWR = "countries/Schwerin.txt"
 WRM = "countries/Warmia.txt"
+DNR = "countries/DenmarkNorway.txt"
 
 #BT - Switzerland
 BSL = "countries/Basel.txt"
