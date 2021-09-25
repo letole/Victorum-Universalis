@@ -26785,4 +26785,126 @@ kiev_golden_gate = {
 	}
 }
 
+frederiksborg = {
+	start = 7609
+	date = 1444.1.1		#Construction started in 1560
+	time = {
+		months = 0
+	}
+	build_cost = 0
+	can_be_moved = no
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		culture = danish
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+	}
+	can_use_modifiers_trigger = {
+		culture = danish
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+	}
+	can_upgrade_trigger = {
+		culture = danish
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+	}
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_defensiveness = 0.1
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			prestige_decay = -0.0025
+			governing_capacity = 25
+			heir_chance = 0.1
+		}
+		on_upgraded = {
+			add_prestige = 10
+		}
+	}
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 3000
+		}
+		province_modifiers = {
+			local_defensiveness = 0.2
+			local_tax_modifier = 0.2
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			prestige_decay = -0.005
+			governing_capacity = 50
+			heir_chance = 0.1
+			power_projection_from_insults = 0.1
+		}
+		on_upgraded = {
+			add_base_tax = 2
+			add_base_production = 2
+		}
+	}
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5500
+		}
+		province_modifiers = {
+			local_defensiveness = 0.25
+			local_tax_modifier = 0.2
+			local_state_maintenance_modifier = -0.25
+			province_trade_power_value = 2
+		}
+		area_modifier = {
+			local_monthly_devastation = -0.01
+		}
+		country_modifiers = {
+			prestige_decay = -0.005
+			governing_capacity = 100
+			heir_chance = 0.2
+			power_projection_from_insults = 0.25
+			envoy_travel_time = -0.2
+			diplomatic_reputation = 1
+		}
+		on_upgraded = {
+			add_prestige = 20
+		}
+	}
+}
+
 #END of Emile's Monuments
