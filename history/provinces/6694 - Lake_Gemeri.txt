@@ -1,0 +1,4 @@
+#6694 - Lake_Gemeri
+
+discovered_by = east_african
+discovered_by = central_african
