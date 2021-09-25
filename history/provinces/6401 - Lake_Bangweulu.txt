@@ -1,0 +1,4 @@
+#6401 - Lake_Bangweulu
+
+discovered_by = east_african
+discovered_by = central_african

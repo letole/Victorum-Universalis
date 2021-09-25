@@ -33,12 +33,192 @@
 #	#height = 3
 #}
 
-Victoria Lake
+#Lake Victoria 
 lake = {
     triangle_strip = { 
         3203 997  #1
         3123 925  #2
         3130 1029 #3
+    }
+    height = 21
+}
+
+#Lake Kyoga
+lake = {
+    triangle_strip = { 
+        3203 1047  #1
+        3123 1015  #2
+        3130 1033  #3
+    }
+    height = 21
+}
+
+#Lake Albert
+lake = {
+    triangle_strip = { 
+        3203 1034  #1
+        3123 1015  #2
+        3130 1057  #3
+    }
+    height = 21
+}
+
+#Lake Edward
+lake = {
+    triangle_strip = { 
+        3117 1005  #1
+        3123 990   #2
+        3130 1017  #3
+    }
+    height = 21
+}
+
+#Lake Kivu
+lake = {
+    triangle_strip = { 
+        3203 978  #1
+        3123 963  #2
+        3130 986  #3
+    }
+    height = 21
+}
+
+#Lake Tonganyika
+lake = {
+    triangle_strip = { 
+        3094 850  #1
+        3123 906  #2
+        3130 969  #3
+    }
+    height = 21
+}
+
+#Lake Mweru Wantipa
+lake = {
+    triangle_strip = { 
+        3203 870  #1
+        3123 860  #2
+        3130 884  #3
+    }
+    height = 21
+}
+
+#Lake Mweru
+lake = {
+    triangle_strip = { 
+        3203 847  #1
+        3123 861  #2
+        3130 883  #3
+    }
+    height = 21
+}
+
+#Lake Rukwa
+lake = {
+    triangle_strip = { 
+        3203 870  #1
+        3123 877  #2
+        3130 896  #3
+    }
+    height = 21
+}
+
+#Lake Bangweulu
+lake = {
+    triangle_strip = { 
+        3203 836  #1
+        3123 812  #2
+        3130 842  #3
+    }
+    height = 21
+}
+
+#Lake Upemba
+lake = {
+    triangle_strip = { 
+        3203 836  #1
+        3123 812  #2
+        3130 842  #3
+    }
+    height = 21
+}
+
+#Lake Eyasi
+lake = {
+    triangle_strip = { 
+        3203 967  #1
+        3123 946  #2
+        3130 942  #3
+    }
+    height = 21
+}
+
+#Lake Manyara
+lake = {
+    triangle_strip = { 
+        3203 950  #1
+        3123 947  #2
+        3130 958  #3
+    }
+    height = 21
+}
+
+#Lake Malawi
+lake = {
+    triangle_strip = { 
+        3203 749  #1
+        3123 800  #2
+        3130 883  #3
+    }
+    height = 21
+}
+
+#Lake Chiwa
+lake = {
+    triangle_strip = { 
+        3203 749  #1
+        3123 763  #2
+        3130 783  #3
+    }
+    height = 21
+}
+
+#Lake Nwetwe
+lake = {
+    triangle_strip = { 
+        3203 654  #1
+        3123 673  #2
+        3130 704  #3
+    }
+    height = 21
+}
+
+#Lake Ngami
+lake = {
+    triangle_strip = { 
+        3203 687  #1
+        3123 675  #2
+        3130 690  #3
+    }
+    height = 21
+}
+
+#Lake Turkana
+lake = {
+    triangle_strip = { 
+        3208 1091  #1
+        3213 1038  #2
+        3187 1065  #3
+    }
+    height = 21
+}
+
+#Lake Chad
+lake = {
+    triangle_strip = { 
+        3208 1224  #1
+        3213 1193  #2
+        3187 1241  #3
     }
     height = 21
 }

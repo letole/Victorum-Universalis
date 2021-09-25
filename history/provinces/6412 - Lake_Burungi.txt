@@ -1,0 +1,4 @@
+#6412 - Lake_Burungi
+
+discovered_by = east_african
+discovered_by = central_african
