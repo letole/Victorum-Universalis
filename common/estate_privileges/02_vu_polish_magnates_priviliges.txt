@@ -178,7 +178,7 @@ estate_magnates_settle_rus = {
 					area = volhynia_area
 				}
 			}
-			remove_province_modifier = name = magnates_settled_rus
+			remove_province_modifier = magnates_settled_rus
 		}
 	}
 	can_select = {

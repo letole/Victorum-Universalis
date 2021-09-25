@@ -178,7 +178,6 @@ country_decisions = {
 						tag = ATT
 						tag = TIO
 						tag = ATW
-						tag = YPK
 						tag = TAH
 						tag = MSG
 						tag = ARN
