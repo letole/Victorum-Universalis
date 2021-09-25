@@ -28,5 +28,4 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Documented 994 AD
-1529.1.1 = { religion = protestant }
-} # The kingdom is dissolved
+1529.1.1 = { religion = protestant } # The kingdom is dissolved

@@ -1208,6 +1208,24 @@
  dwa_state_reforms:0 "State Reforms"
  dwa_state_reforms_desc:0 "Reforms of the state in enlightment spirit were necessary to keep the duchy running."
  
+ DNR_ideas:0 "Twin Realms Ideas"
+ DNR_ideas_start:0 "Dano-Norwegian Traditions"
+ DNR_ideas_bonus:0 "Dano-Norwegian Ambition"
+ dnr_colonialism:0 "Colonial Nation"
+ dnr_colonialism_desc:0 "We shall continue our ancestors' naval voyages far beyond our realm and colonize new lands for prestige and treasure."
+ dnr_cultural_union:0 "Union of two cultures"
+ dnr_cultural_union_desc:0 "Thighten cultural union between realm of Denmark and Norway"
+ dnr_north_sea_king:0 "Rulers of the North Sea"
+ dnr_north_sea_king_desc:0 "With our naval power, we shall dominate the cold northern waters!"
+ dnr_norwegian_influence:0 "Norwegian Influence"
+ dnr_norwegian_influence_desc:0 "We must look at Norwegian prctises and achievements and adopt the best solutions to our Twin Realms"
+ dnr_trade_boss:0 "Masters of Trade"
+ dnr_trade_boss_desc:0 "We must become undisputed master merchants of cold waters and dominate trade in the region due to our excellent reforms."
+ dnr_develop_north:0 "Develop Northern Lands"
+ dnr_develop_north_desc:0 "We shall put efforts into settling and developing scarsely populated areas of our country."
+ dnr_colonial_nation:0 "Colonial Empire"
+ dnr_colonial_nation_desc:0 "We shall join the other great powers and desire to establish our own colonial empire."
+ 
  
  #Helena stuff
  #Irish tweak
