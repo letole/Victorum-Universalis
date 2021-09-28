@@ -6,6 +6,8 @@ bt_minorities_expelled = {
 
 # Bonus/cost of being silesian duchy subject
 silesian_duke_modifier = {
+	land_forcelimit = -3
+	land_forcelimit_modifier = -0.25
 	shock_damage_received = -0.05
 	envoy_travel_time = -0.15
 	claim_duration = 0.2
@@ -40,6 +42,7 @@ silesian_duke_size_modifier = {
 	state_governing_cost = 0.075
 	institution_spread_from_true_faith = 0.05
 	ae_impact = 0.05
+	land_forcelimit_modifier = -0.05
 }
 
 # For new polish estate
