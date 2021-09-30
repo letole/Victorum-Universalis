@@ -2851,7 +2851,7 @@ country_event = {	#Fate of Novgorod
 		name = "flavor_rus.3001.a"
 		ai_chance = { factor = 95 }
 		custom_tooltip = flavor_rus.3001.tooltip
-		add_country_flag = dismantle_novgorod_flag
+		set_country_flag = dismantle_novgorod_flag
 		add_adm_power = -25
 		add_dip_power = -50
 		add_casus_belli = {
@@ -2934,6 +2934,7 @@ country_event = {	#Dismantle Novgorod
 			}
 			SMI = {
 				adopt_reform_progress = NOV
+				change_religion = finnish_pagan_reformed
 			}
 		}
 		if = {
