@@ -1087,6 +1087,8 @@ pudget_sound_modifier:0 "The Pudget Sound"
  desc_gave_vodka_timer:0 ""
  vodka_distributed:0 "Distributed vodka to masses"
  desc_vodka_distributed:0 ""
+ great_horde_humiliated:0 "Great Horde Humiliated"
+ desc_great_horde_humiliated:0 "Rip our military might..."
  
  ##########################
  # New province modifiers

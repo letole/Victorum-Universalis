@@ -711,3 +711,189 @@ country_event = {
 		}
 	}
 }
+
+#######################
+# VU Addon by docRobert
+#######################
+
+#Cossack-Crimean border dispute
+country_event = {
+	id = flavor_cri.9
+	title = "flavor_cri.9.t"
+	desc = "flavor_cri.9.d"
+	picture = MONGOL_BANNERS_eventPicture
+	
+	fire_only_once = yes
+
+	major = yes
+	
+	goto = 3247
+	
+	trigger = {
+		exists = ZAZ
+		exists = CRI
+		ZAZ = {
+			is_subject_of = LIT
+		}
+		tag = LIT
+		is_year = 1454
+	}
+	
+	option = {	#Crimea siezes some land
+		name = flavor_cri.9.a
+		ai_chance = {
+			factor = 85
+		}
+		reverse_add_opinion = {
+			who = ZAZ
+			modifier = opinion_traitor
+		}
+		if = {
+			limit = {
+				3247 = {
+					owned_by = ZAZ
+				}
+			}
+			3247 = {
+				cede_province = CRI
+			}
+		}
+		if = {
+			limit = {
+				7258 = {
+					owned_by = ZAZ
+				}
+			}
+			7258 = {
+				cede_province = CRI
+			}
+		}
+		if = {
+			limit = {
+				291 = {
+					owned_by = ZAZ
+				}
+			}
+			291 = {
+				cede_province = CRI
+			}
+		}
+		CRI = {
+			add_casus_belli = {
+				target = ZAZ
+				type = cb_border_war
+				months = 12
+			}
+		}
+		set_country_flag = crimean_agression_is_on
+	}
+	option = {	#Send reinforcements
+		name = flavor_cri.9.b
+		ai_chance = {
+			factor = 15
+		}
+		add_manpower = -5
+		add_treasury = -75
+		add_dip_power = -20
+		add_mil_power = -20
+		add_casus_belli = {
+			target = CRI
+			type = cb_border_war
+			months = 12
+		}
+	}
+}
+
+#Crimea siezes East Dnieper' bank
+country_event = {
+	id = flavor_cri.10
+	title = "flavor_cri.10.t"
+	desc = "flavor_cri.10.d"
+	picture = MONGOL_BANNERS_eventPicture
+	
+	fire_only_once = yes
+
+	major = yes
+	
+	goto = 2411
+	
+	trigger = {
+		exists = ZAZ
+		exists = CRI
+		ZAZ = {
+			is_subject_of = LIT
+		}
+		tag = LIT
+		is_year = 1470
+		has_country_flag = crimean_agression_is_on
+	}
+	
+	option = {	#Crimea takes control over Sich
+		name = flavor_cri.10.a
+		ai_chance = {
+			factor = 35
+		}
+		reverse_add_opinion = {
+			who = ZAZ
+			modifier = opinion_traitor
+		}
+		if = {
+			limit = {
+				2411 = {
+					owned_by = ZAZ
+				}
+			}
+			2411 = {
+				cede_province = CRI
+			}
+		}
+		if = {
+			limit = {
+				7257 = {
+					owned_by = ZAZ
+				}
+			}
+			7257 = {
+				cede_province = CRI
+			}
+		}
+		CRI = {
+			add_casus_belli = {
+				target = ZAZ
+				type = cb_border_war
+				months = 12
+			}
+		}
+		ZAZ = {
+			add_liberty_desire = 20
+			if = {
+				limit = {
+					3243 = { owned_by = ZAZ }
+				}
+				3243 = { 
+					add_core = ZAZ
+					add_base_tax = 2
+					add_base_production = 3
+					add_base_manpower = 3
+				}
+				set_capital = 3243
+			}
+				
+		}
+	}
+	option = {	#Stop them!
+		name = flavor_cri.10.b
+		ai_chance = {
+			factor = 65
+		}
+		add_manpower = -5
+		add_treasury = -100
+		add_dip_power = -20
+		add_mil_power = -20
+		add_casus_belli = {
+			target = CRI
+			type = cb_border_war
+			months = 12
+		}
+	}
+}

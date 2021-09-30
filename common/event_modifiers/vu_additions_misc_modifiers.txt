@@ -76,3 +76,23 @@ vodka_distributed = {
 	autonomy_change_time = -0.2
 	culture_conversion_cost = -0.1
 }
+
+#Great Horde humiliated by Muscovy
+great_horde_humiliated = {
+	global_unrest = -2
+	land_forcelimit_modifier = -0.2
+	fire_damage_received = 0.05
+	diplomatic_reputation = -1
+	state_maintenance_modifier = 0.1
+	infantry_power = -0.1
+	cavalry_power = -0.1
+	discipline = -0.025
+	land_morale = -0.15
+	defensiveness = -0.2
+	global_manpower_modifier = -0.10
+	reinforce_speed = -0.10
+	global_regiment_cost = 0.10
+	war_exhaustion_cost = 0.2
+	administrative_efficiency = -0.05
+	prestige = -0.5
+}
