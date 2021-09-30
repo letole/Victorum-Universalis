@@ -79,7 +79,7 @@ vodka_distributed = {
 
 #Great Horde humiliated by Muscovy
 great_horde_humiliated = {
-	global_unrest = -2
+	global_unrest = 1
 	land_forcelimit_modifier = -0.2
 	fire_damage_received = 0.05
 	diplomatic_reputation = -1
