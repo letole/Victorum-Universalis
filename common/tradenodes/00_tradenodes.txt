@@ -381,7 +381,7 @@ mexico={
 	}
 }
 african_great_lakes={
-	location=1649
+	location=4064
 	color={
 		57 168 220 
 	}

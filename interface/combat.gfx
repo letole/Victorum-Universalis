@@ -5734,7 +5734,6 @@ spriteTypes = {
         name = "GFX_combat_terrain_tundra_terrain"
         texturefile = "gfx/interface/tundra_terrain.dds"
     }
-	}
 	
 #############################################
 
