@@ -738,6 +738,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_arkona_temple.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_great_project_colossus_of_rhodes"	
+		texturefile = "gfx//interface//great_projects//great_project_colossus_of_rhodes.dds"
+	}
+	
+    spriteType = {
+		name = "GFX_great_project_hanging_gardens"	
+		texturefile = "gfx//interface//great_projects//great_project_hanging_gardens.dds"
+	}
+	
+    spriteType = {
+		name = "GFX_great_project_lighthouse_of_alexandria"	
+		texturefile = "gfx//interface//great_projects//great_project_lighthouse_of_alexandria.dds"
+	}
+	
 	#END of Emile additions
 
 ### NEW EU4 Vanilla Monuments ###
