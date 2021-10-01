@@ -3,7 +3,7 @@
 owner = TIM
 controller = TIM
 culture = armenian
-religion = coptic
+religion = miaphysite
 capital = "Daroynk"
 trade_goods = opium
 hre = no

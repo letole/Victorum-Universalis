@@ -3,7 +3,7 @@
 owner = QAR
 controller = QAR
 culture = armenian
-religion = coptic
+religion = coptic	#Actually not coptic in reality. Should be a mix of Nestorian and other Oriental Orthodoxy but it's not added yet. Coptic here and in neighboring provinces is meant to be treated as misc Eastern Orthodoxy
 capital = "Khoy"
 trade_goods = salt
 hre = no

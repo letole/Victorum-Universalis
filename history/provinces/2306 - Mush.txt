@@ -3,7 +3,7 @@
 owner = QAR
 controller = QAR
 culture = armenian			#Probably? Best bet I could find. Wiki says -Predominantly Armenian and Arab before, Kurdish immigration combined with Armenian and Assyrian Genocide has shifted the ethnic balance. Kurdish people form the majority of the city center today. Kurdish in vanilla tsk tsk
-religion = coptic
+religion = miaphysite
 capital = "Mus"
 trade_goods = salt			#the region had so much salt that it was said to have enough to supply Europe and Asia
 hre = no

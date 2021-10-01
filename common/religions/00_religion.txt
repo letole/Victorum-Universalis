@@ -1418,6 +1418,91 @@ christian = {
 		
 	}
 	
+	#Bogomilist NEW
+	bogomilist_new = {
+		color = { 173 85 66 }
+		icon = 33
+		allowed_conversion = {
+			catholic
+			orthodox
+			coptic
+			miaphysite
+		}
+		allowed_center_conversion = {
+			protestant 
+			reformed 
+			anglican 
+			orthodox
+			hussite 
+			catholic
+			slavic_pagan_reformed
+		}
+		country = {
+			shock_damage_received = -0.25
+			global_manpower_modifier = 0.15
+		}
+		country_as_secondary = {
+			global_manpower_modifier = 0.15
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		on_convert = {
+			change_religion = bogomilist_new
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		personal_deity = yes
+		heretic = { OLD_BELIEVER MOLOKAN ICONOCLAST }
+		misguided_heretic = no			# Bogomilists were rather hated
+	}
+	
+	#Miaphysite religion
+	miaphysite = {
+		color = { 244 174 220 }
+		icon = 34
+		allowed_conversion = {
+				coptic
+		}
+		country = {
+			administrative_efficiency = 0.15
+			core_creation = -0.15
+		}
+		country_as_secondary = {
+			core_creation = -0.15
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		holy_sites = { 358 379 419 2308 2313 }
+
+		blessings = {
+			legitimize_government
+			encourage_warriors_of_the_faith
+			send_monks_to_establish_monasteries
+			promote_territorial_rights
+			will_of_the_martyrs
+		}
+
+		on_convert = {
+			change_religion = miaphysite
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { OLD_BELIEVER MOLOKAN ICONOCLAST }
+		misguided_heretic = yes
+	}
+	
 	
 	harmonized_modifier = harmonized_christian
 	
@@ -2075,6 +2160,38 @@ muslim = {
 		heretic = { DRUZE_FUNDAMENTALIST HURUFI ZAIDI }
 	}
 	
+	#Druze NEW
+	druze_new = {
+		color = { 86 243 176 }
+		icon = 35
+		allowed_conversion = {
+			ibadi
+			shiite
+			sunni
+		}
+		country = {
+			missionaries = 2
+			global_missionary_strength = 0.03
+			warscore_cost_vs_other_religion = -0.15
+		}
+		country_as_secondary = {
+			ae_impact = -0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		on_convert = {
+			change_religion = druze_new
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		heretic = { DRUZE_FUNDAMENTALIST HURUFI ZAIDI }
+
+		uses_piety = yes				# Uses piety mechanics
+	}
 	
 	harmonized_modifier = harmonized_muslim
 	

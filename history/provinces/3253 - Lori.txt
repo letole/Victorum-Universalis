@@ -3,7 +3,7 @@
 owner = GEO
 controller = GEO
 culture = armenian
-religion = coptic
+religion = coptic	#originally opted for miaphysite but strong orthodox influence makes it quite diverse... "coptic" it is!
 capital = "Lore"
 trade_goods = copper
 hre = no

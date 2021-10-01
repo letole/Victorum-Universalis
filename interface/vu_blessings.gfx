@@ -1,6 +1,6 @@
 spriteTypes = {
 	
-### Slavic Holy sites ###
+	### Slavic Holy sites ###
 
 	spriteType = {
 		name = "GFX_holy_site_4745"
@@ -29,6 +29,20 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_holy_site_310"
 		texturefile = "gfx//interface//holy_sites//peryn.dds"
+		loadType = "INGAME"
+	}
+	
+	### Extra Miaphysite holy sites ###
+		
+	spriteType = {
+		name = "GFX_holy_site_379"
+		texturefile = "gfx//interface//holy_sites//jerusalem.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_holy_site_2308"
+		texturefile = "gfx//interface//holy_sites//edessa.dds"
 		loadType = "INGAME"
 	}
 
