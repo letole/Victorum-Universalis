@@ -49,5 +49,25 @@
  tuoni: "Tuoni"
  tuoni_desc: "Tuoni is the god of death and the ruler of the underworld."
  
+ 
+ slavic_group:0 "Rodnovery"
+ 
+ OLD_SLAVIC: "Old Slavic"
+ slavic_pagan_reformed_religion_desc: "Slavic Paganism is the polytheistic traditional belief system of the Slavic peoples. In their traditions most of their deities ruled over a specific aspect of nature. Before christian missions in IX and X century, it had been strong and dominant faith of all Slavs from Rus, Balkans, Poland, Greater Moravia and Pomerania. By 1444 the slavic paganism has been completely erradicated from western slavs and almost completely in Rus. Secluded regions of Rus are the last places where slavic paganism may still be practiced, though only as minority."
+ slavic_pagan_reformed: "Slavic"
+ slavic_pagan_reformed_rebels_title: "Religious"
+ slavic_pagan_reformed_rebels_name: "$RELIGION$ Zealots"
+ slavic_pagan_reformed_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ slavic_pagan_reformed_rebels_army: "$RELIGION$ Army"
+ slavic_pagan_reformed_rebels_demand: "Convert $COUNTRYNAME$"
+ slavic_pagan_reformed_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ blessing_arkona:0 "Temple of Arkona"
+ blessing_slenzha:0 "Temple in Slenzha"
+ blessing_kiev:0 "Temple of Kiev"
+ blessing_radgost:0 "Temple of Radgost"
+ blessing_peryn:0 "Temple of Peryn"
+ slavic_pagan_reformed_blessings:0 "Slavic Blessings"
+ pick_slavic_pagan_reformed_blessing:0 "Pick Temple Blessing"
+ 
  vu_pagan_rebels_demand:0 "Supremacy of pagan faith"
  vu_pagan_rebels_demand_desc:0 "State's religion has been opressing native faith for too long. It is time for pagan reactionary uprising."

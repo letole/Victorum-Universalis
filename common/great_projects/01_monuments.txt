@@ -26907,4 +26907,273 @@ frederiksborg = {
 	}
 }
 
+arkona_temple = {
+	# province it starts in
+	start = 4745	# Rugen
+	
+	# date built in real life
+	date = 850.1.1	# Established somewhere in 9th century
+	
+	#time to build
+	time = {
+		months = 24
+	}
+	
+	#how much to build one
+	build_cost = 250
+	
+	#can we move it?
+	can_be_moved = no
+	
+	#time to move the project one unit of distance, in days
+	move_days_per_unit_distance = 10
+	
+	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	starting_tier = 0
+	
+	#project type
+	type = monument
+
+	#can we build it?
+	build_trigger = {
+		AND = {
+			has_owner_culture = yes
+			has_owner_religion = yes
+			religion = slavic_pagan_reformed
+		}
+		AND = {
+			has_owner_culture = yes
+			OR = {
+				culture_group = west_slavic
+				culture_group = south_slavic
+				culture_group = east_slavic
+				culture = pommeranian
+			}
+		}
+	}
+
+	#what to do when it's built
+	on_built = {
+	
+	}
+	
+	#what to do when it's destroyed
+	on_destroyed = {
+	
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		FROM = { religion = slavic_pagan_reformed }
+	}
+
+	#can our country upgrade it?
+	can_upgrade_trigger = {
+		AND = {
+			has_owner_culture = yes
+			has_owner_religion = yes
+			religion = slavic_pagan_reformed
+		}
+		AND = {
+			has_owner_culture = yes
+			OR = {
+				culture_group = west_slavic
+				culture_group = south_slavic
+				culture_group = east_slavic
+				culture = pommeranian
+			}
+		}	
+	}
+
+	#can our country keep it or is it destroyed when we get hold of it?
+	keep_trigger = {
+		FROM = { religion = slavic_pagan_reformed }
+	}
+
+	#tier data
+	tier_0 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 60
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 400
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			trade_value = 0.5
+			local_monthly_devastation = -0.05
+			local_unrest = -2
+			local_missionary_strength = -0.01
+			local_defensiveness = 0.1
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_religious_conversion_resistance = 0.75
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			church_loyalty_modifier = 0.05
+			tolerance_own = 1
+			naval_forcelimit = 2
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			47 = {
+				change_religion = slavic_pagan_reformed
+			}
+			7816 = {
+				change_religion = slavic_pagan_reformed
+			}
+			2994 = {
+				change_religion = slavic_pagan_reformed
+			}
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			trade_value_modifier = 0.05
+			trade_goods_size = 0.5
+			trade_value = 2
+			local_monthly_devastation = -0.07
+			local_unrest = -2
+			local_missionary_strength = -0.025
+			local_defensiveness = 0.15
+			local_sailors_modifier = 0.2
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_unrest = -1
+			local_religious_conversion_resistance = 0.90
+			province_trade_power_modifier = 0.1
+			ship_recruit_speed = -0.1
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			church_loyalty_modifier = 0.075
+			church_influence_modifier = 0.025
+			stability_cost_modifier = -0.05
+			warscore_cost_vs_other_religion = -0.10
+			land_morale = 0.10
+			tolerance_own = 1
+			naval_forcelimit = 4
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			define_admiral = {
+				shock = 4
+				fire = 3
+				manuever = 4
+				siege = 2
+			}
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 7500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			trade_value_modifier = 0.1
+			trade_goods_size = 0.5
+			trade_value = 3
+			local_monthly_devastation = -0.1
+			local_unrest = -4
+			local_missionary_strength = -0.03
+			local_regiment_cost = -0.2
+			local_defensiveness = 0.25
+			local_sailors_modifier = 0.25
+			local_development_cost = -0.2
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			trade_value_modifier = 0.15
+			local_manpower_modifier = 0.2
+			local_unrest = -2
+			local_religious_conversion_resistance = 1
+			province_trade_power_modifier = 0.2
+			ship_recruit_speed = -0.2
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			church_loyalty_modifier = 0.1
+			church_influence_modifier = 0.05
+			stability_cost_modifier = -0.1
+			warscore_cost_vs_other_religion = -0.10
+			land_morale = 0.10
+			missionaries = 1
+			global_missionary_strength = 0.02
+			tolerance_own = 2
+			shock_damage_received = -0.10
+			naval_forcelimit = 10
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+		}
+	}
+}
+
 #END of Emile's Monuments
