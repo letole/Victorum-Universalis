@@ -753,6 +753,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_lighthouse_of_alexandria.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_great_project_avignon_castle"	
+		texturefile = "gfx//interface//great_projects//great_project_avignon_castle.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_city_jerusalem"	
+		texturefile = "gfx//interface//great_projects//great_project_city_jerusalem.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_city_of_carthage"	
+		texturefile = "gfx//interface//great_projects//great_project_city_of_carthage.dds"
+	}
+	
 	#END of Emile additions
 
 ### NEW EU4 Vanilla Monuments ###

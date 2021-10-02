@@ -27906,4 +27906,711 @@ lighthouse_of_alexandria = {
 	}
 }
 
+avignon_castle = {
+	start = 202
+
+	date = 1309.01.01
+
+	time = {
+		months = 0
+	}
+
+	build_cost = 0
+
+	can_be_moved = no
+
+	starting_tier = 1
+
+	type = monument
+
+	build_trigger = {
+		FROM = {
+			OR = {
+				religion = catholic
+				religion = protestant
+				religion = reformed
+				religion = orthodox
+			}
+		}
+		OR = {
+			religion = catholic
+			religion = protestant
+			religion = reformed
+			religion = orthodox
+		}
+		has_owner_religion = yes
+	}
+
+	on_built = {
+		
+	}
+
+	on_destroyed = {
+		
+	}
+
+	can_use_modifiers_trigger = {
+		FROM = {
+			OR = {
+				religion = catholic
+				religion = protestant
+				religion = reformed
+				religion = orthodox
+			}
+		}
+		OR = {
+			religion = catholic
+			religion = protestant
+			religion = reformed
+			religion = orthodox
+		}
+		has_owner_religion = yes
+	}
+
+	can_upgrade_trigger = {
+		FROM = {
+			OR = {
+				religion = catholic
+				religion = protestant
+				religion = reformed
+				religion = orthodox
+			}
+		}
+		has_owner_religion = yes
+	}
+
+	keep_trigger = {
+		FROM = {
+			OR = {
+				religion = catholic
+				religion = protestant
+				religion = reformed
+				religion = orthodox
+			}
+		}
+		has_owner_religion = yes
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+		}
+
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1500
+		}
+
+		province_modifiers = {
+			local_monthly_devastation = -0.1
+			local_unrest = -1
+			local_religious_conversion_resistance = 0.5
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			missionary_maintenance_cost = -0.1
+			devotion = 1
+		}
+
+		on_upgraded = {
+			
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+
+		cost_to_upgrade = {
+			factor = 2400
+		}
+
+		province_modifiers = {
+			local_monthly_devastation = -0.15
+			local_unrest = -1
+			local_religious_conversion_resistance = 0.75
+			local_tax_modifier = 0.1
+			local_defensiveness = 0.1
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			missionary_maintenance_cost = -0.1
+			devotion = 1
+		}
+
+		on_upgraded = {
+			
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+
+		cost_to_upgrade = {
+			factor = 6660
+		}
+
+		province_modifiers = {
+			local_monthly_devastation = -0.2
+			local_unrest = -2
+			local_religious_conversion_resistance = 0.75
+			local_tax_modifier = 0.2
+			fort_level = 1
+			local_defensiveness = 0.2
+		}
+
+		area_modifier = {
+			local_unrest = -1
+			local_religious_conversion_resistance = 0.15
+			local_missionary_strength = 0.01
+		}
+
+		country_modifiers = {
+			missionary_maintenance_cost = -0.15
+			devotion = 1
+			church_loyalty_modifier = 0.05
+			papal_influence = 1
+		}
+
+		on_upgraded = {
+			
+		}
+	}
+}
+
+city_jerusalem = {
+	start = 379
+
+	date = -975.01.01	#Probably should be MUCH older but end of bronze age collapse and first Israel Kingdom is good place to start
+
+	time = {
+		months = 0
+	}
+
+	build_cost = 0
+
+	can_be_moved = no
+
+	starting_tier = 1
+
+	type = monument
+
+	build_trigger = {
+		FROM = {
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+				religion = zoroastrian
+			}
+		}
+	}
+
+	on_built = {
+		
+	}
+
+	on_destroyed = {
+		
+	}
+
+	can_use_modifiers_trigger = {
+		FROM = {
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+				religion = zoroastrian
+			}
+		}
+	}
+
+	can_upgrade_trigger = {
+		FROM = {
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+				religion = zoroastrian
+			}
+		}
+	}
+
+	keep_trigger = {
+		FROM = {
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+				religion = zoroastrian
+			}
+		}
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+		}
+
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 3000
+		}
+
+		province_modifiers = {
+			garrison_growth = 0.05
+			trade_value = 2
+			local_tax_modifier = 0.1
+		}
+
+		area_modifier = {
+			province_trade_power_modifier = 0.05
+			local_missionary_maintenance_cost = -0.1
+		}
+
+		country_modifiers = {
+			
+		}
+
+		on_upgraded = {
+			
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 250
+		}
+
+		cost_to_upgrade = {
+			factor = 4000
+		}
+
+		province_modifiers = {
+			garrison_growth = 0.1
+			trade_value = 4
+			local_tax_modifier = 0.2
+			local_institution_spread = 0.1
+			local_development_cost = -0.1
+		}
+
+		area_modifier = {
+			province_trade_power_modifier = 0.1
+			local_missionary_maintenance_cost = -0.25
+			local_missionary_strength = 0.01
+		}
+
+		country_modifiers = {
+			
+		}
+
+		on_upgraded = {
+			
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+
+		cost_to_upgrade = {
+			factor = 8000
+		}
+
+		province_modifiers = {
+			garrison_growth = 0.15
+			trade_value = 10
+			local_tax_modifier = 0.25
+			local_institution_spread = 0.2
+			local_development_cost = -0.2
+			local_defensiveness = 0.1
+		}
+
+		area_modifier = {
+			province_trade_power_modifier = 0.1
+			local_missionary_maintenance_cost = -0.33
+			local_missionary_strength = 0.015
+			local_religious_unity_contribution = -0.5
+		}
+
+		country_modifiers = {
+			devotion = 1
+			monthly_piety = 0.1
+			republican_tradition = 0.5
+			governing_capacity = 50
+		}
+
+		on_upgraded = {
+			
+		}
+	}
+}
+
+city_of_carthage = {
+	start = 341		#Carthage is right next to present day Tunis
+
+	date = -350.01.01	#Obviously before 146BC :)
+
+	time = {
+		months = 0
+	}
+
+	build_cost = 0
+
+	can_be_moved = no
+
+	starting_tier = 0
+
+	type = monument
+
+	build_trigger = {
+		adm_tech = 10
+		AND = {
+			OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+			}
+			OR = {
+				culture_group = byzantine
+				culture_group = egyptian_group
+				culture_group = old_latin
+				culture_group = latin
+				culture = roman
+				culture = phoenician
+				culture = afro_roman
+				culture = tunisian
+			}
+		}
+		NOT = { religion_group = muslim }
+	}
+
+	on_built = {
+		
+	}
+
+	on_destroyed = {
+		
+	}
+
+	can_use_modifiers_trigger = {
+		adm_tech = 10
+		AND = {
+			OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+			}
+			OR = {
+				culture_group = byzantine
+				culture_group = egyptian_group
+				culture_group = old_latin
+				culture_group = latin
+				culture = roman
+				culture = phoenician
+				culture = afro_roman
+				culture = tunisian
+			}
+		}
+		NOT = { religion_group = muslim }
+	}
+
+	can_upgrade_trigger = {
+		adm_tech = 10
+		AND = {
+			OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+			}
+			OR = {
+				culture_group = byzantine
+				culture_group = egyptian_group
+				culture_group = old_latin
+				culture_group = latin
+				culture = roman
+				culture = phoenician
+				culture = afro_roman
+				culture = tunisian
+			}
+		}
+		NOT = { religion_group = muslim }
+	}
+
+	keep_trigger = {
+		adm_tech = 10
+		AND = {
+			OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+			}
+			OR = {
+				culture_group = byzantine
+				culture_group = egyptian_group
+				culture_group = old_latin
+				culture_group = latin
+				culture = roman
+				culture = phoenician
+				culture = afro_roman
+				culture = tunisian
+			}
+		}
+		NOT = { religion_group = muslim }
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+		}
+
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 250
+		}
+
+		cost_to_upgrade = {
+			factor = 3000
+		}
+
+		province_modifiers = {
+			trade_value = 2
+			province_trade_power_value = 5
+			local_tax_modifier = 0.1
+			local_ship_cost = -0.1
+			local_ship_repair = 0.1
+			ship_recruit_speed = -0.1
+			province_trade_power_modifier = 0.1
+		}
+
+		area_modifier = {
+			province_trade_power_modifier = 0.05
+			blockade_force_required = 0.25
+			local_sailors_modifier = 0.1
+		}
+
+		country_modifiers = {
+			
+		}
+
+		on_upgraded = {
+			341 = {
+				ROOT = {
+					light_ship = PREV
+				}
+			}
+			341 = {
+				ROOT = {
+					light_ship = PREV
+				}
+			}	
+			341 = {
+				ROOT = {
+					light_ship = PREV
+				}
+			}	
+			341 = {
+				ROOT = {
+					light_ship = PREV
+				}
+			}	
+			341 = {
+				ROOT = {
+					light_ship = PREV
+				}
+			}	
+			341 = {
+				ROOT = {
+					light_ship = PREV
+				}
+			}	
+			341 = {
+				ROOT = {
+					light_ship = PREV
+				}
+			}	
+			341 = {
+				ROOT = {
+					light_ship = PREV
+				}
+			}	
+			341 = {
+				ROOT = {
+					light_ship = PREV
+				}
+			}	
+			341 = {
+				ROOT = {
+					light_ship = PREV
+				}
+			}	
+			341 = {
+				ROOT = {
+					light_ship = PREV
+				}
+			}	
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 250
+		}
+
+		cost_to_upgrade = {
+			factor = 6500
+		}
+
+		province_modifiers = {
+			trade_value = 5
+			province_trade_power_value = 10
+			local_tax_modifier = 0.1
+			local_ship_cost = -0.2
+			local_ship_repair = 0.1
+			ship_recruit_speed = -0.1
+			province_trade_power_modifier = 0.15
+		}
+
+		area_modifier = {
+			province_trade_power_value = 1
+			province_trade_power_modifier = 0.1
+			blockade_force_required = 0.33
+			local_sailors_modifier = 0.1
+		}
+
+		country_modifiers = {
+			global_own_trade_power = 0.05
+		}
+
+		on_upgraded = {
+			341 = {
+				ROOT = {
+					heavy_ship = PREV
+				}
+			}
+			341 = {
+				ROOT = {
+					heavy_ship = PREV
+				}
+			}
+			341 = {
+				ROOT = {
+					heavy_ship = PREV
+				}
+			}
+			341 = {
+				ROOT = {
+					heavy_ship = PREV
+				}
+			}
+			341 = {
+				ROOT = {
+					heavy_ship = PREV
+				}
+			}
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+
+		cost_to_upgrade = {
+			factor = 10000
+		}
+
+		province_modifiers = {
+			trade_value = 8
+			province_trade_power_value = 20
+			local_tax_modifier = 0.1
+			local_ship_cost = -0.2
+			local_ship_repair = 0.2
+			ship_recruit_speed = -0.2
+			province_trade_power_modifier = 0.2
+			hostile_disembark_speed = 0.5
+		}
+
+		area_modifier = {
+			province_trade_power_value = 5
+			province_trade_power_modifier = 0.15
+			blockade_force_required = 0.5
+			local_sailors_modifier = 0.25
+		}
+
+		country_modifiers = {
+			global_own_trade_power = 0.05
+			merchants = 1
+			navy_tradition_decay = -0.015
+		}
+
+		on_upgraded = {
+			
+		}
+	}
+}
+
 #END of Emile's Monuments
