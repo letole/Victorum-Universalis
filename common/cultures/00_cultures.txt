@@ -1705,6 +1705,15 @@ west_slavic = {
 	polabian_culture = {
 		graphical_culture = westerngfx
 		primary = RUG
+		dynasty_names = {
+			Dubik Pinca Rapak Recka Horjan Smola Wrobl Liska Bramborski Salowski Salow Holanski Wowcer Kowar Korcmar Burik Smoler
+		}
+		male_names = {
+			Stanislaw Peter Jan Jakub Boscij Pavle Hansl Miklaws Mato Korla Kito  
+		}
+		female_names = {
+			Maria Alzbeta Ludmila Eva Anna Trudla Hilza Herta Worsa Agnes Maria Hilza
+		}
 	}
 	#BtPLegacy Culture
 	kashubian_culture = {

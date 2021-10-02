@@ -3131,6 +3131,48 @@
  construct_frederiksborg_title: "Build Frederiksborg Castle"
  construct_frederiksborg_desc: "Seriously, is monument description even visible anywhere? If you are reading this during your game, contact curious mod dev."
  #
+ great_project_arkona_temple: "Temple of Arkona"
+ arkona_temple: "Temple of Arkona"
+ arkona_temple_title: "Build Temple of Arkona"
+ construct_arkona_temple_title: "Build Temple of Arkona"
+ construct_arkona_temple_desc: "Seriously, is monument description even visible anywhere? If you are reading this during your game, contact curious mod dev."
+ #
+ great_project_colossus_of_rhodes: "Colossus of Rhodes"
+ colossus_of_rhodes_title: "Build Colossus of Rhodes"
+ colossus_of_rhodes: "Colossus of Rhodes"
+ construct_colossus_of_rhodes_desc: "Statue of the Greek sun-god Helios, erected in the city of Rhodes, on the Greek island of the same name. Project was finished around 280 BC. One of the Seven Wonders of the Ancient World, it was constructed to celebrate the successful defence of Rhodes city against an attack by Demetrius Poliorcetes, who had besieged it for a year with a large army and navy. Monumental statue was completely destroyed soon after in 226 BC by earthquake."
+ construct_colossus_of_rhodes_title: "Build Colossus of Rhodes"
+ #
+ great_project_hanging_gardens: "Hanging Gardens of Babylon"
+ hanging_gardens_title: "Hanging Gardens of Babylon"
+ hanging_gardens: "Hanging Gardens of Babylon"
+ construct_hanging_gardens_title: "Build Hanging Gardens of Babylon"
+ construct_hanging_gardens_desc: "Seriously, is monument description even visible anywhere? If you are reading this during your game, contact curious mod dev."
+ #
+ great_project_lighthouse_of_alexandria: "Lighthose of Alexandria"
+ lighthouse_of_alexandria_title: "Lighthouse of Alexandria"
+ lighthouse_of_alexandria: "Lighthouse of Alexandria"
+ construct_lighthouse_of_alexandria_title: "Construct Lighthouse of Alexandria"
+ construct_lighthouse_of_alexandria_desc: "Seriously, is monument description even visible anywhere? If you are reading this during your game, contact curious mod dev."
+ #
+ great_project_avignon_castle: "Avignon Castle"
+ avignon_castle_title: "Avignon Castle"
+ avignon_castle: "Avignon Castle"
+ construct_avignon_castle_title: "Construct Avignon Castle"
+ construct_avignon_castle_desc: "Seriously, is monument description even visible anywhere? If you are reading this during your game, contact curious mod dev."
+ #
+ great_project_city_jerusalem: "Grand City of Jerusalem"
+ city_jerusalem_title: "Grand City of Jerusalem"
+ city_jerusalem: "Grand City of Jerusalem"
+ construct_city_jerusalem_title: "Construct Grand City of Jerusalem"
+ construct_city_jerusalem_desc: "Totally different than Temple of Jerusalem!"
+ #
+ great_project_city_of_carthage: "Cothon of Carthage"
+ city_of_carthage_title: "Cothon of Carthage"
+ city_of_carthage: "Cothon of Carthage"
+ construct_city_of_carthage_title: "Construct Cothon of Carthage"
+ construct_city_of_carthage_desc: "Seriously, is monument description even visible anywhere? If you are reading this during your game, contact curious mod dev."
+ #
  #Purple Phoenix DLC Only Missions
  recover_west_anatolia_title:0 "Recover Anatolia"
  recover_west_anatolia_desc:0 "Like a great phoenix, Rome has risen from the ashes of the devastation wrought be Arabs, Turks, Franks, and others. Now, we must turn our attention to reclaiming our lost land in Anatolia."

@@ -3,7 +3,7 @@
 owner = GEO
 controller = GEO
 culture = armenian
-religion = coptic
+religion = miaphysite
 capital = "Kars"
 trade_goods = wine
 hre = no

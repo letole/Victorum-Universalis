@@ -3,7 +3,7 @@
 owner = MAM
 controller = MAM
 culture = al_suryah_arabic
-religion = sunni
+religion = druze_new	#Not really accurate, but there are majority Druze communities somewhere between Galilee Sea and Akka
 capital = "Nazareth"
 trade_goods = dates
 hre = no

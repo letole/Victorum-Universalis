@@ -93,7 +93,22 @@ country_decisions = {
 			OR = {
 				owns_core_province = 306		# Nijni-Novgorod
 				owns_core_province = 307		# Vladimir	
-			}			
+			}
+			NOT = { exists = NOV }	# A bunch of Russian minors may not exist
+			NOT = { exists = TVE }	# Russia needs to conquer/integrate them first
+			NOT = { exists = GLC }	
+			NOT = { exists = VYA }
+			NOT = { exists = BLV }
+			NOT = { exists = PRS }
+			NOT = { exists = MOZ }
+			NOT = { exists = ZBT }
+			NOT = { exists = SPK }	
+			NOT = { exists = PSK }
+			NOT = { exists = RYA }	
+			NOT = { exists = BLO }
+			NOT = { exists = YAR }
+			NOT = { exists = PLT }
+			NOT = { exists = RSO }
 		}
 		effect = {
 			every_subject_country = {

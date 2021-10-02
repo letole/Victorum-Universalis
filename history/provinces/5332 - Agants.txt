@@ -3,7 +3,7 @@
 owner = TIM
 controller = TIM
 culture = armenian
-religion = coptic
+religion = miaphysite
 capital = "Arjesh"
 trade_goods = cheese
 hre = no
