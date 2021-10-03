@@ -1206,24 +1206,24 @@ lake = {
 #Montenegro & Albania
 
 #Lake Shkodra Part 1
-lake = {
-    triangle_strip = { 
-        2941 1703  #1
-        2943 1695  #2
-        2938 1693  #3
-    }
-    height = 19
-}
+#lake = {
+#    triangle_strip = { 
+#        2941 1703  #1
+#        2943 1695  #2
+#        2938 1693  #3
+#    }
+#    height = 19
+#}
 
 #Lake Shkodra Part 2
-lake = {
-    triangle_strip = { 
-        2941 1703  #1
-        2938 1693  #2
-        2933 1701  #3
-    }
-    height = 19
-}
+#lake = {
+#    triangle_strip = { 
+#        2941 1703  #1
+#        2938 1693  #2
+#        2933 1701  #3
+#    }
+#    height = 19
+#}
 
 #Norway & Sweden
 
@@ -1431,151 +1431,401 @@ lake = {
 #Second Group 
 lake = {
     triangle_strip = { 
-        3924 1577  #1
-        3922 1530  #2
-        3856 1528  #3
+        3982 1507  #1
+        3981 1459  #2
+        3898 1498  #3
     }
-    height = 27
+    height = 31
 }
 
 #Third Group 
 lake = {
     triangle_strip = { 
-        3922 1530  #1
-        3982 1462  #2
-        3892 1494  #3
+        3982 1507  #1
+        3898 1498  #2
+        3934 1522  #3
     }
-    height = 27
+    height = 31
 }
 
 #Fourth Group 
 lake = {
     triangle_strip = { 
-        4009 1509  #1
-        4038 1445  #2
-        3982 1462  #3
+        3994 1517  #1
+        4071 1468  #2
+        4025 1446  #3
     }
-    height = 27
+    height = 31
 }
 
 #Fifth Group 
 lake = {
     triangle_strip = { 
-        4077 1474  #1
-        4038 1445  #2
-        4009 1509  #3
+        3994 1517  #1
+        4025 1446  #2
+        3981 1459  #3
     }
-    height = 27
+    height = 31
 }
 
 #Sixth Group 
 lake = {
     triangle_strip = { 
-        4078 1512  #1
-        4077 1474  #2
-        4009 1509  #3
+        4073 1543  #1
+        4061 1479  #2
+        3994 1517  #3
     }
-    height = 27
+    height = 31
 }
 
 #Seventh Group
 lake = {
     triangle_strip = { 
-        4048 1559  #1
-        4078 1512  #2
-        4009 1509  #3
+        4030 1573  #1
+        4073 1543  #2
+        3994 1517  #3
     }
-    height = 27
+    height = 31
 }
 
 #Eight Group
 lake = {
     triangle_strip = { 
-        4048 1559  #1
-        4009 1509  #2
-        3967 1549  #3
+        4030 1573  #1
+        3994 1517  #2
+        3957 1564  #3
     }
-    height = 27
+    height = 31
 }
 
 #Ninth Group
 lake = {
     triangle_strip = { 
-        4014 1579  #1
-        4048 1559  #2
-        3967 1549  #3
+        3994 1517  #1
+        3981 1459  #2
+        3982 1507  #3
+    }
+    height = 31
+}
+
+#Lake Yuye Part 1
+lake = {
+    triangle_strip = { 
+        4019 1599  #1
+        4020 1574  #2
+        3985 1577  #3
+    }
+    height = 31
+}
+
+#Lake Yuye Part 2
+lake = {
+    triangle_strip = { 
+        4019 1599  #1
+        3985 1577  #2
+        3984 1590  #3
+    }
+    height = 31
+}
+
+#Lake Xiangyang Part 1
+lake = {
+    triangle_strip = { 
+        4042 1600  #1
+        4036 1573  #2
+        4020 1574  #3
+    }
+    height = 31
+}
+
+#Lake Xiangyang Part 2
+lake = {
+    triangle_strip = { 
+        4042 1600  #1
+        4020 1574  #2
+        4019 1599  #3
+    }
+    height = 31
+}
+
+#Lake Wudan Part 1
+lake = {
+    triangle_strip = { 
+        4073 1595  #1
+        4068 1577  #2
+        4040 1580  #3
+    }
+    height = 31
+}
+
+#Lake Wudan Part 2
+lake = {
+    triangle_strip = { 
+        4073 1600  #1
+        4040 1574  #2
+        4042 1599  #3
+    }
+    height = 31
+}
+
+#Lake Wulanwula Part 1
+lake = {
+    triangle_strip = { 
+        4068 1577  #1
+        4062 1563  #2
+        4039 1562  #3
+    }
+    height = 31
+}
+
+#Lake Wulanwula Part 2
+lake = {
+    triangle_strip = { 
+        4068 1577  #1
+        4039 1562  #2
+        4040 1580  #3
+    }
+    height = 31
+}
+
+#Lake Kusai Part 1
+lake = {
+    triangle_strip = { 
+        4073 1595  #1
+        4109 1585  #2
+        4099 1578  #3
+    }
+    height = 30
+}
+
+#Lake Kusai Part 2
+lake = {
+    triangle_strip = { 
+        4099 1578  #1
+        4068 1577  #2
+        4073 1595  #3
+    }
+    height = 30
+}
+
+#Lake Aqqikkol
+lake = {
+    triangle_strip = { 
+        4018 1616  #1
+        4029 1606  #2
+        4012 1603  #3
     }
     height = 27
 }
 
-#Tenth Group
+#Lake Ayakum
 lake = {
     triangle_strip = { 
-        4046 1579  #1
-        4048 1559  #2
-        4014 1579  #3
+        4056 1630  #1
+        4050 1608  #2
+        4018 1616  #3
     }
     height = 27
 }
 
-#Eleventh Group
+#Lake Taiji
 lake = {
     triangle_strip = { 
-        4088 1594  #1
-        4048 1559  #2
-        4046 1597  #3
+        4056 1630  #1
+        4083 1609  #2
+        4050 1608  #3
     }
     height = 27
 }
 
-#Twelfth Group
+#Lake Dabusun Part 1
 lake = {
     triangle_strip = { 
-        4103 1578  #1
-        4048 1559  #2
-        4088 1594  #3
+        4083 1609  #1
+        4117 1594  #2
+        4073 1595  #3
     }
     height = 27
 }
 
-#Thirteenth Group
+#Lake Dabusun Part 2
 lake = {
     triangle_strip = { 
-        4046 1597  #1
-        4014 1579  #2
-        4016 1622  #3
+        4117 1606  #1
+        4117 1594  #2
+        4073 1595  #3
     }
     height = 27
 }
 
-#Fourteenth Group
+#Lake Beihuo
 lake = {
     triangle_strip = { 
-        4047 1620  #1
-        4046 1579  #2
-        4016 1622  #3
+        4127 1608  #1
+        4143 1604  #2
+        4131 1587  #3
     }
     height = 27
 }
 
-#Fifteenth Group
+#Lake Tuosu
 lake = {
     triangle_strip = { 
-        4155 1644  #1
-        4174 1561  #2
-        4139 1569  #3
+        4153 1624  #1
+        4172 1607  #2
+        4143 1604  #3
+    }
+    height = 28
+}
+
+#Lake Halahu
+lake = {
+    triangle_strip = { 
+        4163 1640  #1
+        4170 1626  #2
+        4155 1626  #3
+    }
+    height = 30
+}
+
+#Lake Suqian
+lake = {
+    triangle_strip = { 
+        4118 1646  #1
+        4110 1622  #2
+        4093 1635  #3
+    }
+    height = 28
+}
+
+#Lake Xiaochaidamu Part 1
+lake = {
+    triangle_strip = { 
+        4120 1628  #1
+        4127 1608  #2
+        4117 1606  #3
+    }
+    height = 28
+}
+
+#Lake Xiaochaidamu Part 2
+lake = {
+    triangle_strip = { 
+        4120 1628  #1
+        4117 1606  #2
+        4110 1622  #3
+    }
+    height = 28
+}
+
+#Lake Qinghai Part 1
+lake = {
+    triangle_strip = { 
+        4194 1621  #1
+        4222 1603  #2
+        4212 1589  #3
+    }
+    height = 28
+}
+
+#Lake Qinghai Part 2
+lake = {
+    triangle_strip = { 
+        4194 1621  #1
+        4212 1589  #2
+        4182 1600  #3
+    }
+    height = 28
+}
+
+#Lake Doucuo
+lake = {
+    triangle_strip = { 
+        4195 1587  #1
+        4204 1582  #2
+        4194 1576  #3
+    }
+    height = 28
+}
+
+#Lake Donggei
+lake = {
+    triangle_strip = { 
+        4195 1587  #1
+        4187 1574  #2
+        4172 1583  #3
+    }
+    height = 28
+}
+
+#Lake Ngoring Part 1
+lake = {
+    triangle_strip = { 
+        4156 1583  #1
+        4182 1571  #2
+        4178 1561  #3
+    }
+    height = 29
+}
+
+#Lake Ngoring Part 2
+lake = {
+    triangle_strip = { 
+        4156 1583  #1
+        4178 1561  #2
+        4150 1567  #3
+    }
+    height = 29
+}
+
+#Lake Chenghai
+lake = {
+    triangle_strip = { 
+        4211 1436  #1
+        4217 1427  #2
+        4207 1425  #3
     }
     height = 27
 }
 
-#Sixteenth Group
+#Lake Erhai
 lake = {
     triangle_strip = { 
-        4155 1644  #1
-        4231 1602  #2
-        4174 1561  #3
+        4216 1415  #1
+        4203 1407  #2
+        4198 1425  #3
     }
     height = 27
+}
+
+#Lake Dian
+lake = {
+    triangle_strip = { 
+        4241 1411  #1
+        4250 1400  #2
+        4237 1397  #3
+    }
+    height = 26
+}
+
+#Lake Fuxian
+lake = {
+    triangle_strip = { 
+        4250 1400  #1
+        4245 1383  #2
+        4237 1397  #3
+    }
+    height = 26
+}
+
+#Lake Yilong
+lake = {
+    triangle_strip = { 
+        4247 1377  #1
+        4238 1371  #2
+        4237 1383  #3
+    }
+    height = 24
 }
 
 #Siberian Lakes
@@ -1596,7 +1846,7 @@ lake = {
         3870 1702  #2
         3830 1690  #3
     }
-    height = 24
+    height = 25
 }
 
 #Lake Kul Part 2
@@ -1606,7 +1856,7 @@ lake = {
         3830 1690  #2
         3824 1705  #3
     }
-    height = 24
+    height = 25
 }
 
 #Lake Song-Kul
@@ -1626,7 +1876,7 @@ lake = {
         3822 1668  #2
         3808 1665  #3
     }
-    height = 24
+    height = 26
 }
 
 #Lake Alakol
@@ -1647,6 +1897,186 @@ lake = {
         4197 1862  #3
     }
     height = 20
+}
+
+#Lake Zaysan
+lake = {
+    triangle_strip = { 
+        3961 1817  #1
+        3959 1793  #2
+        3929 1812  #3
+    }
+    height = 20
+}
+
+#Lake Ulungur
+lake = {
+    triangle_strip = { 
+        4010 1797  #1
+        4008 1776  #2
+        3992 1792  #3
+    }
+    height = 20
+}
+
+#Lake Markakol
+lake = {
+    triangle_strip = { 
+        3977 1825  #1
+        3985 1817  #2
+        3972 1815  #3
+    }
+    height = 25
+}
+
+#Lake Sayram
+lake = {
+    triangle_strip = { 
+        3906 1748  #1
+        3913 1740  #2
+        3900 1738  #3
+    }
+    height = 25
+}
+
+#Lake Bosten
+lake = {
+    triangle_strip = { 
+        3994 1702  #1
+        4010 1691  #2
+        3990 1688  #3
+    }
+    height = 22
+}
+
+#Lake Uvs Part 1
+lake = {
+    triangle_strip = { 
+        4090 1860  #1
+        4103 1848  #2
+        4084 1838  #3
+    }
+    height = 22
+}
+
+#Lake Uvs Part 2
+lake = {
+    triangle_strip = { 
+        4090 1860  #1
+        4084 1838  #2
+        4075 1850  #3
+    }
+    height = 22
+}
+
+#Lake Uureg
+lake = {
+    triangle_strip = { 
+        4068 1847  #1
+        4054 1823  #2
+        4035 1856  #3
+    }
+    height = 22
+}
+
+#Lake Khyargas
+lake = {
+    triangle_strip = { 
+        4109 1831  #1
+        4097 1814  #2
+        4082 1831  #3
+    }
+    height = 22
+}
+
+#Lake Khar Part 1
+lake = {
+    triangle_strip = { 
+        4097 1814  #1
+        4106 1794  #2
+        4098 1788  #3
+    }
+    height = 22
+}
+
+#Lake Khar Part 2
+lake = {
+    triangle_strip = { 
+        4097 1814  #1
+        4098 1788  #2
+        4086 1804  #3
+    }
+    height = 22
+}
+
+#Lake Khar-Us Part 1
+lake = {
+    triangle_strip = { 
+        4076 1817  #1
+        4091 1810  #2
+        4079 1797  #3
+    }
+    height = 22
+}
+
+#Lake Khar-Us Part 2
+lake = {
+    triangle_strip = { 
+        4076 1817  #1
+        4079 1797  #2
+        4066 1806  #3
+    }
+    height = 22
+}
+
+#Lake Telmen Part 1
+lake = {
+    triangle_strip = { 
+        4147 1830  #1
+        4167 1814  #2
+        4158 1814  #3
+    }
+    height = 23
+}
+
+#Lake Telmen Part 2
+lake = {
+    triangle_strip = { 
+        4147 1830  #1
+        4158 1814  #2
+        4142 1824  #3
+    }
+    height = 23
+}
+
+#Lake Khuvsgul Part 1
+lake = {
+    triangle_strip = { 
+        4218 1873  #1
+        4210 1849  #2
+        4200 1851  #3
+    }
+    height = 23
+}
+
+#Lake Khuvsgul Part 2
+lake = {
+    triangle_strip = { 
+        4218 1873  #1
+        4200 1851  #2
+        4204 1877  #3
+    }
+    height = 23
+}
+
+#Lake Ozero
+lake = {
+    triangle_strip = { 
+        4128 1846  #1
+        4119 1838  #2
+        4116 1845  #3
+    }
+    height = 23
 }
 
 #Syrian Lakes
