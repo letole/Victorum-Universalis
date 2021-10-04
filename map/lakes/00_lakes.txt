@@ -343,6 +343,36 @@ lake = {
     height = 21
 }
 
+#Lake Ngami
+lake = {
+    triangle_strip = { 
+        2987 695  #1
+        3002 685  #2
+        2980 673  #3
+    }
+    height = 21
+}
+
+#Lake Nwetwe Part 1
+lake = {
+    triangle_strip = { 
+        3041 701  #1
+        3065 684  #2
+        3036 656  #3
+    }
+    height = 21
+}
+
+#Lake Nwetwe Part 2
+lake = {
+    triangle_strip = { 
+        3041 701  #1
+        3036 656  #2
+        3010 674  #3
+    }
+    height = 21
+}
+
 #Lake Bahir
 lake = {
    triangle_strip = { 
@@ -1615,7 +1645,7 @@ lake = {
         4039 1562  #2
         4040 1580  #3
     }
-    height = 26
+    height = 25
 }
 
 #Lake Kusai Part 1
@@ -2162,9 +2192,9 @@ lake = {
 #Lake Telmen Part 1
 lake = {
     triangle_strip = { 
-        4147 1830  #1
-        4167 1814  #2
-        4158 1814  #3
+        4146 1833  #1
+        4168 1822  #2
+        4160 1812  #3
     }
     height = 22
 }
@@ -2172,9 +2202,9 @@ lake = {
 #Lake Telmen Part 2
 lake = {
     triangle_strip = { 
-        4147 1830  #1
-        4158 1814  #2
-        4142 1824  #3
+        4146 1833  #1
+        4160 1812  #2
+        4141 1824  #3
     }
     height = 22
 }
@@ -2258,4 +2288,367 @@ lake = {
         3219 1593  #3
     }
     height = 21
+}
+
+#South American Lakes
+#Lake Titicaca
+lake = {
+    triangle_strip = { 
+        1542 781  #1
+        1581 737  #2
+        1518 755  #3
+    }
+    height = 25
+}
+
+#Lake Poopo
+lake = {
+    triangle_strip = { 
+        1585 729  #1
+        1599 704  #2
+        1576 700  #3
+    }
+    height = 24
+}
+
+#Lake Ginebra
+lake = {
+    triangle_strip = { 
+        1618 817  #1
+        1608 765  #2
+        1573 786  #3
+    }
+    height = 20
+}
+
+#Lake Chiquita
+lake = {
+    triangle_strip = { 
+        1665 527  #1
+        1666 503  #2
+        1642 514  #3
+    }
+    height = 19
+}
+
+#Lake Alumine
+lake = {
+    triangle_strip = { 
+        1520 379  #1
+        1528 374  #2
+        1514 363  #3
+    }
+    height = 20
+}
+
+#Lake Lolog
+lake = {
+    triangle_strip = { 
+        1528 374  #1
+        1523 352  #2
+        1514 363  #3
+    }
+    height = 21
+}
+
+#Lake Pirihueico 
+lake = {
+    triangle_strip = { 
+        1514 363  #1
+        1526 346  #2
+        1508 353  #3
+    }
+    height = 21
+}
+
+#Lake Nahuel Huapi Part 1 
+lake = {
+    triangle_strip = { 
+        1507 353  #1
+        1527 345  #2
+        1524 323  #3
+    }
+    height = 21
+}
+
+#Lake Nahuel Huapi Part 2 
+lake = {
+    triangle_strip = { 
+        1514 353  #1
+        1526 323  #2
+        1508 338  #3
+    }
+    height = 21
+}
+
+#Lake Inferior
+lake = {
+    triangle_strip = { 
+        1511 335  #1
+        1524 323  #2
+        1519 292  #3
+    }
+    height = 21
+}
+
+#Lake Futalaufquen Part 1
+lake = {
+    triangle_strip = { 
+        1524 323  #1
+        1509 306  #2
+        1511 335  #3
+    }
+    height = 21
+}
+
+#Lake Futalaufquen Part 2
+lake = {
+    triangle_strip = { 
+        1511 335  #1
+        1509 303  #2
+        1519 292  #3
+    }
+    height = 40
+}
+
+#Lake Yelcho
+lake = {
+    triangle_strip = { 
+        1509 306  #1
+        1509 285  #2
+        1498 297  #3
+    }
+    height = 21
+}
+
+#Lake Palena
+lake = {
+    triangle_strip = { 
+        1519 292  #1
+        1529 264  #2
+        1508 286  #3
+    }
+    height = 21
+}
+
+#Lake Plata
+lake = {
+    triangle_strip = { 
+        1507 277  #1
+        1532 259  #2
+        1499 265  #3
+    }
+    height = 21
+}
+
+#Lake Gral Carrera
+lake = {
+    triangle_strip = { 
+        1503 249  #1
+        1535 237  #2
+        1485 219  #3
+    }
+    height = 21
+}
+
+#Lake Cochrane
+lake = {
+    triangle_strip = { 
+        1535 237  #1
+        1515 213  #2
+        1485 219  #3
+    }
+    height = 21
+}
+
+#Lake O'higgins
+lake = {
+    triangle_strip = { 
+        1497 212  #1
+        1517 181  #2
+        1482 188  #3
+    }
+    height = 21
+}
+
+#Lake Cardiel
+lake = {
+    triangle_strip = { 
+        1528 206  #1
+        1524 178  #2
+        1511 203  #3
+    }
+    height = 20
+}
+
+#Lake Viedma
+lake = {
+    triangle_strip = { 
+        1490 186  #1
+        1520 176  #2
+        1486 171  #3
+    }
+    height = 20
+}
+
+#Lake Argentino
+lake = {
+    triangle_strip = { 
+        1483 173  #1
+        1521 171  #2
+        1492 153  #3
+    }
+    height = 20
+}
+
+#Central American Lakes
+#Lake Texcoco
+lake = {
+    triangle_strip = { 
+        1087 1324  #1
+        1096 1307  #2
+        1081 1307  #3
+    }
+    height = 24
+}
+
+#Lake Chapala
+lake = {
+    triangle_strip = { 
+        1032 1334  #1
+        1032 1320  #2
+        1012 1327  #3
+    }
+    height = 23
+}
+
+#North American Lakes
+#Lake Salton Sea
+lake = {
+    triangle_strip = { 
+        810 1557  #1
+        850 1536  #2
+        823 1517  #3
+    }
+    height = 19
+}
+
+#Lake Great Salt Lake
+lake = {
+    triangle_strip = { 
+        861 1700  #1
+        903 1680  #2
+        866 1661  #3
+    }
+    height = 22
+}
+
+#Lake Bear
+lake = {
+    triangle_strip = { 
+        901 1701  #1
+        896 1688  #2
+        887 1699  #3
+    }
+    height = 22
+}
+
+#Lake Utah
+lake = {
+    triangle_strip = { 
+        882 1670  #1
+        896 1667  #2
+        884 1653  #3
+    }
+    height = 22
+}
+
+#Lake Morice
+lake = {
+    triangle_strip = { 
+        639 1933  #1
+        655 1917  #2
+        633 1912  #3
+    }
+    height = 23
+}
+
+#Lake Babine
+lake = {
+    triangle_strip = { 
+        657 1963  #1
+        703 1926  #2
+        655 1917  #3
+    }
+    height = 23
+}
+
+#Lake Atlin
+lake = {
+    triangle_strip = { 
+        546 2060  #1
+        552 2011  #2
+        510 2043  #3
+    }
+    height = 23
+}
+
+#Lake Kluane
+lake = {
+    triangle_strip = { 
+        465 2086  #1
+        485 2057  #2
+        452 2066  #3
+    }
+    height = 23
+}
+
+#Lake Wellesley
+lake = {
+    triangle_strip = { 
+        450 2099  #1
+        458 2088  #2
+        440 2088  #3
+    }
+    height = 23
+}
+
+#Lake Tetlin
+lake = {
+    triangle_strip = { 
+        403 2114  #1
+        410 2105  #2
+        393 2094  #3
+    }
+    height = 23
+}
+
+#Lake Summit
+lake = {
+    triangle_strip = { 
+        359 2114  #1
+        367 2104  #2
+        351 2103  #3
+    }
+    height = 23
+}
+
+#Lake Susitna
+lake = {
+    triangle_strip = { 
+        342 2099  #1
+        351 2089  #2
+        318 2081  #3
+    }
+    height = 23
+}
+
+#Lake Tazlina
+lake = {
+    triangle_strip = { 
+        353 2089  #1
+        361 2070  #2
+        318 2081  #3
+    }
+    height = 23
 }
