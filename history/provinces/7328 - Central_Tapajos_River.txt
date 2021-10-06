@@ -1,6 +1,4 @@
-
-
-
+#7328 - Central_Tapajos_River
 
 discovered_by = south_american
 1500.1.1 = { discovered_by = CAS discovered_by = POR }

@@ -1918,6 +1918,16 @@ lake = {
     height = 23
 }
 
+#Lake Lugu
+lake = {
+    triangle_strip = { 
+        4208 1456  #1
+        4224 1450  #2
+        4208 1443  #3
+    }
+    height = 25
+}
+
 #Siberian Lakes
 #Lake Balkhash
 lake = {
@@ -2335,30 +2345,30 @@ lake = {
 lake = {
     triangle_strip = { 
         1520 379  #1
-        1528 374  #2
+        1529 375  #2
         1514 363  #3
     }
     height = 20
 }
 
-#Lake Lolog
+#Lake Tromen
 lake = {
     triangle_strip = { 
-        1528 374  #1
-        1523 352  #2
+        1529 375  #1
+        1527 345  #2
         1514 363  #3
     }
-    height = 21
+    height = 20
 }
 
 #Lake Pirihueico 
 lake = {
     triangle_strip = { 
         1514 363  #1
-        1526 346  #2
+        1527 345  #2
         1508 353  #3
     }
-    height = 21
+    height = 20
 }
 
 #Lake Nahuel Huapi Part 1 
@@ -2368,20 +2378,20 @@ lake = {
         1527 345  #2
         1524 323  #3
     }
-    height = 21
+    height = 20
 }
 
 #Lake Nahuel Huapi Part 2 
 lake = {
     triangle_strip = { 
-        1514 353  #1
-        1526 323  #2
+        1507 353  #1
+        1524 323  #2
         1508 338  #3
     }
-    height = 21
+    height = 20
 }
 
-#Lake Inferior
+#Lake Inferior & Futalaufquen Part 1
 lake = {
     triangle_strip = { 
         1511 335  #1
@@ -2391,24 +2401,24 @@ lake = {
     height = 21
 }
 
-#Lake Futalaufquen Part 1
+#Lake Inferior & Futalaufquen Part 2
 lake = {
     triangle_strip = { 
-        1524 323  #1
-        1509 306  #2
-        1511 335  #3
+        1511 335  #1
+        1519 292  #2
+        1509 303  #3
     }
     height = 21
 }
 
-#Lake Futalaufquen Part 2
+#Lake Menendez
 lake = {
     triangle_strip = { 
-        1511 335  #1
-        1509 303  #2
-        1519 292  #3
+        1507 318  #1
+        1516 309  #2
+        1502 304  #3
     }
-    height = 40
+    height = 21
 }
 
 #Lake Yelcho
@@ -2431,12 +2441,32 @@ lake = {
     height = 21
 }
 
+#Lake Rosselot Part 1
+lake = {
+    triangle_strip = { 
+        1506 288  #1
+        1511 283  #2
+        1505 275  #3
+    }
+    height = 21
+}
+
+#Lake Rosselot Part 2
+lake = {
+    triangle_strip = { 
+        1506 288  #1
+        1505 275  #2
+        1501 281  #3
+    }
+    height = 21
+}
+
 #Lake Plata
 lake = {
     triangle_strip = { 
         1507 277  #1
         1532 259  #2
-        1499 265  #3
+        1497 264  #3
     }
     height = 21
 }
@@ -2499,6 +2529,187 @@ lake = {
         1492 153  #3
     }
     height = 20
+}
+
+#Lake Uru Uru
+lake = {
+    triangle_strip = { 
+        1578 740  #1
+        1596 729  #2
+        1578 725  #3
+    }
+    height = 23
+}
+
+#Lake Pica
+lake = {
+    triangle_strip = { 
+        1554 698  #1
+        1567 693  #2
+        1559 685  #3
+    }
+    height = 24
+}
+
+#Lake de Pozuelo
+lake = {
+    triangle_strip = { 
+        1606 657  #1
+        1606 633  #2
+        1599 643  #3
+    }
+    height = 24
+}
+
+#Lake Salar de Guayatayoc
+lake = {
+    triangle_strip = { 
+        1606 633  #1
+        1607 599  #2
+        1586 615  #3
+    }
+    height = 24
+}
+
+#Lake Rio Agua Blanca
+lake = {
+    triangle_strip = { 
+        1582 618  #1
+        1596 607  #2
+        1581 592  #3
+    }
+    height = 24
+}
+
+#Lake Salar de Arizaro Part 1
+lake = {
+    triangle_strip = { 
+        1582 612  #1
+        1581 588  #2
+        1558 583  #3
+    }
+    height = 24
+}
+
+
+#Lake Salar de Arizaro Part 2
+lake = {
+    triangle_strip = { 
+        1582 612  #1
+        1558 583  #2
+        1568 609  #3
+    }
+    height = 24
+}
+
+#Lake Salar de Antofalla Part 1
+lake = {
+    triangle_strip = { 
+        1583 588  #1
+        1565 569  #2
+        1558 583  #3
+    }
+    height = 24
+}
+
+#Lake Salar de Antofalla Part 2
+lake = {
+    triangle_strip = { 
+        1583 588  #1
+        1588 570  #2
+        1568 547  #3
+    }
+    height = 24
+}
+
+#Lake Salar de Antofalla Part 3
+lake = {
+    triangle_strip = { 
+        1583 588  #1
+        1568 547  #2
+        1558 562  #3
+    }
+    height = 24
+}
+
+#Lake Salar del Muerto
+lake = {
+    triangle_strip = { 
+        1607 599  #1
+        1595 550  #2
+        1581 592  #3
+    }
+    height = 24
+}
+
+#Lake Mar de Olas Part 1
+lake = {
+    triangle_strip = { 
+        1588 570  #1
+        1595 550  #2
+        1583 540  #3
+    }
+    height = 23
+}
+
+#Lake Mar de Olas Part 2
+lake = {
+    triangle_strip = { 
+        1588 570  #1
+        1583 540  #2
+        1568 547  #3
+    }
+    height = 23
+}
+
+#Lake Salinas de Ambargasta Part 1
+lake = {
+    triangle_strip = { 
+        1630 543  #1
+        1643 535  #2
+        1621 508  #3
+    }
+    height = 20
+}
+
+#Lake Salinas de Ambargasta Part 2
+lake = {
+    triangle_strip = { 
+        1630 543  #1
+        1621 508  #2
+        1612 522  #3
+    }
+    height = 20
+}
+
+#Lake Musters and Colhue Huapi
+lake = {
+    triangle_strip = { 
+        1553 267  #1
+        1573 251  #2
+        1546 251  #3
+    }
+    height = 20
+}
+
+#Lake Sal Grande Part 1
+lake = {
+    triangle_strip = { 
+        1599 411  #1
+        1597 392  #2
+        1578 401  #3
+    }
+    height = 19
+}
+
+#Lake Sal Grande Part 2
+lake = {
+    triangle_strip = { 
+        1578 401  #1
+        1594 394  #2
+        1570 391  #3
+    }
+    height = 19
 }
 
 #Central American Lakes

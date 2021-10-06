@@ -1,6 +1,4 @@
-
-
-
+#6164 - Upper_Central_Amazon_River
 
 discovered_by = south_american
 1500.1.1 = { discovered_by = CAS discovered_by = POR }
