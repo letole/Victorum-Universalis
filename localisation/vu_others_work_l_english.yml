@@ -1625,6 +1625,9 @@
  short_colonial_malaysia:0 "Malaysia"
  COLONIAL_MALAYSIA_Malaysia:0 "Malaysia"
  COLONIAL_MALAYSIA_Malaysia_ADJ:0 "Malaysian"
+ 
+ PHI:0 "Philippines"
+ PHI_ADJ:0 "Filipino"
 
  #################################################################################
  #################################################################################
