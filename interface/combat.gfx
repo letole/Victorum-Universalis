@@ -4940,7 +4940,7 @@ spriteTypes = {
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_villingen_schwenningen"
-        texturefile = "gfx/interface/villingen_schwenningen.dds"
+        texturefile = "gfx/interface/reutlingen.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_lorrach"
@@ -4952,7 +4952,7 @@ spriteTypes = {
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_offenburg"
-        texturefile = "gfx/interface/offenburg.dds"
+        texturefile = "gfx/interface/freiburg.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_stuttgart"
@@ -5046,6 +5046,10 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_wiesbaden"
         texturefile = "gfx/interface/wiesbaden.dds"
     }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_russelsheim"
+        texturefile = "gfx/interface/russelsheim.dds"
+    }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_darmstadt"
         texturefile = "gfx/interface/darmstadt.dds"
@@ -5135,8 +5139,8 @@ spriteTypes = {
         texturefile = "gfx/interface/zwickau.dds"
     }
     spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_cottbus"
-        texturefile = "gfx/interface/cottbus.dds"
+        name = "GFX_combat_terrain_urban_frankfurt_an_der_oder"
+        texturefile = "gfx/interface/frankfurt_an_der_oder.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_potsdam"
@@ -5371,8 +5375,8 @@ spriteTypes = {
         texturefile = "gfx/interface/ravenna.dds"
     }
                 spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_san_marino"
-        texturefile = "gfx/interface/san_marino.dds"
+        name = "GFX_combat_terrain_urban_carpegna"
+        texturefile = "gfx/interface/carpegna.dds"
     }
                     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_takamatsu"
