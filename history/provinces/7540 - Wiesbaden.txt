@@ -1,11 +1,11 @@
-#6405 - Mörfelden
+#7540 - Wiesbaden
 #Region - Germany
 #Area - Palatinate
 
 owner = MAI
 controller = MAI
 add_core = MAI
-capital = "Geisenheim"
+capital = "Wiesbaden"
 culture = hessian
 religion = catholic
 trade_goods = wine
