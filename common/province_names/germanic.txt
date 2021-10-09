@@ -71,7 +71,7 @@
 265 = "Brünn"
 266 = "Prag"
 267 = "Pilsen"
-268 = "Moldau"
+268 = { "Moldau" "Dorohoi" }
 269 = "Podlachien"
 270 = "Traken"
 271 = "Schemaiten"
@@ -126,6 +126,7 @@
 2998 = "Busäu"
 3000 = "Nisch"
 3003 = "Euböa"
+3156 = { "Suczawa" "Suczawa" }
 4125 = "Sollnock"
 4126 = "Batsch"
 4127 = "Thorenburg"
