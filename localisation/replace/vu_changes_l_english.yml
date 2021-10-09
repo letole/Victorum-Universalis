@@ -3173,25 +3173,6 @@
  construct_city_of_carthage_title: "Construct Cothon of Carthage"
  construct_city_of_carthage_desc: "Seriously, is monument description even visible anywhere? If you are reading this during your game, contact curious mod dev."
  #
- great_project_isfahan_city: "City of Isfahan"
- isfahan_city_title: "City of Isfahan"
- isfahan_city: "City of Isfahan"
- construct_isfahan_city_title: "Expand City of Isfahan"
- construct_isfahan_city_desc: "I really dbout this desc is visible anywhere"
- #
- great_project_library_alexandria: "Great Library"
- library_alexandria_title: "Great Library"
- library_alexandria: "Great Library"
- construct_library_alexandria_title: "Construct Great Library of Alexandria"
- construct_library_alexandria_desc: "I really dbout this desc is visiable anywhere"
- library_alexandria_monument_tooltip: "Every province that has manufactory and is producing paper will recieve 1 base production."
- #
- great_project_axum_obelisk: "Obelisk of Axum"
- axum_obelisk_title: "Obelisk of Axum"
- axum_obelisk: "Obelisk of Axum"
- construct_axum_obelisk_title: "Construct Obelisk of Axum"
- construct_axum_obelisk_desc: "I really dbout this desc is visible anywhere"
- #
  #Purple Phoenix DLC Only Missions
  recover_west_anatolia_title:0 "Recover Anatolia"
  recover_west_anatolia_desc:0 "Like a great phoenix, Rome has risen from the ashes of the devastation wrought be Arabs, Turks, Franks, and others. Now, we must turn our attention to reclaiming our lost land in Anatolia."
