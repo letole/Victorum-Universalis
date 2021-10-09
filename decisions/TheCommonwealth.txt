@@ -52,8 +52,15 @@ country_decisions = {
 			is_at_war = no
 			owns_core_province = 262				# Krakow
 			owns_core_province = 257				# Warszawa
-			#owns_core_province = 43					# Danzig
+			#owns_core_province = 43				# Danzig
 			#owns_core_province = 1841				# Marienburg
+			OR = {				#Union of Lublin 1569
+				AND = {
+					stability = 2
+					is_year = 1569
+				}
+				owns_core_province = 280
+			}
 			senior_union_with = LIT
 			MAZ = { exists = no }
 		}
