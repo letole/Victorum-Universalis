@@ -54,7 +54,7 @@
 264 = "Vratislavija"
 266 = "Prag"
 267 = "Plzen"
-268 = "Moldavija"
+268 = { "Moldavija" "Dorohoi" }
 271 = "Samogitija"
 272 = "Litva"
 273 = "Latgalija"
@@ -83,6 +83,7 @@
 2978 = "Areco"
 3000 = "Nish"
 3001 = "Skoplje"
+3156 = { "Suceava" "Suceava" }
 4173 = "Srijem"
 4174 = "Drac"
 4728 = "Pavija"

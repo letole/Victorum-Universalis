@@ -25,7 +25,7 @@
 223 = "Girnata"
 226 = "Cebelitarik"
 236 = "Londra"
-268 = "Bogdan"
+268 = { "Bogdan" "Dorohoi" }
 281 = "Kamaniçe"
 282 = "Özu"
 284 = "Kirim"
@@ -130,6 +130,7 @@
 3000 = "Nish"
 3001 = "Üsküp"
 3003 = "Egriboz"
+3156 = { "Suceava" "Suceava" }
 4113 = "Çankiri"
 4125 = "Eger"
 4126 = "Segedin"

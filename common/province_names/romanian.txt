@@ -1,9 +1,10 @@
 156 = "Timis"
 157 = "Bihor"
 158 = "Mures"
-268 = "Suceava"
+268 = { "Botoșani" "Dorohoi" }
 1756 = "Basarabia"
 1951 = "Hunedoara"
 1952 = "Maramures"
 2327 = { "Magna" "Magna" }
 2405 = "Tighina"
+3156 = { "Suceava" "Suceava" }

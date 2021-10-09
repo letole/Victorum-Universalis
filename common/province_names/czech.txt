@@ -42,7 +42,6 @@
 99 = "Geldern"
 100 = "Frísko"
 101 = "Janov"
-
 110 = "Tridentsko"
 111 = "Furlansko"
 112 = "Benátky"
@@ -89,7 +88,6 @@
 220 = "Valencie"
 227 = "Lisabon"
 236 = "Londýn"
-
 253 = "Zapadní ostrovy"
 255 = "Kalis"
 257 = "Varsava"
@@ -98,7 +96,7 @@
 262 = "Krakov"
 264 = "Vratislav"
 266 = "Praha"
-268 = "Moldávie"
+268 = { "Moldávie" "Dorohoi" }
 269 = "Podlesí"
 270 = "Troky"
 271 = "Zmud"
@@ -111,7 +109,6 @@
 291 = "Charkov"
 292 = "Mohylev"
 299 = "Voronez"
-
 301 = "Rjazan"
 306 = "Dolní Novgorod"
 308 = "Jaroslavl"
@@ -133,7 +130,6 @@
 400 = "Maskat"
 410 = "Bagdád"
 419 = "Jerevan"
-
 481 = "Bermudy"
 482 = "Bahamy"
 487 = "Jamajka"
@@ -155,7 +151,6 @@
 574 = "Andamany"
 635 = "Zapadní Timor"
 636 = "Brunej"
-
 667 = "Kanton"
 668 = "Macao"
 669 = "Fu-cou"
@@ -184,7 +179,6 @@
 708 = "Cang-jie"
 726 = "Sen-jang"
 727 = "Ajgun"
-
 762 = "Svatý Tomás"
 767 = "Ortelsburk"
 770 = "Braslav"
@@ -211,12 +205,9 @@
 1240 = "Havaj"
 1242 = "Fidzi"
 1244 = "Gambierovy ostrovy"
-
 1247 = "Korsika"
 1248 = "Maledivy"
-
 1306 = "Svatý Tomás"
-
 1724 = "Limburk"
 1744 = "Antverpy"
 1745 = "Kantabrie"
@@ -236,7 +227,6 @@
 1772 = "Presporok"
 1773 = "Achaja"
 1775 = "Holstynsko"
-
 1816 = "Peking"
 1821 = "Nanking"
 1822 = "Su-cou"
@@ -261,7 +251,6 @@
 1874 = "Bremy"
 1878 = "Cachy"
 1881 = "Svatý Martin"
-
 1931 = "Východní Frísko"
 1935 = "Mitava"
 1944 = "Cerkasy"
@@ -281,7 +270,6 @@
 2025 = "Jizní Georgie"
 2029 = "Jizní Kanara"
 2060 = "Horni Doab"
-
 2124 = "Jarkend"
 2129 = "Changthang"
 2131 = "Chamdo"
@@ -311,7 +299,6 @@
 2327 = { "Magna" "Magna" }
 2313 = "Antiochie"
 2424 = "Premysl"
-
 2954 = "Dzerba"
 2956 = "Strubina"
 2957 = "Rezno"
@@ -328,7 +315,7 @@
 2975 = "Klévsko"
 2982 = "Syrakusy"
 2995 = "Slupsk"
-
+3156 = { "Suceava" "Suceava" }
 4020 = "Komory"
 4124 = "Karélie"
 4238 = "Lehnice"

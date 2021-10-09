@@ -74,7 +74,7 @@
 264 = "Wroclaw"
 266 = "Praga"
 267 = "Pilzno"
-268 = "Botoszany"
+268 = { "Botoszany" "Dorohoi" }
 270 = "Troki"
 271 = "Zmudz"
 272 = "Wilno"
@@ -229,7 +229,7 @@
 3123 = "Uppsala"
 3142 = "Opawa"
 3146 = "Uzhorod"
-3156 = "Suczawa"
+3156 = { "Suceava" "Suceava" }
 3159 = "Soroki"
 3160 = "Bukareszt"
 3164 = "Konstanca"
