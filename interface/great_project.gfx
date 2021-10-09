@@ -764,8 +764,18 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_great_project_city_of_carthage"	
-		texturefile = "gfx//interface//great_projects//great_project_city_of_carthage.dds"
+		name = "GFX_great_project_isfahan_city"	
+		texturefile = "gfx//interface//great_projects//great_project_isfahan_city.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_library_alexandria"	
+		texturefile = "gfx//interface//great_projects//great_project_library_alexandria.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_axum_obelisk"	
+		texturefile = "gfx//interface//great_projects//great_project_axum_obelisk.dds"
 	}
 	
 	#END of Emile additions
