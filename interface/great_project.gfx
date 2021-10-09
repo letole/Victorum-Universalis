@@ -764,6 +764,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_great_project_city_of_carthage"	
+		texturefile = "gfx//interface//great_projects//great_project_city_of_carthage.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_great_project_isfahan_city"	
 		texturefile = "gfx//interface//great_projects//great_project_isfahan_city.dds"
 	}
