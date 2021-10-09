@@ -1547,7 +1547,6 @@ country_event = { # Sejm of Lublin 1569
 					area = sloboda_ukraine_area
 					area = severia_area
 					province_id = 7237
-					province_id = 7211
 					province_id = 3223
 					province_id = 7262
 					province_id = 269
