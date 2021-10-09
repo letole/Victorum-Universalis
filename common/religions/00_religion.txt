@@ -1269,7 +1269,56 @@ christian = {
 
 
 # Bogomilist Religion
-	#bogomilist = {}		#Old bogomilism removed as more satisfactory version exists below
+	bogomilist = {
+		color = { 0.7 0.7 0.4 }
+		icon = 41
+		allowed_conversion = {
+				reformed
+				hussite
+				cathar
+				fraticelli
+				waldensian
+				iconoclast
+				jewish
+				manichaean
+
+		}
+		country = {
+			diplomatic_reputation = 1
+			local_missionary_strength = 0.01
+			tolerance_own = 1
+			adm_tech_cost_modifier = -0.05
+			global_unrest = -1 
+			stability_cost_modifier = -0.1
+			land_morale = 0.1
+		}
+		country_as_secondary = {
+			diplomatic_reputation = 1
+			local_missionary_strength = -0.01
+			tolerance_own = -1
+			adm_tech_cost_modifier = -0.05
+			global_unrest = -1 
+			stability_cost_modifier = -0.1
+		}
+
+		 province = { 
+            		local_missionary_strength = -0.02
+            		local_unrest = -1
+        	}
+
+		on_convert = {
+			change_religion = bogomilist
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+				}
+			}
+
+		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
+
+		misguided_heretic = yes		# Other christians hate them less
+	}
 
 
 # Iconoclast Religion
@@ -1375,12 +1424,9 @@ christian = {
 		icon = 33
 		allowed_conversion = {
 			catholic
-			protestant		#bogomilists hated church institution, so they should be keen on joining the reformation
-			reformed
 			orthodox
 			coptic
 			miaphysite
-			jewish
 		}
 		allowed_center_conversion = {
 			protestant 
@@ -1392,23 +1438,14 @@ christian = {
 			slavic_pagan_reformed
 		}
 		country = {
-			local_missionary_strength = 0.005
-			tolerance_own = 1
-			adm_tech_cost_modifier = -0.05
-			global_unrest = -1 
-			stability_cost_modifier = -0.1
 			shock_damage_received = -0.25
 			global_manpower_modifier = 0.15
 		}
 		country_as_secondary = {
-			tolerance_own = -1
-			adm_tech_cost_modifier = -0.05
-			stability_cost_modifier = -0.1
 			global_manpower_modifier = 0.15
 		}
 		province = {
 			local_missionary_strength = -0.01
-			local_unrest = -1
 		}
 
 		on_convert = {
@@ -1422,7 +1459,7 @@ christian = {
 
 		personal_deity = yes
 		heretic = { OLD_BELIEVER MOLOKAN ICONOCLAST }
-		misguided_heretic = no			# Bogomilists were rather hated, especially by orthodox church
+		misguided_heretic = no			# Bogomilists were rather hated
 	}
 	
 	#Miaphysite religion
@@ -2067,7 +2104,61 @@ muslim = {
 		uses_piety = yes				# Uses piety mechanics
 	}
 
-	#druze = {} 		#Old druze removed as more satisfactory version exists below
+	druze = {
+		color = { 153 255 153 }
+		icon = 33
+		allowed_conversion = {
+				iconoclast
+				nestorian
+				zoroastrian
+				mazdaki
+				sufism
+				alevi
+				yazidi
+				manichaean
+				buddhism
+				sikhism
+				jain
+				taoism
+			}
+
+		country = {
+			tolerance_heathen = 2 #Believed in the holiness of many religious figures
+			global_missionary_strength = 0.01
+			ae_impact = -0.05
+			land_morale = 0.10 #patriotic sacrifice
+			advisor_pool = 1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		country_as_secondary = { 
+			ae_impact = -0.1
+			advisor_pool = 1
+			tolerance_heathen = 2
+			tolerance_own = -1
+			land_morale = 0.10 
+			global_missionary_strength = -0.01
+		}
+
+		allowed_center_conversion = {
+			sunni
+			shiite
+		}
+
+		uses_piety = yes
+
+		on_convert = {
+			change_religion = druze
+			add_prestige = -100
+			add_country_modifier = {
+			name = "conversion_zeal"
+			duration = 3650
+			}
+		}
+
+		heretic = { DRUZE_FUNDAMENTALIST HURUFI ZAIDI }
+	}
 	
 	#Druze NEW
 	druze_new = {
@@ -2077,29 +2168,17 @@ muslim = {
 			ibadi
 			shiite
 			sunni
-			zoroastrian
-			miaphysite
-			coptic
 		}
 		country = {
-			tolerance_heathen = 2 #Believed in the holiness of many religious figures
-			ae_impact = -0.05
-			land_morale = 0.10 #patriotic sacrifice
-			advisor_pool = 1
-			missionaries = 1
-			global_missionary_strength = 0.025
+			missionaries = 2
+			global_missionary_strength = 0.03
 			warscore_cost_vs_other_religion = -0.15
 		}
 		country_as_secondary = {
 			ae_impact = -0.1
-			advisor_pool = 1
-			tolerance_heathen = 2
-			tolerance_own = -1
-			land_morale = 0.10 
-			global_missionary_strength = -0.01
 		}
 		province = {
-			local_missionary_strength = -0.025
+			local_missionary_strength = -0.02
 		}
 		on_convert = {
 			change_religion = druze_new
@@ -3191,41 +3270,41 @@ dharmic = {
 		color = { 200 102 92 }
 		icon = 50
 		allowed_conversion = {
-			nestorian
-			buddhism
-			sikhism
-			jain
-			hinduism
-		}
-		country = {
-			tolerance_heathen = 2
-			tolerance_own = 2
-			legitimacy = 0.50
-			advisor_cost = -0.15
-			land_maintenance_modifier = -0.1
-			heir_chance = 0.5
-			ae_impact = -0.1
-		}
-		country_as_secondary = {
-			tolerance_heretic = 2
-			tolerance_heathen = 1
-			legitimacy = 0.50
-			land_maintenance_modifier = -0.1
-			advisor_cost = -0.15
-			heir_chance = 0.5
-		}
-		on_convert = {
-			change_religion = dravidian
-			add_prestige = -100
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
+				nestorian
+				buddhism
+				sikhism
+				jain
+				hinduism
 			}
+			country = {
+				tolerance_heathen = 2
+				tolerance_own = 2
+				legitimacy = 0.50
+				advisor_cost = -0.15
+				land_maintenance_modifier = -0.1
+				heir_chance = 0.5
+				ae_impact = -0.1
+			}
+			country_as_secondary = {
+				tolerance_heretic = 2
+				tolerance_heathen = 1
+				legitimacy = 0.50
+				land_maintenance_modifier = -0.1
+				advisor_cost = -0.15
+				heir_chance = 0.5
+			}
+			on_convert = {
+				change_religion = dravidian
+				add_prestige = -100
+				add_country_modifier = {
+					name = "conversion_zeal"
+					duration = 3650
+				}
+			}
+			personal_deity = yes
+			uses_piety = yes
+			heretic = { HINDU JAIN SIKHISM }
 		}
-		personal_deity = yes
-		uses_piety = yes
-		heretic = { HINDU JAIN SIKHISM }
-	}
 
 # Kanglei Animism (Central and Northeast India)
 	kanglei = {
@@ -3542,14 +3621,148 @@ pagan = {
 		heretic = { OLD_NORSE }	
 	}
 	
-	#romuva = {}		#removed due to new version of romuva existing
+	romuva = {
+		icon = 56
+		color = { 0.75 0.5 0.35 }
+		allowed_conversion = {
+				norse_pagan_reformed
+				tengri_pagan_reformed
+				suomenusko
+				slavic_pagan
+				druidic
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		country = {
+			infantry_power = 0.1
+			tolerance_heretic = 2
+			land_morale = 0.10
+			stability_cost_modifier = -0.10
+			republican_tradition = 0.25
+			horde_unity = 0.25 
+			devotion = 1
+			interest = 2
+		}
+		country_as_secondary = {
+			infantry_power = 0.1
+			land_morale = 0.10
+			stability_cost_modifier = -0.05
+			republican_tradition = 0.25
+			horde_unity = 0.25 
+			devotion = 1
+			tolerance_heretic = 2
+			interest = 1
+		}
+		on_convert = {
+			change_religion = romuva
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		personal_deity = yes
+		can_have_secondary_religion = yes
+		heretic = { OLD_ROMUVA }
+	}
 
 
-	#suomenusko = {}	#removed due to new version of suomenusko existing
+	suomenusko = {
+		icon = 57
+		color = { 1.0 0.4 0.7 }
+		allowed_conversion = {
+				norse_pagan_reformed
+				tengri_pagan_reformed
+				slavic_pagan
+				druidic
+				hellenic_pagan_reformed
+				siberian
+		}
+		province = {
+			local_missionary_strength = -0.005
+			supply_limit_modifier = -0.1
+			hostile_attrition = 1.0
+		}
+
+		country = {
+			defensiveness = 0.25
+			tolerance_heretic = 1
+			republican_tradition = 0.25
+			horde_unity = 0.25 
+			devotion = 1
+			cavalry_cost = -0.1
+			hostile_attrition = 1.0
+		}
+		country_as_secondary = {
+			defensiveness = 0.15
+			republican_tradition = 0.25
+			horde_unity = 0.25 
+			devotion = 1
+			cavalry_cost = -0.1
+			hostile_attrition = 1.0
+		}
+
+		on_convert = {
+			change_religion = suomenusko
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		personal_deity = yes
+		can_have_secondary_religion = yes
+		heretic = { OLD_SUOMENUSKO }
+	}
 
 
 # Slavic Religion
-	slavic_pagan = {}	#removed due to new version of slavic existing
+	slavic_pagan = {
+		icon = 55
+		color = { 0.85 0.73 0.4 }
+		allowed_conversion = {
+				norse_pagan_reformed
+				tengri_pagan_reformed
+				romuva
+				suomenusko
+				druidic
+				hellenic_pagan_reformed
+		}
+		country = {
+			loot_amount = 0.1
+			tolerance_heretic = 1
+			enemy_core_creation = 0.5
+			republican_tradition = 0.25
+			horde_unity = 0.25 
+			devotion = 1
+			free_leader_pool = 1
+			global_unrest = -1
+		}
+		country_as_secondary = {
+			enemy_core_creation = 0.5
+			republican_tradition = 0.25
+			horde_unity = 0.25 
+			devotion = 1
+			free_leader_pool = 1
+			global_unrest = -1
+		}
+		on_convert = {
+			change_religion = slavic_pagan
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		personal_deity = yes
+		can_have_secondary_religion = yes
+		harmonized_modifier = harmonized_slavic_religion
+		heretic = { OLD_SLAVIC GERMANIC ROMUVA SUOMENUSKO }
+	}
 
 
 	druidic = {
@@ -3797,7 +4010,7 @@ pagan = {
 			}
 		}
 		
-		#uses_piety = yes		#this causes tengri netion to get muslim events, disabling for now
+		uses_piety = yes
 		misguided_heretic = yes
 		can_have_secondary_religion = yes
 		
@@ -4026,7 +4239,7 @@ jewish_group = {
 			local_missionary_strength = -0.02
 		}
 		
-		#uses_piety = yes		#this overlaps patriarchates, so disabling
+		uses_piety = yes
 		has_patriarchs = yes
 		
 		heretic = { SAMARITAN KARAITE }
