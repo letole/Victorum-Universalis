@@ -97,15 +97,31 @@ country_decisions = {
 			NOT = { exists = NOV }	# A bunch of Russian minors may not exist
 			NOT = { exists = TVE }	# Russia needs to conquer/integrate them first
 			NOT = { exists = GLC }	
-			NOT = { exists = VYA }
-			NOT = { exists = BLV }
-			NOT = { exists = PRS }
-			NOT = { exists = MOZ }
 			NOT = { exists = ZBT }
-			NOT = { exists = SPK }	
-			NOT = { exists = PSK }
-			NOT = { exists = RYA }	
-			NOT = { exists = BLO }
+			OR = {
+				MOZ = { exists = no }
+				MOZ = { is_subject_of = ROOT }
+			}
+			#NOT = { exists = VYA }
+			#NOT = { exists = BLV }
+			NOT = { exists = PRS }
+			NOT = { exists = RYA }
+			OR = {
+				SPK = { exists = no }
+				SPK = { is_subject_of = ROOT }
+			}
+			OR = {
+				PSK = { exists = no }
+				PSK = { is_subject_of = ROOT }
+			}	
+			OR = {
+				MLL = { exists = no }
+				MLL = { is_subject_of = ROOT }
+			}
+			OR = {
+				BLO = { exists = no }
+				BLO = { is_subject_of = ROOT }
+			}
 			NOT = { exists = YAR }
 			NOT = { exists = PLT }
 			NOT = { exists = RSO }

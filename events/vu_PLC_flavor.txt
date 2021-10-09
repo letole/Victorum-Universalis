@@ -1496,3 +1496,74 @@ country_event = { # Estate influence from foreign ruler based on his nationality
 		set_country_flag = pol_had_ruler_august_sas
 	}
 }
+
+country_event = { # Sejm of Lublin 1569
+	id = vu_plc.9
+	title = vu_plc.9.t
+	desc = vu_plc.9.d
+	picture = SEJM_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	goto = 260
+	
+	trigger = {
+		tag = POL
+		is_year = 1560
+		NOT = { is_year = 1580 }
+		NOT = { exists = PLC }
+		LIT = {
+			exists = yes
+			is_subject_of = ROOT
+			owns = 280
+		}
+		owns = 260
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = { # Annex Ukraine
+		name = vu_plc.9.a
+		ai_chance = {
+			factor = 80
+		}
+		highlight = yes
+		add_adm_power = -20
+		every_province = {
+			limit = {
+				owned_by = LIT
+				NOT = { province_id = 7244 }
+				OR = {
+					area = west_dniepr_area
+					area = east_dniepr_area
+					area = zaporizhia_area
+					area = podolia_volhynia_area
+					area = volhynia_area
+					area = eastern_volhynia_area
+					area = sloboda_ukraine_area
+					area = severia_area
+					province_id = 7237
+					province_id = 3223
+					province_id = 7262
+					province_id = 269
+				}
+			}
+			cede_province = ROOT
+			add_core = ROOT
+			#remove_core = LIT
+		}
+	}
+	option = { # Let them keep it
+		name = vu_plc.9.b
+		ai_chance = {
+			factor = 20
+		}
+		add_dip_power = 25
+		add_adm_power = 25
+		add_prestige = -5
+	}
+}
