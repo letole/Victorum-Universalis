@@ -845,7 +845,7 @@
 
  #Missions
  recover_greece_title:0 "The Slopes of Olympus"
- recover_greece_desc:0 "Despite Greece having become our homeland, every Roman knows that this is not our homeland, nor is it our core territory since nothing can or has replaced our memories of Italia and Rome herself. Greece is but a springboard for our people to reclaim the empire that we once had. Before we can restore the glory of the Roman empire, we must begin by restoring Greece to our control and in the process expel those infidels who had brought misery, destruction and scandal to the face and glory of Greece and her monuments. In time and with patience we will retake Italia and Roma back from the hands of those barbarians and the heretical leader they call their Pope."
+ recover_greece_desc:0 "Despite Greece having become our homeland, every Roman knows that this is not our homeland, nor is it our core territory since nothing can or has replaced our memories of Italia and Rome herself. Greece is but a springboard for our people to reclaim the empire that we once had. Before we can restore the glory of the Roman empire, we must begin by restoring Greece to our control and in the process expel those infidels who had brought misery, destruction, and scandal to the face and glory of Greece and her monuments. In time and with patience we will retake Italia and Roma back from the hands of those barbarians and the heretical leader they call their Pope."
  recover_macedon_title:0 "When in Pella"
  recover_macedon_desc:0 "Pella is but a shadow of her former self, being altogether in near abandonment, wit only a few people now inhabiting this once capital of Alexander the Great and being overshadowed in recent memory by the bustling trade city of Thessaloniki. We as heirs of Mars and Jupiter must help our Greek cousins in rebuilding Macedon and her cities to the once prosperous status they once held, for securing Macedonia is key to our reclaimation efforts of Greece herself."
  recover_central_greece_title:0 "Thessaly & Epirus"
@@ -858,8 +858,8 @@
  recover_northern_dacia_desc:0 "With Southern Dacia now firmly in our hands, let us march north and onwards into lands known as Transylvannia. Who knows what we may find there and if the rumors of a bat-like creature who dwells in a castle are true, then make sure to sharpen your stick men. You never know who's heart we may have to drive our stakes trough!"
  recover_rome_title:0 "Recover the Eternal City"
  recover_rome_desc:0 "Constantinople might be the New Rome, but the old Imperial capital, the Eternal City itself, has been lost since the fall of the Exarchate of Ravenna in 751. The unexpected resurgence of the Roman Empire has given rise to a powerful movement seeking reunification with our ancient Latin home..."
- recover_south_italy_title:0 "Recover Southern Italy "
- recover_south_italy_desc:0 "Like a great phoenix, Rome has risen from the ashes of the devastation wrought be Arabs, Turks, Franks, and others. Now, we must turn our attention to reclaiming our lost land in Southern Italy."
+ recover_south_italy_title:0 "Recover Southern Italy"
+ recover_south_italy_desc:0 "Like a great phoenix, Rome has risen from the ashes of the devastation wrought by Arabs, Turks, Franks, and others. Now, we must turn our attention to reclaiming our lost land in Southern Italy."
 
  #Missions from here down are TCOP additions by San Felipe.
  #ROMAN MISSIONS
@@ -3237,6 +3237,7 @@
  establish_usa_colony_desc:0 "The fertile temperate woodlands of the eastern coast of North America would make a fine location for a new colony. Let us establish a new settlement on these distant shores at once!"
  establish_carribean_colony_title:0 "Establish a colony in the Lesser Antilles"
  establish_carribean_colony_desc:0 "The tiny islands of the Caribbean produce sugar, exotic timber, spices, coffee, tobacco and more far in excess of what their modest sizes would suggest and the region's central location makes it an ideal trade hub. We should establish a presence there without delay to take advantage of this potential!"
+ 
  miss_colonize_caribbean:0 "§Y[Root.GetName]§! or their subjects own at least 5 province in the Lesser Antilles colonial region."
  miss_discover_caribbean:0 "§Y[Root.GetName]§! has discovered any province in the Caribbean."
 
@@ -3260,6 +3261,7 @@
  
  #VU Monument Categorisation
  TIER_0_DESCRIPTION:0 "Insignificant"
- TIER_1_DESCRIPTION:0 "Fair"
- TIER_2_DESCRIPTION:0 "Vast"
- TIER_3_DESCRIPTION:0 "Colossal"
+ TIER_1_DESCRIPTION:0 "Noteworthy"
+ TIER_2_DESCRIPTION:0 "Significant"
+ TIER_3_DESCRIPTION:0 "Vast"
+ TIER_4_DESCRIPTION:0 "Colossal"
