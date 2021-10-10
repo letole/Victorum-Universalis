@@ -1632,6 +1632,10 @@ country_event = { # Secularization of Teutonic Order
 			add_prestige = 10
 			add_legitimacy = 10
 		}
+		create_subject = {
+			subject_type = march
+			subject = PRU
+		}
 		every_province = {
 			limit = {
 				owned_by = PRU
@@ -1697,6 +1701,10 @@ country_event = { # Secularization of Teutonic Order
 			}
 			add_prestige = 10
 			add_legitimacy = 10
+		}
+		create_subject = {
+			subject_type = march
+			subject = PRU
 		}
 		every_province = {
 			limit = {
