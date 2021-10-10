@@ -4561,6 +4561,25 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 		}
+		
+		windowType = {
+			name = "tier_4_icon"
+			backGround=""
+			position = { x = 162 y = 104 }
+			size = { x = 32 y = 32 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+
+			iconType = {
+				name ="bg"
+				spriteType = "GFX_great_project_level_icon_tier_4"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+		}
 	}
 	
 	### UNIQUE BUILDING ENTRY
