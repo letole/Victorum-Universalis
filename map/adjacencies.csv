@@ -322,4 +322,32 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 134;7672;sea;8355;-1;-1;-1;-1;Wein-Donaustadt
 6560;1233;sea;5301;-1;-1;-1;-1;Said-Kharga
 1233;6563;sea;5301;-1;-1;-1;-1;Kharga-Esna
+6643;6604;sea;5301;-1;-1;-1;-1;Cara-Ezbet
+5273;2318;sea;5301;-1;-1;-1;-1;Siwa-Bahariya
+2318;6565;sea;5301;-1;-1;-1;-1;Bahariya-Abu Minqar
+6565;6559;sea;5301;-1;-1;-1;-1;Abu Minqar-Mut
+6559;1233;sea;5301;-1;-1;-1;-1;Mut-Kharga
+6603;6954;sea;1795;2994;1434;2998;1377;Jalu-Tazirbu
+6954;6955;sea;6671;2999;1372;3003;1358;Tazirbu-Buzaymah
+6955;6958;sea;6671;3004;1359;3014;1350;Buzaymah-Al-Jawf
+4270;2328;sea;8738;-1;-1;-1;-1;Maan-Tayma
+380;7458;sea;8738;-1;-1;-1;-1;Kerak-Al-Qurayyat
+7458;4272;sea;8739;3221;1513;3225;1510;Al-Qurayyat-Jawf
+2328;4272;sea;8739;3231;1496;3236;1496;Tayma-Jawf
+383;4272;sea;8739;3252;1462;3258;1464;Tabuk-Jawf
+4272;7459;sea;8739;3266;1490;3266;1494;Jawf-Sakaka
+7459;2338;sea;8739;3316;1481;3318;1475;Sakaka-Batin
+4272;393;sea;8739;3278;1457;3284;1455;Jawf-Jabal Shammar
+5231;393;sea;8739;-1;-1;3247;1438;Dedan-Jabal Shammar
+4273;5232;sea;8739;-1;-1;-1;-1;Khaybar-Ghazalah
+5232;4276;sea;8739;-1;-1;-1;-1;Ghazalah-Otaibah
+4276;2332;sea;8739;-1;-1;-1;-1;Otaibah-Truba
+4276;2337;sea;8739;-1;-1;-1;-1;Otaibah-Qassim
+393;2337;sea;8739;3310;1441;3314;1440;Jabal Shammar-Qassim
+2337;2338;sea;8739;3335;1454;3346;1456;Qassim-Batin
+4276;4274;sea;8739;-1;-1;-1;-1;Otaibah-Sudayr
+2336;2332;sea;8739;-1;-1;-1;-1;Washm-Truba
+2337;5256;sea;8739;3360;1443;3372;1443;Qassim-Summan
+4274;5256;sea;8739;-1;-1;-1;-1;Sudayr-Summan
+2339;7461;sea;1779;3439;1364;3452;1370;Yabrin-Batha
 -1;-1;;-1;-1;-1;-1;-1;-1;

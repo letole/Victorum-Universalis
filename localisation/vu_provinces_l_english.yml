@@ -4615,6 +4615,10 @@
  PROV_ADJ8736:0 "Pindus Mountains"
  PROV8737:0 "Mamalyha"
  PROV_ADJ8737:0 "Mamalyhan"
+ PROV8738:0 "Jordan Desert"
+ PROV_ADJ8738:0 "Jordan Desert"
+ PROV8739:0 "An-Nafud"
+ PROV_ADJ8739:0 "An-Nafud"
 
  # Beyond Typus province adjectives. Please note these are extremely incomplete, but appear? to only be seen when the province in question is selected as a capital for a custom nation. So I'm treating them as a secondary concern for the moment. -Draiocht
  PROV_ADJ4846:0 "Woolna"
