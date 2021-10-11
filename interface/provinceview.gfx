@@ -1366,11 +1366,6 @@ spriteTypes = {
 		name = "GFX_great_project_level_icon_tier_3"
 		texturefile = "gfx/interface/great_projects/great_projects_level_icons/great_project_level_icon_tier_3.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_great_project_level_icon_tier_4"
-		texturefile = "gfx/interface/great_projects/great_projects_level_icons/great_project_level_icon_tier_4.dds"
-	}
 		
 	spriteType = {
 		name = "GFX_great_project_level_icon_upgrade_build"
