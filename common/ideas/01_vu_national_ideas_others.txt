@@ -189,7 +189,7 @@ SCA_ideas = {
 }
 
 #Lombardy-Veneto
-LMV_ideas = { [now LVN]
+LMV_ideas = { # [now LVN]
 	start = {
 		infantry_power = 0.10 #MLO_ideas
 		galley_power = 0.25 #VEN_ideas bonus

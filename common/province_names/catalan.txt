@@ -107,7 +107,7 @@
 1247 = "Còrsega"
 1744 = "Anvers"
 1760 = "Coblença"
-1761 = "Palatinat"`
+1761 = "Palatinat"
 1764 = "Burgàs"
 1767 = "Eslavània"
 1934 = "Lucània"
