@@ -708,7 +708,7 @@
 
  #VU Monuments
  TIER_0_DESCRIPTION:0 "Unbedeutend"
- TIER_1_DESCRIPTION:0 "Bemerkenswert"
- TIER_2_DESCRIPTION:0 "Wesentlich"
+ TIER_1_DESCRIPTION:0 "Wesentlich"
+ TIER_2_DESCRIPTION:0 "Herrlich"
  TIER_3_DESCRIPTION:0 "Groß"
- TIER_4_DESCRIPTION:0 "Kolossal"
+ 
