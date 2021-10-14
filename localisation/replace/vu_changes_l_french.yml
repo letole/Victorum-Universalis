@@ -2,7 +2,6 @@
  #Development doubling tax mechanic alterations
  PP_BASE_TAX_VALUE2:0 "La valeur fiscale est $VAL|Y$, avec chaque niveau donnant:\nRevenus fiscaux annuels: §G+0.5§!¤\nTemps du recrutement local: §G-0.5%§!"
  IMPR_TAX_IMCOME:0 "Revenus d'impôt mensuels: §G+$VAL$§!¤"
- BASE:0 "x2 la valeur fiscale de base:"
  YEARLY_INC_TXT:0 "(24 months = $VAL|Y$¤)"
  provincial_tax_income:0 "Revenus d'impôt mensuels"
  TAX_INCOME:0 "Revenus fiscaux de base annuels"
@@ -702,3 +701,9 @@
 
  #Mission Corrections (probably temporary, no real need to translate)
  fra_carib_colony.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in the Colonial Lesser Antilles"
+ 
+ #VU Monument Categorisation
+ TIER_0_DESCRIPTION:0 "Insignifiant"
+ TIER_1_DESCRIPTION:0 "Important"
+ TIER_2_DESCRIPTION:0 "Magnifique"
+ TIER_3_DESCRIPTION:0 "Grandiose"

@@ -272,7 +272,7 @@ country_decisions = {
 			NOT = { tag = ITA }
 			NOT = { tag = SPI }
 			NOT = { tag = TUS }
-			NOT = { tag = LMV }
+			NOT = { tag = LVN }
 			OR = { 
 				primary_culture = romagnan
 				tag = URB
@@ -453,7 +453,7 @@ country_decisions = {
 				AND = {
 					ai = yes
 					num_of_cities = 15
-					adm_tech = 20
+					adm_tech = 36
 				}
 			}
 			OR = {
@@ -568,6 +568,13 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = formed_germany_flag
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			swap_non_generic_missions = yes
 		}
 		ai_will_do = {
 			factor = 1
@@ -595,7 +602,7 @@ country_decisions = {
 				AND = {
 					ai = yes
 					num_of_cities = 15
-					adm_tech = 36
+					adm_tech = 30
 				}
 			}
 			OR = {
@@ -924,7 +931,7 @@ country_decisions = {
 		potential = {
 			bt_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_lombardy_venetia_flag_btp }
-			NOT = { tag = LMV }
+			NOT = { tag = LVN }
 			NOT = { tag = ITL }
 			NOT = { tag = ITA }
 			NOT = { tag = SPI }
@@ -1062,7 +1069,7 @@ country_decisions = {
 			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
 		}
 		effect = {
-			change_tag = LMV
+			change_tag = LVN
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 2 } }
@@ -1371,6 +1378,302 @@ country_decisions = {
 		}
 	}
 	
+###################################################################################################
+################################       Duchy of Warsaw		 ##################################
+###################################################################################################
+
+	duchy_warsaw_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_duchy_of_warsaw }
+			OR = {
+				tag = MAZ
+				AND = {
+					owns_core_province = 257
+					culture_group = west_slavic
+					religion_group = catholic
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 257
+				province_id = 1938
+				province_id = 7211
+				province_id = 256
+				province_id = 7263
+				province_id = 3221
+				province_id = 255
+				province_id = 8231
+			}
+		}
+		allow = {
+			NOT = { exists = DWA }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 257
+			owns_core_province = 1938
+			owns_core_province = 7211
+			owns_core_province = 256
+			owns_core_province = 7263
+			owns_core_province = 3221
+			owns_core_province = 255
+			owns_core_province = 8231
+			NOT = { exists = POL }
+			NOT = { exists = PLC }
+			adm_tech = 20
+			OR = {
+				tag = MZA
+				AND = {
+					dominant_culture = polish
+					accepted_culture = polish
+				}
+			}
+		}
+		effect = {
+			257 = { move_capital_effect = yes }
+			change_tag = DWA
+			
+			if = {
+				limit = { NOT = { government_rank = 1 } }
+				set_government_rank = 1
+			}
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 7300
+			}
+			257 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 1
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_duchy_of_warsaw
+			every_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					OR = {
+						area = mazovia_area
+						area = central_poland_area
+						area = kuyavia_area
+						area = wielkopolska_area
+						area = sandomierz_area
+						province_id = 8224
+						province_id = 3220
+						province_id = 262
+						province_id = 8222
+						province_id = 2960
+						province_id = 269
+						province_id = 4538
+						province_id = 7266
+						province_id = 2424
+						province_id = 7267
+					}
+				}
+				add_core = ROOT
+			}
+			every_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+					OR = {
+						area = west_prussia_area
+						area = red_ruthenia_area
+						province_id = 7272
+						province_id = 1940
+						province_id = 7262
+						province_id = 3223
+						province_id = 3225
+						province_id = 8732
+						province_id = 8176
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+###################################################################################################
+##########################	Dano-Norwegian Realm	###########################################
+###################################################################################################
+
+	denmark_norway_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_denmark_norway }
+			OR = {
+				tag = DAN
+				tag = NOR
+				AND = {
+					owns_core_province = 12
+					owns_core_province = 17
+					culture_group = scandinavian
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 12
+				province_id = 17
+				province_id = 14
+				province_id = 7770
+				province_id = 6
+				province_id = 23
+				province_id = 3119
+				province_id = 1983
+			}
+		}
+		allow = {
+			NOT = { exists = DNR }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_or_non_sovereign_subject_of = 12
+			owns_or_non_sovereign_subject_of = 17
+			owns_or_non_sovereign_subject_of = 14
+			owns_or_non_sovereign_subject_of = 7770
+			owns_or_non_sovereign_subject_of = 6
+			owns_or_non_sovereign_subject_of = 23
+			owns_or_non_sovereign_subject_of = 3119
+			owns_or_non_sovereign_subject_of = 1983
+			is_year = 1500
+			adm_tech = 10
+			NOT = {
+				SWE = { is_subject_of = ROOT }
+			}
+			OR = {
+				NOR = { is_subject_of = ROOT }
+				DAN = { is_subject_of = ROOT }
+				num_of_owned_provinces_with = {
+					is_core = ROOT
+					OR = {
+						area = jutland_area
+						area = sjaelland_area
+						area = kobenhavn_area
+						area = denmark_area
+						area = skaneland_area
+						area = eastern_norway
+						area = western_norway
+						area = southern_norway_area
+						area = trondelag_area
+						area = northern_norway
+					}
+					value = 50	#50 provinces in Denmark or Norway
+				}
+			}
+		}
+		effect = {
+			12 = { move_capital_effect = yes }
+			change_tag = DNR
+			
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 7300
+			}
+			12 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			add_prestige = 20
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_denmark_norway
+			every_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					OR = {
+						area = jutland_area
+						area = sjaelland_area
+						area = kobenhavn_area
+						area = denmark_area
+						area = skaneland_area
+						area = eastern_norway
+						area = western_norway
+						area = southern_norway_area
+						area = trondelag_area
+						area = northern_norway
+						province_id = 7774
+						province_id = 3134
+						province_id = 13
+						province_id = 3135
+						province_id = 1979
+						province_id = 370
+						province_id = 3115
+						province_id = 371
+						province_id = 3114
+					}
+				}
+				add_core = ROOT
+			}
+			every_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+					OR = {
+						province_id = 1978
+						province_id = 369
+						province_id = 25
+						province_id = 35
+						province_id = 3231
+						province_id = 16
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					NOR = { subject_of = ROOT }
+				}
+				inherit = NOR
+			}
+			if = {
+				limit = {
+					DAN = { subject_of = ROOT }
+				}
+				inherit = DAN
+			}
+			if = {
+				limit = {
+					ICE = { 
+						subject_of = ROOT
+						ai = yes
+					}
+				}
+				inherit = ICE
+			}
+			if = {
+				limit = {
+					GOT = { 
+						subject_of = ROOT
+						ai = yes
+					}
+				}
+				inherit = GOT
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
 ###################################################################################################
 ################################			NEWCOUNTRY			 ##############################################
 ###################################################################################################

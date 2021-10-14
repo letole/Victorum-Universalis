@@ -9,9 +9,10 @@ hre = yes
 base_tax = 6
 base_production = 6
 trade_goods = salt #the name "Halle" apparently might even derive from the Indo-Germanic word for salt
-base_manpower = 2
+base_manpower = 3
 capital = "Halle"
 is_city = yes
+center_of_trade = 2
 
 discovered_by = eastern
 discovered_by = western

@@ -4,7 +4,7 @@ owner = HRZ
 controller = HRZ
 add_core = HRZ
 culture = serbian
-religion = orthodox
+religion = bogomilist_new	#was orthodox, regions of Bosnia and Hum were last places of Bogomilist heresy until Ottoman conquest
 capital = "Trebinje"
 base_tax = 4 
 base_production = 4 
@@ -72,3 +72,5 @@ discovered_by = western
 #} #Return to proper mod added owners and cuts vanilla core, typically.
 
 #1444 on
+
+1500.1.1 = { religion = orthodox }

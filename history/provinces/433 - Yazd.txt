@@ -5,7 +5,7 @@ controller = TIM
 culture = persian
 religion = zoroastrian
 capital = "Yazd"
-trade_goods = saffron
+trade_goods = camel
 hre = no
 base_tax = 4 
 base_production = 4
@@ -19,7 +19,6 @@ discovered_by = indian
 discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
-
 1447.3.13 = { #Shah Rokh dies in the field trying to put down the rebellion of Muhammad bin Baysonqor
 	owner = QOM
 	controller = QOM

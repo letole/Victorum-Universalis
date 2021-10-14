@@ -16,10 +16,9 @@ native_ferocity = 1
 native_hostileness = 2
 base_tax = 6 
 base_production = 6
-base_manpower = 2 
+base_manpower = 3
 extra_cost = 8
-center_of_trade = 1
-
+center_of_trade = 2
 1533.8.29 = {	discovered_by = SPA }
 
 1600.1.1 = {

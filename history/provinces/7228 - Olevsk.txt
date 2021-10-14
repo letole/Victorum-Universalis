@@ -1,15 +1,15 @@
 #BT GDL reoverhaul
 
-owner = KIE
-controller = KIE
-add_core = KIE
+owner = LIT
+controller = LIT
+add_core = LIT
 culture = ruthenian
 religion = orthodox
 capital = "Olevsk"			#first mentioned in late 15th century, though probably founded around the 1444 start date. A better option would be lovely.
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = grain
+trade_goods = vodka
 is_city = yes
 hre = no
 add_local_autonomy = 25

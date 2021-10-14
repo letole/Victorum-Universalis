@@ -8,7 +8,7 @@ add_core = SWZ
 culture = saxon
 religion = catholic
 capital = "Oschersleben"
-trade_goods = cloth
+trade_goods = lumber	# was cloth
 hre = yes
 base_tax = 3
 base_production = 2
@@ -28,5 +28,4 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Documented 994 AD
-1529.1.1 = { religion = protestant }
-} # The kingdom is dissolved
+1529.1.1 = { religion = protestant } # The kingdom is dissolved

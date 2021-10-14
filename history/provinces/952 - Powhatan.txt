@@ -15,8 +15,11 @@ add_core = POW
 native_size = 10
 native_ferocity = 6
 native_hostileness = 2
-center_of_trade = 1
 
+add_permanent_province_modifier = {
+	name = chesapeake_bay_modifier
+	duration = -1
+}
 
 discovered_by = north_american
 
@@ -28,6 +31,7 @@ discovered_by = north_american
 	add_core = ENG
 	culture = english 
 	religion = protestant
+	capital = "Henricus"
 } #Ceded by Powhatan after third Powhatan War.
 1707.5.12 = {
 	discovered_by = GBR

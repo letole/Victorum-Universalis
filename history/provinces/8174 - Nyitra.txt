@@ -6,6 +6,7 @@ owner = HUN
 controller = HUN
 add_core = HUN
 add_core = LHU
+add_core = SLO
 capital = "Nyitra"
 is_city = yes
 culture = slovak
@@ -15,11 +16,11 @@ base_production = 1
 base_manpower = 2
 trade_goods = fruit
 hre = no
-
+center_of_trade = 1
 #Fort/Other Buildings
 
 #Special Modifiers
-center_of_trade = 1
+
 
 #Discoveries
 discovered_by = KAZ

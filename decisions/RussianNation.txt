@@ -93,9 +93,53 @@ country_decisions = {
 			OR = {
 				owns_core_province = 306		# Nijni-Novgorod
 				owns_core_province = 307		# Vladimir	
-			}			
+			}
+			NOT = { exists = NOV }	# A bunch of Russian minors may not exist
+			NOT = { exists = TVE }	# Russia needs to conquer/integrate them first
+			NOT = { exists = GLC }	
+			NOT = { exists = ZBT }
+			OR = {
+				MOZ = { exists = no }
+				MOZ = { is_subject_of = ROOT }
+			}
+			#NOT = { exists = VYA }
+			#NOT = { exists = BLV }
+			NOT = { exists = PRS }
+			NOT = { exists = RYA }
+			OR = {
+				SPK = { exists = no }
+				SPK = { is_subject_of = ROOT }
+			}
+			OR = {
+				PSK = { exists = no }
+				PSK = { is_subject_of = ROOT }
+			}	
+			OR = {
+				MLL = { exists = no }
+				MLL = { is_subject_of = ROOT }
+			}
+			OR = {
+				BLO = { exists = no }
+				BLO = { is_subject_of = ROOT }
+			}
+			NOT = { exists = YAR }
+			NOT = { exists = PLT }
+			NOT = { exists = RSO }
 		}
 		effect = {
+			every_subject_country = {
+				limit = {
+					ai = yes
+					OR = {
+						capital_scope = {
+							region = russia_region
+						}
+						tag = PRM
+					}
+					NOT = { num_of_cities = 12 } # Prevents expanding outside of Russian region too much for free integration
+				}
+				ROOT = { inherit = PREV }
+			}
 			hidden_effect = {
 				if = {
 					limit = {
@@ -115,7 +159,7 @@ country_decisions = {
 				}
 				change_government_to_monarchy = yes
 			}
-			set_government_rank = 3
+			RUS = { set_government_rank = 3 }
 			if = {
 				limit = { is_revolutionary = no }
 				add_government_reform = tsardom

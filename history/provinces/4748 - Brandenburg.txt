@@ -1,4 +1,4 @@
-# 4748 - Brandenburg
+#4748 - Brandenburg
 
 owner = BRA
 controller = BRA
@@ -13,13 +13,10 @@ base_manpower = 6
 capital = "Brandenburg an der Havel"
 is_city = yes
 
-
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
 
 1539.1.1 = { religion = protestant }
 1650.1.1 = { culture = prussian }

@@ -5,7 +5,7 @@ controller = VIJ
 culture = tamil
 religion = hinduism
 capital = "Kuddaluru"
-trade_goods = cloth
+trade_goods = carpet		#was cloth, once more provinces are in india, add cloth around
 hre = no
 base_tax = 8
 base_production = 8
@@ -22,7 +22,9 @@ discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese
 extra_cost = 16
-center_of_trade = 2
+
+
+
 
 1405.1.1 = { discovered_by = chinese }
 1498.1.1 = { discovered_by = POR }

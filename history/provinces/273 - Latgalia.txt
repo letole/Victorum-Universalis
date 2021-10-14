@@ -6,7 +6,7 @@ owner = LIV
 controller = LIV
 add_core = LIV
 culture = latvian
-religion = catholic
+religion = baltic_pagan_reformed	# Livonian tribes still present
 capital = "Daugpils"			#DE Dünaburg
 #fort_15th = yes #Dünaburg
 trade_goods = grain
@@ -26,6 +26,7 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern
 
+1475.1.1 = { religion = catholic }
 1561.1.1 = {
 	owner = LIT
 	controller = LIT

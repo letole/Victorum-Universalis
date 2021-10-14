@@ -9,9 +9,14 @@ capital = "Tolmezzo"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = naval_supplies			#notable wood production, like Cadore. Also has lots of Livestock, and even Paper
+trade_goods = lumber			#notable wood production, like Cadore. Also has lots of Livestock, and even Paper
 is_city = yes
 hre = yes
+
+add_permanent_province_modifier = {
+	name = bt_forests_of_cadore
+	duration = -1
+} 
 
 discovered_by = western
 discovered_by = muslim

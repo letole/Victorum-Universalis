@@ -1,4 +1,5 @@
 #2725 - Aru
+#VU Discovery Bug Fix
 
 culture = moluccan
 religion = animism
@@ -12,11 +13,8 @@ native_size = 20
 native_ferocity = 4
 native_hostileness = 8
 
-
-
-discovered_by = MKS
-discovered_by = TER
-discovered_by = TID
+# discovered_by = MKS
+# discovered_by = TER
+# discovered_by = TID
 
 1525.1.1 = { discovered_by = POR } # Don Jorge de Mneses
-

@@ -6,19 +6,17 @@ add_core = MED
 capital = "Karura"
 culture = tigray
 religion = coptic
-trade_goods = fish
+trade_goods = pearls
 hre = no
 base_tax = 2 
 base_production = 2 
 base_manpower = 2 
 is_city = yes
 
-
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
-
 
 1499.1.1 = { discovered_by = POR }
 1550.1.1 = { discovered_by = TUR }

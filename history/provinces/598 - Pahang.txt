@@ -5,7 +5,7 @@ controller = PAH
 culture = malayan
 religion = mahayana
 capital = "Pahang"
-trade_goods = tin #tin
+trade_goods = rum # tin in nearby province
 hre = no
 base_tax = 5
 base_production = 5
@@ -13,6 +13,7 @@ base_manpower = 3
 is_city = yes
 add_core = PAH
 add_core = JOH
+
 
 discovered_by = chinese
 discovered_by = indian

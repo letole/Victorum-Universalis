@@ -5,20 +5,16 @@ controller = HSE
 culture = shan
 religion = buddhism
 capital = "Hsenwi"
-trade_goods = tropical_wood
+trade_goods = opium
 hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
 add_core = HSE
-
+center_of_trade = 1
 discovered_by = chinese
 discovered_by = indian
-
-extra_cost = 8
-center_of_trade = 1
-
 
 1502.1.1 = {
 	controller = SST

@@ -6,7 +6,7 @@ add_core = MAJ
 culture = javanese
 religion = sunni
 capital = "Madiun"
-trade_goods = rice
+trade_goods = elephants
 hre = no
 base_tax = 5
 base_production = 5
@@ -14,6 +14,7 @@ base_manpower = 3
 is_city = yes
 add_core = SRB
 add_core = SRK
+center_of_trade = 1
 
 discovered_by = chinese
 discovered_by = indian

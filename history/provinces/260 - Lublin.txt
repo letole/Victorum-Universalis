@@ -29,6 +29,8 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 
+# History completed by docRobert
+
 1490.1.1 = { unrest = 6 } # Uprising led by Mukha
 1492.1.1 = { unrest = 0 } 
 1550.1.1 = { religion = reformed }
@@ -43,6 +45,11 @@ discovered_by = ottoman
 1596.1.1 = { unrest = 4 } # Religious struggles, union of Brest
 1597.1.1 = { unrest = 0 }
 # The Deluge
+1600.1.1 = {
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+}
 1733.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # The war of Polish succession
 1735.1.1 = { revolt = {} controller = PLC }
 1781.1.1 = { unrest = 4 } # Struggle against serfdom
@@ -54,14 +61,55 @@ discovered_by = ottoman
 	controller = HAB
 	add_core = HAB
 } # Third partition of Poland
-1807.7.9 = {
-	owner = POL
-	controller = POL
+1809.4.19 = {
+	controller = DWA
+}
+1809.10.14 = {
+	revolt = {}
+	owner = DWA
+	controller = DWA
+	add_core = DWA
 	add_core = POL
 	remove_core = HAB
-} # The Duchy of Warsaw is established after the treaty of Tilsit, ruled by Frederick Augustus I of Saxony
-1812.12.12 = { controller = RUS }
-1814.4.11 = {
+} # Treaty of Schonbrunn
+1814.4.11 = { controller = RUS }
+1815.6.9 = {
+	owner = POL
+	controller = POL
+	remove_core = DWA
+} # Congress of Vienna final act, Congress Poland
+1830.11.29 = {
+	unrest = 8
+} # November uprising
+1831.5.1 = {
+	controller = RUS
+}
+1831.10.21 = {
 	owner = RUS
 	add_core = RUS
-} # Napoleon abdicates
+	unrest = 0
+} # Uprising fail, Congress Poland liquidated
+1848.1.1 = {
+	unrest = 5
+} # Revolutions of 1848
+1850.1.1 = {
+	unrest = 0
+	base_production = 8
+	base_manpower = 8
+}
+1863.1.22 = { revolt = { type = nationalist_rebels size = 3 } controller = REB } # January uprising
+1864.6.18 = {
+	revolt = {}
+	controller = RUS
+} # Uprising fails
+1915.8.1 = {
+	controller = GER
+} # WWI
+1918.3.3 = {
+	remove_core = RUS
+	add_core = POL
+} # Brest-Litovsk treaty
+1918.11.11 = {
+	owner = POL
+	controller = POL
+} # Polish independence

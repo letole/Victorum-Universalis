@@ -8,12 +8,14 @@ religion = sunni
 capital = "Ibo"
 is_city = yes
 base_manpower = 2 
-trade_goods = ivory
+trade_goods = elephants
 hre = no
 base_tax = 4  
 base_production = 4
 add_local_autonomy = 25
-center_of_trade = 1
+
+
+
 
 discovered_by = east_african
 discovered_by = indian

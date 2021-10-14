@@ -72,6 +72,12 @@
  default_II_long_desc:0 "Error, please report to Draiocht ST4"
  default_II_is_our:0 "Error, please report to Draiocht ST5"
  default_II_no_overlord_dow:0 "Error, please report to Draiocht ST6"
+ silesian_duke:0 "Silesian Duchy"
+ silesian_duke_title:0 "Silesian Duchy"
+ silesian_duke_title_plural:0 "Silesian Duchies"
+ silesian_duke_long_desc:0 "A Silesian Duchy is special subject type present in the region of Silesia. Represents many fractured duchies that formed there during middle ages and were subsequently subjugated by foreign powers. Silesian Duchy will recieve various bonuses. It doesn't cost diplomatic relation slot but will recieve significant penalties for growing too large. Silesian dichies may ally, rival and wage war on each other but overlord can intervene and enforce peace. For obvious reasons, Silesian Duchy can only be established for certain nations and by limited number of overlords. Can be normally annexed."
+ silesian_duke_is_our:0 "$NAME|Y$ is our Silesian Duchy."
+ silesian_duke_no_overlord_dow:0 "You cannot declare war on Silesian Duchy."
 
 
 
@@ -98,6 +104,18 @@
  cappadocian:0 "Cappadocian"
  cypriot:0 "Cypriot"
  griko:0 "Griko"
+ anatolian_greek:0 "Antiochene" # May also be Phrygian or Pamphylian
+ karchidoniac:0 "Karchidoniac"
+ egyptian_greek:0 "Alexandrian" # May also be Ptolemean or Aigyptios
+ persic:0 "Persic"
+ old_latin:0 "Old Latin"        # Can also be Old Roman
+ gallo_roman:0 "Gallo-Roman"
+ afro_roman:0 "African Romance" # Romano-African, African Roman or Afro-Roman also fit
+ illyro_roman:0 "Illyrian Roman"        # May also be Istriot
+ romano_britanian:0 "Romano Brytanic"   # May also be British, Britanican or British Latin
+ hispanic_roman:0 "Hispanic"    # May also be Iberian, Hispanic Roman or Ibero-Romance
+ romano_pannonian:0 "Pannonian Romance" # May also be Pannonian
+ old_illyrian:0 "Illyrian"      # Old native Illyrians before Huns genocided them all
  berber_group:0 "Berber"
  shilha:0 "Shilha"
  riffian:0 "Riffian"
@@ -109,9 +127,6 @@
  syriac_culture:0 "Syriac"
  laz_culture:0 "Laz"
  cilician:0 "Cilician"
- #hejazi_arabic:0 "Hejazi"          #Replaced by vanilla hejazi_culture in 1.23
- #khaliji_arabic:0 "Khaliji"           #Replaced by vanilla gulf_arabic in 1.23
- #mehri_culture:0 "Mehri"           #Replaced by vanilla mahri_culture in 1.23
  romanch_culture:0 "Romansh"
  andalusi_culture:0 "Andalusi"
  egyptian_group:0 "Egyptian"
@@ -145,6 +160,8 @@
  kashubian_culture:0 "Kashubian"
  dalmatian_culture:0 "Dalmatian"
  papuan_group:0 "Papuan"
+ cossack:0 "Cossack"
+ rusyn:0 "Rusyn"
  pacific:0 "Pacific"
  polynesian:0 "Polynesian"
  neapolitan:0 "Neapolitan"
@@ -188,7 +205,6 @@
  tanana:0 "Tanana"
  slavey:0 "Slavey"
  tlingit:0 "Tlingit"
- #waikuri_group:0 "Waikuri"         #Removed (merged with Chumash)
  waikuri:0 "Waikuri"
  wiyot:0 "Wiyot"
  denaina:0 "Denaina"
@@ -197,7 +213,6 @@
  innu:0 "Innu"
  lakota:0 "Lakota"
  pacific_na_dene:0 "Pacific Athabaskan"
- northern_na_dene:0 "Na Dené"
  central_algonquian:0 "Algonquian"
  ojicree:0 "Oji-Cree"
  laurentian:0 "Laurentian"
@@ -258,7 +273,6 @@
  ktunaxa_group:0 "Kootenay"
  pacific_algonquian_group:0 "Pacific Algonquian"
  esselen:0 "Esselen"
- jumano_group:0 "Mogollon"
  suma_culture:0 "Suma"
  nez_perce_culture:0 "Nez-Percé"
  cochimi:0 "Cochimí"
@@ -458,7 +472,8 @@
  desc_northern_dvina_estuary_modifier:0 "Controlling the important river estuary of the Northern Dvina strengthens our hold of the trade in the region."
  pechora_estuary_modifier:0 "Pechora Estuary"
  desc_pechora_estuary_modifier:0 "Controlling the important river estuary of the Pechora strengthens our hold of the trade in the region."
-
+yellow_estuary_modifier:0 "Yellow Estuary"
+ desc_yellow_estuary_modifier:0 "Controlling the important river estuary of the Yellow River strengthens our hold of the trade in the region."
  #Old World - TCOP by San Felipe
  #British Isles and Ireland
  mersey_estuary_modifier:0 "Mersey Estuary"
@@ -634,6 +649,8 @@
  #End of TCOP Additions
 
  #New World
+gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
+ desc_gulf_of_mexico_estuary_modifier:0 "The Gulf of Mexico is an ocean basin and a marginal sea of the Atlantic Ocean, largely surrounded by the North American continent. It is bounded on the northeast, north and northwest by the Gulf Coast of the United States; on the southwest and south by the Mexican states of Tamaulipas, Veracruz, Tabasco, Campeche, Yucatan, and Quintana Roo; and on the southeast by Cuba. The US states of Texas, Louisiana, Mississippi, Alabama, and Florida, which border the Gulf on the north, are often referred to as the "Third Coast" of the United States."
  fraiser_estuary_modifier:0 "Fraiser Estuary"
  desc_fraiser_estuary_modifier:0 "Controlling the important river estuary of the Fraiser strengthens our hold of the trade in the region."
  colorado_estuary_modifier:0 "Colorado Estuary"
@@ -708,7 +725,7 @@
  desc_port_of_ceuta_modifier:0 "Controlling the important port of Ceuta strengthens our hold of the trade in the region."
  port_of_copenhagen_modifier:0 "Port of Copenhagen"
  desc_port_of_copenhagen_modifier:0 "Controlling the important port of Copenhagen strengthens our hold of the trade in the region."
- port_of_gibraltar_modifier:0 "Port of Copenhagen"
+ port_of_gibraltar_modifier:0 "Port of Gibraltar"
  desc_port_of_gibraltar_modifier:0 "Controlling the important port of Gibraltar strengthens our hold of the trade in the region."
  port_of_jaffa_modifier:0 "Port of Jaffa"
  desc_port_of_jaffa_modifier:0 "Controlling the important port of Jaffa strengthens our hold of the trade in the region."
@@ -750,6 +767,89 @@
  desc_tropical_lagoon_modifier:0 "Controlling this tropical Lagoon strengthens our hold of the trade in the region."
  laguna_lagoon_modifier:0 "Laguna Lagoon"
  desc_laguna_lagoon_modifier:0 "Controlling Laguna lagoon strengthens our hold of the trade in the region."
+ 
+ #Religious Priovince Modifiers
+ western_christian_a_place_of_miracles_modifier:0 "A Place of Miracles"
+ desc_western_christian_a_place_of_miracles_modifier:0 "."
+ 
+ western_christian_the_massiahs_birthplace_modifier:0 "The Massiahs Birthplace"
+ desc_western_christian_the_massiahs_birthplace_modifier:0 "."
+ 
+ western_christian_famous_holy_relic_modifier:0 "Famous Holy Relic"
+ desc_western_christian_famous_holy_relic_modifier:0 "."
+ 
+ western_christian_major_abbey_modifier:0 "Major Abbey"
+ desc_western_christian_major_abbey_modifier:0 "."
+ 
+ western_christian_great_cathedral_modifier:0 "Great Cathedral"
+ desc_western_christian_great_cathedral_modifier:0 "."
+ 
+ eastern_christian_patriarchal_seat_modifier:0 "Patriarchal Seat"
+ desc_eastern_christian_patriarchal_seat_modifier:0 "."
+ 
+ eastern_christian_famous_inconography_modifier:0 "Famous Iconography"
+ desc_eastern_christian_famous_inconography_modifier:0 "."
+ 
+ eastern_christian_major_metropolitan_modifier:0 "Major Metropolitan"
+ desc_eastern_christian_major_metropolitan_modifier:0 "."
+ 
+ eastern_christian_great_basilica_modifier:0 "Great Basilica"
+ desc_eastern_christian_great_basilica_modifier:0 "."
+ 
+ islamic_the_prophets_birthplace_modifier:0 "The Prophet's Birthplace"
+ desc_islamic_the_prophets_birthplace_modifier:0 "."
+ 
+ islamic_a_place_of_miracles_modifier:0 "Place of Truthful Miracles"
+ desc_islamic_a_place_of_miracles_modifier:0 "."
+ 
+ islamic_major_madrasa_modifier:0 "Major Madrasa"
+ desc_islamic_major_madrasa_modifier:0 "."
+ 
+ islamic_great_mosque_modifier:0 "Great Mosque"
+ desc_islamic_great_mosque_modifier:0 "."
+
+ hindu_great_temple_modifier:0 "Great Temple"
+ desc_hindu_great_temple_modifier:0 "."
+ 
+ buddhist_renowned_llama_modifier:0 "Renowned Llama"
+ desc_buddhist_renowned_llama_modifier:0 "."
+ 
+ sikh_renowned_guru_modifier:0 "Renowned Guru"
+ desc_sikh_renowned_guru_modifier:0 "."
+ 
+ confucius_famous_academy_modifier:0 "Famous Academy"
+ desc_confucius_famous_academy_modifier:0 "."
+
+ taoist_famous_martial_arts_school_modifier:0 "Famous Martial Arts School"
+ desc_taoist_famous_martial_arts_school_modifier:0 "."
+ 
+ shinto_famous_buddha_statue_modifier:0 "Famous Buddha Statue"
+ desc_shinto_famous_buddha_statue_modifier:0 "."
+ 
+ totem_great_pole_modifier:0 "Great Totem Pole"
+ desc_totem_great_pole_modifier:0 "."
+ 
+ dream_catchers_renowned_dream_giver_modifier:0 "Renowned Dream Giver"
+ desc_dream_catchers_renowned_dream_giver_modifier:0 "."
+
+ mesoamerica_great_pyramid_temple_modifier:0 "Great Pyramid Temple"
+ desc_mesoamerica_great_pyramid_temple_modifier:0 "."
+ 
+ andean_great_temple_complex_modifier:0 "Great Temple Complex"
+ desc_andean_great_temple_complex_modifier:0 "."
+
+ animists_renowned_healer_modifier:0 "Renowned Healer"
+ desc_animists_renowned_healer_modifier:0 "."
+ 
+ pagan_renowned_oracle_modifier:0 "Renowned Oracle"
+ desc_pagan_renowned_oracle_modifier:0 "."
+ 
+ druids_famous_megalithic_site_modifier:0 "Famous Megalithic Site"
+ desc_druids_famous_megalithic_site_modifier:0 "."
+ 
+ shamans_renowned_shaman_modifier:0 "Renowned Shaman"
+ desc_shamans_renowned_shaman_modifier:0 "."
+ 
 
  #Natural Wonders
  banaue_rice_terraces_modifier:0 "Banaue Rice Terraces"
@@ -839,6 +939,15 @@
  curonian_strait_toll:0 "Curonian Strait Toll"
  desc_curonian_strait_toll:0 "The Curonian Lagoon is seperated from the rest of the Baltic Sea by a narrow strip of land called the Curonian Spit, creating a natural chokepoint at the only exit for the many cities and towns along the lagoon. Just some couple hundred metres wide, gaining control of this natural chokepoint will ensure our continued relevance in regional trade."
 
+bohai_bay_modifier:0 "Bohai Bay"
+ desc_bohai_bay_modifier:0 "Bohai Bay is one of the three major bays of the Bohai Sea, the northwestern and innermost gulf of the Yellow Sea. It is bounded by the coastlines of eastern Hebei province, Tianjin municipality and northern Shandong province south of the Daqing River estuary and north of the Yellow River estuary. It is the most southerly water in the northern hemisphere where sea ice can form."
+
+osaka_bay_modifier:0 "Osaka Bay"
+ desc_osaka_bay_modifier:0 "Osaka Bay is a bay in western Japan. As an eastern part of the Seto Inland Sea, it is separated from the Pacific Ocean by the Kii Channel and from the neighbor western part of the Inland Sea by the Akashi Strait. Its western shore is formed by Awaji Island, and its northern and eastern shores are part of the Kansai metropolitan area."
+
+ijsselmeer_bay_modifier:0 "IJsselmeer"
+ desc_ijsselmeer_bay_modifier:0 "The IJsselmeer, also known as Lake IJssel, is a closed off inland bay in the central Netherlands bordering the provinces of Flevoland, North Holland and Friesland. It covers an area of 1,100 km2 (420 sq mi) with an average depth of 5.5 m (18 ft). The river IJssel flows into the IJsselmeer. "
+
  #Specials - New World
  grand_banks_of_newfoundland:0 "Grand Banks of Newfoundland"
  desc_grand_banks_of_newfoundland:0 "The waters off the coast of Newfoundland have some of the richest fishing grounds in the world. From the 15th century through to the early modern period, Basque, Portuguese, French, Spanish, English, and Dutch ships exploited the abundant cod in the area to provide a large portion of Europe's fish. By the 19th century the fisheries of Newfoundland provided more fish than any other area in the world."
@@ -847,6 +956,15 @@
  #Cut Golden gate for now, icons looked a bit busy.
  #golden_gate_strait_modifier:0 "Golden Gate"
  #desc_golden_gate_strait_modifier:0 "The Golden Gate is a natural strait, less than a league across, separating the San Francisco and Marin Peninsulas to form a natural gateway into the well protected San Francisco Bay. Named 'Chrysopylae', or the Golden Gate, after 'Chrysoceras', the Golden Horn of the Bosporus, because of the strategic position's obvious potential as a center for trade with the Orient. Later, this name would prove prophetic when a certain rare mineral was found to be abundant in the mountains and hills beyond the bay."
+
+chesapeake_bay_modifier:0 "Chesapeake Bay"
+ desc_chesapeake_bay_modifier:0 "The Chesapeake Bay is the largest estuary in the United States. The Bay is located in the Mid-Atlantic region and is primarily separated from the Atlantic Ocean by the Delmarva Peninsula with its mouth of the Bay at the south end located between Cape Henry and Cape Charles. With its northern portion in Maryland and the southern part in Virginia, the Chesapeake Bay is a very important feature for the ecology and economy of those two states, as well as others surrounding within its watershed. More than 150 major rivers and streams flow into the Bay's 64,299-square-mile drainage basin."
+
+maracaibo_bay_modifier:0 "Maracaibo Bay"
+ desc_maracaibo_bay_modifier:0 "Lake Maracaibo is a large brackish tidal bay in Venezuela and an "inlet of the Caribbean Sea". It is sometimes considered a lake rather than a bay or lagoon. It is connected to the Gulf of Venezuela by Tablazo Strait, which is 5.5 kilometres (3.4 mi) wide at the northern end. It is fed by numerous rivers, the largest being the Catatumbo. At 13,210 square kilometres (5,100 sq mi) it was once the largest lake in South America; the geological record shows that it was a true lake in the past, and as such is one of the oldest lakes on Earth at 20–36 million years old."
+
+pudget_sound_modifier:0 "The Pudget Sound"
+ desc_pudget_sound_modifier:0 "The Puget Sound, is a sound of the Pacific Northwest, an inlet of the Pacific Ocean, and part of the Salish Sea. It is located along the northwestern coast of the U.S. state of Washington. It is a complex estuarine system of interconnected marine waterways and basins, with one major and two minor connections to the open Pacific Ocean via the Strait of Juan de Fuca. Admiralty Inlet being the major connection and Deception Pass and Swinomish Channel being the minor. "
 
  ###########################
  #Other modifiers
@@ -955,6 +1073,50 @@
  desc_bt_spanish_colonial_enthusiasm:0 "Large groups of ambitious people are interested in moving to the colonies."
  bt_daring_navigator:0 "A Daring Explorer"
  desc_bt_daring_navigator:0 "This country is employing an ambitious and daring explorer who is determined to push further than anyone has before and discover new lands on distant shores."
+ 
+ #Subject modifiers
+ silesian_duke_modifier:0 "Is Silesian Duchy"
+ desc_silesian_duke_modifier:0 "We are silesian duchy subject type"
+ silesian_duke_size_modifier:0 "Large Silesian Duchy"
+ desc_silesian_duke_size_modifier:0 "Our duchy is gorwing too large for its diplomatic capabilities"
+ 
+ 
+ swedish_military_miracle:0 "Swedish military golden age"
+ desc_swedish_military_miracle:0 ""
+ gave_vodka_timer:0 "Gave vodka timer"
+ desc_gave_vodka_timer:0 ""
+ vodka_distributed:0 "Distributed vodka to masses"
+ desc_vodka_distributed:0 ""
+ great_horde_humiliated:0 "Great Horde Humiliated"
+ desc_great_horde_humiliated:0 "Rip our military might..."
+ 
+ ##########################
+ # New province modifiers
+ ##########################
+ baltic_amber_small:0 "Baltic amber"
+ desc_baltic_amber_small:0 "Province's shores are rich in amber - fossilized tree resin that many consider very precious. Though it is not at rich in amber as coast of Sambia, it still adds some trade value to the province."
+ black_forest:0 "Black Forest"
+ desc_black_forest:0 "A large forested mountain range in close proximity to Rrhine River. It is bounded by the Rhine valley to the west and south. A great source of wood and other resources for nearby areas."
+ black_marble:0 "Black marble"
+ desc_black_marble:0 "An unique type of marble is extracted from this Basque province. Due to its unusual appearance and rarity, it is considered much more valuable than common white marble. Marble quarry in Markina that extracts it, seems to be the only source of black marble in Europe."
+ sea_of_dead_palestine:0 "Dead Sea"
+ desc_sea_of_dead_palestine:0 "While not the largest, it is surely the saltiest one. Barren wastelands of salty grounds surround this body of water located in Jordan Valley. Great place to harvest salt but not so great for development."
+ ancient_egypt_temple:0 "Temple ruins of Thebes"
+ desc_ancient_egypt_temple:0 "Ruins of the ancient city of Thebes are home to many old temples and obelisks. In ancient time, this place was one of the most important sites in Egyptian Kingdom but times of pharaohs are long gone and now the whole complex slowly fades in desert winds. Though nobody remembers the purpose of all those monuments anymore, they are still notable."
+ masurian_lakes:0 "Masurian Lakeland"
+ desc_masurian_lakes:0 "Masurian Lands host countless amount of lakes scattered among rich forests."
+ bay_of_fundy:0 "Bay of Fundy"
+ desc_bay_of_fundy:0 "Unique geography of the bay allows for the formation of the highest tides on the Earth. Ideal envirorment for tidal fishing and naval buisness."
+ volcan_soil:0 "Volcanic Grounds"
+ desc_volcan_soil:0 "Terrain of this province has been shaped by volcanic eruptions. While the soil is often extra fertile, it is not an easy place to live in."
+ warm_coast_ire:0 "Irish Golden Coast"
+ desc_warm_coast_ire:0 "Good climate and warm streams bring prosperity to the coast of Ireland. Weather conditions even allow to grow palm trees. Truly a warm oceanic temperate climate at its finest."
+ rich_black_soil:0 "Chernozem"
+ desc_rich_black_soil:0 "The specific soil type makes this land especially fertile and excellent for agricultural production."
+ aurora_borealis:0 "Aurora Borealis"
+ desc_aurora_borealis:0 "Beautiful aurora can often be seen in the region. For many local people the lights in the sky have special religious meaning."
+ plitvice:0 "Plitvice lakes"
+ desc_plitvice:0 "Region of Plitvice is home to unique terrain type, among which a boutfiul of beautiful lakes is scattered."
 
 
 
@@ -1316,6 +1478,10 @@
  btpl_scottish_nation_desc:0 "Hundreds of years of invasions and immigration has done nothing but make our great nation stronger. We may hold land on the fringes of Europe, but we are anything but irrelevant, and above all, we are free under Scotland the brave!"
  united_kingdom_nation_title:0 "Form United Kingdom"
  united_kingdom_nation_desc:0 "We have established a firm hegemony over all of the British Isles, but autonomous and sometimes rebellious vassals frustrate our plans whilst uneccessary local governments divert our taxes and complicate administration. We should unite our various kingdoms, once and for all, into a single, strong, and unified nation!"
+ duchy_warsaw_nation_title:0 "Form Duchy of Warsaw"
+ duchy_warsaw_nation_desc:0 "Poland and Commonwealth have both ceased to exist. We must continue Polish legacy and create new state centered around the city of Warsaw."
+ denmark_norway_nation_title:0 "Form Twin Realms of Denmark-Norway"
+ denmark_norway_nation_desc:0 "Time has come to unite the regions of Denmark and Norway into one nation."
  #Non-European Old World
  btpl_kabylia_nation_title:0 "Form Kabylia"
  btpl_kabylia_nation_desc:0 "Uniting the rich, fertile hills of Kabylia is the first step in establishing a strong Berber nation in the Maghreb!"
@@ -1342,6 +1508,12 @@
  create_the_kingdom_of_ireland_as_england_desc:0 "We have established dominance over Ireland, but we face the wrath of other European countries because of this annexation, and the rebellious nature of this frontier makes it difficult to govern effectively. The ideal solution may be to create a new Irish viceroyalty, similar to the former feudal system but significantly more organised, who may rule in our stead and protect our interests while distancing us from direct governance."
  cede_stragglers_to_koi_as_ruler_title:0 "Cede Irish Territory to Our Vassal"
  cede_stragglers_to_koi_as_ruler_desc:0 "We own land which de jure belongs to Ireland, our vassal kingdom. We may gift this land to them as a gesture of good will."
+ religious_conversions_romuva_title:0 "Revert back to old gods"
+ religious_conversions_romuva_desc:0 "As baltic pagans following Romuva faith remain strong, it is time for us to abandon our current faith and revert to the old ways."
+ religious_conversions_suomenusko_title:0 "Adopt Suomenusko paganism as dominant faith"
+ religious_conversions_suomenusko_desc:0 "As northern scandinavian pagans following Suomenusko fath grow ever-stronger, it is time for us to abandon our current faith and adopt their ways of life instead."
+ distribute_vodka_to_masses_title:0 "Distribute vodka to pesants"
+ distribute_vodka_to_masses_desc:0 "Spend some of our vodka production and distribute it to poor pesants across our nation. This will hopefully keep the population drunk and calm. Such promotion of alcoholism will have negative impact on our population but such population will be much easier to rule over. Ditributing vodka for free will also satisfy nobles."
  #Beyond Typus and BTPL Decisions
  #sweads_and_geats_one_big_happy_family_title:0 "Unify Swedish Culture"         #removed in 11.5
  #sweads_and_geats_one_big_happy_family_desc:0 "The two primary peoples of Sweden, the Swedes in the north and the Geats in the south, have lived together under the Swedish banner for many years and despite occasional friction, the two groups largely accept one another and recognise each other as kin. It is time we made it official and formally proclaim Swedes and Geats to be one and the same people, for the glory of Sweden!"         #removed in 11.5
@@ -1389,6 +1561,10 @@
  move_trade_to_mogador_desc:0 "The ancient trading port of Safi no longer suits our purposes, and trade flows in and out of our many semi-autonomous ports largely outside of our control, and more importantly, outside of the reach of our tax collection. The solution is to create a new trading capital firmly under our control and give it a monopoly on all foreign trade. Let us hire the greatest architects and workers to create a beautiful, grand, new port!"
 
  #New World
+ 
+ #Misc
+ remove_primitive_nations_all_title:0 "Remove primitive nations"
+ remove_primitive_nations_all_desc:0 "Removes all primitive nations that should not be considered a proper state at this moment. This applies to most of America and Oceania but not only. Will also reduce lag of the game!"
 
 
 
@@ -1536,6 +1712,60 @@
  flavor_eng.106.d:0 "We have been tasked by his Lordship William Bentinck, under the influence of Lord Ellenborough to establish a new trade route to the Emirate of Bukhara."
  flavor_eng.106.a:0 "Let the game begin!"
  flavor_eng.106.b:0 "Bukha..what?"
+ #
+ #VU Pop Influence - Slavery
+ vu_pop_influence.1.t:0 "Investing in Meagre Slavery"
+ vu_pop_influence.1.d:0 "Despite the hideous nature and immoral practice of Slavery, it is absolutely necessary that we purchase Slaves to work on our growing number of plantations until our nation innovates an alternative means."
+ vu_pop_influence.1.a:0 "Purchase only a meagre number of slaves."
+ vu_pop_influence.1.b:0 "We shouldn't rely on slave labor."
+ #
+ vu_pop_influence.2.t:0 "Investing in Modest Slavery"
+ vu_pop_influence.2.d:0 "Despite the hideous nature and immoral practice of Slavery, it is absolutely necessary that we purchase Slaves to work on our growing number of plantations until our nation innovates an alternative means."
+ vu_pop_influence.2.a:0 "Purchase only a modest number of slaves."
+ vu_pop_influence.2.b:0 "We shouldn't rely on slave labor."
+ vu_pop_influence.2.c:0 "Let us industrialize!"
+ #
+ vu_pop_influence.3.t:0 "Investing in Absolute Slavery"
+ vu_pop_influence.3.d:0 "Despite the hideous nature and immoral practice of Slavery, it is absolutely necessary that we purchase Slaves to work on our growing number of plantations until our nation innovates an alternative means."
+ vu_pop_influence.3.a:0 "Purchase only a modest number of slaves."
+ vu_pop_influence.3.b:0 "We shouldn't rely on slave labor."
+ vu_pop_influence.3.c:0 "Let us industrialize!"
+ vu_pop_influence.3.d:0 "Maybe we should stop all slavery at once?""
+ #
+ vu_pop_influence.4.t:0 "The Abolition of Slavery"
+ vu_pop_influence.4.d:0 "Despite the name of this historical event, not all forms of slavery have truly been abolished since there still remains indentured servitude, a program our elites and industrialists hope will alleviate their losses and help provide an alternative means of labour. This programe however does in essence violate the spirit of the new laws introduced by the abolishment slavery due to the fact that abolishing one form of slavery, only to support another is hypocritical in nature."
+ vu_pop_influence.4.a:0 "Finally, this injustice is over!"
+ vu_pop_influence.4.b:0 "There's no other alternative but Indentured Servitude."
+ #
+ #VU Pop Influence - Serfdom
+ vu_pop_influence.5.t:0 "European Serfdom"
+ vu_pop_influence.5.d:0 "All across Europe, peasants were conscripted into a system called serfdom or indentured servitude to work on farms, industries and estates of the wealthy. Serfs and in particular Indentured Servants were also given their own accomodation outside their master's estates and an education, but this depended on the benevolence of their masters and employers. Overtime. Serfs and Indentured Servants could gain their freedoms in-exchange for their obedience, service, loyalty, and in most circumstances they would offer payment to their masters or employers for their release. With the proper application of time, money and education most Serfs would venture forth and set sail for the colonies of their homelands, whilst some would remain and go onto acquiring their own serfs through using money they had gained through enterprise."
+ vu_pop_influence.5.a:0 "Great, let's use the peasantry!"
+ vu_pop_influence.5.b:0 "Pay them, give them accomodation and afford them a chance at education, so they stay quiet."
+ #
+ vu_pop_influence.6.t:0 "Serfdom Elswhere"
+ vu_pop_influence.6.d:0 "Europe isn't only the place serfdom is known for since this form of Slavery was practiced on a global level in places such as the colonies, Russia, China, and even in the Americas. In some countries like Siam, Serfs and indentured servants could gain their freedoms overtime through purchasing their own release. They were however, not allowed to live outside the estates of their masters and very few "if any" were given the chance to educated themselves. Serfs and Indentured Servants elsewhere found themselves far worse off than their European Counter-Parts."
+ vu_pop_influence.6.a:0 "Great, let's use the peasantry!"
+ vu_pop_influence.6.b:0 "Promise them "COUGH" the eventual right to purchase their freedom, so they stay quiet."
+ vu_pop_influence.6.c:0 "This should help us in the long-term right?"
+ #
+ vu_pop_influence.7.t:0 "Declining Serfdom"
+ vu_pop_influence.7.d:0 "With more and more serfs beeing freed, educating themselves and moving to the cities, Serfdom is in essence declining throughout Europe and the Americas."
+ vu_pop_influence.7.a:0 "We must stop them at all costs!"
+ vu_pop_influence.7.b:0 "Let them go for we cannot stop change."
+ vu_pop_influence.7.c:0 "Serfdom of any kind has no place in our society!"
+ #
+ vu_pop_influence.8.t:0 "The Serfs are revolting!"
+ vu_pop_influence.8.d:0 "Although this was eventually going to happen despite our efforts to keep the serfs in line, nobody could ever have predicted the severity of it."
+ vu_pop_influence.8.a:0 "We have no option but to concede."
+ vu_pop_influence.8.b:0 "Let us offer them a compromise."
+ vu_pop_influence.8.c:0 "They must know their place, CRUSH THEM!"
+ #
+ vu_pop_influence.9.t:0 "Serfdom abolished!"
+ vu_pop_influence.9.d:0 "Since the time of the Renaissance, Serfdom in Europe has gradually been on the decline. Let us hasten its decline by finally ending it once and for all!."
+ vu_pop_influence.9.a:0 "Release them!"
+ vu_pop_influence.9.b:0 "Let us reform the state to adapt to this change."
+ #
  # NEW VU FRENCH events
  # War of Three Henrys 1589
  flavor_fra.9501.t:0 "War of Three Henrys"
@@ -1666,6 +1896,14 @@
  bt_enforce_temporal_authority_action_title:0 "Enforce Temporal Authority"
  bt_enforce_temporal_authority_action_desc:0 "In order to enforce your temporal authority over your Autonomous Papal State, neither of you may be at war, you must share a border, and your state must have at least §Y+175§! opinion of you. Doing so, however, will anger the autonomous state as it chafes against the reduced autonomy, and other autonomous papal states will look upon this move with suspicion and hostility.\n\nEnforcing Temporal Authority will have the following effects:\n -[From.GetName] becomes a normal §Yvassal§! of [Root.GetName]\n -[From.GetName] losses §Y-5 trust§! with [Root.GetName]\n -[From.GetName] will receive §Y-60 opinion§! of [Root.GetName]\n -All other Autonomous Papal States loss §Y-3 trust§! with [Root.GetName]\n -All other Autonomous Papal States will recieve §Y-30 opinion§! of [Root.GetName]"
  bt_enforce_temporal_authority_action_tooltip:0 "The Papacy may enforce its temporal authority over an autonomous subject state, making it a normal vassal"
+ vu_release_silesian_duchy:0 "Release Silesian Duchy"
+ vu_release_silesian_duchy_title:0 "Release Silesian Duchy"
+ vu_release_silesian_duchy_desc:0 "It is time to abandon our Silesian Duchy and grant it full sovereignty."
+ vu_release_silesian_duchy_tooltip:0 "."
+ vu_create_silesian_duchy:0 "Transform into Silesian Duchy"
+ vu_create_silesian_duchy_title:0 "Transform into Silesian Duchy"
+ vu_create_silesian_duchy_desc:0 "Grant special rights and status to our vassal, making it Silesian Duchy."
+ vu_create_silesian_duchy_tooltip:0 "."
 
 
 

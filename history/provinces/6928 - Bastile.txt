@@ -11,9 +11,10 @@ religion = catholic
 hre = no
 base_tax = 7
 base_production = 6
-trade_goods = naval_supplies
+trade_goods = gunpowder	#was naval_supplies
 base_manpower = 5
 add_core = FRA
+
 
 discovered_by = eastern
 discovered_by = western

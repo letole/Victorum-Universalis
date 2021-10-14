@@ -19,10 +19,10 @@ native_hostileness = 3
 discovered_by = north_american
 #discovered_by = bt_athabaskan_tech
 #discovered_by = bt_algonquian_tech
-
+center_of_trade = 1
 extra_cost = 10
 
-center_of_trade = 1
+
 
 1785.1.1 = {
 	discovered_by = GBR

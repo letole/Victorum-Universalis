@@ -3,9 +3,9 @@
 owner = TIM
 controller = TIM
 culture = armenian
-religion = coptic
+religion = miaphysite
 capital = "Yerevan"
-trade_goods = wine
+trade_goods = beer
 hre = no
 base_tax = 4 
 base_production = 4 
@@ -14,6 +14,7 @@ is_city = yes
 add_core = TIM
 add_core = ARM 
 fort_15th = yes
+center_of_trade = 1
 
 discovered_by = muslim
 discovered_by = ottoman

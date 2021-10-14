@@ -9,11 +9,16 @@ religion = catholic
 hre = no
 base_tax = 1  
 base_production = 1 
-trade_goods = fish
+trade_goods = seafood
 base_manpower = 1
 capital = "Lerwick"
 is_city = yes # Estimated
 add_core = NOR
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
 
 discovered_by = western
 discovered_by = muslim

@@ -15,6 +15,9 @@ controller = RMB
 add_core = RMB
 extra_cost = 8
 
+
+
+
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
 1570.5.1 = {
 	owner = SPA

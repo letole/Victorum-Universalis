@@ -7,12 +7,12 @@ religion = catholic
 hre = no
 base_tax = 3
 base_production = 3
-trade_goods = wool
+trade_goods = horses
 base_manpower = 2
 capital = "Manchester"
 is_city = yes
 add_core = ENG
-
+center_of_trade = 1
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

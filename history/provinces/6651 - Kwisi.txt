@@ -1,0 +1,4 @@
+#6651 - Kwisi
+
+discovered_by = central_african
+discovered_by = sub_saharan

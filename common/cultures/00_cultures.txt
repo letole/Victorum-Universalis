@@ -175,8 +175,6 @@ low_franconian = {
 	#}
 	dutch = { #renamed to Hollander
 		primary = HOL
-		primary = NED
-		primary = UTR
 	}
 	brabantian = {
 		primary = BRB
@@ -200,7 +198,6 @@ low_franconian = {
 	}
 	limburgish = {
 		primary = LBG
-		primary = KLE
 		male_names = {
 			Falco Jarek
 		}
@@ -589,91 +586,44 @@ gaelic	= {
 	irish = {
 		primary = IRE
 		dynasty_names = { 
-			"O'Donnell" "O'Neill" "O'Connor" "O'Brien" MacLochlainn MacMurrough MacWilliam
-			MacNamara "O'Reilly"  "FitzGerald" Kelly
-			# CKII
-			"Meic Br·en·in" "MacMorrough Kavanagh" "D·l gCais" "Ua F·el·in" "Shannon"
-			"FitzPatrick" "O Ruairc" "O'More" "O' Conchobair" "MacDermot" "O' Cellaigh"
-			"Mac Sweeney" "O'Doherty" "Burke" "O' Cathail" "O'Clery" "Mac Egan" "O' Fergail"
-			"O'Flaherty" "O' Gallchobhair" "Cotter" "O' Faol·in" "MacIntyre" "O'Queely"
-			"Corcu LoÌgde"
+			"” Domhnaill" "” Dochartaigh" "Mac Lochlainn" "Mac Ph·il" "” Cath·in" "Mac Suibhne" "” Baoighill" "Mac Maonghail" "” ClÈirigh" "Mac Craith" "” NÈill" "” Donnghaile" "” hAodhag·in" "” hEaghra" "Mac …nri" "Mac Alastar" "Mac Eoghain" "Mac Domhnaill" "Mac UighilÌn" "Mac Cana" "” hAnluain" "Mac Art·in" "Mac Aonghusa" "Mac Uidhir" "Mac Math˙na" "Mac Fhlannchaidh" "Mac Shamhr·in" "” Ruairc" "” Raghallaigh" "” Br·daigh" "Mac Br·daigh" "” Conchobhair" "” hAirt" "” Fearghail" "Mac Donnchadha" "Mac Diarmada" "” Gadhra" "” Dubhda" "Mac Fhirbhisigh" "” M·ille" "” Flaithbheartaigh" "” hUiginn" "” Dubhthaigh" "” Ceallaigh" "O' Fionnachta" "” Mainnin" "” D·laigh" "” Domhnall·in" "Mac Eochag·in" "” Donnag·in" "” Maolsheachlann" "” Maonaigh" "Mac Cochl·in" "” Cochl·in" "” Dalachain" "” Mad·in" "” Maolmhuaidh" "” hAllur·in" "” Coinn" "” Tuathail" "” Broin" "Mac Murchadha Caomh·nach" "” D˙nlaing" "” MÛrdha" "Mac Giolla Ph·draig" "” Duibhginn" "” Cearbhaill" "” Ban·in" "Mac Giolla PhÛil" "Mac Aodhag·in" "” CinnÈide" "” Meachair" "” Meadhra" "” h”g·in" "” Tiarnaigh" "” Chiarbh·in" "” hEidhin" "” Lochlainn" "” Clochasaigh" "” Seachnasaigh" "” De·ghaidh" " ” GrÌobhtha" "” Gr·daigh" "Mac Conmara" "” SÌoda" "” Nuall·in" "” Naill·in" "” hAnn·in" "Mac an Airchinnigh" "Mac Gorm·in" "Mac Fhlannchaidh" "” hUirthile" "” Muirthile" "” hIarlatha" "” Maoilriain" "” Fogaratigh" "” Dubhuir" "” Cearnaigh" "” SÌthigh" "Mac SÌthigh" "” h¡ilghean·in" "” Craobhach" "” Ceallach·in" "” Caoimh" "Mac UileagÛid" "” Conghaile" "” Muircheartaigh" "” Fearghusa" "Mac Giolla Chuda" "” Donnchadha" "” S˙illeabh·in" "” Laoghaire" "” Floinn" "” h…alaighthe" "” h…ilidhe" "” Liath·in" "” Cathail" "” Cruadhlaoich" "” Mathghamhna" "” Donnabh·in" "” hEidirsceoil" "CoipingÈir" "Mac Coitir" "” hArailt" "Mac Dun SlÈibhe" "” h¡g·in" "Mac an Oirchinnigh"
 		}
 		male_names = {
-			Turlough Donal Muireadhach Conchobhar Feidlimidh Cathaoir Muchadh ¡ed Fonnchadh Brian Criomhthann Art Cathal 
-			GearÛid Muiris Tadhg Se·n Niall EinrÌ Conn Eoghan Aonghus Comhghall Maeleachlain Diarmaid Flann Aerdghal 
-			Bearach CaoÌmhin Donnabhain EÌhmhÌn Fearghal Iarfhlaith Lorcc·n Math˙in Naomh·n OisÌn P·draig RÌag·in Somhairle
-			Abb·n AbÈl Abel Adomn·n ¡ed ¡edgen ¡educ·n ¡ed·n ¡engus 
-			Affiath Ailbe Ailbrend Ailbrenn Ailch˙ Aildobur Ailgel ¡ilgen·n Ailgus Ailill AilpÌn 
-			Ainbchellach ¡indle Ainftech Enfidaig Ainmere Airechtach Airfhind·n Airfhind·n Airfhinn·n 
-			Airleid Airmedach Amalgaid AmlaÌb Anfud·n AnlÛn Anmchaid ¡nroth·n Ardgal Ardgar Art 
-			Artbran Artgal Artgus Artuc·n Art˙r Assiucc Augaire AugustÌn Aurthuile 
-			B·ethgalach B·ethÌne B·et·n BÈo·ed Barrfhind Becc·n Berrach Bh·tair Blathmacc Bran 
-			Brandub Brangen Bressal Brian Brian BriccÈne BriccÌne Brocc·n Bruatur Bruide BrÈnaind 
-			BrÈnainn BrÛen B˙aidbÈo Caicher Cailech Cailte Cairbre Cairell CaissÈne CaissÌn 
-			Canann Canann·n Cathal Cathal·n Cathassach Cathbad Cathm·el Cathm·l Cathnio 
-			Cathub CausantÌn CaÌlte CaÌnchomrac CaÌndelb·n Ceithernach Cellach Cellach·n 
-			CennÈtig Cenn-F·elad Cennlach·n Cerball Cernach Cernach·n Cian Ciar·n CillÈne 
-			Cin·ed Cobthach Coirpre Colcu Colm·n Columb Comg·n 
-			Conaing Conall Conall Conall·n Conamail Con·n Conan Conchenn Conchobar Condla Condla Congal 
-			Congalach Congus Conlang Conmac Conmacc Conm·el Conm·l Conn Conn Connla ConrÌ Constans 
-			Constantius ConstantÌn Corbb Corb·n Corcc·n Corcr·n Cormac Coscrach CoÌlboth 
-			Crimthann Crundm·el Crundm·el Cruinnm·el Crundm·el CrÌch·n CrÛn·n CuilÈn Cuindles Cuircthe 
-			Cummascach C·em·n CÛelbad CÛelub CÛem·n C˙-Allaid C˙-Bretan C˙-Caech C˙-Cen C˙-Cen-M·thair 
-			C˙-C˙ar·in C˙-Gamna C˙-RoÌ C˙anu C˙ldub C˙·n C˙·n·n DabÌd Daigre Dalbach Dall·n DaniÈl 
-			Dathal Dathgus Demm·n Diarmait Dermid Doedgus Domangart Domnall Donn Donnchad 
-			Donncuan Donndub·n Donngal Donnuc·n  DoÈlgus Drost Drust Dub-d·-Lethe 
-			Dubcenn Dubgenn Dubh Dubhghall Dubhglais Dubthach Dub·ed Dub·n Duiblesc 
-			Duibne Dun·ed D·lach DÌcuill DÌglach DÌmmae DÌmmasach DÌmm·n DÌnertach D˙nac·n D˙nadach 
-			D˙ngal D˙ngalach D˙nlang …amonn Echmarcach …chtgal …chtgus Echuid 
-			…icnech …icnech·n El·ir …nna …nri …ochad Eochaid Eochaid Eochu Eochuc·n …ogan 
-			Ercaid Erc·ed Erc·n …remÛn …rennach Ern·n EterscÈl EÛgan EÛgan·n Fachtna 
-			Fairchellach Fallaman Farann·n FaÌlbe Fearghus Fechtnach Fedach Fearchar 
-			Fedelmid Feirgil Felic Fer-Fugaill Feradach Feradach Ferdomnach Fergal 
-			Fianch˙ Findbarr Fingen Finguine Finn Finn Finnac·n Finnbarr Finnch˙ Finnlagh Findlay 
-			Finnsnechtae Fintan Flaithbertach Flaithem Flaithem·n Flaithgus FlaithrÌ Flann Flannac·n 
-			Flannchad Flann·n Fogartach Folachtach Forann·n Forbassach Fothad Fothud Fuacarta Fubthad 
-			Fuirechtach Fursu F·elcar F·elchad F·elch˙ F·eldobur F·elgus F·el·n F·elbe FÌachnae FÌadch˙ 
-			FÌngin FÌnsnechta FÛcarta Gabr·n Garalt Garbith Gilla-Õosa Gilla-BrÌgte Gilbert Gilla-Coluim 
-			Gilla-Comg·in Gilla-CrÌst Gilchrist Gilla-na-N·em Gilla-P·traic Gilpatrick Gilla-Ruad Gilroy 
-			Glaisiuc Glaschu Gl˙n-Iairn Gormac·n Gormgus Gorm·n Guaire G·eth·n G·ethÌne 
-			GÛsacht Iacob Iarlaithe Imchad Indrechtach Ioseph Õomhar Labraid Lachtnae 
-			Lachtn·n LachtnÈne Laidcenn Laidgenn LaidÌne LaisrÈn Lenn·n Lennon Lethlobur Liam 
-			Lochlann Loingsech Lon·n Lorc·n Lugh Leon Lugaid Lug·ed L·egaire LÛchÈne LÛchÌne LÛeguire 
-			Mac-Laisre MainchÌne Maine Manch·n Martan Mathgamain Matud·n Minch·n Mo-Chonna Mo-Lua 
-			MÛenach M·el-Anfaid Liber Fiachnae Erc D˙nchad CillÌne CaissÌne Bran
-			Morand Morann MugrÛn Muirchertach Muirec·n Muiredach Murdoch Muirgius Murchad Murch˙ 
-			M·el-Bresail M·el-BrÌgte M·el-Cein M·el-Cian·in M·el-Ciar·in M·el-Coluim Malcolm M·el-Corgis 
-			M·el-Dubh M·el-D˙in M·el-Fothartaig M·el-F·baill M·el-Õosa Malise M·el-M·edÛc 
-			M·el-Martain M·el-MÛrda M·el-Muire Malmure M·el-MÌchÌl M·el-Petair M·el-P·traic M·el-Ruanaid 
-			M·el-Sechnaill M·el-TÛlai M·el·n M·enach M·thair M˙ad·n Nadarchu Nannid Natfraech Natfraich 
-			Natsluaig Nechtan Niall Niallgus Niall·n Nuadu Odr·n ”engus ”enuc·n 
-			OissÌne Olc·n ”lchobar Onch˙ Orthanach P·traic Petair Pilib PÛl 
-			Proinsias Rechtabra Riac·n Riaguil Robartach Rogallach Rogellach Ruah Roy 
-			Ruarcc Rumann R·thach RÌg·n RÌ·n RÛd·n RÛnch˙ RÛn·n R˙adac·n R˙ad·n Scandal 
-			Scandl·n Scell·n Scolaige SÈaghdha SÈafra SÈamas Se·n Sechnassach 
-			Selbach Sench·n Seo·n Sinach Siothr˙n Godfrey SlÈbÌne Snedgus Sogan Somhairle Somerled 
-			Suibne S·erbrethach S·r·n SÈigÌne SÈtna SÈtnae Tadg Tadg Taithlech Talorc Talore 
-			Talorc·n TemnÈn Tigernach Tigern·n Tipraite Tomaltach Tom·s Thomas Torcc·n Trenchad Trengus 
-			Tressach Tuathal·n Tuireann Taran T·l·n TÛla T˙athal Tuathal Ualgarg Ualan Ualtar 
-			⁄amnach·n Uargal Uargalach Uargus Uilliam Ult·n RuaidrÌ Philip OissÈne
+			"Art" "Aonghus" "¡rÛn" "Abb·n" "AbnÈr" "AbÈal" "¡dhamhn·n" "Aodh" "Aoidhghean" "Aodhag·n" "Aodh·n" "Aonghus" "Affiath" "Ailbe" "Ailbhe" "Ailbrenn" "Ailch˙" "Aildobur" "Ailgel" "¡ilgen·n" "Ailgus" "Ailill" "Ailpen" "Ainbchellach" "¡indle" "Ainmhire" "Airechtach" "Airfhind·n" "Airfhinn·n" "Airleid" "Ermedhach" "Amhalaidh" "AmlaÌb" "Anfud·n" "AnlÛn" "Anmchadh" "Anradhan" "Ardal" "Ardghar" "Art" "Artbran" "Artgus" "Artuch·n" "Art˙r" "Aiseoc" "Aughaire" "AugustÌn" "Aurthuile" "AnraÌ" 
+			"Brian" "Bearach" "Baothghalach" "Baoithine" "Baot·n" "Beoaodh" "Barrfhind" "Beac·n" "Bh·tair" "Blathmac" "Bran" "Brandubh" "Branag·n" "Breasal" "BricÌn" "Breogh·n" "BrÛg·n" "Bruadur" "Breand·n" "BrÛn" "B˙aidbÈo" 
+			"Conchobhar" "Cathaoir" "Criomhthann" "Cathal" "Conn" "Comhghall" "CaoÌmhin" "Caicher" "Coileach" "Caoilte" "Cairbre" "Caireall" "CaisÌn" "Canann" "Canann·n" "Cathal" "Cathal·n" "Cathasach" "Cathbhadh" "Cathmaol" "Cathm·l" "Cathnio" "CausantÌn" "CaÌnchomrac" "Ceallach" "Ceallach·n" "CennÈtig" "Ceann Faoladh" "Ceann Lach·n" "Cearbhall" "Cearnach" "Cearnach·n" "Cian" "Ciar·n" "Cillian" "Coinneach" "Cobhthach" "Colga" "Colm·n" "Colm" "Comg·n" "Conaing" "Conall" "Conall·n" "Conamail" "Con·n" "Coinchenn" "Connla" "Congal" "Conghalach" "Conghus" "Conmac" "Conmaol" "Conm·l" "ConrÌ" "ConstantÌn" "Corbb" "Corb·n" "Corc·n" "Corcr·n" "Cormac" "Coscrach" "CoÌlbhoth" "Crannmhaol" "CrÌoch·n" "CrÛn·n" "Coile·in" "Cuindles" "Cuirca" "Cummascach" "Caomh·n" "Caolbhadh" "Caolubh" "C˙ Allaidh" "C˙ Breatan" "C˙ Caoch" "C˙ Gan" "C˙ Gan Mh·thair" "C˙ C˙ar·in" "C˙ Gamna" "C˙ Raoi" "C˙an" "C˙lubh" "Cu·n" "Cu·n·n" "Conlang" 
+			"DÛmhnall" "Diarmaid" "Donnabh·n" "DaibhÈid" "D·ithÌ" "Daigre" "Dalbhach" "Dall·n" "Donncuan" "Donnchadh" "Donnghal" "Donnag·n" "DÛlghus" "Dub d· Leithe" "Dubhceann" "Dubh" "Dubhghall" "Dubhglais" "Dubthach" "Dubhaodh" "Dubh·n" "Duibhleisc" "Dathal" "Dathghus" "Deam·n" "Diarmait" "Domhanghart" "Donn" "Duibhne" "Dunaodh" "D·lach" "DÌc˙il" "DÌghlach" "DÌoma" "DÌomasach" "DÌom·n" "D˙nach·n" "D˙nadhaigh" "D˙nghal" "D˙nghalach" "D˙nlang" "D˙nchad" "Doghra" 
+			"EinrÌ" "EÛghan" "…imhÌn" "…amonn" "Echmarcach" "…chtgal" "…chtgus" "Echthigern" "Echuid" "…icnech" "…icnech·n" "El·ir" "…anna" "…ochad" "Eochaidh" "Eochuc·n" "…oghan" "Ercaodh" "Erc·n" "…iremhÛn" "Ern·n" "EidirscÈal" "EÛghan·n" "Erc" 
+			"Feidhlimidh" "Fonnchadh" "Flann" "Fearghal" "Fachtna" "Fairchellach" "Fallaman" "Farann·n" "Failbhe" "Fearghus" "Feachtnach" "Feadach" "Fearchar" "Fer Fugaill" "Fearadhach" "Feardomhnach" "Fianch˙" "Fionnbharra" "Fionguine" "Fionn" "Fionnac·n" "Fionnch˙" "Fionnlaigh" "Finnsneachta" "Fionnt·n" "Flaithbertach" "Flaitheam" "Flaitheam·n" "Flaithgus" "FlaithrÌ" "Flann" "Flannac·n" "Flannchadh" "Flann·n" "FÛgartach" "Folachtach" "Forann·n" "Forbhasach" "Fothadh" "Fubhthad" "Fuirechtach" "Fursu" "Faolchar" "Faolchadh" "Faolch˙" "Faoldhobhur" "Faolghus" "Faol·n" "Fiachna" "Fiach˙" "Finghin" "FÌonsneachta" "Faoladh" "FÈilim" 
+			"GearÛid" "Gabhr·n" "Garalt" "Garbith" "Giolla Õosa" "Giolla Brighte" "Giolla Coluim" "Giolla Comg·in" "Giolla ChrÌost" "Giolla na Naomh" "Giolla Ph·draig" "Giolla Ruadh" "Glaisiuc" "Gl˙niairn" "Gofraidh" "Gormac·n" "Gormgus" "Gorm·n" "Guaire" "Gaoth·n" "GaothaÌn" "GÛsacht" 
+			"Iarfhlaith" "I·cob" "Iarlaith" "Iomchadh" "Indreachtach" "IÛseph" "Õomhar" 
+			"Lorc·n" "Labhraid" "Lachtna" "Lachtn·n" "LachtnÌn" "Laidceann" "LaidÌn" "LaisrÈn" "Leann·n" "Leathlobhur" "Liam" "Lochlann" "Loingseach" "Lugh" "Leon" "Lughaidh" "Laoghaire" "LÛchÌn" "Liber" 
+			"Muireadhach" "Muchadh" "Muiris" "Maolsheachlann" "Math˙in" "MainchÌne" "Manch·n" "Martan" "Mathghamhan" "Madad·n" "Minch·n" "Mo Chonna" "Mo Lua" "MÛenach" "Maol F·idh" "MÛr·n" "MughrÛn" "Muirchertach" "Muireac·n" "Muirgheas" "Murchadha" "Murch˙" "Maol Breasail" "Maol Brighte" "Maol Cian" "Maol Cian·in" "Maol Ciar·in" "Maol Coluim" "Maol Corgis" "Maol Dubh" "Maol D˙in" "Maol Fothartaig" "Maol Fabhal" "Maol Õosa" "Maol Mo Aodh ”g" "Maol Martain" "Maol MÛrda" "Maol Muire" "Maol MhÌchÌl" "Maol Pheadair" "Maol Ph·draig" "Maol Ruanaidh" "Maol Sheachlann" "Maol TÛlai" "Maol Eoin" "Maonach" "M˙ad·n" "Mh·rtan"
+			"Niall" "Naomh·n" "Niocl·s" "Nadharchu" "Nanniodh" "Natfraoch" "Nathshluaigh" "Neachtan" "Niallghus" "Niall·n" "Nuadha" 
+			"OisÌn" "Odhr·n" "Aonuch·n" "Olc·n" "”lchobar" "Onch˙" "Orthanach" "Oscar" 
+			"P·draig" "Peadar" "Pilib" "PÛl" "Phroinsi˙s" 
+			"RÌag·n" "Reachtabhra" "Riaguil" "Robartach" "Raghallach" "Ruarc" "Romhan" "R·thach" "Ri·n" "RÛd·n" "Ronch˙" "RÛn·n" "Ruadach·n" "Ruadh·n" "RuaidrÌ" 
+			"Se·n" "Somhairle" "SÈarlas" "Scannal" "Scandl·n" "Sceall·n" "Scolaigi" "SÈaghdha" "SÈafra" "SÈamas" "Seachnassach" "Sealbhach" "Seanch·n" "Sineach" "Siothr˙n" "SlÈbhÌnn" "Snedhghusa" "Soghan" "Suibhne" "Saorbhreathach" "S·r·n" "SÈighin" "Seanna" 
+			"Toirdhealbhach" "Tadhg" "Taithleach" "Teimhnin" "Tighearnach" "Tighearn·n" "Tiobraid" "Tomaltach" "Tom·s" "Torc·n" "Treanchad" "Treasach" "Tuathal·n" "Tuireann" "T·l·n" "TÛla" "Tuathal" 
+			"Ualgarg" "Ualan" "Ualtar" "⁄amnach·n" "Uarghal" "Uarghalach" "Uarghus" "Ult·n" 
 		}
 		female_names = {
-			Saraid ”rfhlaith Fedelma
-			Ablach ¡edammair Affraic Euphemia AÌbinn AibilÌn Aileann ¡ine Agnes Anlaith ArÛc
-			Barrdub Ben-Laigen Ben-MÌde Ben-Muman Ben-Ulad Brigit BÈ-F·il BÈbinn Cacht 
-			Caillech-FhinnÈin Cainnech CaissÈne CaitilÌn CaÌntigern CaÌrech Cath·n CatrÌona 
-			Catherine Cellach Ciar Cnes Coblaith Cobflaith Conchenn Cond·l CrÌnÛch 
-			CrÌstina Christina Cumman Deirdre Der-bForgaill Derb·il Derborgaill
-			Der-Ilei Derilla Der-Lugdach Dianaim Doriend Dub-Dil Dub-Essa Dub-Lemna Dubchoblaig Dubgilla 
-			D˙insech D˙nlaith Echrad …ibhleann Eithne EllbrÌg Emer …taÌn 
-			FaÌlenn Fedelm Finneacht Flann Forbflaith FÌne Garb 
-			GelgÈis GerrÛc Gnathnad Gormlaith Gormflaith Gr·inne Imag Õte Lann 
-			LasairfÌona Lathir Lerben Lerthan LÌgach Mauda Muadhnait 
-			Muirenn Murron Muirgel Muirne Morna M·el-Mide M·el-Muire Malmure M·ire M·iread 
-			M·irgred Margaret MÛr Mor MÛr-Muman N·rbflaith Nuala Finnguala ”rlaith ”rnat RÛis Ros Sadb 
-			Samthann Sc·thach SÈbdann Selblaith Seonaid Sinech Siob·n Sisuile Sl·Ìne Slaine 
-			Sorcha Suaibsech S·erlaith SÈtach SÌthmaith Tailefhlaith Tailltiu Temair Tuathflaith TÛmnat 
-			Uallach Uasal ⁄na Una …ua
+			"Saraid" "Fedelma"
+			"Abhlach" "¡edammair" "Aifric" "Aoibhin" "AoibhilÌn" "Aoife" "Aileann" "¡ine" "Anlaith" "ArÛc" 
+			"Bardubh" "Ban Laighean" "Ban MÌde" "Ban Mumhain" "Ban Ulaidh" "BrÌd" "BÈ F·il" "BÈbhinn" "Cacht" 
+			"Cailleach FhinnÈin" "Cainneach" "CaisÌn" "CaitlÌn" "Caointiarn" "Caoireach" "Cath·n" "CatrÌona" 
+			"Ceallach" "Ciar" "Cobhlaith" "Concheann" "Cond·l" "CraoinÛch" 
+			"CrÌstina" "Deirdre" "Dearbhfhorghaill" "Derb·il" 
+			"Dar Lugdach" "Dianaim" "Dubhdhil" "Duibheasa" "DuibhLÈamna" "Dubhchobhlaigh" "Dubhghiolla" 
+			"Duinseach" "D˙nlaith" "Eachradha" "…ibhleann" "Eithne" "EllbrÌg" "Emer" "…adaoin" 
+			"EoghnÌn" "Faoile·n" "Finneacht" "Fionnghuala" "Fionnuala" "Flann" "Forbhlaith" "FÌne" "Garb" "Garbh·n" 
+			"GeilÈis" "GearrÛg" "Gnathnad" "Gormlaith" "Gr·inne" "Iomhag" "Õde" "Lann" 
+			"LasairfÌona" "Laithir" "Leirbhean" "Learthan" "LÌoghach" "Li˙saidh" "Marta" "M·da" "Muadhnait" 
+			"Muireann" "Muirgheal" "Muirne" "Maol MÌde" "Maol Muire" "M·ire" "M·iread" 
+			"MÛr" "MÛr Mumhain" "N·rbhfhlaith" "Nuala" "”rlaith" "”rnait" "RÛis" "RÛisÌn" "Sadhbh" 
+			"Samhthann" "Sc·thach" "SeÛnaid" "Sineach" "Siobh·n" "Sisuile" "Sl·ine" 
+			"Sorcha" "Suaibhseach" "Saorlaith" "SÈadach" "SÌomha" "Tailli" "Tailte" "Teamhair" "Tuathlaith" "TÛmhna" 
+			"Uallach" "Uasal" "⁄na" "Mona" "…ua"
 		}
 	}
 	highland_scottish = {
@@ -984,10 +934,26 @@ iberian	= {
 	leonese = {
 		primary = LON
 	}
-	spanish_filipino = { #Kastil‡/KatsÌl‡ 
-	    primary = PHP
+	andalucian = {
+		#primary culture of a Andalusian duchy tag (BTU Note: Potentially new Seville tag, SVL)
 		dynasty_names = {
-			"Aquino" "Ayala" "Estrada" "Garcia" "Laurel" "Marcos" "Miranda" "OsmeÒa" "Quezon" "Ramos" "Sarmiento" "Zubiri" "Quirino" "Roxas" "BaÒaga" "BoÒaga" "BuÒagan" "BuÒi" "MaÒalac" "TuÒacao" TaÒag "Tabangcura"
+			Nasrid Ummayad Zirid
+		}
+		male_names = {
+			Muhammad Y˚suf 'AlÓ Sa'd Isma'Ól Nasr 'Abd al-Karim Ayman Barakat Basir Dawud Fahd Faris Faruq 
+			Haidar Hashim Husam Iqbal Jabbar Ja'far Jamal Junayd Khaliq Malik Mansur Mustafa Najib Qasim Qusay 
+			RashÓd Safi Sakhr Samir Tariq Umar Wahid Zahir Firdaus Fuad Rahim
+			Abbad Abbas Abbas Abdallah Abdullah Abdul-Aziz Abdul-Hakam Abdul-Hasan Hasan Abdul-Hazm 
+			Abdul-Rahman Abdul-Razzaq Abdul Abdul Abu Abu-Bakr Abu-Bakr Adfuns Alphonse Ahmad Ahmad Ali Ali Amr 
+			Ayyub Balashk Vasco Bilal Fadl Fath Galind Galindo Garsiya Garcia Hakam Hakam Hilal Ibrahim Abraham 
+			Isma'il Ismail Jyad Lubb Lupo Ma'n Mubashir Muhammad Muhammad Mundir Musa Moses Muyahid Raf Rashid 
+			Rasiq Sa'd Sanyo Sancho Siddray Suleyman Solomon Tariq Tifilwit Umar Umar Utman Wannaqo Inigo 
+			Ya'far Yahaff Yahya John Yusuf Joseph
+		}
+		female_names = {
+			Aliya Fahima Haifa Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda 
+			Ibtisam Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
 		}
 	}
 	aragonese = {
@@ -1013,6 +979,39 @@ iberian	= {
 			Brunisenda ConstanÁa Constance DolÁa Douce Elionor Eleanor Elisenda Ermessenda Ermesinda 
 			Estefania Stephania Gueraua Guillelma Guisla Gisela Isabel Elisabeth Margarida Margaret 
 			Maria Marquesa Marquise SanÁa Sancha Sibila Sibylla Teresa Teresa Toda Toda Violant Yolanda
+		}
+	}
+	brazilian = {
+		primary = BRZ
+		dynasty_names = {
+			"de BraganÁa" "de Camargo" "de Alburquerque" "de Vassouras" "de Noronha" "de Melo" 
+			"de Moura" "de Medeiros" "de Menezes" "de Saldanha" "de Alencar"
+			#CK2
+			"da C‚mara" "da Maia" "de Abrantes" "de Moura Barreto" "de Sousa" "de Guanabara" "de Oliveira"
+			"da Fonseca" "de Caxias"
+		}
+		male_names = {
+			Jo„o Filipe Pedro AntÛnio Duarte Henrique JosÈ Manuel Sebasti„o Miguel TeodÛsio Diniz 
+			Alexandre Carlos Diego Jaime LuÌs ¡lvaro AndrÈ Bartolomeu Caetano Dami„o Estev„o Francisco 
+			Xavier Gabriel Garcia Gaspar Gil Guilherme In·cio Joaquim Jorge LourenÁo Marco Nicolau 
+			Paulo Rafael RogÈrio Rui Sim„o Vicente Ot·vio
+			Afonso Aires ¡lvaro Bermudo Diogo Diaco Egas EstÍv„o Fern„o 
+			Ferdinando Fernando Garcia Gil Gomes GonÁalo Gutierre 
+			Valter Henrique HermÌgio Jo„o LourenÁo Martim Martin
+			Mendo Munio Nuno PÙncio Mem
+			Rodrigo Rui Raimundo Vasco Vicente
+			Moacir CaÌque Ubirajara Ubirat„ Joacir Domingos Quintino Deodoro Eduardo EmÌlio Castro Pascoal
+			Moreira Cl·udio Dirceu Evandro TomÈ Amado SilvÈrio BasÌlio Cipriano Amaro Cosme J˙lio Lucas
+			Severino Severiano Benjamim Epaminondas Seixas Torquato AntÙnio Get˙lio Silveriano Br·s
+
+		}
+		female_names = {
+			Aldara Alduara Beatriz Bereng·ria Branca
+			Const‚ncia Elvira Estev‚nia Fruilhe Fronilde Gontinha Gontroda 
+			Guiomar InÍs Agnes Joana Leonor Eleanor Mafalda Matilda Margarida Maria 
+			Marinha MarinÍs Ouroana Teresa Urraca ConstanÁa CÈlia
+			Maiara JanaÌna Iara Tainara Iracema Mariana B·rbara Josefina Ana "Ana Paula" AurÈlia
+			Adelaide Firmina EmÌlia CecÌlia Lauriana Isabel
 		}
 	}
 	catalan = {
@@ -1058,54 +1057,27 @@ iberian	= {
 			Blanche AntÌa Branca Carme Catarina Dores Iria LÌa Margarida MarÌa Noela RosalÌa Sabela UxÌa Xoana
 		}
 	}
-	andalucian = {
-		#primary culture of a Andalusian duchy tag (BTU Note: Potentially new Seville tag, SVL)
+	katsila = {
+		primary = XXX
 		dynasty_names = {
-			Nasrid Ummayad Zirid
+			Osorio Andrade
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Z˙Òiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			"de Cabrera" "de Villena" "de Miranda"
 		}
 		male_names = {
-			Muhammad Y˚suf 'AlÓ Sa'd Isma'Ól Nasr 'Abd al-Karim Ayman Barakat Basir Dawud Fahd Faris Faruq 
-			Haidar Hashim Husam Iqbal Jabbar Ja'far Jamal Junayd Khaliq Malik Mansur Mustafa Najib Qasim Qusay 
-			RashÓd Safi Sakhr Samir Tariq Umar Wahid Zahir Firdaus Fuad Rahim
-			Abbad Abbas Abbas Abdallah Abdullah Abdul-Aziz Abdul-Hakam Abdul-Hasan Hasan Abdul-Hazm 
-			Abdul-Rahman Abdul-Razzaq Abdul Abdul Abu Abu-Bakr Abu-Bakr Adfuns Alphonse Ahmad Ahmad Ali Ali Amr 
-			Ayyub Balashk Vasco Bilal Fadl Fath Galind Galindo Garsiya Garcia Hakam Hakam Hilal Ibrahim Abraham 
-			Isma'il Ismail Jyad Lubb Lupo Ma'n Mubashir Muhammad Muhammad Mundir Musa Moses Muyahid Raf Rashid 
-			Rasiq Sa'd Sanyo Sancho Siddray Suleyman Solomon Tariq Tifilwit Umar Umar Utman Wannaqo Inigo 
-			Ya'far Yahaff Yahya John Yusuf Joseph
+			GarcÌa OrdoÒo Afonso Sancho Ramiro Bermudo Froila Aleixo Alvaro Anxo Baltasar 
+			Bernaldo Brais Carlos Cristovo Domingos Estevo Felipe Fern·n Francisco Frederico 
+			Gonzalo Guillerme Gumersindo Henrique Hermenexildo Hixinio Hugo Iago Ignacio 
+			Leandro Lope Miguel Nuno OdÛn Paulo Pedro RamÛn Roi TomÈ Vitor Xoan Xorxe
 		}
 		female_names = {
-			Aliya Fahima Haifa Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda 
-			Ibtisam Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
-			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+			Branca Iria Sabela L˙a Rodolfa SofÌa Aldara Alduara AldonÁa Aldonza Beatriz 
+			Beatrice Bereng·ria Berengaria Branca Blanche AntÌa Branca Carme Catarina Dores 
+			Iria LÌa Margarida MarÌa Noela RosalÌa Sabela UxÌa Xoana
 		}
-	}
-	dynasty_names = {
-		"de Trast·mara" "de Guzm·n" "¡lvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
-		TÈllez-GirÛn "Manrique de Lara" "de ¡valos" EnrÌquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcal·"
-		#CK2
-		"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
-		"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-		Z˙Òiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
-	}
-	male_names = {
-		Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso ¡lvaro Baltasar 
-		Bernardo Bertr·n Hernando
-		Cristobal Diego Domingo Esteban Fadrique Francisco GarcÌa GÛmez Gonzalo Gutierre Hermenegildo 
-		Ignacio LaÌn Lope Miguel NuÒo OdÛn RamÛn Rodrigo Tom·s Valeriano
-		Alfonso Alphonse Alonso Alphonse ¡lvar Oliver ¡lvaro Oliver Bermudo Vermudo Diego Diaco 
-		Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila GarcÌa Garcia Gil 
-		Egidius GÛmez Gomez Gonzalo Gonzalo GuillÈn William Guillermo William Gutierre Walter Juan 
-		Lope Lupo Luis Louis Manrique Amalric MartÌn Martin Munio Munio NuÒo Nuno OrdoÒo Ordono 
-		Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho 
-		Suero Tello Vela Vela Suero Oveco John Enrique
-	}
-	female_names = {
-		Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
-		Constance Elvira Elvira EstefanÌa Stephania Fronilda Fronilde Gontroda Gotruda InÈs Agnes 
-		Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda MarÌa Maria Marina Marine 
-		Mayor Mayor MencÌa Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
-		Isabel
 	}
 	portugese = {
 		primary = POR
@@ -1134,38 +1106,32 @@ iberian	= {
 			Marinha Marine Mor Mayor Ouroana Sancha Sancha Teresa Teresa Urraca Urraca Gotruda ConstanÁa
 		}
 	}
-	brazilian = {
-		primary = BRZ
-		dynasty_names = {
-			"de BraganÁa" "de Camargo" "de Alburquerque" "de Vassouras" "de Noronha" "de Melo" 
-			"de Moura" "de Medeiros" "de Menezes" "de Saldanha" "de Alencar"
-			#CK2
-			"da C‚mara" "da Maia" "de Abrantes" "de Moura Barreto" "de Sousa" "de Guanabara" "de Oliveira"
-			"da Fonseca" "de Caxias"
-		}
-		male_names = {
-			Jo„o Filipe Pedro AntÛnio Duarte Henrique JosÈ Manuel Sebasti„o Miguel TeodÛsio Diniz 
-			Alexandre Carlos Diego Jaime LuÌs ¡lvaro AndrÈ Bartolomeu Caetano Dami„o Estev„o Francisco 
-			Xavier Gabriel Garcia Gaspar Gil Guilherme In·cio Joaquim Jorge LourenÁo Marco Nicolau 
-			Paulo Rafael RogÈrio Rui Sim„o Vicente Ot·vio
-			Afonso Aires ¡lvaro Bermudo Diogo Diaco Egas EstÍv„o Fern„o 
-			Ferdinando Fernando Garcia Gil Gomes GonÁalo Gutierre 
-			Valter Henrique HermÌgio Jo„o LourenÁo Martim Martin
-			Mendo Munio Nuno PÙncio Mem
-			Rodrigo Rui Raimundo Vasco Vicente
-			Moacir CaÌque Ubirajara Ubirat„ Joacir Domingos Quintino Deodoro Eduardo EmÌlio Castro Pascoal
-			Moreira Cl·udio Dirceu Evandro TomÈ Amado SilvÈrio BasÌlio Cipriano Amaro Cosme J˙lio Lucas
-			Severino Severiano Benjamim Epaminondas Seixas Torquato AntÙnio Get˙lio Silveriano Br·s
-
-		}
-		female_names = {
-			Aldara Alduara Beatriz Bereng·ria Branca
-			Const‚ncia Elvira Estev‚nia Fruilhe Fronilde Gontinha Gontroda 
-			Guiomar InÍs Agnes Joana Leonor Eleanor Mafalda Matilda Margarida Maria 
-			Marinha MarinÍs Ouroana Teresa Urraca ConstanÁa CÈlia
-			Maiara JanaÌna Iara Tainara Iracema Mariana B·rbara Josefina Ana "Ana Paula" AurÈlia
-			Adelaide Firmina EmÌlia CecÌlia Lauriana Isabel
-		}
+	dynasty_names = {
+		"de Trast·mara" "de Guzm·n" "¡lvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+		TÈllez-GirÛn "Manrique de Lara" "de ¡valos" EnrÌquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcal·"
+		#CK2
+		"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+		"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+		Z˙Òiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+	}
+	male_names = {
+		Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso ¡lvaro Baltasar 
+		Bernardo Bertr·n Hernando
+		Cristobal Diego Domingo Esteban Fadrique Francisco GarcÌa GÛmez Gonzalo Gutierre Hermenegildo 
+		Ignacio LaÌn Lope Miguel NuÒo OdÛn RamÛn Rodrigo Tom·s Valeriano
+		Alfonso Alphonse Alonso Alphonse ¡lvar Oliver ¡lvaro Oliver Bermudo Vermudo Diego Diaco 
+		Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila GarcÌa Garcia Gil 
+		Egidius GÛmez Gomez Gonzalo Gonzalo GuillÈn William Guillermo William Gutierre Walter Juan 
+		Lope Lupo Luis Louis Manrique Amalric MartÌn Martin Munio Munio NuÒo Nuno OrdoÒo Ordono 
+		Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho 
+		Suero Tello Vela Vela Suero Oveco John Enrique
+	}
+	female_names = {
+		Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
+		Constance Elvira Elvira EstefanÌa Stephania Fronilda Fronilde Gontroda Gotruda InÈs Agnes 
+		Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda MarÌa Maria Marina Marine 
+		Mayor Mayor MencÌa Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
+		Isabel
 	}
 }
 
@@ -1221,7 +1187,7 @@ french	= {
 	}
 	#BtPLegacy Culture
 	gallo_culture = {
-		primary = RHN
+		primary = ROH
 		male_names = {
 			Yannick
 		}
@@ -1739,6 +1705,15 @@ west_slavic = {
 	polabian_culture = {
 		graphical_culture = westerngfx
 		primary = RUG
+		dynasty_names = {
+			Dubik Pinca Rapak Recka Horjan Smola Wrobl Liska Bramborski Salowski Salow Holanski Wowcer Kowar Korcmar Burik Smoler
+		}
+		male_names = {
+			Stanislaw Peter Jan Jakub Boscij Pavle Hansl Miklaws Mato Korla Kito  
+		}
+		female_names = {
+			Maria Alzbeta Ludmila Eva Anna Trudla Hilza Herta Worsa Agnes Maria Hilza
+		}
 	}
 	#BtPLegacy Culture
 	kashubian_culture = {
@@ -2029,6 +2004,31 @@ east_slavic = {
 			Gavriila Larisa Aleksandra Alla Bronislava Svetlana Yuliya Yaroslava Vladislava Lyudmila Nadejda Rostislava
 		}
 	}
+	cossack = {
+		primary = ZAZ
+		male_names = {
+			Ivan Dmitriy Yuriy Andrei Semen Boris Fyodor Oleg Afanasiy Akim Aleksandr Alexei Anatoliy Arkadiy
+			Dorofey Feodosiy Feofilakt Gavriil Innokentiy Iosif Lavrentiy Makariy Matveiy Mikhail Nazariy
+			Onisim Pavel Prokopiy Pyotr Radomir Saveliy Sergei Terentiy Valeriy Yakim Yevgeniy Yaroslav Yaropolk
+			Vyacheslav Vsevolod Igor Izyaslav Rostislav Vladimir Mstislav Gleb Roman Ryurik Svyatoslav Ingvar
+			Stanislav Daniil Nikifor
+		}
+		female_names = {
+			Gavriila Larisa Aleksandra Alla Bronislava Svetlana Yuliya Yaroslava Vladislava Lyudmila Nadejda Rostislava
+		}
+	}
+	rusyn = {
+		male_names = {
+			Ivan Dmitriy Yuriy Andrei Semen Boris Fyodor Oleg Afanasiy Akim Aleksandr Alexei Anatoliy Arkadiy
+			Dorofey Feodosiy Feofilakt Gavriil Innokentiy Iosif Lavrentiy Makariy Matveiy Mikhail Nazariy
+			Onisim Pavel Prokopiy Pyotr Radomir Saveliy Sergei Terentiy Valeriy Yakim Yevgeniy Yaroslav Yaropolk
+			Vyacheslav Vsevolod Igor Izyaslav Rostislav Vladimir Mstislav Gleb Roman Ryurik Svyatoslav Ingvar
+			Stanislav Daniil Nikifor Vasil Wasil Vasko Nikolaj Lajos Istvany Hricz Imrich Fedor Artim
+		}
+		female_names = {
+			Gavriila Ewa Milka Larisa Aleksandra Alla Bronislava Svetlana Yuliya Pajza Oryna Yaroslava Vladislava Lyudmila Nadejda Rostislava Zuzanna
+		}
+	}
 	ruthenian = {
 		primary = KIE
 		male_names = {
@@ -2201,6 +2201,18 @@ byzantine = {
 		dynasty_names = {
 			"of Gothia"
 		}
+	}
+	anatolian_greek = {
+		graphical_culture = easterngfx
+	}
+	karchidoniac = {
+		graphical_culture = easterngfx
+	}
+	egyptian_greek = {
+		graphical_culture = easterngfx
+	}
+	persic = {
+		graphical_culture = easterngfx
 	}
 	#BtPLegacy Culture
 	cappadocian = {
@@ -7147,7 +7159,7 @@ southeastasian_group = {
 			"M'Ho Kouei-Lai" "M'Ha Kui Yu" "M'Ha P'an-lo-yue" "P'Saktirai" "P'Ganvuh" "P'Thuttirai" "P'Rattirai" "P'Tathun" "P'Tithuntirai" "Chei Krei Brei" "P'Tithun" "P'Chong Chan" "K'Cheng" "K'Nhieu" "N'Trang" "K'Choi" "K'Ru" "K'Re" "K'Sor Ni" "Puih Thu" "K'Sor Phuoc" "Puih San" "K'Sor Nham" "Ro Cham Phiang" "Ro Mah Tuan" "K'Sor H'bo Khap" "K'Sor Kok" "H'Bia" "H'Ni" "K'Sor Cho" "R'Com Trul" "R'Com Anur" "Siu Bom" "Siu Djua" "Siu Nhong" "Siu Blong" "Siu Blet" "Siu Ji" "Siu Y" "Siu At" "Siu Nhong" "Siu Blong" "Siu Tu" "Siu Nhot" "Siu Luynh" "Rahlan Hieo" "R'Cham"
 		}
 		female_names = {
-			Hong Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nuùfutea Orama Poe Pear Poehina Poenui Poerava Puaiti Puatea Puaura Raùfihau Raùfimere Raùfinui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea Vaite "Vaitiare"
+			Hong Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nufutea Orama Poe Pear Poehina Poenui Poerava Puaiti Puatea Puaura Rafihau Rafimere Rafinui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea Vaite "Vaitiare"
 		}
 	}
 	#New Culture by Cinnamon Ryce for the SEA overhaul
@@ -8754,10 +8766,16 @@ southern_african = {
 			Zulu
 		}
 		male_names = {
-			Bonginkosi Kagiso Bhekizizwe Bhekumbuso Shaka Funani Kgabu Solomon Gatsha Langa Phila Msizi Nkosiyabo Mpilo Siyanda Nkanyezi Bafana Lwandle Sfiso Thulani Thando Sanele Anele Lungelo Dumisani Bangizwe Fanyana Bhekimuzi Mandla Maphikelela Mpumelelo Mthunzi Philani Musawenkosi Nkosenye Nkosinhle Phiwokwakhe Sifiso Zithulele Sithembiso Sipho Siphiwe Sibusiso Velaphi Thamsanqa Vusumuzi Themba Zenzele Ndleleni
+			Bonginkosi Kagiso Bhekizizwe Bhekumbuso Shaka Funani Kgabu Solomon Gatsha Langa Phila Msizi Nkosiyabo Mpilo Siyanda 
+			Nkanyezi Bafana Lwandle Sfiso Thulani Thando Sanele Anele Lungelo Dumisani Bangizwe Fanyana Bhekimuzi Mandla Maphikelela 
+			Mpumelelo Mthunzi Philani Musawenkosi Nkosenye Nkosinhle Phiwokwakhe Sifiso Zithulele Sithembiso Sipho Siphiwe Sibusiso 
+			Velaphi Thamsanqa Vusumuzi Themba Zenzele Ndleleni
 		}
 		female_names = {
-			Ayanda Uluthando Nofoto Yibanathi Thadie Ulwazi Lerato Amahle Khulekani Jabulile Mthunzi Sindisiwe Inyoni Ntombizodwa Zobuhle Samukelisiwe Nonhlanhla Nhlakanipho Liyana Nonjabulo Ntokozo Nokuthula Buhle Isisa Thobeka Thabisa Zanele Sizani Nkosingiphile Mhambi Nomvula Thulisile Lukhona Mbalienhle Sizakele Khethiwe Nolwazi Sinenhlanhla Ayize Duduzile Busisiwe Hlengiwe Jabulile Khanyisile Nandi Ndondoloza Nozipho Nonkululeko Sibongile Siphephelo
+			Ayanda Uluthando Nofoto Yibanathi Thadie Ulwazi Lerato Amahle Khulekani Jabulile Mthunzi Sindisiwe Inyoni Ntombizodwa Zobuhle 
+			Samukelisiwe Nonhlanhla Nhlakanipho Liyana Nonjabulo Ntokozo Nokuthula Buhle Isisa Thobeka Thabisa Zanele Sizani Nkosingiphile 
+			Mhambi Nomvula Thulisile Lukhona Mbalienhle Sizakele Khethiwe Nolwazi Sinenhlanhla Ayize Duduzile Busisiwe Hlengiwe Jabulile 
+			Khanyisile Nandi Ndondoloza Nozipho Nonkululeko Sibongile Siphephelo
 		}
 	}
 	#BtPLegacy Culture
@@ -8806,16 +8824,42 @@ southern_african = {
 	}
 }
 
-kongo_group = {
+kongo_group = { #Group 1
 	graphical_culture = africangfx
-	lunda = {
-		primary = LND
-	}
+	mbundu = { #ambundu (Change name in loc file!
+        primary = NDO 
+        male_names = {
+            Mbombo Mbumba Fundanga Ngonga Njali Mbandi Kilwanji Ngudi Hadi Muhongo Ndala Mussudi 
+			Ndambi Kambolo Nzaji Kituxi Masoxi
+        }
+        female_names = {
+            Mwongo Bebeka NdÈmbu F˙xi Ngongo Lemba Kifunji Kambu Kumbi Maxongo Makufu Samba 
+			Kangala Kamana Masoxi
+        }
+		dynasty_names = {
+	        Mbombo Mbumba Fundanga Ngonga Njali Mbandi Kilwanji Ngudi Hadi Muhongo Ndala Mussudi 
+			Ndambi Kambolo Nzaji Kituxi Mwongo Bebeka NdÈmbu F˙xi Ngongo Lemba Kifunji 
+			Kambu Kumbi Maxongo Makufu Samba Kangala Kamana Masoxi
+	    }
+    }
 	luba = {
 		primary = LUB
 	}
-	kongolese = {
+	matamba = {
+		primary = MTB
+	}
+	kongolese = { #Rename to "Bakongo"
 		primary = KON
+		male_names = {
+            Lukeni Nimi Nanga Nlaza Nzinga Mvemba Mpanzu Nkumbi Mpudi Mbiki Misaki Nganga Mwanda Myala Kyese Nkembi Lusala Mbunga Nkuwu 
+        }
+        female_names = {
+            Lukeni Nzinga Kyaku Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi Nkuwu 
+        }
+		dynasty_names = {
+	        Lukeni Nimi Nanga Nlaza Nzinga Mvemba Mpanzu Nkumbi Mpudi Mbiki Misaki Nganga Mwanda Myala Kyese Nkembi Lusala Mbunga Nkuwu 
+			Lukeni Nzinga Kyaku Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi
+	    }
 	}
 	yaka = {
 		primary = YAK
@@ -8823,43 +8867,169 @@ kongo_group = {
 	kuba = {
 		primary = KUB
 	}
-	mbundu = {
-		primary = NDO
-	}
-	chokwe = {
-		primary = CKW
-	}
-	mbangala = {
+	mbangala = { #Imbangala (Change name in loc file!
 		primary = KSJ
 	}
-	jukun = {
-
+	jukun = { #OLD
+	    #primary = XXX
 	}
-	sawabantu = {
-
+	sawabantu = { #OLD
+	    #primary = XXX
 	}
 	#BtPLegacy Culture
-	tegali_culture = {
+	tegali_culture = { #OLD
 		primary = TEG
 	}
-	#BtPLegacy Culture
-	ovambo_culture = {
-		#primary = XXX
+	dynasty_names = { #generic
+	    Mbombo Mbumba Fundanga Ngonga Njali Mbandi Kilwanji Ngudi Hadi Muhongo Ndala Mussudi Ndambi Kambolo Nzaji Kituxi Masoxi 
+		Mwongo Bebeka NdÈmbu F˙xi Ngongo Lemba Kifunji Kambu Kumbi Maxongo Makufu Samba Kangala Kamana Masoxi Lukeni Nimi Nanga 
+		Nlaza Nzinga Mvemba Mpanzu Nkumbi Mpudi Mbiki Misaki Nganga Mwanda Myala Kyese Nkembi Lusala Mbunga Lukeni Nzinga Kyaku 
+		Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi Nkuwu
 	}
-	#BtPLegacy Culture
-	kavango_culture = {
-		#primary = XXX
-	}
-	dynasty_names = {
-		Lukeni Loanga Kalumbwe Kikondja Imbangala Kasanje Shila Kazembe Lunda Kuba
-	}
-	male_names = {
+	male_names = { #generic
 		Garcia ¡lvaro Pedro Afonso Ntinu Nkuwu Henrique AntÛnio Bernardo JosÈ AmbrÛsio Aleixo AndrÈ Daniel Diogo 
 		Nicolau Nzinga Nkuwa Sebasti„o Ilunga Sanza Kumwimba Kasongo Kekenya Kaumbo Miketo Nday Mwine Maloba 
-		Kitamba Cibind Nawej Munying Kateng Cakasekene Cikombe Kalong Mutand Mbala Mukaz Mpemba
+		Kitamba Cibind Nawej Munying Kateng Cakasekene Cikombe Kalong Mutand Mbala Mukaz Mpemba Nkuwu
 	}
-	female_names = {
-		Jetta Vandana Zody
+	female_names = { #generic
+		Jetta Vandana Zody Lukeni Nzinga Kyaku Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi
+		 Mwongo Bebeka NdÈmbu F˙xi Ngongo Lemba Kifunji Kambu Kumbi Maxongo Makufu Samba Kangala Kamana Masoxi Nkuwu 
+	}
+}
+
+#southwest_bantu = {}
+
+southwestern_bantu = { #NEW Group 2
+    graphical_culture = africangfx
+    ovambo_culture = {
+        primary = XXX
+        male_names = {
+            Kambungo Mandume Ndemufayo Akwenye Amunime Amutenya Angula Uukongo Uusiku 
+			Tulitungeni	Ndewtelela Mwaifanange Hasondisi Hashetu Nghidulika Nghilifilwa 
+			Nghinashamunhu Lipuleni Shafodino Shiepo Shikudule Shilengifa Shimwefeleni
+        }
+        female_names = {
+            Ndapona Namatembu Namutenya Nangula Nathinge Nuusiku Etuhole Nghinashamunhu 
+			Ndafyaalako Ndapunikwa Ndateelela Ndeshihafela Ndeshipanda Ndeshiyala Ndilipofina 
+			Ndilokelwa Kuwilileni
+        }
+    }
+	#BtPLegacy Culture
+	kavango_culture = { #Move to Group 2
+		#primary = XXX
+	}
+	mucubal = { #herero & NEW Farsen entry by San Felipe
+        #primary = XXX
+    }
+    ovimbundu = { #NEW Farsen entry by San Felipe
+        #primary = XXX
+    }
+    nyaneka_humbe = { #nhaneca_humbe & NEW Farsen entry by San Felipe
+        #primary = XXX
+		male_names = { #generic
+            Tyapukulwa Tchilunlum Mumbanda Pefiko Nkhole Sekulo Mukongo Kataleko Fito Nandjila 
+			Tchipito Tchimutambo Mutenya Wolumba Mbula Muholo Muhepe Mahuku Nangula 
+			Nangombe Lyeniveni Hinambendi Hinaounye Hamba Hitali Hulya Kahali Kaike Kandjala 
+			Kalitoko Kalukilwe Kambwale Katito Kavemundi 
+        }
+		female_names = { #generic
+		    Nangula Nangombe Tyapukulwa Tchilunlum Mumbanda Pefiko Nkhole Sekulo Mukongo Ndenge 
+			Kataleko Fito Nandjila Tchipito Tchimutambo Mutenya Wolumba Mbula Muholo 
+			Muhepe Mahuku Lyeniveni Hinambendi Hinaounye Hitali Hulya Kahali Kaike Kalukilwe 
+			Katito Kavemundi
+        }
+		dynasty_names = { #generic
+	        Tchilunlum Mumbanda Pefiko Nkhole Sekulo Mukongo Kataleko Fito Nandjila Tchipito 
+			Tchimutambo Mutenya Wolumba Mbula Muholo Muhepe Mahuku Nangula Nangombe Lyeniveni 
+			Hinambendi Hinaounye Hamba Hitali Hulya Kahali Kaike Kandjala Kalitoko Kalukilwe 
+			Kambwale Katito Kavemundi Tyapukulwa Ndenge 
+		}
+    }
+	male_names = {
+        Kambungo Mandume Ndemufayo Akwenye Amunime Amutenya Angula Uukongo Uusiku Tulitungeni 
+		Ndewtelela Mwaifanange Hasondisi Hashetu Nghidulika Nghilifilwa Nghinashamunhu Lipuleni 
+		Shafodino Shiepo Shikudule Shilengifa Shimwefeleni
+    }
+    female_names = {
+        Ndapona Namatembu Namutenya Nangula Nathinge Nuusiku Etuhole Nghinashamunhu Ndafyaalako 
+		Ndapunikwa Ndateelela Ndeshihafela Ndeshipanda Ndeshiyala Ndilipofina Ndilokelwa 
+		Kuwilileni
+    }
+}
+
+east_angolan = { #NEW Group 3
+    graphical_culture = africangfx
+    chokwe = {#tchokwe (Change name in loc file!
+        primary = CKW
+    }
+	lunda = {
+		primary = LND
+	}
+	ganguela = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+	}
+	mbunda = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+		male_names = { #generic
+            Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga 
+			Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando Kayando Ndzita 
+			Vusiwa Katye Kavindama Tchihili 
+		}
+		female_names = { #generic
+		    Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo Kahuti Lamba Vusiwa Kayando Ndzita Katye 
+			Kavindama Masozi
+		}
+		dynasty_names = { #generic
+		    Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo 
+			Kahuti Lamba Vusiwa Kayando Ndzita Katye Kavindama Masozi
+		}
+	}
+	malwena = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+		male_names = { #generic
+            Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili 
+		}
+		female_names = { #generic
+		    Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo Kahuti Lamba Vusiwa Kayando Ndzita Katye 
+			Kavindama Masozi
+		}
+		dynasty_names = { #generic
+		    Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo 
+			Kahuti Lamba Vusiwa Kayando Ndzita Katye Kavindama Masozi
+		}
+	}
+	malwimbi = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+		male_names = { #generic
+            Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili 
+		}
+		female_names = { #generic
+		    Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo Kahuti Lamba Vusiwa Kayando Ndzita Katye 
+			Kavindama Masozi
+		}
+		dynasty_names = { #generic
+		    Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo 
+			Kahuti Lamba Vusiwa Kayando Ndzita Katye Kavindama Masozi
+		}
+	}
+	xindonga = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+	}
+	male_names = { #generic
+        Mwambumba Mwakahya Ngunji Nanjimi Mwatchisenge Satchikuta Tchikuta Tchicolasonhi Matfuka Mafo Tchikamamba Ngombe Sekesa Muchingweno Museheno Kaxita Muxete 
+		Napasa Kafunga Mwambeno Mulambeno Kufa Kachala
+    }
+    female_names = { #generic
+        Kaxita Matfuka Mafwo Tchikamamba Ngombe Muxete Napasa Kafunga Mwambeno Mulambeno Kufa Kachala
+    }
+	dynasty_names = { #generic
+	    Mwambumba Mwakahya Ngunji Nanjimi Mwatchisenge Satchikuta Tchikuta Tchicolasonhi Matfuka Mafo Tchikamamba Ngombe Sekesa Muchingweno Museheno Kaxita Muxete 
+		Napasa Kafunga Mwambeno Mulambeno Kufa Kachala Kaxita Matfuka Mafwo Tchikamamba Ngombe Muxete Napasa Kafunga Mwambeno Mulambeno Kufa Kachala
 	}
 }
 
@@ -9576,31 +9746,6 @@ lost_cultures_group = {
 			"Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti
 		}
 	}
-	roman = { #EU Rome
-		dynasty_names = {
-			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
-			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
-			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia
-			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
-			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
-		}
-		male_names = {
-			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
-			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo
-			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
-			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto
-			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
-			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
-			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
-			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher
-			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna
-			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus
-			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
-		}
-		female_names = {
-			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
-		}
-	}
 	jan_mayenese = {
 		dynasty_names = {
 			Beliy Medved Bjorn Rawrrorr Rrrrr Grrr Gyp Qoi Styrbjorn Blomstfjellet
@@ -9787,6 +9932,95 @@ lost_cultures_group = {
 		}
 	}
 }
+old_latin = {
+	graphical_culture = westerngfx
+	roman = { #EU Rome
+		dynasty_names = {
+			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia
+			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+		}
+		male_names = {
+			Augustus Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+		}
+		female_names = {
+			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+			Aeliana Albia Antonia Aquilia Argentia Camilla Cassia Clemensia Decima Flavia Florentina Fortunata Gaia Galle
+			Drusilla Dulcia Fabia Faustina Flavia Hilaria Horatia Julia Junia Laelia Laurentia Mercella Marilla 
+			Martia Maxima Mila Nerilla Octavia Prima Priscilla Quintia Sabina Septima Sergia Tanaquil Tatana
+			Tauria Tertia Tullia Urbana Valentina Varinia Vita
+		}
+	}
+	gallo_roman = {
+		male_names = {
+			Appius Aulus Decimus Gaius Gnaeus Kaeso Lucius Mamercus Manius Mercus Numerius Publius Quintus Servius Sextus
+			Spurius Tiberius Titus Agrippa Ancus Caesar Faustus Hostus Opiter Postumus Proculus Sertor Statius Tullus Volero 
+			Vopiscus Adaryn Abenzio Abhann Allan "Ap Owen" Arthmeal Arto 
+			Belenus Biorach Bran Breanainn Briano Brigh Brog Bruaich
+			Cadan Caol Caradoc Carden Ceall Ceallair Cearbh Chadh Cionnaith
+			Craeg Deoradhan Donaghy Dorran Dougal Drausus Drest Dubno
+			Eburacon Edgan Egan Eimh Eirdirsceaol Ferghus Fear Faol
+			Keeland Kegan Laogh Lorcc Lugubelenus Lugus Maccus Maoilios 
+			Nuireadhach Phelan Raigan Seaghdh Teigen Trahern Tremaine 
+			Tristian Tristram Aius Amaina Amia Avaro Bilinos
+		}
+	}
+	afro_roman = {
+	
+	}
+	illyro_roman = {
+	
+	}
+	romano_britanian = {
+	
+	}
+	hispanic_roman = {
+	
+	}
+	romano_pannonian = {
+	
+	}
+	
+	dynasty_names = {
+		Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+		Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+		Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia
+		Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+		Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+	}
+	male_names = {
+		Augustus Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+		Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo
+		Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+		Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto
+		Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+		Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+		Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+		Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher
+		Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna
+		Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus
+		Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+	}
+	female_names = {
+		Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+		Aeliana Albia Antonia Aquilia Argentia Camilla Cassia Clemensia Decima Flavia Florentina Fortunata Gaia Galle
+		Drusilla Dulcia Fabia Faustina Flavia Hilaria Horatia Julia Junia Laelia Laurentia Mercella Marilla 
+		Martia Maxima Mila Nerilla Octavia Prima Priscilla Quintia Sabina Septima Sergia Tanaquil Tatana
+		Tauria Tertia Tullia Urbana Valentina Varinia Vita
+	}
+}
 
 
 
@@ -9907,6 +10141,28 @@ illyrian = {
 	}
 	arvanite = {
 		#primary = #no tag so no seperatists
+	}
+	old_illyrian = {
+		#primary = #no tag, maybe Illyria in the future
+		
+		male_names = {
+			Cadmus Hyllus Galatea Encheleus Autarieus Dardanus Maedus Taulas Perrhaebus Triballus Sirras Bardylis Pleuratus
+			Cleitus Monunius Mytilus Agron Scerdilaidas Pinnes Gentius Galaurus Gentius Epulon Opis Bato Baton Astius Nicetas 
+			Decius Probus Diocletian Jovian Scordiscus Triballus 
+			Gjergj LekÎ Gjon LulÎzim Pal Tanush AleksandÎr Karolus Filippo Adnan Agim 
+			Dardan DritÎro Elidon Erjon Flamur Florin Hekuran Ilir Klodian Luigj
+			Pashko PÎllumb PÎrparim PjetÎr Rrok ShpÎtim Tahir Viktor Xhevat Ylli Zenel Halil Ali
+			Ramiz Edi Demaci Edon Dukagjin Haxhi LishÎndri Mensur Rahman Nxhiku Riza Rexhep Bujar Nikolla Enver
+		}
+		female_names = {
+			Teuta Partho Daortho Dassaro Gjylo AfÎrdita Blerta Bora Dafina Dardana Era Flutura Gentiana Jehona Lindita Lule Luljeta Pranvera Shpresa 
+			Shqipe Teuta Venera Vera Vesa Yllka
+		}
+		dynasty_names = {
+			Cadmio Hyllio Galatea Enchelea Dardanea Taulai Epuloi Batoi Batonoi Astinoi Nicetai Cadmusai Hyllusai Pinnai Batoai Batonai 
+			Deciu Diocletiai Joviae Triballai Agronai Mytilai Maedai 
+			Trpimirovic Svetoslavic Kosovic Kresimirovic Zrinski Domagojevic Hrvatinic Kotromanic Brankovic Lazarevic
+		}
 	}
 	male_names = {
 		Gjergj LekÎ Gjon Kostandin LulÎzim Pal Tanush AleksandÎr Karolus Filippo Adnan Agim Bashkim Besnik 

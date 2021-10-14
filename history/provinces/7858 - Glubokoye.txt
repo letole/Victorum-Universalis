@@ -3,13 +3,14 @@
 owner = LIT
 controller = LIT
 add_core = LIT
+add_core = PLT
 culture = byelorussian
 religion = orthodox
 capital = "Glubokoye"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = grain
+trade_goods = vodka	#was grain
 is_city = yes
 hre = no
 

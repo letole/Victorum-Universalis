@@ -5,7 +5,7 @@ controller = NGA
 culture = rajput
 religion = hinduism
 capital = "Merta"
-trade_goods = livestock
+trade_goods = zinc	# was livestock
 hre = no
 base_tax = 4 
 base_production = 4
@@ -13,6 +13,7 @@ base_manpower = 2
 is_city = yes
 add_core = NGA
 add_rajputs_or_marathas_or_nobles_effect = yes
+
 discovered_by = nomad_group
 discovered_by = indian
 discovered_by = muslim 

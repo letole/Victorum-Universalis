@@ -16,7 +16,6 @@ is_city = yes
 add_core = SWI
 
 
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

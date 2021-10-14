@@ -18,7 +18,7 @@ hre = no
 base_tax = 4 
 base_production = 4
 base_manpower = 2 
-
+center_of_trade = 1
 1476.1.1 = {
 	owner = INC
 	controller = INC

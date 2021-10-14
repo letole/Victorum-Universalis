@@ -5,13 +5,18 @@ controller = MAM
 culture = al_suryah_arabic
 religion = sunni
 capital = "Haifa"
-trade_goods = fish
+trade_goods = sugar
 hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
 add_core = MAM
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
 
 discovered_by = muslim
 discovered_by = ottoman

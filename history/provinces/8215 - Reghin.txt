@@ -5,8 +5,8 @@
 #Core Details
 capital = "Szászrégen"
 is_city = yes
-owner = HUN
-controller = HUN
+owner = TRA
+controller = TRA
 
 #Demographics
 culture = romanian
@@ -16,7 +16,7 @@ religion = orthodox
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = cloth
+trade_goods = lumber
 
 #Cores and Occupation (Alphabetical after current)
 add_core = HUN

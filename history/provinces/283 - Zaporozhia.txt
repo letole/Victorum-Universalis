@@ -7,12 +7,17 @@ religion = sunni
 hre = no
 base_tax = 1 
 base_production = 1 
-trade_goods = livestock
+trade_goods = horses	#was livestock
 base_manpower = 1
-capital = "Sich"
+capital = "Michaylivka"
 is_city = yes
 add_core = CRI
 add_core = ZAZ
+
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
 
 discovered_by = western
 discovered_by = eastern

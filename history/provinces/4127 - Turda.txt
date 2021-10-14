@@ -1,7 +1,7 @@
 #3153 - Beszterce
 
-owner = HUN
-controller = HUN 
+owner = SZE
+controller = SZE # Should be Szaszfold but no tag yet
 culture = transylvanian_saxons
 religion = catholic
 capital = "Beszterce"
@@ -13,6 +13,7 @@ base_manpower = 1
 is_city = yes
 add_core = HUN
 add_core = TRA
+add_core = SZE
 
 discovered_by = KAZ
 discovered_by = CRI
@@ -25,9 +26,9 @@ discovered_by = muslim
 discovered_by = ottoman
 
 1506.1.1 = { revolt = { type = nationalist_rebels size = 1 } controller = REB } # Szekely rebellion
-1507.1.1 = { revolt = {} controller = HUN }
+1507.1.1 = { revolt = {} controller = SZE }
 1514.4.1 = { revolt = { type = anti_tax_rebels size = 0 } controller = REB } # Peasant rebellion against Hungary's magnates
-1514.10.1 = { revolt = {} controller = HUN }
+1514.10.1 = { revolt = {} controller = SZE }
 1526.8.30 = { 
 	owner = TRA 
 	controller = TRA

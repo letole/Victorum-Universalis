@@ -23,6 +23,13 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
+add_permanent_province_modifier = {
+    name = plitvice
+    duration = -1
+}
+
+# Province history completed by docRobert
+
 1526.8.30 = {
 	owner = HAB
 	controller = HAB
@@ -45,3 +52,12 @@ discovered_by = ottoman
 	add_core = HAB
 	remove_core = FRA
 } # Napoleon abdicates
+1867.3.30 = {
+	owner = AHE
+	controller = AHE
+	add_core = AHE
+	remove_core = HAB
+} # Austria-Hungary formed
+1918.11.11 = {
+	controller = SER
+} # Austria-Hungary loses WWI, enemy occupation until new borders are drawn

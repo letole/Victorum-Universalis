@@ -51,7 +51,7 @@ discovered_by = eastern
 1686.1.17 = { religion = catholic unrest = 0 } # Dragonnard campaign succesful: region reverts back to Catholicism
 1715.1.1 = { fort_17th = no fort_18th = yes }
 1746.1.1 = { base_production = 6 } # Koechlin Schmaltzer Dollfus & Cie
-base_production = 16 } # Machault & the 5% tax
+base_production = 16 # Machault & the 5% tax
 1789.1.3 = { # The Republic of Mulhouse joins France after an economic blockade
 	owner = FRA
 	controller = FRA

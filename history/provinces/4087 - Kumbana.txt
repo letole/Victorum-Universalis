@@ -10,6 +10,8 @@ base_tax = 2
 base_production = 4
 base_manpower = 4
 is_city = yes
+
 discovered_by = central_african
+discovered_by = sub_saharan
 
 1700.1.1 = { owner = LND controller = LND add_core = LND }

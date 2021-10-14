@@ -15,7 +15,7 @@ trade_goods = cloth
 base_manpower = 1 
 capital = "Old Perona"			#Vana-Pärnu, or DE Alt-Pernau
 is_city = yes
-
+center_of_trade = 1
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -24,6 +24,10 @@ discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
 
 1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
 	owner = LIV

@@ -25,14 +25,30 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
+center_of_trade = 2
 extra_cost = 10
 
-center_of_trade = 2	#New in BT 5.0. This was a major city.
+	#New in BT 5.0. This was a major city.
+
+# History completed by docRobert
 
 #1419.12.1 = { revolt = { type = heretic_rebels size = 0 } controller = REB } # Hussite Wars, Battle of Nekmir
 #1436.7.5 = { revolt = {} controller = SIL } # Peace is signed in Jihlava
-#Need to do some history here, was apparently ceeded to Hungary for several years, and was much more politicaly complex than the current 10 entries
+1469.1.1 = {
+	owner = HUN
+	controller = HUN
+} # Hungarian rule
+1478.3.28 = {
+	add_core = HUN
+} # Matthias Corvinus conquers Silesia, peace treaty
+1490.4.6 = {
+	owner = BOH
+	controller = BOH
+	remove_core = HUN
+} # Back to Bohemia after his death
+1519.1.1 = {
+	religion = protestant
+} # Reformation arrives very early
 1526.8.30 = { owner = HAB controller = HAB add_core = HAB }
 1618.5.23 = { # Defenestration of Prague
 	owner = BOH
@@ -55,8 +71,17 @@ center_of_trade = 2	#New in BT 5.0. This was a major city.
 1700.1.1 = {
 	base_tax = 14
 	base_production = 14
+	unrest = 0
 }
 1742.1.1 = { owner = PRU controller = PRU add_core = PRU } # Peace of Breslau, 1 st Silesian war against Austria
 1750.1.1 = {  base_tax = 18 base_production = 18 base_manpower = 12 }
 1763.1.1 = { remove_core = HAB } # End of 3rd Silesian war
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+} # Unification of Germany, peace in Versailles
+1875.1.1 = {
+	base_manpower = 10
+} # 6th largest city in Germany around this time

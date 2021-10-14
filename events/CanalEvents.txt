@@ -28,12 +28,24 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
-		}		
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
+		}
 	}
 
 	option = {	# Go ahead
@@ -89,12 +101,20 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
-		}	
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
+		}
 	}
 
 	option = {	# Commission new leaders
@@ -150,12 +170,20 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
-		}	
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
+		}
 	}
 
 	option = {	# Commission new leaders for the project
@@ -211,12 +239,20 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
-		}	
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
+		}
 	}
 
 	option = {	# Help them alleviate the situation
@@ -272,12 +308,20 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
-		}	
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
+		}
 	}
 
 	option = {
@@ -333,12 +377,20 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
 		}	
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
+		}
 	}
 
 	option = {	# Make sure they get what they need
@@ -394,12 +446,20 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
-		}	
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
+		}
 	}
 
 	option = {	# Invest additional funds
@@ -458,12 +518,20 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
-		}	
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
+		}
 	}
 
 	option = {
@@ -526,11 +594,19 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
 		}
 	}
 
@@ -622,12 +698,20 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
-		}	
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
+		}
 	}
 
 	option = {
@@ -703,12 +787,20 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
-		}	
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
+		}
 	}
 
 	option = {	# Excellent!
@@ -761,12 +853,20 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
-		}	
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
+		}
 	}
 
 	option = {	# Could this be true?
@@ -814,11 +914,19 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
 		}
 	}
 
@@ -985,11 +1093,19 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
 		}
 	}
 	
@@ -1050,11 +1166,19 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = second_suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = kiel_canal
 		}
 		modifier = {
 			factor = 0.75
 			has_construction = panama_canal
+		}
+		modifier = {
+			factor = 3
+			has_construction = kra_canal
 		}
 	}
 

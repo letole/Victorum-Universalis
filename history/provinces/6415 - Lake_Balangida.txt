@@ -1,0 +1,4 @@
+#6415 - Lake_Balangida
+
+discovered_by = east_african
+discovered_by = central_african

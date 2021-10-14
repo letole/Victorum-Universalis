@@ -5,8 +5,8 @@
 #Core Details
 capital = "Sepsiszentgyörgy"
 is_city = yes
-owner = HUN
-controller = HUN
+owner = SZE
+controller = SZE
 
 #Demographics
 culture = szekely

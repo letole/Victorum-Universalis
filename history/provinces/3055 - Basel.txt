@@ -11,15 +11,19 @@ trade_goods = wool
 hre = yes
 base_tax = 6
 base_production = 6
-base_manpower = 2 
+base_manpower = 3
 is_city = yes
 add_core = BSL
-
+center_of_trade = 2
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}
 
 1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
 	owner = SWI

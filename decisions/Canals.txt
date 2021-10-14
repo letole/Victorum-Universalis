@@ -7,11 +7,11 @@ country_decisions = {
 				ai = no
 				AND = {
 					treasury = 20000
-					owns_or_vassal_of = 1971
+					owns_or_vassal_of = 7606
 				}
 			}
-			has_discovered = 1971
-			1971 = {
+			has_discovered = 7606
+			7606 = {
 				range = ROOT
 				NOT = { 
 					has_great_project = { 
@@ -22,23 +22,23 @@ country_decisions = {
 					has_construction = ludwig_canal
 				}
 			}
-			adm_tech = 13
+			adm_tech = 22
 		}
 		provinces_to_highlight = {
-			province_id = 1971
+			province_id = 7606
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { owner = { vassal_of = ROOT } }
 			}
 		}
 		allow = {
-			owns_or_vassal_of = 1971
+			owns_or_vassal_of = 7606
 			is_subject = no			
-			adm_tech = 17
+			adm_tech = 27
 			treasury = 10000
 		}
 		effect = {
-			1971 = {	# Beljamen
+			7606 = {	# Doornstadt
 				add_great_project = ludwig_canal
 			}
 		}
@@ -69,7 +69,7 @@ country_decisions = {
 					has_construction = don_and_volga_canal
 				}
 			}
-			adm_tech = 13
+			adm_tech = 22
 		}
 		provinces_to_highlight = {
 			province_id = 1971
@@ -81,7 +81,7 @@ country_decisions = {
 		allow = {
 			owns_or_vassal_of = 1971
 			is_subject = no			
-			adm_tech = 17
+			adm_tech = 27
 			treasury = 10000
 		}
 		effect = {
@@ -129,7 +129,7 @@ country_decisions = {
 					has_construction = kiel_canal
 				}
 			}
-			adm_tech = 18
+			adm_tech = 22
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -145,7 +145,7 @@ country_decisions = {
 			owns_or_vassal_of = 1775
 			owns_or_vassal_of = 4141
 			is_subject = no			
-			adm_tech = 22
+			adm_tech = 27
 			treasury = 15000
 		}
 		effect = {
@@ -165,11 +165,11 @@ country_decisions = {
 				ai = no
 				AND = {
 					treasury = 40000
-					owns_or_vassal_of = 4316
+					owns_or_vassal_of = 2315
 				}
 			}
-			has_discovered = 4316
-			4316 = {
+			has_discovered = 2315
+			2315 = {
 				range = ROOT
 				NOT = { 
 					has_great_project = {
@@ -180,12 +180,12 @@ country_decisions = {
 					has_construction = suez_canal
 				}
 			}
-			adm_tech = 18
+			adm_tech = 22
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 4316
 				province_id = 2315
+				province_id = 6537
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -193,15 +193,66 @@ country_decisions = {
 			}
 		}
 		allow = {
-			owns_or_vassal_of = 4316
 			owns_or_vassal_of = 2315
+			owns_or_vassal_of = 6537
 			is_subject = no
-			adm_tech = 22
+			adm_tech = 27
 			treasury = 20000
 		}
 		effect = {
-			4316 = {	# Sharqiya
+			2315 = {	# Damietta
 				add_great_project = suez_canal
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	construct_second_suez_canal = {
+		major = yes
+		potential = {
+			OR = {
+				ai = no
+				AND = {
+					treasury = 40000
+					owns_or_vassal_of = 5261
+				}
+			}
+			has_discovered = 5261
+			5261 = {
+				range = ROOT
+				NOT = { 
+					has_great_project = {
+						type = second_suez_canal
+					}
+				}
+				NOT = { 
+					has_construction = second_suez_canal
+				}
+			}
+			adm_tech = 22
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 5261
+				province_id = 6537
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
+			}
+		}
+		allow = {
+			owns_or_vassal_of = 5261
+			owns_or_vassal_of = 6537
+			is_subject = no
+			adm_tech = 28
+			treasury = 20000
+		}
+		effect = {
+			5261 = {	# Suez
+				add_great_project = second_suez_canal
 			}
 		}
 		ai_will_do = {
@@ -232,7 +283,7 @@ country_decisions = {
 					has_construction = panama_canal 
 				}
 			}
-			adm_tech = 18
+			adm_tech = 22
 		}
 		provinces_to_highlight = {
 			province_id = 835
@@ -244,7 +295,7 @@ country_decisions = {
 		allow = {
 			owns_or_vassal_of = 835
 			is_subject = no
-			adm_tech = 22
+			adm_tech = 27
 			treasury = 25000
 		}
 		effect = {
@@ -257,23 +308,70 @@ country_decisions = {
 		}
 	}
 	
+	construct_kra_canal = {
+		major = yes
+		potential = {
+			OR = {
+				ai = no
+				AND = {
+					treasury = 30000
+					owns_or_vassal_of = 2390
+				}
+			}
+			has_discovered = 2390
+			2390 = {
+				range = ROOT
+				NOT = { 
+					has_great_project = { 
+						type = kra_canal 
+					}
+				}
+				NOT = { 
+					has_construction = kra_canal
+				}
+			}
+			adm_tech = 22
+		}
+		provinces_to_highlight = {
+			province_id = 2390
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
+			}
+		}
+		allow = {
+			owns_or_vassal_of = 2390
+			is_subject = no			
+			adm_tech = 22
+			treasury = 30000
+		}
+		effect = {
+			2390 = {	# Chaiya
+				add_great_project = kra_canal
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	cancel_ludwig_canal = {
 		major = yes
 		potential = {
 			ai = no
-			owns_or_vassal_of = 1971
+			owns_or_vassal_of = 7606
 			is_subject = no
-			1971 = {
+			7606 = {
 				has_construction = ludwig_canal
 			}
 		}
 		allow = {
-			1971 = {
+			7606 = {
 				has_construction = ludwig_canal
 			}
 		}
 		effect = {
-			1971 = { # Beljamen
+			7606 = { # Doornstadt
 				cancel_construction = yes
 			}
 		}
@@ -336,19 +434,44 @@ country_decisions = {
 		major = yes
 		potential = {
 			ai = no
-			owns_or_vassal_of = 4316
+			owns_or_vassal_of = 2315
 			is_subject = no
-			4316 = {
+			2315 = {
 				has_construction = suez_canal
 			}
 		}
 		allow = {
-			4316 = {
+			2315 = {
 				has_construction = suez_canal
 			}
 		}
 		effect = {
-			4316 = {	# Sharqiya
+			2315 = {	# Suez
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	cancel_second_suez_canal = {
+		major = yes
+		potential = {
+			ai = no
+			owns_or_vassal_of = 5261
+			is_subject = no
+			5261 = {
+				has_construction = second_suez_canal
+			}
+		}
+		allow = {
+			5261 = {
+				has_construction = second_suez_canal
+			}
+		}
+		effect = {
+			5261 = {	# Port Said
 				cancel_construction = yes
 			}
 		}
@@ -374,6 +497,31 @@ country_decisions = {
 		}
 		effect = {
 			835 = {	# Panama
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	cancel_kra_canal = {
+		major = yes
+		potential = {
+			ai = no
+			owns_or_vassal_of = 2390
+			is_subject = no
+			2390 = {
+				has_construction = kra_canal
+			}
+		}
+		allow = {
+			2390 = {
+				has_construction = kra_canal
+			}
+		}
+		effect = {
+			2390 = { # Chaiya
 				cancel_construction = yes
 			}
 		}

@@ -13,6 +13,7 @@ base_manpower = 1
 is_city = yes
 add_core = HUN
 add_core = LHU
+add_core = SLO
 
 discovered_by = KAZ
 discovered_by = CRI

@@ -1,7 +1,7 @@
 #3155 - Brassó
 
-owner = HUN
-controller = HUN 
+owner = SZE
+controller = SZE # Should be Szaszfold but no tag yet
 culture = transylvanian_saxons
 religion = catholic
 capital = "Brassó"
@@ -13,9 +13,10 @@ base_manpower = 2
 is_city = yes
 add_core = HUN
 add_core = TRA
-
-extra_cost = 7
+add_core = SZE
 center_of_trade = 1
+extra_cost = 7
+
 
 discovered_by = KAZ
 discovered_by = CRI
@@ -28,9 +29,9 @@ discovered_by = muslim
 discovered_by = ottoman
 
 1506.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Szekely rebellion
-1507.1.1 = { revolt = {} controller = HUN } # Estimated
+1507.1.1 = { revolt = {} controller = SZE } # Estimated
 1514.4.1 = { revolt = { type = anti_tax_rebels size = 0 } controller = REB } # Peasant rebellion against Hungary's magnates
-1514.10.1 = { revolt = {} controller = HUN } # Estimated, the rebellions is put down by Szapolyiai
+1514.10.1 = { revolt = {} controller = SZE } # Estimated, the rebellions is put down by Szapolyiai
 1526.8.30 = {
 	owner = TRA 
 	controller = TRA

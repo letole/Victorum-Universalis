@@ -1,8 +1,9 @@
 #261 - Halicz
 
-owner = MOL
-controller = MOL
-add_core = MOL
+owner = POL
+controller = POL
+add_core = POL
+add_core = VOL
 capital= "Halych"
 culture = ruthenian
 religion = orthodox
@@ -22,6 +23,8 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+#History completed by docRobert
 
 1492.1.1 = { unrest = 0 } 
 1569.7.1 = {
@@ -47,3 +50,31 @@ discovered_by = ottoman
 	add_core = HAB
 	remove_core = PLC
 } # First partition of Poland
+1773.9.18 = {
+	remove_core = PLC
+} # Sejm renounces claims to lost lands
+1809.10.14 = {
+	add_core = POL
+}
+1867.3.30 = {
+	owner = AHE
+	controller = AHE
+	add_core = AHE
+	remove_core = HAB
+} # Austria-Hungary is formed
+1914.8.15 = {
+	controller = RUS
+} # WWI
+1915.7.1 = {
+	controller = AHE
+}
+1918.11.11 = {
+	owner = VOL
+	controller = VOL
+	add_core = POL
+	remove_core = AHE
+} # West Ukraine declares independence, end of WWI
+1919.5.1 = {
+	owner = POL
+	controller = POL
+} # West Ukraine siezed by Poland

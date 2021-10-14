@@ -4,12 +4,12 @@ owner = LIV
 controller = LIV
 add_core = LIV
 culture = latvian
-religion = catholic
+religion = baltic_pagan_reformed	# Semigalian tribes were still pagan
 capital = "Grobina"
 base_tax = 1
-base_production = 1			#Once perhaps the greatest centre of Livonia, but it appears to have been devastated and not really recovered.
+base_production = 1			#Once perhaps the greatest center of Livonia, but it appears to have been devastated and not really recovered.
 base_manpower = 2
-trade_goods = grain
+trade_goods = amber
 is_city = yes
 hre = no
 
@@ -72,3 +72,5 @@ discovered_by = western
 #} #Return to proper mod added owners and cuts vanilla core, typically.
 
 #1444 on
+
+1490.1.1 = { religion = catholic }

@@ -9,18 +9,17 @@ capital = "Borg"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = fish
+trade_goods = seafood
 is_city = yes
 hre = no
 add_local_autonomy = 50
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = eastern
 
 add_permanent_province_modifier = {
-	name = navalbase_modifier
-	duration = -1
+    name = navalbase_modifier
+    duration = -1
 }
 
 #Province history completed by - Draiocht

@@ -16,7 +16,7 @@ religion = catholic
 hre = yes
 base_tax = 2
 base_production = 1
-trade_goods = glass
+trade_goods = zinc	# some zinc in Franche-Comte region, had to place it somewhere
 base_manpower = 1
 
 discovered_by = western

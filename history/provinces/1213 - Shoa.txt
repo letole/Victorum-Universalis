@@ -8,14 +8,14 @@ religion = sunni
 capital = "Badeqe"
 is_city = yes
 base_manpower = 6
-trade_goods = grain
+trade_goods = lumber
 hre = no
 fort_15th = yes
 base_tax = 6
 base_production = 6
 add_local_autonomy = 10
 add_core = SOA
-center_of_trade = 1
+center_of_trade = 2
 
 discovered_by = east_african
 discovered_by = muslim

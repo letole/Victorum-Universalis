@@ -1,0 +1,4 @@
+#6419 - Lake_Singida
+
+discovered_by = east_african
+discovered_by = central_african

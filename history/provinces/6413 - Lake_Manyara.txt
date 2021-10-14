@@ -1,0 +1,4 @@
+#6413 - Lake_Manyara
+
+discovered_by = east_african
+discovered_by = central_african

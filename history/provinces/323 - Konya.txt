@@ -6,7 +6,7 @@ add_core = KAR
 culture = turkish
 religion = sunni
 capital = "Konya"
-trade_goods = salt
+trade_goods = carpet		#was salt, if Anatolia gets more provinces, salt can be moved near Cochisia and Mentesha
 hre = no
 base_tax = 5
 base_production = 5
@@ -14,7 +14,6 @@ base_manpower = 3
 is_city = yes
 
 extra_cost = 8
-center_of_trade = 1
 
 discovered_by = western
 discovered_by = eastern

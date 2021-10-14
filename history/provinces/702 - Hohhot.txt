@@ -6,14 +6,13 @@ add_core = MNG
 culture = mongol
 religion = vajrayana
 capital = "Hohhot"
-trade_goods = iron
+trade_goods = lead	# may also be iron
 hre = no
 base_tax = 8 
 base_production = 8
 base_manpower = 8
 is_city = yes
 add_core = KHA
-
 
 
 discovered_by = chinese

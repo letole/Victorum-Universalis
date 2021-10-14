@@ -2660,3 +2660,300 @@ country_event = {
 		}
 	}
 }
+
+########################################
+# VU additions by docRobert
+########################################
+
+country_event = {	#Declaring our destiny
+	id = flavor_rus.3000
+	title = "flavor_rus.3000.t"
+	desc = "flavor_rus.3000.d"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = MOS
+		is_year = 1445
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {	#We shall unite all of Rus
+		name = "flavor_rus.3000.a"
+		ai_chance = { factor = 95 }
+		add_mil_power = 20
+		add_casus_belli = {
+			target = TVE
+			type = cb_vassalize_mission
+			months = 240
+		}
+		add_casus_belli = {
+			target = GLC
+			type = cb_vassalize_mission
+			months = 240
+		}
+		add_casus_belli = {
+			target = SPK
+			type = cb_vassalize_mission
+			months = 240
+		}
+		add_casus_belli = {
+			target = MLL
+			type = cb_vassalize_mission
+			months = 240
+		}
+		add_casus_belli = {
+			target = MOZ
+			type = cb_vassalize_mission
+			months = 240
+		}
+		add_casus_belli = {
+			target = RYA
+			type = cb_vassalize_mission
+			months = 240
+		}
+		add_casus_belli = {
+			target = PRS
+			type = cb_vassalize_mission
+			months = 240
+		}
+		add_casus_belli = {
+			target = ZBT
+			type = cb_vassalize_mission
+			months = 240
+		}
+		add_casus_belli = {
+			target = VYA
+			type = cb_vassalize_mission
+			months = 240
+		}
+		add_casus_belli = {
+			target = OKA
+			type = cb_vassalize_mission
+			months = 240
+		}
+		add_casus_belli = {
+			target = VTN
+			type = cb_vassalize_mission
+			months = 240
+		}
+		add_casus_belli = {
+			target = MSL
+			type = cb_vassalize_mission
+			months = 240
+		}
+		add_casus_belli = {
+			target = BLV
+			type = cb_vassalize_mission
+			months = 240
+		}
+	}
+	option = {	#Focus internally for now
+		name = "flavor_rus.3000.b"
+		ai_chance = { factor = 5 }
+		add_adm_power = 20
+		add_manpower = 5
+		6875 = {
+			add_base_tax = 2
+		}
+		5651 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+		3290 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+		4253 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+		4252 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+		3276 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+	}
+	option = {	#We must consolidate power
+		name = "flavor_rus.3000.c"
+		ai_chance = { factor = 0 }	#Ai will not pick this option to spare its vassals
+		add_prestige = 20
+		add_dip_power = 20
+		add_corruption = -2
+		if = {
+			limit = {
+				RSO = { is_subject_of = ROOT }
+			}
+			inherit = RSO
+		}
+		if = {
+			limit = {
+				YAR = { is_subject_of = ROOT }
+			}
+			inherit = YAR
+		}
+		if = {
+			limit = {
+				BLO = { is_subject_of = ROOT }
+			}
+			BLO = {
+				add_liberty_desire = -20
+			}
+		}
+		3277 = {
+			add_core = ROOT
+		}
+		5683 = {
+			add_core = ROOT
+		}
+		5654 = {
+			add_local_autonomy = -20
+		}
+		1083 = {
+			add_local_autonomy = -20
+		}
+	}
+}
+
+country_event = {	#Fate of Novgorod
+	id = flavor_rus.3001
+	title = "flavor_rus.3001.t"
+	desc = "flavor_rus.3001.d"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	trigger = {
+		tag = MOS
+		is_year = 1455
+		NOV = { exists = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {	#We will dismantle the whole state of Novgorod
+		name = "flavor_rus.3001.a"
+		ai_chance = { factor = 95 }
+		custom_tooltip = flavor_rus.3001.tooltip
+		set_country_flag = dismantle_novgorod_flag
+		add_adm_power = -25
+		add_dip_power = -50
+		add_casus_belli = {
+			target = NOV
+			type = cb_vassalize_mission
+			months = 240
+		}
+	}
+	option = {	#We will take just claims
+		name = "flavor_rus.3001.b"
+		ai_chance = { factor = 5 }
+		every_province = {
+			limit = { owned_by = NOV }
+			add_permanent_claim = ROOT
+		}
+		beloozero_area = {
+			limit = { owned_by = NOV }
+			add_core = ROOT
+		}
+	}
+}
+
+country_event = {	#Dismantle Novgorod
+	id = flavor_rus.3002
+	title = "flavor_rus.3002.t"
+	desc = "flavor_rus.3002.d"
+	picture = REVOLUTION_eventPicture
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	trigger = {
+		tag = MOS
+		has_country_flag = dismantle_novgorod_flag
+		NOV = { exists = yes }
+		war_with = NOV
+		war_score_against = {
+			who = NOV
+			value = 80
+		}
+		controls = 310
+		controls = 7879
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {	#Novgorod ceases to exist
+		name = "flavor_rus.3002.a"
+		ai_chance = { factor = 100 }
+		highlight = yes
+		custom_tooltip = flavor_rus.3002.tooltip
+		clr_country_flag = dismantle_nogorod_flag
+		white_peace = NOV
+		add_prestige = 25
+		add_legitimacy = 25
+		add_treasury = 700
+		add_mil_power = 25
+		310 = {
+			add_devastation = 50
+		}
+		add_splendor = 100
+		hidden_effect = {
+			5649 = {
+				add_core = SMI
+			}
+			1777 = {
+				add_core = SMI
+			}
+			7496 = {
+				add_core = SMI
+			}
+			5650 = {
+				add_core = SMI
+			}
+			NOV = {
+				release = SMI
+			}
+			SMI = {
+				adopt_reform_progress = NOV
+				change_religion = finnish_pagan_reformed
+			}
+		}
+		if = {
+			limit = {
+				4129 = {
+					owned_by = NOV
+				}
+				exists = PRM
+			}
+			4129 = {
+				cede_province = PRM
+			}
+		}
+		inherit = NOV
+	}
+	option = {	#Continue the war
+		name = "flavor_rus.3002.b"
+		ai_chance = { factor = 0 }
+		custom_tooltip = flavor_rus.3002.c.tooltip
+		clr_country_flag = dismantle_nogorod_flag
+	}
+}

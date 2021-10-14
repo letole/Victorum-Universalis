@@ -1,15 +1,15 @@
 #BT GDL reoverhaul
 
-owner = LIT
-controller = LIT
-add_core = LIT
+owner = CHR
+controller = CHR
+add_core = CHR
 culture = byelorussian
 religion = orthodox
 capital = "Chavusy"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = wool
+trade_goods = lumber	# was wool
 is_city = yes
 hre = no
 add_local_autonomy = 25

@@ -27,6 +27,10 @@ hre = no
 #Fort/Other Buildings
 
 #Special Modifiers
+add_permanent_province_modifier = {
+    name = warm_coast_ire
+    duration = -1
+}
 
 #Discoveries
 discovered_by = western
@@ -62,7 +66,7 @@ discovered_by = eastern
 		type = nationalist_rebels size = 1
 	} 
 	controller = REB 
-}	#Beginning of the 1641 rebellion, West is a major centre of resistance
+}	#Beginning of the 1641 rebellion, West is a major center of resistance
 
 1642.3.17 = {
 	revolt = {}
