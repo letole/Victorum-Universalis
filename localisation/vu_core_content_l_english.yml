@@ -116,6 +116,19 @@
  hispanic_roman:0 "Hispanic"    # May also be Iberian, Hispanic Roman or Ibero-Romance
  romano_pannonian:0 "Pannonian Romance" # May also be Pannonian
  old_illyrian:0 "Illyrian"      # Old native Illyrians before Huns genocided them all
+ alaskaner:0 "Alaskaner"
+ kalifornier:0 "Kalifornier"
+ mexikaner:0 "Mexikaner"
+ kubaner:0 "Kubaner"
+ pennsilfaanisch:0 "Pennsilfaanisch"
+ neu_prussian:0 "Neu Prussisch"
+ deutschkolumbian:0 "Deutschkolumbianer"
+ hunsrik:0 "Hunsrik"
+ argentiner:0 "Argentiner"
+ australier:0 "Australier"
+ seelander:0 "Seelander"
+ afrikaner:0 "Afrikaner"
+ vinlandic:0 "Vinlandic"
  berber_group:0 "Berber"
  shilha:0 "Shilha"
  riffian:0 "Riffian"
