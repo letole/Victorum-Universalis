@@ -25,6 +25,7 @@ bohemia_region = {
 	    erzgebirge_area
 	    moravia_area
 	    prague_area
+	    bohemian_forest_area
 	}
 }
 
@@ -188,7 +189,6 @@ south_german_region = {
 		#BTMovedFromNorthGermany
 		#BTADDITIONS
 		#carniola_area #Temporarily disabled, as it contains only 1 province for the moment
-		bohemian_forest_area
 	}
 }
 
