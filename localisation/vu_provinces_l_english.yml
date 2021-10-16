@@ -4619,6 +4619,8 @@
  PROV_ADJ8738:0 "Jordan Desert"
  PROV8739:0 "An-Nafud"
  PROV_ADJ8739:0 "An-Nafud"
+ PROV8740:0 "Kibili"
+ PROV_ADJ8740:0 "Kibili"
 
  # Beyond Typus province adjectives. Please note these are extremely incomplete, but appear? to only be seen when the province in question is selected as a capital for a custom nation. So I'm treating them as a secondary concern for the moment. -Draiocht
  PROV_ADJ4846:0 "Woolna"

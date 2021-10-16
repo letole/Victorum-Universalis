@@ -36,3 +36,15 @@ bt_hsn_nobility_crushed = {
 bt_hsn_madrasas = {
 	technology_cost = -0.1
 }
+
+ice_rediscovered_greenland = {
+	global_sailors_modifier = 0.1
+	naval_attrition = -0.1
+	global_colonial_growth = 25
+	range = 0.1
+}
+
+second_viking_colonization = {
+	colonists = 1
+	expel_minorities_cost = -0.1
+}
