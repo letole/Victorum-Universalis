@@ -3,7 +3,7 @@
 owner = TIM
 controller = TIM
 culture = persian
-religion = shiite
+religion = zoroastrian		#Was shia, Kerman and Yazd were and are major centers of zoroastrian population
 capital = "Kerman"
 trade_goods = books
 hre = no
