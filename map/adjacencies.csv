@@ -350,4 +350,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2337;5256;sea;8739;3360;1443;3372;1443;Qassim-Summan
 4274;5256;sea;8739;-1;-1;-1;-1;Sudayr-Summan
 2339;7461;sea;1779;3439;1364;3452;1370;Yabrin-Batha
+2335;2332;sea;8739;-1;-1;-1;-1;Dawasir-Truba
+391;2335;sea;1779;-1;-1;3340;1293;Najran-Dawasir
+2457;2472;sea;1794;-1;-1;-1;-1;Mzab-Ouargla
+2472;2456;sea;1794;-1;-1;-1;-1;Ouargla-Touggourt
+2472;4567;sea;1794;-1;-1;-1;-1;Ouargla-Ghadames
 -1;-1;;-1;-1;-1;-1;-1;-1;
