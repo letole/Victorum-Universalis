@@ -116,6 +116,10 @@
  hispanic_roman:0 "Hispanic"    # May also be Iberian, Hispanic Roman or Ibero-Romance
  romano_pannonian:0 "Pannonian Romance" # May also be Pannonian
  old_illyrian:0 "Illyrian"      # Old native Illyrians before Huns genocided them all
+ alan:0 "Alani"
+ mesopotamian_group:0 "Mesopotamian"
+ assyrian:0 "Assyrian"
+ aramaic:0 "Aramaic"
  alaskaner:0 "Alaskaner"
  kalifornier:0 "Kalifornier"
  mexikaner:0 "Mexikaner"

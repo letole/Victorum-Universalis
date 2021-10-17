@@ -1,8 +1,8 @@
 #7456 - Al-Bukamal
 
-owner = QAR
-controller = QAR
-add_core = QAR
+owner = FAD		#Was Qara Qoyunlu but their rule hardly extended beyond Euphrates
+controller = FAD
+add_core = FAD
 culture = al_suryah_arabic
 religion = sunni
 capital = "Al-Bukamal"
@@ -22,7 +22,8 @@ discovered_by = nomad_group
 discovered_by = indian
 discovered_by = east_african
 
-1516.8.24 = {	owner = TUR
+1516.8.24 = {	
+	owner = TUR
 	controller = TUR
 	add_core = TUR
 } # Part of the Ottoman Empire
