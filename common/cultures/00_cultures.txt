@@ -9933,7 +9933,7 @@ lost_cultures_group = {
 			Amestris Amytis Anzaza Artazostre Artystone Atossa Barsine Damaspia Mandane Parmys Parysatis Phaedymia Rinu Stateira Vashti
 		}
 	}
-	aramaic = { #EU Rome
+	aramaic_old = { #EU Rome
 		dynasty_names = {
 			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid
 			Milkiramid Philosirid
