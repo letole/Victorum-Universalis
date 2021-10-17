@@ -36,7 +36,7 @@
 5419 = { "Gaborone" "Gaborone" }
 6524 = "Rosetta"
 
-#Australia
+#VU - Australia by NoobMiner72
 1084 = { "Perth" "Perth" }
 1085 = { "Hobart" "Hobart" }
 1086 = { "Adelaide" "Port Adelaide" }
@@ -44,27 +44,27 @@
 1088 = { "Bendigo" "Bendigo" }
 1089 = { "Bathurst" "Orange" }
 1090 = { "Sydney" "Sydney" }
-1091 = { "Orana" "Dubbo City" }
+1091 = { "Orana" "Dubbo" }
 1092 = { "Port Macquarie" "Port Macquarie" }
 1093 = { "Bulloo" "Thargomindah" }
 1094 = { "Fraser Coast" "Hervey Bay" }
 2726 = { "Gascoyne" "Geraldton" }
 2727 = { "Esperance" "Esperance" }
-2728 = { "Bathurst Island" "Nguiu" }
+2728 = { "Bathurst Island" "Bathurst Island" }
 2729 = { "Arnhem" "East Arnhem" }
-2730 = { "Weipa" "Weipa Town" }
+2730 = { "Weipa" "Weipa" }
 2731 = { "Hope Vale" "Cairns" }
-2732 = { "Townsville" "City of Townsville" }
+2732 = { "Townsville" "Townsville" }
 2733 = { "Mackay" "Mackay" }
 2734 = { "Port Albert" "Port Albert" }
 2735 = { "Mount Gambier" "Mount Gambier" }
 2736 = { "Hopetown" "Hopetown" }
 4846 = { "Palmerston" "Darwin" }
 4847 = { "Barkly" "Tennant Creek" }
-4848 = { "Burke" "Burketown" }
+4848 = { "Bourke" "Bourke" }
 4849 = { "Carpentaria" "Normanton" }
 4850 = { "Gladstone" "Gladstone" }
-4851 = { "Sunshine Coast" "Sunshine Coast City" }
+4851 = { "Sunshine Coast" "Noosa" }
 4852 = { "Burnett" "Kingaroy" }
 4853 = { "Paroo" "Cunnamulla" }
 4854 = { "Brisbane" "Brisbane" }
@@ -73,16 +73,40 @@
 4857 = { "Newcastle" "Newcastle" }
 4858 = { "Wollongong" "Wollongong" }
 4859 = { "Canberra" "Canberra" }
-4860 = { "Tablelands" "Gouldburn" }
+4860 = { "Southern Tablelands" "Goulburn" }
 4861 = { "Bogong" "Wodonga" }
 4862 = { "Taunton" "Taunton" }
-4863 = { "Marmion" "Hampton" }
-4864 = { "Murray" "Moora" }
+4863 = { "Marmion" "Cranbrook" }
+4864 = { "Murray" "Geraldton" }
 4865 = { "Ashburton" "Karratha" }
 4866 = { "Pilbara" "Port Hedland" }
 4867 = { "Kimberley" "Easton" }
 4868 = { "Launceston" "Launceston" }
 4869 = { "Queenstown" "Queenstown" }
+
+#VU - New Zealand by NoobMiner72
+1106 = { "Northland" "Whangarei" }
+1107 = { "Wellington" "Wellington" }
+1108 = { "Bay of Plenty" "Tauranga" }
+1109 = { "Otago" "Dunedin" }
+1246 = { "Invercargill" "Invercargill" }
+2738 = { "Nelson" "Nelson" }
+2737 = { "Hawke's Bay" "Napier" }
+2739 = { "Waikawau" "Waikawau" }
+4939 = { "Te Kaha" "Te Kaha" }
+5597 = { "Te Anau" "Queenstown" }
+5598 = { "Christchurch" "Christchurch" }
+5599 = { "Karangarua" "Karangarua" }
+5600 = { "Kaikoura" "Kaikoura" }
+5601 = { "Greymouth" "Greymouth" }
+5602 = { "Blenheim" "Blenheim" }
+5603 = { "Westport" "Westport" }
+5604 = { "Whanganui" Whanganui" }
+5605 = { "Taranaki" "Stratford" }
+5606 = { "Turangi" "Turangi" }
+5607 = { "Gisborne" "Gisborne" }
+5608 = { "Waikato " "Whitianga" }
+5609 = { "Auckland" "Auckland" }
 
 #Caribbean
 492 = { "Puerto Rico" "San Juan" }
