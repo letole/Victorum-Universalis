@@ -4,7 +4,7 @@ owner = QAR
 controller = QAR
 add_core = QAR
 capital = "Nusaybin"
-culture = syriac_culture
+culture = aramaic		#last lands of strong aramaic culture
 religion = coptic
 trade_goods = gunpowder			#Turks brought gunpowder and cannons
 hre = no
@@ -47,3 +47,4 @@ discovered_by = nomad_group
 	controller = TUR
 	add_core = TUR
 } # In 1517, Mardin was annexed by the Ottomans under Selim I. During this time, Mardin was administered by a governor directly appointed under the Ottoman Sultan's authority.
+1750.1.1 = { culture = syriac_culture } # aramaic fades to obscurity

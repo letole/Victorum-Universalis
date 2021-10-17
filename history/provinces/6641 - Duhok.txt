@@ -3,7 +3,7 @@
 owner = TIM
 controller = TIM
 add_core = TIM
-culture = al_iraqiya_arabic
+culture = kurdish		#was al_iraqiya_arabic
 religion = sunni
 capital = "Duhok"
 trade_goods = livestock

@@ -25,6 +25,7 @@ discovered_by = indian
 	controller = QAR
 	add_core = QAR		
 } # Qara Koyunlu
+1444.1.1 = { add_core = QOM } #Disputed with Ajam. I couldn't find clear sources how far their rule extended. Seems like half of province was Ajam and half was QAR
 1458.9.1 = { unrest = 5 } # Civil war
 1458.12.1 = { unrest = 0 }
 1469.2.4 = {

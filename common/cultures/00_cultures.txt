@@ -3358,6 +3358,17 @@ iranian	= {
 			Bavandid Eshaqvand
 		}
 	}
+	alan = {
+		male_names = {
+			Aelbeg Aembalan Aghsartan Alatey Akhsar Anbal Anbazuk Aravat Arsen Askhkadar Ashot Aslan Aspar Athom Balambar Balsag Barlah Baeqaetar Basil Bazuk Beler Ber Biraeg Boz-Uruz Buürgur Buriberdi
+			Burikhan Candak Chelakhsartag Davit Djadaron Durgulel Dzaeraes Gaetaeg Georgy Girgon Gokhar Gubaz Guram Hasqar Huddan Istor Itaz Iveri Kandak Kandz Kavtia Kaur
+			Khankhusy Khaetag Konstantin Kubal Kuddana Kul Kuluk Lak Levan Pulad Respendial Rosmag Safrak Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Syrdon Taymuraz Taus Totraz Urdure Uruzma Uturku Yasynya Zaur
+		}
+		female_names = {
+			Adadza Alda Altun Ana Atsyrukhs Baia Bedisa Borena Btsenon Burudukan Duda Elene Eliso Gergana Gulchara Guranduht Kera Keratsa Ketevan Koser
+			Lamara Lashin Lela Mariami Natia Nino Rusudan Sanatha Satinik Shatana Shorena Shukhia Tamari Tinatini Tsiala Vardo Vedokha Yeran
+		}
+	}
 	dynasty_names = {
 		Afsharid Zand Qajar Qoli Zahedi Talish Safavid Zulqadr Shamlu Sahandlu Zanganeh
 		Zaman Ustajlu Tekkelu Jaberi Khuzani Kujuji Ordubadi Khalifeh Karaki
@@ -9964,7 +9975,7 @@ lost_cultures_group = {
 			Amestris Amytis Anzaza Artazostre Artystone Atossa Barsine Damaspia Mandane Parmys Parysatis Phaedymia Rinu Stateira Vashti
 		}
 	}
-	aramaic = { #EU Rome
+	aramaic_old = { #EU Rome
 		dynasty_names = {
 			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid
 			Milkiramid Philosirid
@@ -10004,6 +10015,39 @@ lost_cultures_group = {
 		}
 		female_names = {
 			Amage Ghadani Opoin Polemakratia
+		}
+	}
+}
+mesopotamian_group = {
+	graphical_culture = muslimgfx
+	assyrian = {
+		dynasty_names = {
+			"Shalmaneser" "Ashur-dan" "Ashur-nirari" "Adad-nirari" "Ashurnasirpal" "Tukurti" "Ninurtal" "Ashur-uballit" "Enlil-nirar" "Puzur-ashur" "Shalim-ahum" "Ilu-shuma"
+			"Ikunum" "Sargon" "Erishum"
+		}
+		male_names = {
+			Izates Bazeus Monobaz Meharaspes Narsai Shahrat Aphraates Sargon Ashur Aphrahat Pkidha Ninos Noh Habel 
+			Abedhmiha Hiran Saloupha Ahadabuhi Soubaliso Rhima Abbousta Erishum Ikunum Asinum Lullaya Bazaya Adad-Nirari
+			Essarhaddon Sennacherib Ashurbanipal Tiglath-Pileser Tukulti-Ninurta Shalmaneser Adad-Nirari Shu-Ninua Tudiya
+		}
+		female_names = {
+			Alala Allat Allatu Amuhia Anat Anatu Anunit Aralu Aruru Astarte Atheh Belit Dadu Dadu-Ghipa Gula Ishtar Li-Lit
+			Mylitta Nairi Ninharrissi Ninkigal Ninkummu Nukimmut Nuri Pihirim Pirisati Rabbituri Ri Rubati Sammuramat Sar-Rat
+			Seruya Seruya-Edirat Shala Tabuya Tap-Nakhti Tasmit Tihamtu Ukubutu Urmitu Zirratbanit
+		}
+	}
+	aramaic = { #EU Rome
+		dynasty_names = {
+			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
+			Milkiramid Philosirid
+		}
+		male_names = {
+			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
+			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+			Paltibaal Philosir
+		}
+		female_names = {
+			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
 		}
 	}
 }
