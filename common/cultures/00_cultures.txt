@@ -611,6 +611,48 @@ british	= {
 			Maria Matilda Mary
 		}
 	}
+	#VU - Cultures by Noobminer72
+	aussie = {
+		graphical_culture = westerngfx
+		primary = XXX
+		dynasty_names = {
+			Macarthur Phillip Bligh Hunter Darling Macquarie King Wentworth Parks Barton Fisher Cooke Bruce 
+			Lyons Menzies Hawke Holt Hawke Fraser Gillard Morrison Turnbull Abbott Keating Whitlam Hughes 
+			McMahon Gorton Brisbane Chifley Curtin Rudd
+		}
+		male_names = {
+			Arthur Bertie Bert Darcy Hugh William Piers Raymond John Thomas
+			Aaron Abel Alwin Angus Augustine Walter Bran Kenneth Clemens Clement Nicholas Constantine
+			David Donald Duncan Douglas Eric Eugene Jacob Malcolm Nigel Oscar Peter Ernest
+			Paul Francis Roy Roderick Shaw Godfrey William Philip George Robert Jonathan Edmund Oliver
+			Gerald Richard Edward Augustus Henry
+		}
+		female_names = {
+			Alice Elizabeth Darcy Joan Eva Agnes Margaret Muriel Catherine Christina Eleanor Martha
+			Maria Matilda Mary Michelle Kylie Kayla Enid Ethel Hazel Victoria 
+		}
+	}
+	#VU - Cultures by Noobminer72
+	kiwi= {
+		graphical_culture = westerngfx
+		primary = XXX
+		dynasty_names = {
+			Sewell Fox Stafford Domett Whitaker Weld Waterhouse Vogel Pollen Atkinsosn Grey Hall Stout Ballance
+			Seddon Hall-Jones Ward Mackenzie Massey Bell Coates Forbes Savage Fraser Holland Holyoake Nash Marshall
+			Kirk watt Rowling Muldoon Lane Palmer Moore Bolger Shipley Clark Key English Arden
+		}
+		male_names = {
+			Arthur Bertie Bert Darcy Hugh William Piers Raymond John Thomas
+			Aaron Abel Alwin Angus Augustine Walter Bran Kenneth Clemens Clement Nicholas Constantine
+			David Donald Duncan Douglas Eric Eugene Jacob Malcolm Nigel Oscar Peter Ernest
+			Paul Francis Roy Roderick Shaw Godfrey William Philip George Robert Jonathan Edmund Oliver
+			Gerald Richard Edward Augustus Henry
+		}
+		female_names = {
+			Alice Elizabeth Darcy Joan Eva Agnes Margaret Muriel Catherine Christina Eleanor Martha
+			Maria Matilda Mary Michelle Kylie Kayla Enid Ethel Hazel Victoria Jacinda Helen Jenny
+		}
+	}
 }
 
 gaelic	= {
