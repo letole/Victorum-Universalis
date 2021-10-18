@@ -2,7 +2,7 @@
 
 owner = QAR
 controller = QAR
-culture = kurdish
+culture = assyrian	#last areas where Eastern-Aramaic communities were still plentiful
 religion = sunni
 capital = "Arbil"
 trade_goods = cloth
@@ -35,6 +35,7 @@ center_of_trade = 1
 	revolt = { }
 	remove_core = AKK
 } # The Safavids took over
+1525.1.1 = { culture = kurdish } # East-Aramaic fades to obscurity
 1534.11.28 = { controller = TUR } # Ottoman conquest
 1536.1.1 = {
 	owner = TUR

@@ -3,7 +3,7 @@
 owner = MAM
 controller = MAM
 add_core = MAM
-culture = al_suryah_arabic
+culture = syriac_culture
 religion = sunni
 capital = "Idlib"
 trade_goods = olive_oil			#A major agricultural center of Syria, grain but also olives groves, fruit, coton and much else from around here... going with grain, everyone likes grain

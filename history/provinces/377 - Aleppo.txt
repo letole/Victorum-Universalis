@@ -2,7 +2,7 @@
 
 owner = MAM
 controller = MAM
-culture = al_suryah_arabic
+culture = syriac_culture	#Arabic Syrian, possibly sizeable minority of aramaic culture within province' borders
 religion = sunni
 capital = "Halab"
 trade_goods = silk
