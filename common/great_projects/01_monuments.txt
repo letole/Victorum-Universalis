@@ -11166,6 +11166,8 @@ imperial_city_hue = {
 	}
 }
 
+#END of Vanilla Monuments
+
 ####################################
 # VU - NEW MONUMENTS by San Felipe #
 ####################################
@@ -25187,9 +25189,9 @@ london_docks = {
     }
 }
 
-#END of San Felipe's monuments
+#VU - END of San Felipe's monuments
 
-#START of Emile's monuments
+#VU - START of Emile's monuments
 notre_dame_de_reims = { #Notre-Dame de Reims
     start = 186
     
@@ -29725,7 +29727,7 @@ axum_obelisk = {
 	}
 }
 
-#END of Vanilla Monuments
+#VU - END of Emile's Monuments
 
 old_summer_palace = {
 	# province it starts in
@@ -29917,5 +29919,3 @@ old_summer_palace = {
 		}
 	}
 }
-
-#END of Emile's Monuments
