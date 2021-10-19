@@ -184,9 +184,13 @@ iceland_missions_2 = {
 					}
 				}
 				980 = {
-					create_colony = 950
 					change_native_hostileness = -3
 					change_trade_goods = lumber
+				}
+				ROOT = {
+					980 = {
+						create_colony = 950
+					}
 				}
 			}
 			if = {
@@ -196,8 +200,12 @@ iceland_missions_2 = {
 					}
 				}
 				981 = {
-					create_colony = 950
 					change_trade_goods = whaling
+				}
+				ROOT = {
+					981 = {
+						create_colony = 950
+					}
 				}
 			}
 			if = {
@@ -207,9 +215,13 @@ iceland_missions_2 = {
 					}
 				}
 				997 = {
-					create_colony = 500
 					change_native_hostileness = -5
 					change_trade_goods = tar
+				}
+				ROOT = {
+					997 = {
+						create_colony = 500
+					}
 				}
 			}
 		}
@@ -252,17 +264,28 @@ iceland_missions_3 = {
 		position = 9
 		
 		trigger = {
-			every_province = {
-				limit = {
-					OR = {
-						area = qikiqtaaluk_area
-						area = kivalliq_area
-						area = hudson_bay_area
-						area = east_hudson_bay_area
-						area = james_bay_area
-						area = west_james_bay_area
-					}
-				}
+			qikiqtaaluk_area = {
+				type = all
+				has_discovered = ROOT
+			}
+			kivalliq_area = {
+				type = all
+				has_discovered = ROOT
+			}
+			hudson_bay_area = {
+				type = all
+				has_discovered = ROOT
+			}
+			east_hudson_bay_area = {
+				type = all
+				has_discovered = ROOT
+			}
+			james_bay_area = {
+				type = all
+				has_discovered = ROOT
+			}
+			west_james_bay_area = {
+				type = all
 				has_discovered = ROOT
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
