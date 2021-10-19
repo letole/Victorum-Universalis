@@ -141,6 +141,79 @@ iceland_missions_2 = {
 			}
 		}
 	}
+	
+	ice_markland_helluland = {
+		icon = mission_invade_island
+		required_missions = {
+			ice_settle_greenland 
+			ice_explorer_fleet
+		}
+		position = 8
+		
+		trigger = {
+			OR = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 1
+					area = labrador_area
+					is_city = yes
+				}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 1
+					area = newfoundland_area
+					is_city = yes
+				}
+			}
+			AND = {
+				has_discovered = 5472
+				has_discovered = 5473
+				has_discovered = 5474
+				has_discovered = 1483
+				has_discovered = 1496
+				has_discovered = 5470
+				has_discovered = 1493
+				has_discovered = 1484
+			}
+		}
+		
+		effect = {
+			add_prestige = 5
+			if = {
+				limit = {
+					980 = {
+						NOT = { owned_by = ROOT }
+					}
+				}
+				980 = {
+					create_colony = 950
+					change_native_hostileness = -3
+					change_trade_goods = lumber
+				}
+			}
+			if = {
+				limit = {
+					981 = {
+						NOT = { owned_by = ROOT }
+					}
+				}
+				981 = {
+					create_colony = 950
+					change_trade_goods = whaling
+				}
+			}
+			if = {
+				limit = {
+					997 = {
+						NOT = { owned_by = ROOT }
+					}
+				}
+				997 = {
+					create_colony = 500
+					change_native_hostileness = -5
+					change_trade_goods = tar
+				}
+			}
+		}
+	}
 }
 
 iceland_missions_3 = {
@@ -169,6 +242,45 @@ iceland_missions_3 = {
 				change_trade_goods = ivory
 				change_province_name = "Eyja Bjarni"
 				rename_capital = "Freya"
+			}
+		}
+	}
+	
+	ice_north_bay = {
+		icon = mission_protect_white_sea_trade
+		required_missions = { ice_markland_helluland }
+		position = 9
+		
+		trigger = {
+			every_province = {
+				limit = {
+					OR = {
+						area = qikiqtaaluk_area
+						area = kivalliq_area
+						area = hudson_bay_area
+						area = east_hudson_bay_area
+						area = james_bay_area
+						area = west_james_bay_area
+					}
+				}
+				has_discovered = ROOT
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 1
+				colonial_region = colonial_hudson_bay
+				is_city = yes
+			}
+		}
+		
+		effect = {
+			add_navy_tradition = 5
+			add_sailors = 500
+			define_conquistador = {
+				name = "Harald Karlsefni"
+				shock = 3
+				fire = 2
+				manuever = 4
+				siege = 2
 			}
 		}
 	}

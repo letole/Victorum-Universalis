@@ -1623,6 +1623,10 @@ pudget_sound_modifier:0 "The Pudget Sound"
  ice_settle_greenland_desc:0 "Bring new opportunists and resettle the lands once colonized by Vikings."
  ice_jan_mayen_title:0 "Reach Jan Mayen"
  ice_jan_mayen_desc:0 "There may be other islands north or northeast of Greenland that our ancestors knew about. Although, they would likely be ice wasteland, they will be useful outposts for whaling and hunting animals."
+ ice_markland_helluland_title:0 "Markland & Helluland"
+ ice_markland_helluland_desc:0 "We have secured Greenland. Time to go beyond and explore west in hope of reaching the mythical lands of Helluland and Markland that Viking Sagas mention."
+ ice_north_bay_title:0 "Norhtern Voyage"
+ ice_north_bay_desc:0 "We have already sailed south of Helluland into warmer waters of Markland and Vinland. It is time to go in the other direction and see if there's a possible passage to the North. Pray to the Lord we will not freeze to death there."
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later
  bt_establish_newfoundland_colony_title:0 "Establish a colony in Newfoundland"
