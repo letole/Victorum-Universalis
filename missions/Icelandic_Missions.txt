@@ -187,26 +187,9 @@ iceland_missions_2 = {
 					change_native_hostileness = -3
 					change_trade_goods = lumber
 				}
-				ROOT = {
-					980 = {
-						create_colony = 950
-					}
-				}
 			}
-			if = {
-				limit = {
-					981 = {
-						NOT = { owned_by = ROOT }
-					}
-				}
-				981 = {
-					change_trade_goods = whaling
-				}
-				ROOT = {
-					981 = {
-						create_colony = 950
-					}
-				}
+			981 = {
+				change_trade_goods = whaling
 			}
 			if = {
 				limit = {
@@ -215,13 +198,66 @@ iceland_missions_2 = {
 					}
 				}
 				997 = {
-					change_native_hostileness = -5
 					change_trade_goods = tar
+					change_native_hostileness = -5
 				}
-				ROOT = {
-					997 = {
-						create_colony = 500
+				
+			}
+			random_owned_province = {
+				limit = {
+					OR = {
+						area = labrador_area
+						area = newfoundland_area
 					}
+					has_empty_adjacent_province = yes
+					has_port = yes
+				}
+				random_empty_neighbor_province = {
+					limit = { 
+						OR = {
+							area = labrador_area
+							area = newfoundland_area
+						}
+					}
+					create_colony = 950
+				}
+			}
+			random_owned_province = {
+				limit = {
+					OR = {
+						area = labrador_area
+						area = newfoundland_area
+					}
+					has_empty_adjacent_province = yes
+					has_port = yes
+				}
+				random_empty_neighbor_province = {
+					limit = { 
+						OR = {
+							area = labrador_area
+							area = newfoundland_area
+						}
+					}
+					create_colony = 950
+				}
+			}
+			random_owned_province = {
+				limit = {
+					OR = {
+						area = labrador_area
+						area = newfoundland_area
+					}
+					has_empty_adjacent_province = yes
+					has_port = yes
+				}
+				random_empty_neighbor_province = {
+					limit = { 
+						OR = {
+							area = labrador_area
+							area = newfoundland_area
+						}
+					}
+					create_colony = 500
 				}
 			}
 		}
