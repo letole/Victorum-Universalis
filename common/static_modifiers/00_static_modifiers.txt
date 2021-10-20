@@ -1893,3 +1893,25 @@ centralize_state = {
 guru_teaching = {
 	global_missionary_strength = -0.01
 }
+
+################################
+# GE Additions by Jay Double U #
+################################
+
+# All global modifiers are here. They are applied from certain game-features.
+#
+# Effects are fully scriptable here.
+
+# These names can NOT be removed or changes, as the code uses them....
+
+################
+null_modifier = {
+}
+################
+
+##########################################################################
+# Handicap Modifiers for human player
+##########################################################################
+rajput_regiment = {
+	
+}
