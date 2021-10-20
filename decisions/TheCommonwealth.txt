@@ -66,7 +66,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = PLC
-			#inherit = LIT
+			inherit = LIT
 			swap_non_generic_missions = yes
 			if = {
 				limit = { NOT = { accepted_culture = lithuanian } }
@@ -129,13 +129,13 @@ country_decisions = {
 				limit = { culture = polish }
 				add_base_tax = 1
 			}
-			LIT = {
-                every_owned_province = {
-                    add_core = ROOT
-					cede_province = ROOT
-					#remove_core = LIT #Turned off just in case player wants to release them later.
-                }
-            }
+			#LIT = {
+            #    every_owned_province = {
+            #        add_core = ROOT
+			#		cede_province = ROOT
+			#		#remove_core = LIT #Turned off just in case player wants to release them later.
+            #    }
+            #}
 			set_country_flag = formed_plc_flag
 			add_prestige = 25
 		}
