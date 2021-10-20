@@ -33,26 +33,26 @@ estate_church =
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
-		tolerance_own = 2			#BTAddOn new - estates rebalancing
+		#tolerance_own = 2			#Removed in VU. Was added in BT
 		global_tax_modifier = 0.2
-		papal_influence = 1.0
-		devotion = 1.0			#BTAddOn changed from 0.5 - estates rebalancing
-		church_power_modifier = 0.2			#BTAddOn changed from 0.1 - estates rebalancing
+		papal_influence = 1
+		devotion = 0.5			#Was 1.0 in BT
+		church_power_modifier = 0.1			#Was 0.2 in BT
 		monthly_fervor_increase = 1
-		#stability_cost_modifier = -0.1			#BTAddOn removed - estates rebalancing
+		stability_cost_modifier = -0.1			#Re-added in VU. Was removed in BT
 	}
 	country_modifier_neutral = {
-		tolerance_own = 1			#BTAddOn new - estates rebalancing
-		#global_tax_modifier = 0.2			#BTAddOn removed - estates rebalancing
+		#tolerance_own = 1			#Removed in VU. Was added in BT
+		global_tax_modifier = 0.2			#Re-added in VU. Was removed in BT
 	}	
 	country_modifier_angry = {
-		tolerance_own = -2			#BTAddOn new - estates rebalancing
-		global_tax_modifier = -0.2
+		#tolerance_own = -2			#Removed in VU. Was added in BT
+		global_tax_modifier = -0.1  #Was -0.2 in BT
 		papal_influence = -1
-		devotion = -1.0			#BTAddOn changed from -0.5 - estates rebalancing
-		church_power_modifier = -0.2			#BTAddOn changed from -0.25 - estates rebalancing
+		devotion = 0.5			#Was 1.0 in BT
+		church_power_modifier = -0.25			#Was -0.2 in BT
 		monthly_fervor_increase = -1
-		stability_cost_modifier = 0.33			#BTAddOn changed from 0.1 - estates rebalancing
+		stability_cost_modifier = 0.1			#Was 0.33 in BT BT
 		global_unrest = 2
 	}
 	# These do not scale, but only applied in provinces owned by the estate
@@ -285,6 +285,9 @@ estate_church =
 		estate_church_monopoly_of_wine
 		estate_church_monopoly_of_slaves
 		estate_church_statutory_rights
+		#GE
+		estate_church_four_articles_of_prague
+		estate_church_land_privileges
 	}
 
 	agendas = {

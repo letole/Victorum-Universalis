@@ -24,21 +24,22 @@ estate_burghers = {
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
-		production_efficiency = 0.2			#BTAddOn new - estates rebalancing
 		trade_efficiency = 0.2
-		#development_cost = -0.1			#BTAddOn removed - estates rebalancing
-		republican_tradition = 0.5			#BTAddOn new - estates rebalancing
+		development_cost = -0.1			#Turned on in VU. Was off in BT
+		#republican_tradition = 0.5			#Turned off in VU. Was on in BT
+		#production_efficiency = 0.2			#BTAddOn new - estates rebalancing
 	}
 	country_modifier_neutral = {
-		#trade_efficiency = 0.2			#BTAddOn removed - estates rebalancing
-		production_efficiency = 0.1			#BTAddOn new - estates rebalancing
+		trade_efficiency = 0.2			#Turned on in VU. Was off in BT
+		#production_efficiency = 0.1			#Turned off in VU. Was on in BT
 	}	
 	country_modifier_angry = {
-		production_efficiency = -0.2			#BTAddOn new - estates rebalancing
-		trade_efficiency = -0.2			#BTAddOn changed from -0.1 - estates rebalancing
-		#development_cost = 0.1			#BTAddOn removed - estates rebalancing
-		republican_tradition = -0.5			#BTAddOn new - estates rebalancing
-		stability_cost_modifier = 0.33			#BTAddOn new - estates rebalancing
+		trade_efficiency = -0.1			#Was -0.2 in BT
+		development_cost = 0.1			#Turned on in VU. Was off in BT
+		global_unrest = 2               #Added in VU
+		#production_efficiency = -0.2			#Turned off in VU. Was on in BT
+		#republican_tradition = -0.5			#Turned off in VU. Was on in BT
+		#stability_cost_modifier = 0.33			#Turned off in VU. Was on in BT
 	}
 	land_ownership_modifier = {
 		burghers_loyalty_modifier = 0.2
@@ -271,6 +272,12 @@ estate_burghers = {
 		estate_burghers_prussian_confederation
 		estate_burghers_statutory_rights
 		estate_burghers_orang_laut_alliances
+		#GE
+		estate_burghers_town_rights
+		estate_burghers_land_privileges
+		estate_burghers_burgher_autonomy
+		estate_burghers_saharan_outposts
+		estate_burghers_office_of_chancellor
 	}
 
 	agendas = {
@@ -305,6 +312,8 @@ estate_burghers = {
 		estate_burghers_protect_against_piracy
 		estate_burghers_hire_advisor
 		estate_burghers_fire_advisor
+		#IE
+		estate_burghers_workshops_investments
 	}
 
 	influence_from_dev_modifier = 1.0
