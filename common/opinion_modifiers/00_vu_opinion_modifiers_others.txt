@@ -1,5 +1,78 @@
+#Beyond Typus work by Draiocht
 
-#Beyond Typus work done by all contributors other than Draiocht
+##################################################################################################
+##################################################################################################
+##################################################################################################
+# Old World Content
+##################################################################################################
+##################################################################################################
+##################################################################################################
+
+#New Papal subject stuff
+
+bt_is_papal_subject = {
+	opinion = 20
+}
+
+bt_temporal_authority_enforced = {
+	opinion = -60
+	yearly_decay = 2
+}
+bt_temporal_authority_enforced_on_other = {
+	opinion = -30
+	min = -60
+	yearly_decay = 3
+}
+
+#Italian Guelph Ghibelline drama
+
+bt_declared_for_guelphs = {
+	opinion = 25
+	max = 25
+	yearly_decay = 1
+}
+
+bt_declared_for_guelphs_unhappy = {
+	opinion = -25
+	min = -50
+	yearly_decay = 1
+}
+
+bt_declared_for_ghibellines = {
+	opinion = 25
+	max = 25
+	yearly_decay = 1
+}
+
+bt_declared_for_ghibellines_unhappy = {
+	opinion = -25
+	min = -50
+	yearly_decay = 1
+}
+
+bt_betrayed_guelph_or_ghibellines = {
+	opinion = -50
+	min = -100
+	yearly_decay = 1
+}
+
+bt_pope_is_pleased = {
+	opinion = 30
+	max = 60
+	yearly_decay = 3
+}
+
+bt_emperor_is_pleased = {
+	opinion = 30
+	max = 60
+	yearly_decay = 3
+}
+
+bt_loyal_subject = {
+	opinion = 20
+	max = 40
+	yearly_decay = 2
+}
 
 ##################################################################################################
 ##################################################################################################
@@ -43,74 +116,72 @@ rejected_treaty = {
 	yearly_decay = 1
 }
 
-##################################################################################################
-##################################################################################################
-##################################################################################################
-# San Felipe's work
-##################################################################################################
-##################################################################################################
-##################################################################################################
+############################
+# GE - Jay Double U's work #
+############################
 
-tur_gave_up_on_galata = {
-	opinion = -75
-	yearly_decay = 3
+opinion_diplomatic_positions = {
+	opinion = 25
+	yearly_decay = 1
+	max = 50
 }
-is_tributary = {
-	opinion = 15
+opinion_diplomatic_positions_negative = {
+	opinion = -25
+	yearly_decay = 1
+	min = -50
 }
-
-gbr_gave_up_on_gibraltar = {
-	opinion = -75
-	yearly_decay = 3
+opinion_order_of_the_swan = {
+	opinion = 50
+	yearly_decay = 1
+	max = 50
 }
-is_tributary = {
-	opinion = 15
+opinion_unrestricted_diplomacy = {
+	opinion = 25
 }
-
-eng_crown_of_ireland_act = {
-	opinion = 200
-	years = 10
+opinion_papal_delegation = {
+	opinion = 25
+}
+opinion_lingua_franca = {
+	opinion = 20
+}
+opinion_opposite_ghuelpsghibbellines = {
+	opinion = -50
+}
+opinion_opposite_ghuelpsghibbellines_timed = {
+	opinion = -50
 	yearly_decay = 5
 }
-
-eng_crown_of_ireland_act_negative = {
+opinion_same_ghuelpsghibbellines = {
+	opinion = 25
+}
+opinion_same_ghuelpsghibbellines_timed = {
+	opinion = 25
+	yearly_decay = 2.5
+}
+GE_opinion_abuse_of_imperial_power = {
 	opinion = -50
-	years = 50
-	yearly_decay = 1
-}
-
-eng_declined_crown_of_ireland_act = {
-	opinion = -25
-	years = 25
-	yearly_decay = 1
-}
-
-eng_union_of_the_crowns = {
-	opinion = 200
-	years = 10
 	yearly_decay = 5
+	min = -200
+	max = 0
 }
-
-eng_union_of_the_crowns_negative = {
+GE_Cancel_Trade_Deal_Angry = {
+	opinion = -25
+	yearly_decay = 2.5
+}
+GE_peacefull_resolution = {
+	opinion = 50
+	yearly_decay = 2.5
+}
+GE_seized_unlawful_land = {
 	opinion = -50
-	years = 50
-	yearly_decay = 1
+	yearly_decay = 2.5
 }
 
-eng_declined_union_of_the_crowns = {
-	opinion = -25
-	years = 25
-	yearly_decay = 1
-}
+################
+# ME Additions #
+################
 
-ire_chooses_freedom = {
-	opinion = -25
-	years = 25
-	yearly_decay = 1
-}
-
-sco_chooses_freedom = {
-	opinion = -25
-	years = 25
-	yearly_decay = 1
+ME_HOL_Danzig_Amsterdam_Connection_3 = {
+	opinion = 100
+	yearly_decay = 2
 }
