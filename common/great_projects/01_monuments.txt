@@ -27172,17 +27172,7 @@ vilnius_basilica = {
 
 	#can our country keep it or is it destroyed when we get hold of it?
 	keep_trigger = {
-		AND = {
-			has_owner_accepted_culture = yes
-			has_owner_religion = yes
-			culture = lithuanian
-		}
-		FROM = {
-			OR = {
-				religion = catholic
-				religion = orthodox
-			}
-		}
+		always = yes
 	}
 
 	#tier data
