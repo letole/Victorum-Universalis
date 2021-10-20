@@ -102,6 +102,19 @@ germanic = {
 			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
 		}
 	}
+	#VU addition
+	caucasian_german = {
+		primary = XXX
+		male_names = {
+			XXXX
+		}
+		female_names = {
+			XXXX
+		}
+		dynasty_names = {
+			"XXXX"
+		}
+	}
 	franconian = {
 		primary = FKN
 	}
@@ -609,6 +622,48 @@ british	= {
 		female_names = {
 			Alice Elizabeth Darcy Joan Eva Agnes Margaret Muriel Catherine Christina Eleanor Martha
 			Maria Matilda Mary
+		}
+	}
+	#VU - Cultures by Noobminer72
+	aussie = {
+		graphical_culture = westerngfx
+		primary = XXX
+		dynasty_names = {
+			Macarthur Phillip Bligh Hunter Darling Macquarie King Wentworth Parks Barton Fisher Cooke Bruce 
+			Lyons Menzies Hawke Holt Hawke Fraser Gillard Morrison Turnbull Abbott Keating Whitlam Hughes 
+			McMahon Gorton Brisbane Chifley Curtin Rudd
+		}
+		male_names = {
+			Arthur Bertie Bert Darcy Hugh William Piers Raymond John Thomas
+			Aaron Abel Alwin Angus Augustine Walter Bran Kenneth Clemens Clement Nicholas Constantine
+			David Donald Duncan Douglas Eric Eugene Jacob Malcolm Nigel Oscar Peter Ernest
+			Paul Francis Roy Roderick Shaw Godfrey William Philip George Robert Jonathan Edmund Oliver
+			Gerald Richard Edward Augustus Henry
+		}
+		female_names = {
+			Alice Elizabeth Darcy Joan Eva Agnes Margaret Muriel Catherine Christina Eleanor Martha
+			Maria Matilda Mary Michelle Kylie Kayla Enid Ethel Hazel Victoria 
+		}
+	}
+	#VU - Cultures by Noobminer72
+	kiwi= {
+		graphical_culture = westerngfx
+		primary = XXX
+		dynasty_names = {
+			Sewell Fox Stafford Domett Whitaker Weld Waterhouse Vogel Pollen Atkinsosn Grey Hall Stout Ballance
+			Seddon Hall-Jones Ward Mackenzie Massey Bell Coates Forbes Savage Fraser Holland Holyoake Nash Marshall
+			Kirk watt Rowling Muldoon Lane Palmer Moore Bolger Shipley Clark Key English Arden
+		}
+		male_names = {
+			Arthur Bertie Bert Darcy Hugh William Piers Raymond John Thomas
+			Aaron Abel Alwin Angus Augustine Walter Bran Kenneth Clemens Clement Nicholas Constantine
+			David Donald Duncan Douglas Eric Eugene Jacob Malcolm Nigel Oscar Peter Ernest
+			Paul Francis Roy Roderick Shaw Godfrey William Philip George Robert Jonathan Edmund Oliver
+			Gerald Richard Edward Augustus Henry
+		}
+		female_names = {
+			Alice Elizabeth Darcy Joan Eva Agnes Margaret Muriel Catherine Christina Eleanor Martha
+			Maria Matilda Mary Michelle Kylie Kayla Enid Ethel Hazel Victoria Jacinda Helen Jenny
 		}
 	}
 }
@@ -3314,6 +3369,17 @@ iranian	= {
 		dynasty_names = {
 			Afrasiyab Paduspanid Alid "Banu Kawus" "Banu Iskandar" Marashi Kiya
 			Bavandid Eshaqvand
+		}
+	}
+	alan = {
+		male_names = {
+			Aelbeg Aembalan Aghsartan Alatey Akhsar Anbal Anbazuk Aravat Arsen Askhkadar Ashot Aslan Aspar Athom Balambar Balsag Barlah Baeqaetar Basil Bazuk Beler Ber Biraeg Boz-Uruz Buürgur Buriberdi
+			Burikhan Candak Chelakhsartag Davit Djadaron Durgulel Dzaeraes Gaetaeg Georgy Girgon Gokhar Gubaz Guram Hasqar Huddan Istor Itaz Iveri Kandak Kandz Kavtia Kaur
+			Khankhusy Khaetag Konstantin Kubal Kuddana Kul Kuluk Lak Levan Pulad Respendial Rosmag Safrak Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Syrdon Taymuraz Taus Totraz Urdure Uruzma Uturku Yasynya Zaur
+		}
+		female_names = {
+			Adadza Alda Altun Ana Atsyrukhs Baia Bedisa Borena Btsenon Burudukan Duda Elene Eliso Gergana Gulchara Guranduht Kera Keratsa Ketevan Koser
+			Lamara Lashin Lela Mariami Natia Nino Rusudan Sanatha Satinik Shatana Shorena Shukhia Tamari Tinatini Tsiala Vardo Vedokha Yeran
 		}
 	}
 	dynasty_names = {
@@ -9922,7 +9988,7 @@ lost_cultures_group = {
 			Amestris Amytis Anzaza Artazostre Artystone Atossa Barsine Damaspia Mandane Parmys Parysatis Phaedymia Rinu Stateira Vashti
 		}
 	}
-	aramaic = { #EU Rome
+	aramaic_old = { #EU Rome
 		dynasty_names = {
 			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid
 			Milkiramid Philosirid
@@ -9962,6 +10028,39 @@ lost_cultures_group = {
 		}
 		female_names = {
 			Amage Ghadani Opoin Polemakratia
+		}
+	}
+}
+mesopotamian_group = {
+	graphical_culture = muslimgfx
+	assyrian = {
+		dynasty_names = {
+			"Shalmaneser" "Ashur-dan" "Ashur-nirari" "Adad-nirari" "Ashurnasirpal" "Tukurti" "Ninurtal" "Ashur-uballit" "Enlil-nirar" "Puzur-ashur" "Shalim-ahum" "Ilu-shuma"
+			"Ikunum" "Sargon" "Erishum"
+		}
+		male_names = {
+			Izates Bazeus Monobaz Meharaspes Narsai Shahrat Aphraates Sargon Ashur Aphrahat Pkidha Ninos Noh Habel 
+			Abedhmiha Hiran Saloupha Ahadabuhi Soubaliso Rhima Abbousta Erishum Ikunum Asinum Lullaya Bazaya Adad-Nirari
+			Essarhaddon Sennacherib Ashurbanipal Tiglath-Pileser Tukulti-Ninurta Shalmaneser Adad-Nirari Shu-Ninua Tudiya
+		}
+		female_names = {
+			Alala Allat Allatu Amuhia Anat Anatu Anunit Aralu Aruru Astarte Atheh Belit Dadu Dadu-Ghipa Gula Ishtar Li-Lit
+			Mylitta Nairi Ninharrissi Ninkigal Ninkummu Nukimmut Nuri Pihirim Pirisati Rabbituri Ri Rubati Sammuramat Sar-Rat
+			Seruya Seruya-Edirat Shala Tabuya Tap-Nakhti Tasmit Tihamtu Ukubutu Urmitu Zirratbanit
+		}
+	}
+	aramaic = { #EU Rome
+		dynasty_names = {
+			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
+			Milkiramid Philosirid
+		}
+		male_names = {
+			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
+			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+			Paltibaal Philosir
+		}
+		female_names = {
+			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
 		}
 	}
 }
