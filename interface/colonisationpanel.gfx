@@ -53,6 +53,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_colony_terrain_swamp"
+		texturefile = "gfx/interface/colony_terrain_swamp.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_colony_terrain_coastal_desert"
 		texturefile = "gfx/interface/colony_terrain_coastal_desert.dds"
 	}
@@ -106,8 +111,6 @@ spriteTypes = {
 		name = "GFX_colony_terrain_tundra_terrain"
 		texturefile = "gfx/interface/tundra_terrain_colony.dds"
 	}
-	
-#########################################
 
 	spriteType = {
 		name = "GFX_colonist_placement_chance"
