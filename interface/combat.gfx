@@ -155,8 +155,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_combat_terrain_farmlands"	
-		texturefile = "gfx//interface//combat_terrain_hills.tga"
+		name = "GFX_combat_terrain_swamp"	
+		texturefile = "gfx//interface//combat_terrain_swamp.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_farmlands"
+		texturefile = "gfx/interface/combat_terrain_farmlands.dds"
 	}
 	
 	spriteType = {
@@ -228,11 +233,16 @@ spriteTypes = {
 		name = "GFX_combat_terrain_highlands"
 		texturefile = "gfx/interface/combat_terrain_highlands.dds"
 	}
-
-	spriteType = {
-		name = "GFX_combat_terrain_farmlands"
-		texturefile = "gfx/interface/combat_terrain_farmlands.dds"
-	}
+	
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_tundra_terrain"
+        texturefile = "gfx/interface/tundra_terrain.dds"
+  }
+    
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_cold_mountains"
+        texturefile = "gfx/interface/cold_mountains.dds"
+  }
 	
 	spriteType = {                                                        
         name = "GFX_combat_terrain_urban_london"
@@ -5733,14 +5743,6 @@ spriteTypes = {
                                             spriteType = {                                                       
         name = "GFX_combat_terrain_urban_portland_me"
         texturefile = "gfx/interface/portland_me.dds"
-    }
-													spriteType = {                                                        
-        name = "GFX_combat_terrain_tundra_terrain"
-        texturefile = "gfx/interface/tundra_terrain.dds"
-    }
-	                                        spriteType = {                                                       
-        name = "GFX_combat_terrain_cold_mountains"
-        texturefile = "gfx/interface/cold_mountains.dds"
     }
 	
 #############################################

@@ -660,6 +660,28 @@
  alsatian:0 "Alsatian"
  holsatian:0 "Holsatian"
  eastphalian:0 "Eastphalian"
+ #END of VU additions
+ #START of additions by Neil
+ caucasian_german:0 "Caucasus German"
+ russian_german:0 "Moskauer"
+ hungarian_german:0 "Danube Swabian"
+ crimean_german:0 "Crimean German"
+ ukraine_german:0 "Blacksea German"
+ baltic_german:0 "Baltic German"
+ balkan_german:0 "Balkan German"
+ nordic_german:0 "Skandinavier"
+ volhynian_german:0 "Volhynian German"
+ siberian_german:0 "Siberian German"
+ anatolian_german:0 "Anatolic German"
+ ural_german:0 "Uralic German"
+ iberia_german:0 "Iberian German"
+ french_german:0 "Frankish"
+ italian_german:0 "Langobard"
+ irish_german:0 "Irish German"
+ middleeast_german:0 "Levant German"
+ persian_german:0 "Persian German"
+ pontic_steppe_german:0 "Volga German"
+ #END of additions by Neil
  #lotharingian:0 "Lotharingian"
  #lorrainian:0 "Lorrainian"
  #luxembourgish:0 "Luxembourgish"
@@ -678,6 +700,9 @@
  mbunda:0 "Mbunda"
  malwena:0 "Malwena"
  malwimbi:0 "Malwimbi"
+ #START of additions by Neil
+ north_africa_german:0 "Vandal"
+ #END of additions by Neil
  #
  #AFRICAN - Culture Groups
  east_angolan:0 "East Angolan"
