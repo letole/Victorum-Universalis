@@ -237,7 +237,12 @@ spriteTypes = {
 	spriteType = {                                                        
         name = "GFX_combat_terrain_tundra_terrain"
         texturefile = "gfx/interface/tundra_terrain.dds"
-    }
+  }
+    
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_cold_mountains"
+        texturefile = "gfx/interface/cold_mountains.dds"
+  }
 	
 	spriteType = {                                                        
         name = "GFX_combat_terrain_urban_london"
