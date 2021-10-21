@@ -223,6 +223,8 @@
  #NEW TERRAIN
  tundra_terrain:0 "Tundra"
  tundra_terrain_desc:0 "Cold regions with scarse vegetation and animal life. Where it's too cold for trees to grow but not cold enough for ice sheet to form. Tundra suffers from severe winters and short, chill summer. It's dominated by shrubs and grass which makes it somewhat easy to traverse. Terrain can vary from flat to hilly but it's generally swampy."
+ cold_mountains:0 "Extreme Mountains"
+ cold_mountains_desc:0 "Cold mountains, covered in snow for entire year or most of the year. Very high elevation with nearly no vegetation. Those mountains can vary between average and extremely high elevation but their common feature are very low temperatures and little to no plant life. Those mountains, while extremely good for defense, will not be a good place to live in."
  
  #
  #URBAN_PLACE_HOLDERS
