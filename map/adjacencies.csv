@@ -311,9 +311,21 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5584;493;sea;1526;-1;-1;-1;-1;St Croix-St Thomas
 493;492;sea;1526;-1;-1;-1;-1;St Thomas-Puerto Rico
 492;5584;sea;1526;-1;-1;-1;-1;Puerto Rico-St Croix
-5576;5575;sea;1503;-1;-1;-1;-1;Acklins-Long Island
-5575;5574;sea;1503;-1;-1;-1;-1;Long Island-Eleuthera
-5574;482;sea;1503;-1;-1;-1;-1;Eleuthera-Bahama
+5920;965;sea;7356;-1;-1;-1;-1;Long Island-Manhattan
+5921;2639;sea;5929;-1;-1;-1;-1;Statten Island-Raritan
+6006;6003;sea;1505;-1;-1;-1;-1;Florida Keys-Sowena
+6011;6012;sea;1503;-1;-1;-1;-1;Grand Bahama-Great Abaco
+6012;6013;sea;1503;-1;-1;-1;-1;Great Abaco-Andros
+482;6013;sea;1503;-1;-1;-1;-1;Bahama-Eleuthera
+6010;482;sea;1503;-1;-1;-1;-1;Andros-Bahama
+6010;6012;sea;1503;-1;-1;-1;-1;Andros-Great Abaco
+6013;6014;sea;1503;-1;-1;-1;-1;Eleuthera-Cat Island
+6014;5575;sea;1503;-1;-1;-1;-1;Cat Island-Yuma
+5575;6015;sea;1503;-1;-1;-1;-1;Yuma-Great Exuma
+5575;6016;sea;1503;-1;-1;-1;-1;Yuma-Rum-Cay Island
+6016;5574;sea;1503;-1;-1;-1;-1;Rum Cay-Guanahani
+5575;6017;sea;1503;-1;-1;-1;-1;Yuma-Crooked Island
+6017;5576;sea;1524;-1;-1;-1;-1;Crooked Island-Mayaguana
 5577;483;sea;1524;-1;-1;-1;-1;Inagua-Turks & Caicos
 5577;5576;sea;1524;-1;-1;-1;-1;Inagua-Acklins
 5578;2808;sea;1519;-1;-1;-1;-1;Aruba-Coro
