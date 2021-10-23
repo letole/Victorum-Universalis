@@ -61,7 +61,7 @@ categories =  {
 			6513 6514 6515 6516 6517 6518 6519 6520 6522 6523 6527 6528 6533 6537 6541 6543 6544 
 			6547 6554 6555 6557 6558 6559 6560 6561 6562 6563 6564 6565 6566 6567 6568 6569 6570 
 			6572 6573 6574 6576 6580 6581 6582 6585 6586 6587 6588 6589 6590 6591 6602 6603 6604 
-			6606 6608 6616 6619 6620 6621 6622 6623 6625 6626 6627 6628 6629 6630 6631 6632 6633 
+			6606 6608 6616 6619 6620 6621 6622 6623 6625 6626 6627 6631 6632 6633 
 			6634 6635 6636 6638 6640 6643 6644 6645 6649 6650 6651 6652 6653 6654 6655 6656 
 			6657 6658 6659 6660 6661 6662 6663 6664 6665 6666 6667 6668 6669 6680 6681 6682 6683 
 			6684 8737
@@ -113,7 +113,7 @@ categories =  {
 			
 			
 			#Beyond Typus
-			2216 8070 786 7929 6955 6958 1233 2318 5273 4553 781 2868 2213 4337 2207 4304 2205 4307 2333 5250 2320 5226 348 5061 8089 2751 8049 2755 4552 3099 8059 8055 211 8072 4335 2954 2867 2863 2870 780 878 2493 875 2666 4314 8076 8074 8071 8116 8109 7903 6526 6530 6549 6605 6609 6637 6639 6670 6138 6145 6147
+			2216 6629 8070 786 7929 6955 6958 1233 2318 5273 4553 781 2868 2213 4337 2207 4304 2205 4307 2333 5250 2320 5226 348 5061 8089 2751 8049 2755 4552 3099 8059 8055 211 8072 4335 2954 2867 2863 2870 780 878 2493 875 2666 4314 8076 8074 8071 8116 8109 7903 6526 6530 6549 6605 6609 6637 6639 6670 6138 6145 6147
 		}
 	}
 	
@@ -337,10 +337,10 @@ categories =  {
 			
 			
 			#Beyond Typus
-			8047 399 8052 253 372 1176 5271 2321 5283 1226 5298 1230 5288 2765 1120 5320 4562 2470 5212 350 2450 353 5311 5334 4278 2346 5233 2327 4269 7452 7451 7443 5137 5165 5150 5155 5296 4295 5330 4324 4325 4345 4171 2235 4343 4460 6186 6209 6212 5345 5860 865 5861 4962 5834 2504 5762 5757 2478 5791 3095 2844 2847 2875 2876 2869 8160 8169 8168 4363 4364 4336 4682 713 2349 4332 2233 575 2232 7458 2328 4284 5243 404 7462 5244 4286 405 2474 351 5316 352 6952 5181 2460 5221 5280 2323 4322 1220 5307 6959 5348 5349 5384 1178 4644 4650 4633 2498 5823 5815 2495 1808 2492 391 2344 2343 4287 5246 1229 4321 5297 5309 5310 4966 5822 2491 877 5843 7450 7463 7467 7468
+			8047 399 8052 253 372 1176 5271 2321 5283 1226 5298 1230 5288 2765 1120 5320 4562 2470 5212 350 2450 353 5311 5334 4278 2346 5233 2327 4269 7452 7451 7443 5137 5165 5150 5155 5296 4295 5330 4324 4325 4345 4171 2235 4343 4460 6186 6209 6212 5345 5860 865 5861 4962 5834 2504 5762 5757 2478 5791 3095 2844 2847 2875 2876 2869 8160 8169 8168 4363 4364 4336 4682 713 2349 4332 2233 575 2232 7458 2328 4284 5243 404 7462 5244 4286 405 351 5316 352 6952 5181 2460 5221 5280 2323 4322 1220 5348 5349 5384 1178 4644 4650 4633 2498 5823 5815 2495 1808 2492 391 2344 2343 4287 5246 1229 4321 5297 5309 5310 4966 5822 2491 877 5843 7450 7463 7467 7468
 			
 			#BT13.0
-			722 3014 4380 4672 3137 8153 4110 4665 5367 6130 6131 6133 6137 6505 6550 6607 6777 6804 6882 6910
+			722 3014 4380 4672 3137 8153 4110 4665 5367 6130 6131 6133 6137 6550 6607 6777 6804 6882 6910
 		}
 	}
 	
@@ -464,8 +464,8 @@ categories =  {
 		local_development_cost = 0.80
 		allowed_num_of_buildings = -2
 		nation_designer_cost_multiplier = 0.8
-        defence = 2
-        attrition = 3
+		defence = 2
+		attrition = 3
 		local_build_time = 0.50			#Ever try building on sand... it isn't easy
 		local_build_cost = 0.25			#All materials need to be imported, extreme weather causes material attrition, no labour pools to draw upon
 		
@@ -491,8 +491,8 @@ categories =  {
 		local_development_cost = 0.60
 		allowed_num_of_buildings = -2
 		nation_designer_cost_multiplier = 0.8
-        defence = 2
-        attrition = 2
+		defence = 2
+		attrition = 2
 		local_build_time = 0.50			#Ever try building on sand... it isn't easy
 		local_build_cost = 0.25			#All materials need to be imported, extreme weather causes material attrition, no labour pools to draw upon
 		
@@ -503,6 +503,47 @@ categories =  {
 			#Beyond Typus
 			2324 347 2452 5312 5274 355 2451 2325 5272 2326 357 387 5180 7449 430 439 443 2370 1970 2726 4865 5255 2244 1099 7461 6962 6963 4577 1111 2826 364 866 2616 4964 5251 5387
 			6134 6551 6552 6553 2841
+		}
+	}
+	
+	desert_ranges = {
+		color = { 225 179 132 }
+		type = desert
+		sound_type = desert
+		supply_limit = 0
+		movement_cost = 1.75
+		local_development_cost = 0.9
+		allowed_num_of_buildings = -2
+		nation_designer_cost_multiplier = 0.8
+		defence = 4
+		attrition = 3
+		local_defensiveness = 0.50		#Desert mountains, same as mountains + harsh desert conditions
+		local_build_time = 0.5			#Try to combine deserted ground and uneven mountainous terrain
+		local_build_cost = 0.4			#All materials need to be importend, requires constant supply lines, no native labors to use + extreme conditions
+		local_manpower_modifier = -0.1		#Conditions actively against population growth, scarse food and easy to die here
+		
+		terrain_override = {
+			2474 5307 6505 6959
+		}
+	}
+	
+	dry_highlands = {
+		color = { 230 135 135 }
+		type = hills
+		sound_type = plains
+
+		supply_limit = 2
+		movement_cost = 1.5		#vanilla 1.00
+		local_development_cost = 0.4	#Same as hills due to climate and uneven terrain
+		allowed_num_of_buildings = 1
+		nation_designer_cost_multiplier = 0.9
+		defence = 2
+		local_defensiveness = 0.175		#Defensive positions on high ground, though not as great at hills covered in forest
+		local_build_time = 0.05			#Uneven land but hard soil
+		local_build_cost = 0.15			#Few trees for building materials, alternate building materials take more time to gather, lower pop density for labour
+
+		terrain_override = {
+			6628 6630
 		}
 	}
 	
