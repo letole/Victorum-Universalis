@@ -1,8 +1,8 @@
-# No previous file for Potano
+#4626 - Potano
 
 culture = creek
 religion = totemism
-capital = "St. Augustine"
+capital = "Tampa"
 trade_goods = unknown
 hre = no
 base_tax = 1  

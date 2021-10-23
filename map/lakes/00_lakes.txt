@@ -728,19 +728,9 @@ lake = {
 #Lake Izmir Part 1
 lake = {
     triangle_strip = { 
-        3081 1630  #1
-        3081 1623  #2
-        3080 1624  #3
-    }
-    height = 22
-}
-
-#Lake Izmir Part 2
-lake = {
-    triangle_strip = { 
-        3081 1630  #1
-        3077 1624  #2
-        3076 1628  #3
+        3080 1632  #1
+        3082 1621  #2
+        3074 1623  #3
     }
     height = 22
 }
