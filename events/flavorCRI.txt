@@ -724,8 +724,6 @@ country_event = {
 	picture = MONGOL_BANNERS_eventPicture
 	
 	fire_only_once = yes
-
-	major = yes
 	
 	goto = 3247
 	
@@ -812,8 +810,6 @@ country_event = {
 	picture = MONGOL_BANNERS_eventPicture
 	
 	fire_only_once = yes
-
-	major = yes
 	
 	goto = 2411
 	
