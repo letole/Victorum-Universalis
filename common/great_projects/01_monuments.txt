@@ -26665,7 +26665,6 @@ romuva_temple = {
 
 	#can our country keep it or is it destroyed when we get hold of it?
 	keep_trigger = {
-		FROM = { religion = baltic_pagan_reformed }
 	}
 
 	#tier data
@@ -26710,7 +26709,9 @@ romuva_temple = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			trade_value = 0.1
+			trade_value = 0.25
+			local_monthly_devastation = -0.02
+			local_unrest = -1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -26721,7 +26722,7 @@ romuva_temple = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			church_loyalty_modifier = 0.01
-			tolerance_own = 1
+			tolerance_own = 0.5
 			church_influence_modifier = 0.01
 		}
 
@@ -26748,8 +26749,10 @@ romuva_temple = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			trade_value = 0.2
-			local_monthly_devastation = -0.02
+			trade_value_modifier = 0.05
+			local_unrest = -1
+			trade_value = 0.5
+			local_monthly_devastation = -0.025
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -26759,8 +26762,10 @@ romuva_temple = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			warscore_cost_vs_other_religion = -0.025
+			land_morale = 0.02
 			church_loyalty_modifier = 0.02
-			tolerance_own = 0.2
+			tolerance_own = 1
 			church_influence_modifier = 0.02
 			stability_cost_modifier = -0.02
 		}
@@ -26800,23 +26805,33 @@ romuva_temple = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			trade_value = 0.3
+			trade_value_modifier = 0.1
+			trade_goods_size = 0.5
+			local_unrest = -2
+			local_regiment_cost = -0.1
+			local_defensiveness = 0.1
+			trade_value = 0.5
 			local_monthly_devastation = -0.03
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -0.5
 			local_religious_conversion_resistance = 0.3
 			local_missionary_strength = -0.003
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			warscore_cost_vs_other_religion = -0.075
+			land_morale = 0.05
+			missionaries = 1
+			global_missionary_strength = 0.01
+			shock_damage_received = -0.025
 			church_loyalty_modifier = 0.03
-			tolerance_own = 3
+			tolerance_own = 2
 			church_influence_modifier = 0.03
 			stability_cost_modifier = -0.03
-			tolerance_heretic = 3
 		}
 
 		#what effects happen when this tier is achieved
@@ -26934,15 +26949,6 @@ warsaw_castle = {
 
 	#can our country keep it or is it destroyed when we get hold of it?
 	keep_trigger = {
-		has_owner_accepted_culture = yes
-		has_owner_religion = yes
-		FROM = {
-			OR = {
-				culture_group = west_slavic
-				culture_group = south_slavic
-				culture_group = east_slavic
-			}
-		}
 	}
 
 	#tier data
@@ -26987,7 +26993,10 @@ warsaw_castle = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.1
+			trade_value_modifier = 0.075
+			local_defensiveness = 0.05
+			local_unrest = -0.5
+			local_defensiveness = 0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -26999,7 +27008,6 @@ warsaw_castle = {
 		country_modifiers = {
 			improve_relation_modifier = 0.1
 			governing_capacity = 25
-			diplomatic_reputation = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -27021,7 +27029,10 @@ warsaw_castle = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.2
+			local_defensiveness = 0.05
+			local_unrest = -0.5
+			trade_value_modifier = 0.125
+			statewide_governing_cost = -0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -27035,7 +27046,7 @@ warsaw_castle = {
 			improve_relation_modifier = 0.2
 			governing_capacity = 25
 			stability_cost_modifier = -0.02
-			diplomatic_reputation = 2
+			diplomatic_reputation = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -27059,7 +27070,11 @@ warsaw_castle = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			trade_value_modifier = 0.3
-			local_defensiveness = 0.3
+			local_defensiveness = 0.1
+			local_unrest = -1
+			local_development_cost = -0.05
+			statewide_governing_cost = -0.15
+			local_state_maintenance_modifier = -0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -27074,7 +27089,7 @@ warsaw_castle = {
 			prestige_decay = -0.03
 			governing_capacity = 25
 			stability_cost_modifier = -0.03
-			diplomatic_reputation = 3
+			diplomatic_reputation = 2
 		}
 
 		#what effects happen when this tier is achieved
@@ -27394,7 +27409,7 @@ tre_kronor = {
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-	    is_year = 1754		#Date of its reconstruction after being demolished by fire in 1697
+		is_year = 1754		#Date of its reconstruction after being demolished by fire in 1697
 		AND = {
 			has_owner_accepted_culture = yes
 			has_owner_religion = yes
@@ -27416,23 +27431,6 @@ tre_kronor = {
 
 	#can our country keep it or is it destroyed when we get hold of it?
 	keep_trigger = {
-		AND = {
-			has_owner_accepted_culture = yes
-			has_owner_religion = yes
-			culture_group = scandinavian
-		}
-		FROM = {
-			OR = {
-				AND = {
-					accepted_culture = swedish
-					capital = 1
-				}
-				tag = SWE
-				tag = SCA
-				tag = NOR
-				tag = DAN
-			}
-		}
 	}
 
 	#tier data
@@ -27522,7 +27520,7 @@ tre_kronor = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			land_morale = 0.2
+			land_morale = 0.1
 			special_unit_forcelimit = 0.2
 			general_cost = -0.2
 			legitimacy = 0.2
@@ -27559,7 +27557,7 @@ tre_kronor = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			max_absolutism = 5
-			land_morale = 0.3
+			land_morale = 0.2
 			special_unit_forcelimit = 0.3
 			general_cost = -0.30
 			nobles_loyalty_modifier = 0.03
@@ -27603,6 +27601,9 @@ kiev_golden_gate = {
 			has_owner_accepted_culture = yes
 		}
 	}
+	keep_trigger = {
+	}
+	
 	tier_0 = {
 		upgrade_time = {
 			months = 0
@@ -27662,7 +27663,7 @@ kiev_golden_gate = {
 			months = 960
 		}
 		cost_to_upgrade = {
-			factor = 14000
+			factor = 10000
 		}
 		province_modifiers = {
 			local_defensiveness = 0.3
@@ -27711,6 +27712,9 @@ frederiksborg = {
 			has_owner_accepted_culture = yes
 		}
 	}
+	keep_trigger = {
+	}
+	
 	tier_0 = {
 		upgrade_time = {
 			months = 0
@@ -27884,7 +27888,6 @@ arkona_temple = {
 
 	#can our country keep it or is it destroyed when we get hold of it?
 	keep_trigger = {
-		FROM = { religion = slavic_pagan_reformed }
 	}
 
 	#tier data
@@ -28141,15 +28144,6 @@ colossus_of_rhodes = {
 
 	#can our country keep it or is it destroyed when we get hold of it?
 	keep_trigger = {
-		AND = {
-			has_owner_culture = yes
-			OR = {
-				culture_group = byzantine
-				culture_group = south_slavic
-				culture_group = latin
-				culture = albanian
-			}
-		}
 	}
 
 	#tier data
@@ -28318,6 +28312,7 @@ hanging_gardens = {
 				culture_group = byzantine
 				culture_group = iranian
 				culture_group = egyptian_group
+				culture_group = mesopotamian
 				culture = al_iraqiya_arabic
 			}
 		}
@@ -28347,6 +28342,7 @@ hanging_gardens = {
 				culture_group = byzantine
 				culture_group = iranian
 				culture_group = egyptian_group
+				culture_group = mesopotamian
 				culture = al_iraqiya_arabic
 			}
 		}
@@ -28368,6 +28364,7 @@ hanging_gardens = {
 				culture_group = byzantine
 				culture_group = iranian
 				culture_group = egyptian_group
+				culture_group = mesopotamian
 				culture = al_iraqiya_arabic
 			}
 		}
@@ -28375,23 +28372,6 @@ hanging_gardens = {
 
 	#can our country keep it or is it destroyed when we get hold of it?
 	keep_trigger = {
-		AND = {
-			has_owner_culture = yes
-			has_owner_religion = yes
-			OR = {
-				religion = coptic
-				religion = druze_new
-				religion = miaphysite
-				religion = orthodox
-				religion = zoroastrian
-			}
-			OR = {
-				culture_group = byzantine
-				culture_group = iranian
-				culture_group = egyptian_group
-				culture = al_iraqiya_arabic
-			}
-		}
 	}
 
 	#tier data
@@ -28562,6 +28542,7 @@ lighthouse_of_alexandria = {
 				culture_group = egyptian_group
 				culture_group = old_latin
 				culture_group = latin
+				culture_group = mesopotamian
 				culture = old_egyptian
 				culture = al_misr_arabic
 			}
@@ -28590,6 +28571,7 @@ lighthouse_of_alexandria = {
 				culture_group = egyptian_group
 				culture_group = old_latin
 				culture_group = latin
+				culture_group = mesopotamian
 				culture = old_egyptian
 				culture = al_misr_arabic
 			}
@@ -28610,6 +28592,7 @@ lighthouse_of_alexandria = {
 				culture_group = egyptian_group
 				culture_group = old_latin
 				culture_group = latin
+				culture_group = mesopotamian
 				culture = old_egyptian
 				culture = al_misr_arabic
 			}
@@ -28618,22 +28601,6 @@ lighthouse_of_alexandria = {
 
 	#can our country keep it or is it destroyed when we get hold of it?
 	keep_trigger = {
-		adm_tech = 10
-		AND = {
-			OR = {
-				has_owner_culture = yes
-				has_owner_accepted_culture = yes
-			}
-			OR = {
-				culture_group = byzantine
-				culture_group = iranian
-				culture_group = egyptian_group
-				culture_group = old_latin
-				culture_group = latin
-				culture = old_egyptian
-				culture = al_misr_arabic
-			}
-		}
 	}
 
 	#tier data
@@ -28841,15 +28808,6 @@ avignon_castle = {
 	}
 
 	keep_trigger = {
-		FROM = {
-			OR = {
-				religion = catholic
-				religion = protestant
-				religion = reformed
-				religion = orthodox
-			}
-		}
-		has_owner_religion = yes
 	}
 
 	tier_0 = {
@@ -29027,13 +28985,6 @@ city_jerusalem = {
 	}
 
 	keep_trigger = {
-		FROM = {
-			OR = {
-				religion_group = christian
-				religion_group = muslim
-				religion = zoroastrian
-			}
-		}
 	}
 
 	tier_0 = {
@@ -29246,24 +29197,6 @@ city_of_carthage = {
 	}
 
 	keep_trigger = {
-		adm_tech = 10
-		AND = {
-			OR = {
-				has_owner_culture = yes
-				has_owner_accepted_culture = yes
-			}
-			OR = {
-				culture_group = byzantine
-				culture_group = egyptian_group
-				culture_group = old_latin
-				culture_group = latin
-				culture = roman
-				culture = phoenician
-				culture = afro_roman
-				culture = tunisian
-			}
-		}
-		NOT = { religion_group = muslim }
 	}
 
 	tier_0 = {
@@ -29528,15 +29461,8 @@ isfahan_city = {
 	}
 
 	keep_trigger = { 
-		OR = {
-			has_owner_accepted_culture = yes
-			has_owner_culture = yes
-		}
-		OR = {
-			religion_group = muslim
-			religion = zoroastrian
-		}
 	}
+	
 	tier_0 = {
 		upgrade_time = {
 			months = 0
@@ -29660,16 +29586,7 @@ library_alexandria = {
 	}
 	
 	can_use_modifiers_trigger = {
-	}
-
-	can_upgrade_trigger = {
-		innovativeness = 25
-	}
-
-	keep_trigger = {
 		OR = {
-			innovativeness = 25
-			adm_tech = 20
 			AND = {
 				OR = {
 					has_owner_culture = yes
@@ -29681,10 +29598,18 @@ library_alexandria = {
 					culture_group = egyptian_group
 					culture_group = old_latin
 					culture_group = latin
+					culture_group = mesopotamian
 					culture = al_misr_arabic
 				}
 			}
 		}
+	}
+
+	can_upgrade_trigger = {
+		innovativeness = 25
+	}
+
+	keep_trigger = {
 	}
 
 	tier_0 = {
@@ -29827,8 +29752,6 @@ axum_obelisk = {
 	}
 
 	keep_trigger = {
-		religion_group = christian
-		has_owner_religion = yes 
 	}
 
 	tier_0 = {
