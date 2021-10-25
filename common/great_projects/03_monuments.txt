@@ -3508,7 +3508,7 @@ avignon_castle = {
 	}
 }
 
-city_jerusalem = {
+wailing_wall = {
 	start = 379
 
 	date = -975.01.01	#Probably should be MUCH older but end of bronze age collapse and first Israel Kingdom is good place to start
@@ -3599,13 +3599,11 @@ city_jerusalem = {
 		}
 
 		province_modifiers = {
-			garrison_growth = 0.05
 			trade_value = 2
 			local_tax_modifier = 0.1
 		}
 
 		area_modifier = {
-			province_trade_power_modifier = 0.05
 			local_missionary_maintenance_cost = -0.1
 		}
 
@@ -3628,17 +3626,13 @@ city_jerusalem = {
 		}
 
 		province_modifiers = {
-			garrison_growth = 0.1
 			trade_value = 4
 			local_tax_modifier = 0.2
-			local_institution_spread = 0.1
-			local_development_cost = -0.1
 		}
 
 		area_modifier = {
-			province_trade_power_modifier = 0.05
 			local_missionary_maintenance_cost = -0.25
-			local_missionary_strength = 0.01
+			local_missionary_strength = 0.02
 		}
 
 		country_modifiers = {
@@ -3660,19 +3654,13 @@ city_jerusalem = {
 		}
 
 		province_modifiers = {
-			garrison_growth = 0.15
 			trade_value = 8
 			local_tax_modifier = 0.25
-			local_institution_spread = 0.2
-			local_development_cost = -0.2
-			local_defensiveness = 0.1
 		}
 
 		area_modifier = {
-			province_trade_power_modifier = 0.1
 			local_missionary_maintenance_cost = -0.33
-			local_missionary_strength = 0.015
-			local_religious_unity_contribution = -0.5
+			local_missionary_strength = 0.03
 		}
 
 		country_modifiers = {

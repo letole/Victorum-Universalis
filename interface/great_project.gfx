@@ -759,8 +759,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_great_project_city_jerusalem"	
-		texturefile = "gfx//interface//great_projects//great_project_city_jerusalem.dds"
+		name = "GFX_great_project_wailing_wall"	
+		texturefile = "gfx//interface//great_projects//great_project_wailing_wall.dds"
 	}
 	
 	spriteType = {
@@ -781,16 +781,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_great_project_axum_obelisk"	
 		texturefile = "gfx//interface//great_projects//great_project_axum_obelisk.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_great_project_tombs_of_ancient_lycia"	
-		texturefile = "gfx//interface//great_projects//great_project_tombs_of_ancient_lycia.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_great_project_fort_shoonenborch"	
-		texturefile = "gfx//interface//great_projects//great_project_fort_shoonenborch.dds"
 	}
 	
 	#END of Emile additions
@@ -942,7 +932,7 @@ spriteType = {
 	}
 
 spriteType = {
-		name = "GFX_great_project_gelata_tower"	
+		name = "GFX_great_project_gettysburg_national_cemetery"	
 		texturefile = "gfx//interface//great_projects//great_project_gettysburg_national_cemetery.dds"
 	}
 
@@ -1302,9 +1292,19 @@ spriteType = {
 	}
 
 spriteType = {
-		name = "GFX_great_project_yunaguni_ruins"	
-		texturefile = "gfx//interface//great_projects//great_project_yunaguni_ruins.dds"
+		name = "GFX_great_project_yonaguni_ruins"	
+		texturefile = "gfx//interface//great_projects//great_project_yonaguni_ruins.dds"
 	}	
+	
+spriteType = {
+		name = "GFX_great_project_old_summer_palace"	
+		texturefile = "gfx//interface//great_projects//great_project_old_summer_palace.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_tombs_of_ancient_lycia"	
+		texturefile = "gfx//interface//great_projects//great_project_tombs_of_ancient_lycia.dds"
+	}
 	
 #END of Mellstrom's additions
 
