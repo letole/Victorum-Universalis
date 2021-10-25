@@ -117,7 +117,7 @@ arctic = {
 	#21 11 18
 	
 	#VU - San Felipe Fix
-	2601 4984 5033 5086 5895 5900
+	2601 4984 5033 5086 5895 5900 6128
 }
 
 #Generally places where snow is not unusual, but not guaranteed in a year and average winter temps is below 10, but above 0
@@ -287,7 +287,7 @@ severe_winter = {
 	#VU additions China
 	6737 6738 6739 
 	
-	6135
+	6127 6128 6135
 }
 
 impassable = {
