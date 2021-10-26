@@ -2963,11 +2963,11 @@ DNR_ideas = {
 }
 
 RED_ideas = {
-	RED_Ideas_start = {
+	start = {
 		own_coast_naval_combat_bonus = 1.0
 		free_leader_pool = 1
 	}
-	RED_Ideas_bonus = {
+	bonus = {
 		may_perform_slave_raid_on_same_religion = yes
 	}
 	trigger = {

@@ -1226,9 +1226,9 @@
  dnr_colonial_nation:0 "Colonial Empire"
  dnr_colonial_nation_desc:0 "We shall join the other great powers and desire to establish our own colonial empire."
  
- RED_Ideas:0 "Sussy Ideas"
- RED_Ideas_start:0 "Sussy Traditions"
- RED_Ideas_bonus:0 "Sussy Raids"
+ RED_ideas:0 "Sussy Ideas"
+ RED_ideas_start:0 "Sussy Traditions"
+ RED_ideas_bonus:0 "Sussy Raids"
  red_religious_apathy:0 "Religious Apathy"
  red_religious_apathy_desc:0 "The Red Impostor does not care what god you pray to, only that you follow him until death."
  red_plunder:0 "Plunder!"
@@ -1240,7 +1240,7 @@
  red_elected_quartermasters:0 "Elected quartermasters"
  red_elected_quartermasters_desc:0 "With our new quartermasters both the cost of our ships and their quality has substantially improved, god bless the Red Impostor"
  red_pirate_bays:0 "Pirate Coves"
- red_pirate_bays_desc:0 "YOU HAVE TO GO INSIDE."
+ red_pirate_bays_desc:0 "YOU HAVE TO GO INSIDE"
  red_life_of_liberty:0 "Land, Liberty, Impostor"
  red_life_of_liberty_desc:0 "And we blesseth thee, Red Impostor. For we bask in your neverending glory and light. And we worship thee, for your teachings know no bounds. And at last, we fight for thee. Red Impostor, heed our prayers and deliver us from our mortal coil!"
  

@@ -1,69 +1,44 @@
+##################################
+# VU - SUSSY NATION by Mellstrom #
+##################################
 country_decisions = {
 
     sussy_pirate_nation = {
-         potential = {
-		 bt_generic_can_form_potential_check = yes
-	     tag = SOS
-	     owns_core_province = 487 # Port royal
-         NOT = { exists = RED }
-		 NOT = { exists = PRY }
-	     NOT = { has_country_flag = formed_sussy_nation_flag }
-		 }
-		 
-		 
-		 allow = {
-		 is_free_or_tributary_trigger = yes
-		 is_at_war = no
-		 owns_core_province = 487 # Port royal
-		 is_year = 1494
-		 }
-		 
-		 effect = {
-		 carribeans_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = RED
+	    major = yes
+        potential = {
+	        tag = SOS
+	        owns_core_province = 487 # Port royal
+            NOT = { exists = RED }
+		    NOT = { exists = PRY }
+	        NOT = { has_country_flag = formed_sussy_nation_flag }
+		}
+		
+		provinces_to_highlight = {
+			province_id = 487
+		}
+		
+		allow = {
+		    is_free_or_tributary_trigger = yes
+		    is_at_war = no
+		    owns_core_province = 487 # Port royal
+		    is_year = 1522
+		}
+		
+		effect = {
+			country_event = { id = red.35 } #Sussy event
+			carribeans_region = {
+			    limit = {
+				    NOT = { is_core = ROOT }
+				    NOT = { is_permanent_claim = ROOT }
+			    }
+			    add_permanent_claim = RED
 			}
-		 SOS = {
-				country_event = {
-					id = red.35
-				}
-			}
-		 set_country_flag = formed_sussy_nation_flag
-		 add_prestige = -5
-		 }
-		 
-		 ai_will_do = {
+			set_country_flag = formed_sussy_nation_flag
+			add_prestige = -5
+		}
+		ai_will_do = {
 			factor = 1
 		}
 		ai_importance = 400
 	}	 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

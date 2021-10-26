@@ -1,27 +1,22 @@
-### To spawn RED, by Mellstrom ###
+##################################################
+# VU - SUSSY PIRATES by Mellstrom (To spawn RED) #
+##################################################
 
 # Sussy Pirates
 country_event = {
 	id = red.35
-	title = "red.1.b"
+	title = red.1.t
+	desc = red.1.d
 	picture = CARIBBEAN_PIRATE_FORT_eventPicture
-	desc = "red.1.a"
 	
 	fire_only_once = yes
 	
 	trigger = {
 		has_dlc = "Golden Century"
-		NOT = { exists = PRY }
+		tag = SOS
+		is_year = 1522
 		NOT = { exists = RED }
 		NOT = { has_reform = pirate_republic_reform }
-		is_year = 1494
-		religion_group = muslim
-		487 = {
-			owner = {
-				culture_group = berber_group
-				religion_group = muslim
-			}
-		}
 		OR = {
 			AND = {
 				owns_core_province = 487
@@ -33,7 +28,7 @@ country_event = {
 				num_of_cities = 2
 			}
 		}
-		487 = { # must be privateering in node
+		487 = {
 			privateer_power = { 
 				country = ROOT
 				share = 5 
@@ -74,7 +69,7 @@ country_event = {
 	}
 	
 	option = { # play as the pirates
-		name = "red.1.c"
+		name = "red.1.a"
 		trigger = {
 			ai = no
 		}
@@ -87,6 +82,13 @@ country_event = {
 			add_base_tax = 2
 			add_base_production = 1
 			add_base_manpower = 3
+			add_building = shipyard
+			add_building = dock
+			add_building = coastal_defence
+			add_building = courthouse
+			add_building = road_network
+			add_building = temple
+			add_center_of_trade_level = 2
 		}
 		create_guarantee = RED
 		RED = {
@@ -96,6 +98,17 @@ country_event = {
 			change_religion = ROOT
 			change_primary_culture = ROOT
 			add_republican_tradition = 50
+			add_sailors = 7000
+			add_manpower = 5
+			add_prestige = 20
+			add_stability = 1
+			add_treasury = 650
+			add_army_tradition = 15
+			add_navy_tradition = 45
+			add_army_professionalism = 0.1
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 150
 			capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
@@ -113,6 +126,15 @@ country_event = {
 				dip = 4
 				mil = 6
 				fixed = yes
+				add_ruler_personality = navigator_personality
+				add_ruler_personality = righteous_personality
+			
+			define_ruler_to_admiral = {
+             fire = 5
+             shock = 4
+            manuever = 5
+            siege = 2
+            }
 			}
 			if = {
 				limit = {
@@ -126,7 +148,7 @@ country_event = {
 		switch_tag = RED
 	}
 	option = { # pirates get released
-		name = "red.1.d"
+		name = "red.1.b"
 		487 = {
 			owner = {
 				release = RED
@@ -136,6 +158,13 @@ country_event = {
 			add_base_tax = 2
 			add_base_production = 1
 			add_base_manpower = 3
+			add_building = shipyard
+			add_building = dock
+			add_building = coastal_defence
+			add_building = courthouse
+			add_building = road_network
+			add_building = temple
+			add_center_of_trade_level = 2
 		}
 		RED = {
 			change_government = republic
@@ -144,6 +173,16 @@ country_event = {
 			change_religion = ROOT
 			change_primary_culture = ROOT
 			add_republican_tradition = 50
+			add_sailors = 7000
+			add_manpower = 5
+			add_prestige = 20
+			add_treasury = 650
+			add_army_tradition = 15
+			add_navy_tradition = 45
+			add_army_professionalism = 0.1
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 150
 			capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
@@ -161,6 +200,14 @@ country_event = {
 				dip = 4
 				mil = 6
 				fixed = yes
+				add_ruler_personality = navigator_personality
+				add_ruler_personality = righteous_personality
+				define_ruler_to_admiral = {
+                fire = 5
+                shock = 4
+               manuever = 5
+               siege = 2
+            }
 			}
 			if = {
 				limit = {
@@ -188,8 +235,8 @@ country_event = {
 country_event = {
 	id = pirates.25
 	title = "pirates.25.t"
-	picture = SMUGGLERS_eventPicture
 	desc = "pirates.25.d"
+	picture = SMUGGLERS_eventPicture
 	
 	is_triggered_only = yes
 	hidden = yes
