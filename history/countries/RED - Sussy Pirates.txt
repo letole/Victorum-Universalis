@@ -1,0 +1,11 @@
+government = republic
+add_government_reform = pirate_republic_reform
+technology_group = muslim
+religion = sunni
+primary_culture = berber
+add_accepted_culture = west_taino
+capital = 487 # Jamaica
+government_rank = 1
+religious_school = maliki_school
+historical_friend = SOS
+mercantilism = 15

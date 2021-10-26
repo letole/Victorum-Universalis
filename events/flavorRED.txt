@@ -1,0 +1,204 @@
+### To spawn RED, by Mellstrom ###
+
+# Sussy Pirates
+country_event = {
+	id = red.35
+	title = "red.1.b"
+	picture = CARIBBEAN_PIRATE_FORT_eventPicture
+	desc = "red.1.a"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_dlc = "Golden Century"
+		NOT = { exists = PRY }
+		NOT = { exists = RED }
+		NOT = { has_reform = pirate_republic_reform }
+		is_year = 1494
+		religion_group = muslim
+		487 = {
+			owner = {
+				culture_group = berber_group
+				religion_group = muslim
+			}
+		}
+		OR = {
+			AND = {
+				owns_core_province = 487
+				is_subject = no
+				num_of_cities = 2
+			}
+			any_subject_country = {
+				owns_core_province = 487
+				num_of_cities = 2
+			}
+		}
+		487 = { # must be privateering in node
+			privateer_power = { 
+				country = ROOT
+				share = 5 
+			}
+		}
+		OR = {
+			487 = {
+				recent_treasure_ship_passage = yes
+			}
+			487 = {
+				trade_share = {
+					country = ROOT
+					share = 10
+				}
+			}
+			any_country = {
+				capital_scope = {
+					region = carribeans_region
+				}
+				war_exhaustion = 5
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			487 = {
+				discover_country = RED
+				add_core = RED
+			}
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		# modifiers
+	}
+	
+	option = { # play as the pirates
+		name = "red.1.c"
+		trigger = {
+			ai = no
+		}
+		487 = {
+			owner = {
+				release = RED
+			}
+		}
+		487 = {
+			add_base_tax = 2
+			add_base_production = 1
+			add_base_manpower = 3
+		}
+		create_guarantee = RED
+		RED = {
+			change_government = republic
+			add_government_reform = pirate_republic_reform
+			adopt_reform_progress = ROOT
+			change_religion = ROOT
+			change_primary_culture = ROOT
+			add_republican_tradition = 50
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.8
+					artillery = 0.2
+					heavy_ship = 0.2
+					light_ship = 0.6
+					transport = 0.1
+				}
+			}
+			define_ruler = {
+				name = "Red"
+				dynasty = "Impostor"
+				culture = shilha
+				adm = 3
+				dip = 4
+				mil = 6
+				fixed = yes
+			}
+			if = {
+				limit = {
+					NOT = { has_idea_group = pirate_ideas }
+				}
+				swap_free_idea_group = yes
+			}
+			swap_non_generic_missions = yes
+			set_ruler_flag = historical_pirate
+		}
+		switch_tag = RED
+	}
+	option = { # pirates get released
+		name = "red.1.d"
+		487 = {
+			owner = {
+				release = RED
+			}
+		}
+		487 = {
+			add_base_tax = 2
+			add_base_production = 1
+			add_base_manpower = 3
+		}
+		RED = {
+			change_government = republic
+			add_government_reform = pirate_republic_reform
+			adopt_reform_progress = ROOT
+			change_religion = ROOT
+			change_primary_culture = ROOT
+			add_republican_tradition = 50
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.8
+					artillery = 0.2
+					heavy_ship = 0.2
+					light_ship = 0.6
+					transport = 0.1
+				}
+			}
+			define_ruler = {
+				name = "Red"
+				dynasty = "Impostor"
+				culture = shilha
+				adm = 3
+				dip = 4
+				mil = 6
+				fixed = yes
+			}
+			if = {
+				limit = {
+					NOT = { has_idea_group = pirate_ideas }
+				}
+				swap_free_idea_group = yes
+			}
+			swap_non_generic_missions = yes
+			set_ruler_flag = historical_pirate
+		}
+	}
+
+	after = { # Trigger an event, which will swap the national ideas of pirate tag with correct ideas
+		hidden_effect = {
+			RED = {
+				country_event = {
+					id = pirates.25
+				}
+			}
+		}
+	}
+}
+
+# Give the Pirate nations their righful ideas
+country_event = {
+	id = pirates.25
+	title = "pirates.25.t"
+	picture = SMUGGLERS_eventPicture
+	desc = "pirates.25.d"
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = {
+		name = "pirates.25.a"
+		ai_chance = {
+			factor = 1
+		}
+		swap_free_idea_group = yes
+	}
+}
