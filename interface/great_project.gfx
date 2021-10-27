@@ -1306,6 +1306,16 @@ spriteType = {
 		texturefile = "gfx//interface//great_projects//great_project_tombs_of_ancient_lycia.dds"
 	}
 	
+spriteType = {
+		name = "GFX_great_project_gelata_tower"	
+		texturefile = "gfx//interface//great_projects//great_project_gelata_tower.dds"
+	}
+
+spriteType = {
+		name = "GFX_great_project_fort_shoonenborch"	
+		texturefile = "gfx//interface//great_projects//great_project_fort_shoonenborch.dds"
+	}
+	
 #END of Mellstrom's additions
 
 }
