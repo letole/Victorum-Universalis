@@ -4,7 +4,7 @@ owner = KUR
 controller = KUR
 add_core = KUR
 culture = latvian
-religion = catholic
+religion = baltic_pagan_reformed	# Semigalian tribes were still mostly pagan
 capital = "Aizpute"			#DE Hasenpoth
 base_tax = 1
 base_production = 1
@@ -72,3 +72,5 @@ discovered_by = western
 #} #Return to proper mod added owners and cuts vanilla core, typically.
 
 #1444 on
+
+1490.1.1 = { religion = catholic }

@@ -1702,14 +1702,15 @@ country_event = {
 	option = {
 		name = flavor_pol.18.b #Appoint a Local Noble.
 		ai_chance = { 
-			factor = 25
+			factor = 20
 		}
+		add_stability = 1
 		define_ruler = {
-			DIP = 3
-			ADM = 3
-			MIL = 3
-			max_random_adm = 5
-			max_random_dip = 5
+			DIP = 4
+			ADM = 4
+			MIL = 4
+			max_random_adm = 6
+			max_random_dip = 6
 			max_random_mil = 5
 			claim = 100
 			culture = polish
@@ -1724,6 +1725,125 @@ country_event = {
 			add_opinion = {
 				who = ROOT
 				modifier = lit_denied_birthright
+			}
+		}
+	}
+	
+	option = {
+		name = flavor_pol.18.c # Piasts return
+		custom_tooltip = flavor_pol.18.tooltip
+		ai_chance = {
+			factor = 5
+		}
+		define_ruler = {
+			DIP = 3
+			ADM = 3
+			MIL = 2
+			max_random_adm = 5
+			max_random_dip = 5
+			max_random_mil = 5
+			claim = 80
+			culture = polish
+			age = 30
+			dynasty = "Piast"
+			religion = ROOT
+		}
+		if = {
+			limit = {
+				MAZ = { ai = yes }
+			}
+			inherit = MAZ
+		}
+		LIT = {
+			add_opinion = {
+				who = ROOT
+				modifier = lit_denied_birthright
+			}
+		}
+		hidden_effect = {
+			random_list = {
+				50 = {
+					vassalize = ASC
+				}
+				50 = {
+					add_casus_belli = {
+						target = ASC
+						type = cb_vassalize_mission
+						months = 120
+					}
+				}
+			}
+			random_list = {
+				40 = {
+					vassalize = TES
+				}
+				60 = {
+					add_casus_belli = {
+						target = TES
+						type = cb_vassalize_mission
+						months = 120
+					}
+				}
+			}
+			random_list = {
+				25 = {
+					vassalize = OPL
+				}
+				75 = {
+					add_casus_belli = {
+						target = OPL
+						type = cb_vassalize_mission
+						months = 120
+					}
+				}
+			}
+			random_list = {
+				40 = {
+					vassalize = NIE
+				}
+				60 = {
+					add_casus_belli = {
+						target = NIE
+						type = cb_vassalize_mission
+						months = 120
+					}
+				}
+			}
+			random_list = {
+				40 = {
+					vassalize = BEG
+				}
+				60 = {
+					add_casus_belli = {
+						target = BEG
+						type = cb_vassalize_mission
+						months = 120
+					}
+				}
+			}
+			random_list = {
+				40 = {
+					vassalize = OLE
+				}
+				60 = {
+					add_casus_belli = {
+						target = OLE
+						type = cb_vassalize_mission
+						months = 120
+					}
+				}
+			}
+			random_list = {
+				25 = {
+					vassalize = GLG
+				}
+				75 = {
+					add_casus_belli = {
+						target = GLG
+						type = cb_vassalize_mission
+						months = 120
+					}
+				}
 			}
 		}
 	}

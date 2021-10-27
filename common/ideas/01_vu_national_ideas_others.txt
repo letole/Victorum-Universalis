@@ -189,7 +189,7 @@ SCA_ideas = {
 }
 
 #Lombardy-Veneto
-LMV_ideas = { [now LVN]
+LMV_ideas = { # [now LVN]
 	start = {
 		infantry_power = 0.10 #MLO_ideas
 		galley_power = 0.25 #VEN_ideas bonus
@@ -2904,5 +2904,109 @@ DWA_ideas = {
 	dwa_state_reforms = {
 		state_maintenance_modifier = -0.2
 		free_policy = 1
+	}
+}
+
+#VU Dano-Norwegian Realm ideas by docRobert
+DNR_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		production_efficiency = 0.05
+		range = 0.2
+	}
+	bonus = {
+		global_ship_trade_power = 0.25
+	}
+	
+	trigger = {
+		tag = DNR
+	}
+	free = yes
+	
+	dnr_colonialism = {
+		colonists = 1
+		global_colonial_growth = 10
+	}
+	dnr_cultural_union = {
+		tolerance_own = 1
+		administrative_efficiency = 0.1
+		yearly_corruption = -0.1
+	}
+	dnr_north_sea_king = {
+		navy_tradition = 1
+		light_ship_power = 0.1
+		global_ship_repair = 0.1
+		naval_forcelimit_modifier = 0.2
+		naval_attrition = -0.15
+		naval_morale = 0.1
+	}
+	dnr_norwegian_influence = {
+		same_culture_advisor_cost = -0.25
+		stability_cost_modifier = -0.1
+		state_governing_cost = -0.1
+		reform_progress_growth = 0.1
+	}
+	dnr_trade_boss = {
+		global_trade_goods_size_modifier = 0.15
+		free_dip_policy = 1
+	}
+	dnr_develop_north = {
+		development_cost = -0.1
+		movement_speed = 0.1
+	}
+	dwa_colonial_nation = {
+		envoy_travel_time = -0.2
+		reinforce_speed = 0.1
+		trade_company_investment_cost = -0.2
+		colonist_placement_chance = 0.1
+	}
+}
+
+RED_ideas = {
+	start = {
+		own_coast_naval_combat_bonus = 1.0
+		free_leader_pool = 1
+	}
+	bonus = {
+		may_perform_slave_raid_on_same_religion = yes
+	}
+	trigger = {
+		OR = {
+			has_reform = pirate_republic_reform
+			tag = RED
+		}
+		NOT = { culture_group = iberian }
+		NOT = { tag = PRY }
+		NOT = { tag = TET }
+		NOT = { tag = SLE }
+	}
+	free = yes
+	
+	red_religious_apathy = {
+		no_religion_penalty = yes
+	}	
+	red_plunder = {
+		loot_amount = 0.45
+	}
+	red_bucanneers_ideas = {	
+		privateer_efficiency = 0.25
+		leader_naval_fire = 1
+	}
+	red_sail_in_consort = {
+		leader_naval_manuever = 1
+		global_naval_engagement_modifier = 0.25
+		movement_speed_in_fleet_modifier = 1
+	}
+	red_elected_quartermasters = {
+		global_ship_cost = -0.2
+		naval_morale = 0.1
+	}
+	red_pirate_bays = {
+		naval_maintenance_modifier = -0.25
+		sailor_maintenance_modifer = -0.15
+	}
+	red_life_of_liberty = {
+		allowed_marine_fraction = 0.5
+		global_sailors_modifier = 0.5
 	}
 }

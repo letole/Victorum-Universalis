@@ -701,3 +701,9 @@
 
  #Mission Corrections (probably temporary, no real need to translate)
  fra_carib_colony.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in the Colonial Lesser Antilles"
+ 
+ #VU Monument Categorisation
+ TIER_0_DESCRIPTION:0 "Insignifiant"
+ TIER_1_DESCRIPTION:0 "Important"
+ TIER_2_DESCRIPTION:0 "Grandiose"
+ TIER_3_DESCRIPTION:0 "Magnifique"

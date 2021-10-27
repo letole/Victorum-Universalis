@@ -46,12 +46,12 @@
  PROV241:0 "Glamorgan"
  PROV243:0 "Lincoln"
  PROV244:0 "Lancaster"
+ PROV245:0 "York"
  PROV249:0 "Ayr"
  PROV251:0 "Aberdeen"
  PROV253:0 "Outer Hebrides"
  PROV261:0 "Halych"
  #PROV265:0 "Brno"
- PROV268:0 "Dorohoi"
  PROV283:0 "Lower Dnipr"
  PROV313:0 "Arkhangelsk"
  PROV316:0 "Nicomedia"
@@ -92,12 +92,12 @@
  PROV357:0 "Derna"
  PROV358:0 "Alexandria"
  PROV359:0 "Faiyum"
- PROV360:0 "Caene"         #Or Gesa, or Keft
+ PROV360:0 "Qus" #Formerly Caene
  PROV361:0 "Cairo"
- PROV362:0 "Rosetta"
- PROV363:0 "Pelusia"         #made up 'modern' version of Pelusium
+ PROV362:0 "Kafr"
+ PROV363:0 "Dumyat"         #made up 'modern' version of Pelusium
  PROV364:0 "Arish"
- PROV365:0 "Sinai"
+ PROV365:0 "Sinai Desert"
  PROV366:0 "Las Palmas"
  PROV377:0 "Aleppo"
  PROV378:0 "Tripoli"
@@ -154,7 +154,11 @@
  PROV597:0 "Mersing"
  PROV502:0 "Iëre"
  PROV653:0 "Iligan" #Formerly Lanao del Norte
- PROV657:0 "Namacpacan" #Formerly La Union
+ PROV656:0 "Maynilad"
+ PROV657:0 "Agoo" #Formerly La Union
+ PROV658:0 "Catagayan" #Formerly Cagayan
+ PROV665:0 "Jiangmen" #Formerly Shiuhing
+ PROV695:0 "Tientsin" #Formerly Shiuhing
  PROV738:0 "Siraya"
  PROV756:0 "Kirimurê"          #Credit to Arga
  PROV763:0 "Goanã-pará"          #Credit to Arga
@@ -236,6 +240,9 @@
  PROV1108:0 "Te Moana-a-toi"
  PROV1109:0 "Otago"
  PROV1110:0 "Agadir"
+ PROV1158:0 "Lac"
+ PROV1168:0 "Mbengela"
+ PROV1172:0 "Ganda a Kawe"
  PROV1174:0 "Tsoakhaub"
  PROV1175:0 "Gariep"
  PROV1176:0 "'Han'ami"
@@ -276,7 +283,10 @@
  PROV1299:0 "Pentland Firth"
  PROV1300:0 "Sea of Sardinia"
  PROV1329:0 "Mandeb Strait"
+ PROV1367:0 "Rifleman Bank"
  PROV1380:0 "Auckland Islands"
+ PROV1397:0 "Southern Visayan Sea"
+ PROV1399:0 "Southern Sea of Celebes"
  PROV1413:0 "Eastern North Atlantic"
  PROV1435:0 "Mariana Islands"
  PROV1473:0 "Southern Norwegian Sea"
@@ -293,6 +303,9 @@
  PROV1495:0 "Grand Banks"
  PROV1496:0 "Labrador Approach"
  PROV1497:0 "Northwestern Atlantic"
+ PROV1517:0 "Colombian Basin"
+ PROV1517:0 "Cayman Basin"
+ PROV1521:0 "Venezuelan Basin"
  PROV1560:0 "Cook Inlet"
  PROV1561:0 "Gulf of Alaska"
  PROV1569:0 "North Sargasso Sea"
@@ -312,7 +325,8 @@
  PROV1775:0 "Kiel"
  PROV1776:0 "Kem"
  PROV1783:0 "Sannikov"
- PROV1801:0 "Barotseland"
+ PROV1796:0 "Central Congo"
+ PROV1801:0 "Menonge"
  PROV1805:0 "Ungava"
  PROV1806:0 "Wasagamack"
  PROV1808:0 "Mahaguadüka"
@@ -336,7 +350,7 @@
  PROV1883:0 "Näsijärvi"
  PROV1884:0 "Saimaa"
  PROV1885:0 "Päijänne"
- PROV1891:0 "Anatolian Lakes"
+ PROV1891:0 "Lake Burdur"
  PROV1893:0 "Lake Urmia"
  PROV1905:0 "Lac Mistassini"
  PROV1906:0 "Sarygamysh Lake"
@@ -363,6 +377,7 @@
  PROV2007:0 "Sahnish"
  PROV2008:0 "Hunkpapha"            #Northern Lakota name in Crow/Hidatsa land... shame on me. Fix it later.
  PROV2009:0 "Oglála"            #Southern Lakota name in Arikara land... shame on me. Fix it later.
+ PROV2010:0 "Saukiog"
  PROV2012:0 "Awabaska"
  PROV2015:0 "Michipicoten"
  PROV2016:0 "Hinono'eino"
@@ -372,7 +387,9 @@
  PROV2020:0 "Boho'inee"
  PROV2021:0 "Ramai"
  PROV2022:0 "K'íis Gwáayaay" #Xaayda 
+ PROV2143:0 "Huainan"
  PROV2154:0 "Ketangalan"
+ PROV2288:0 "Kanem"
  PROV2296:0 "Dardanelles"
  PROV2297:0 "Magnesia"
  PROV2298:0 "Attalia"
@@ -391,11 +408,11 @@
  PROV2316:0 "Tanta"
  PROV2317:0 "Minya"
  PROV2318:0 "Bahariya"
- PROV2319:0 "Lycon"
+ PROV2319:0 "Asyut"
  PROV2320:0 "Ras Gharib"
  PROV2321:0 "Qoseir"
  PROV2322:0 "Faras"
- PROV2323:0 "Murat"
+ PROV2323:0 "Bir Tawil"
  PROV2324:0 "Hala'ib"
  PROV2325:0 "Marina"
  PROV2326:0 "Tobruk"
@@ -526,6 +543,7 @@
  PROV2658:0 "Azua"
  PROV2659:0 "Cibao"
  PROV2683:0 "Siberut"
+ PROV2700:0 "Pan-ay" #Formerly Panay
  PROV2701:0 "Babak" #Formerly Davao del Norte
  PROV2702:0 "Bukidon" #Formerly Butuan
  PROV2710:0 "Tandjungredeb"
@@ -664,16 +682,19 @@
  PROV4315:0 "Chaldia"          #Formerly 5169
  PROV4316:0 "Phelbes"           #or Zagazig. Formerly 5262
  PROV4317:0 "Temenhor"          #Formerly 5263
- PROV4318:0 "Busiris"          #Formerly 5265
+ PROV4318:0 "Atfih"          #Formerly 5265
  PROV4319:0 "Thebes"          #Formerly 5269
  PROV4320:0 "This"         #or Ptolemais, or Chemmis, or Panopolis, or Girga, Formerly 5268
- PROV4321:0 "Attia"          #Formerly 5270
+ PROV4321:0 "Eastern Desert"          #Formerly 5270
  PROV4322:0 "Ababda"              #Or Blemmyia, Formerly 5276
  PROV4323:0 "Dakhla"          #Formerly 5275
  PROV4340:0 "Talysh"          #Formerly 3257
+ PROV4349:0 "Tabuco"
  PROV4350:0 "Mangya"          #Formerly Mindoro
  PROV4351:0 "Buglas"
+ PROV4354:0 "Sanmanlan"          #Formerly Zamboanga
  PROV4355:0 "Kalag"          #Formerly Agusan del Sur
+ PROV4367:0 "Hull"
  #1.25 changes
  PROV4381:0 "Overijssel"          #Formerly 3059
  PROV4382:0 "Ommelanden"          #Formerly 3057
@@ -800,8 +821,7 @@
  #PROV4787:0 "Ribatejo"
  #PROV4788:0 "Plasencia"
  #PROV4789:0 "Segovia"
- PROV4367:0 "Hull"
- PROV245:0 "York"
+ PROV5267:0 "Beni Suef"
  PROV6924:0 "Île Saint-Louis"
  PROV6925:0 "Upper Thames River"
  PROV6926:0 "Lower Seine River"

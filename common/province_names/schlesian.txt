@@ -49,7 +49,7 @@
 264 = "Wroclaw"
 266 = "Praga"
 267 = "Pilzno"
-268 = "Suczawa"
+268 = { "Botosani" "Dorohoi" }
 270 = "Troki"
 271 = "Zmudz"
 272 = "Wilno"
@@ -171,6 +171,7 @@
 2995 = "Slupsk"
 2996 = "Wyszomierz"
 2997 = "Tuchola"
+3156 = { "Suczawa" "Suczawa" }
 4115 = "Mozyrz"
 4117 = "Biezeck"
 4122 = "Szenkursk"

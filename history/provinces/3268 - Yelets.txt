@@ -15,6 +15,11 @@ capital = "Yelets"
 is_city = yes
 add_core = YLT
 
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL

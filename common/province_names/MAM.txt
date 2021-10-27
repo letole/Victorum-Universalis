@@ -1,3 +1,6 @@
+362 = "Kafr"
 2317 = "Ushmunayn"
-2319 = "Akhmin"
+2319 = "Asyut"
 2327 = { "Gayal" "Gayal" }
+6524 = "Rashid"
+5261 = "Borsa'id"

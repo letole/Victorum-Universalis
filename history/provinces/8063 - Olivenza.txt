@@ -9,7 +9,7 @@ capital = "Olivença"
 base_tax = 1
 base_production = 2
 base_manpower = 1
-trade_goods = livestock
+trade_goods = olive_oil	# could capital name indicate something...
 is_city = yes
 hre = no
 

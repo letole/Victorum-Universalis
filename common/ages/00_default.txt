@@ -364,11 +364,13 @@ age_of_reformation = {
 		}
 		ab_spain_tercio = {
 			allow = {
-				tag = SPA
-				tag = BSP
-				tag = SPB
-				tag = BBS
-				tag = CSP
+				OR = {
+					tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
+				}
 			}
 			modifier = {
 				shock_damage_received = -0.3
@@ -808,6 +810,7 @@ age_of_change = {
 				OR = {
 					has_great_project = { type = kiel_canal }
 					has_great_project = { type = suez_canal }
+					has_great_project = { type = second_suez_canal }
 					has_great_project = { type = panama_canal }
 					has_great_project = { type = ludwig_canal }
 					has_great_project = { type = don_and_volga_canal }

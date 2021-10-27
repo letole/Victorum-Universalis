@@ -2,7 +2,7 @@
 
 culture = visayan
 religion = animism
-capital = "Panay"
+capital = "Iloilo"
 trade_goods = rice
 hre = no
 base_tax = 2 

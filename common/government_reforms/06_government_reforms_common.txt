@@ -2,7 +2,7 @@ united_cantons_reform = {
 	icon = "united_cantons_reform"
 	allow_normal_conversion = yes
 	modifiers = {
-		governing_capacity = -100
+		governing_capacity = -100   #No change in VU bu was -50 in GE
 		free_policy = 1
 		mercenary_manpower = 0.5
 		max_absolutism = -30
@@ -36,8 +36,23 @@ united_cantons_reform = {
 
 parliamentary_reform = {
 	icon = "judge"
+	potential = {
+		NOT = { has_reform = elective_monarchy_reform }
+	}
 	modifiers = {
 		global_unrest = -1
+	}
+	effect = {
+		change_variable = {
+			which = Plutocrat_Influence
+			value = 1
+		}
+	}
+	removed_effect = {
+		change_variable = {
+			which = Plutocrat_Influence
+			value = -1
+		}
 	}
 	
 	trigger = {		
@@ -121,6 +136,18 @@ parliamentary_reform = {
 permanent_marathas_council_reform = {
 	icon = "noble_indian"
 	allow_normal_conversion = yes
+	effect = {
+		change_variable = {
+			which = Noble_Influence
+			value = 1
+		}
+	}
+	removed_effect = {
+		change_variable = {
+			which = Noble_Influence
+			value = -1
+		}
+	}
 	potential = {
 		has_dlc = "Dharma"
 		has_estate = estate_maratha
@@ -150,6 +177,18 @@ permanent_marathas_council_reform = {
 
 governmental_purbias_register_reform = {
 	icon = "rajput_kingdom"
+	effect = {
+		change_variable = {
+			which = Noble_Influence
+			value = 1
+		}
+	}
+	removed_effect = {
+		change_variable = {
+			which = Noble_Influence
+			value = -1
+		}
+	}
 	potential = {
 		has_dlc = "Dharma"
 		has_estate = estate_rajput
@@ -206,6 +245,18 @@ governmental_purbias_register_reform = {
 council_of_the_indies_reform = {
 	icon = "paper_money_map"
 	allow_normal_conversion = yes
+	effect = {
+		change_variable = {
+			which = Royal_Influence
+			value = 1
+		}
+	}
+	removed_effect = {
+		change_variable = {
+			which = Royal_Influence
+			value = -1
+		}
+	}
 	potential = {
 		has_dlc = "Golden Century"
 		culture_group = iberian
@@ -232,6 +283,18 @@ council_of_the_indies_reform = {
 penal_colonies_reform = {
 	icon = "merchant_ship"
 	allow_normal_conversion = yes
+	effect = {
+		change_variable = {
+			which = Royal_Influence
+			value = 1
+		}
+	}
+	removed_effect = {
+		change_variable = {
+			which = Royal_Influence
+			value = -1
+		}
+	}
 	potential = {
 		num_of_colonists = 1
 		has_dlc = "Golden Century"

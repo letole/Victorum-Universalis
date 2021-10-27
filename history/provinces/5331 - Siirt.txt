@@ -4,9 +4,9 @@ owner = HSN
 controller = HSN
 add_core = HSN
 capital = "Siirt"			#Syriac version is Si'reth
-culture = syriac_culture
+culture = assyrian		#last remaining areas where Eastern Aramaic communities were still strong and plantiful
 religion = coptic
-trade_goods = wool
+trade_goods = cheese
 hre = no
 base_tax = 4
 base_production = 4
@@ -37,5 +37,6 @@ discovered_by = nomad_group
 	controller = TUR
 	add_core = TUR
 } # Annexed by the Ottomans
+1525.1.1 = { culture = kurdish } # Aramaic fades to obscurity, replaced by growing Kurdish population
 1624.1.1 = { controller = PER }
 1638.12.24 = { controller = TUR }

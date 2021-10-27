@@ -499,7 +499,8 @@ crown_colony = {
 	change_colonial_type = yes
 	upgrade_subject_type = yes
 	is_colony_subtype = yes
-	can_send_missionary_to_subject = yes	
+	count = colony
+	can_send_missionary_to_subject = yes
 
 	forcelimit_bonus = 1.0
 	forcelimit_to_overlord = 0.5
@@ -536,6 +537,7 @@ private_enterprise = {
 	change_colonial_type = yes
 	upgrade_subject_type = yes
 	is_colony_subtype = yes
+	count = colony
 
 	forcelimit_bonus = 0.0
 	forcelimit_to_overlord = 0.0
@@ -567,6 +569,7 @@ self_governing_colony = {
 	change_colonial_type = yes
 	upgrade_subject_type = yes
 	is_colony_subtype = yes
+	count = colony
 
 	forcelimit_bonus = 0.1
 	forcelimit_to_overlord = 0.05
@@ -595,14 +598,16 @@ self_governing_colony = {
 
 #VU addition by San Felipe with input from Letole & Piano
 self_governing_dominion_vu = {
-	copy_from = colony
-	
-	# Graphics:
-	sprite = GFX_dominion
 
-	change_colonial_type = no
+    # Graphics:
+	sprite = GFX_dominion_icon
+	
+	copy_from = self_governing_colony
+
+	change_colonial_type = yes
 	upgrade_subject_type = yes
 	is_colony_subtype = yes
+	count = colony
 	
 	# Properties:
 	forcelimit_bonus = 0.1
@@ -650,14 +655,16 @@ self_governing_dominion_vu = {
 
 #VU addition by San Felipe with input from Letole & Piano
 self_governing_super_dominion_vu = {
-	copy_from = colony
-	
-	# Graphics:
-	sprite = GFX_dominion
 
-	change_colonial_type = no
-	upgrade_subject_type = yes
+    # Graphics:
+	sprite = GFX_super_dominion_icon
+
+	copy_from = self_governing_dominion_vu
+
+	change_colonial_type = yes
+	upgrade_subject_type = Yes
 	is_colony_subtype = yes
+	count = colony
 	
 	# Properties:
 	forcelimit_bonus = 0.125

@@ -1,0 +1,4 @@
+#6411 - Lake_Natron
+
+discovered_by = east_african
+discovered_by = central_african

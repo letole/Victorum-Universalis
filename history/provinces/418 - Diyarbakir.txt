@@ -3,7 +3,7 @@
 owner = QAR
 controller = QAR
 culture = armenian			#Coptic Armenian or Orthodox Syriac both good choices. Unless I'm missing something, though, sunni kurdish from vanilla is not
-religion = coptic
+religion = coptic			#Actually not coptic in reality. Should be a mix of Nestorian and other Oriental Orthodoxy but it's not added yet. Coptic here and in neighboring provinces is meant to be treated as misc Eastern Orthodoxy
 capital = "Diyar Bekir"
 trade_goods = copper			#abundant resources of copper around the city.
 hre = no

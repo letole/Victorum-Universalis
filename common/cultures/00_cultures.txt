@@ -23,12 +23,19 @@
 germanic = {
 	graphical_culture = westerngfx
 
-	male_names = { Gunther Rolf }
+	male_names = { 
+		Gunther Rolf 
+		Ernst Adolf Alfred August Christian Eduard Friedrich Georg Karl Philipp Maximilian Octavius Wilhelm Alexander Alois Anton Bruno Clemens Denis Gerfried Gottfried GüntherHelmut Herbert Ignatz Isidor Konstantin Kuno Markus Martin Oskar Reinhard Silvester Stefan Waldemar Jakob
+		Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut Horst Joachim Kaspar Kurt Leo Ludwig Lukas Manfred Michael Nikolaus Oskar Otto Philipp Reiner Rudolf Rupprecht Siegfried Siegmund Thomas Urs Viktor Werner Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis Milzas Nomedas Prusas Sergonis Ulinniks Ulitis
+		Wilhelm Ludwig Friedrich Hermann Karl Moritz Philipp Heinrich Otto Adolf Christian Georg Leopold Philipp Adelmar Albrecht Barnabas Denis Egon Erich Gerhard Gottlieb Gregor Hagan Helmut Isaak Isidor Joachim Joseph Kreszens Lothar Oskar Siegfried Stefan Thomas Wenzel Werner Wolfram Maximilian Ivo
+		Albrecht Maximilian Friedrich Ladislav Matthias Ernst Ferdinand Wenzel Georg Philipp Joseph Rudolf Gerhard Wolfgang Leopold Florian Alexander Anton Franz Karl Johann Ludwig Rainer Adolf Alfred Benno Bruno Cristoph Clemens Günther Heinrich Jakob Joachim Jörg Michael Oskar Otto Siegfried Stefan Ulrich Viktor Wilhelm
+	}
 
 	pommeranian = {
 		primary = POM
 		male_names = {
-			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron Bartosz Bartolomeus Bedrich Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav Boriwoj Borijov Bozydar Theodat Branimir Branislav Bretislav Bretislaus Casimir Ctibor Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob Janusz John Jaromar	Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jirí George Jozef Joseph Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman Koloman Kornel Cornelius Kresimir Krzeslaw Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius Martin Mateusz Matthew Mieszko Mikolás Nicholas Miloslaw Milosz Miroslaw Mscislaw Mstislav Msciwoj Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus Stanislaw Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin Wratislaw Vratislav Wawrzyniec Laurence Wenceslaw Vaclav Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Wratislaw Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
+			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron Bartosz Bartolomeus Bedrich Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav Boriwoj Borijov Bozydar Theodat Branimir Branislav Bretislav Bretislaus Casimir Ctibor Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek Francis Gawel Grzegorz Gregory Havel Gallus 
+			Jacenty Hyacinth Jakub Jakusz Jacob Janusz John Jaromar	Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jirí George Jozef Joseph Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman Koloman Kornel Cornelius Kresimir Krzeslaw Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius Martin Mateusz Matthew Mieszko Mikolás Nicholas Miloslaw Milosz Miroslaw Mscislaw Mstislav Msciwoj Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus Stanislaw Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin Wratislaw Vratislav Wawrzyniec Laurence Wenceslaw Vaclav Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Wratislaw Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
 		}
 		female_names = {
 			Gabriela Helena Janina Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Markéta Martyna Mateja Matylda Matilda Milena Miroslava Pechna Róza Radomila Radomira Radoslava Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula Václava Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
@@ -86,14 +93,327 @@ germanic = {
 	saxon = {
 		primary = SAX
 		male_names = {
-			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald 
+			Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
 		}
 		female_names = { 
 			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
 		}
 		dynasty_names = {
 			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
-			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" 
+			"von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  
+			"von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" 
+			"von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex"
+			"Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann 
+			"von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	#VU addition
+	caucasian_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian 
+			Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" 
+			"von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" 
+			"von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" 
+			"von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	russian_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph 
+			Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" 
+			"von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" 
+			"von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	hungarian_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund 
+			Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" 
+			"von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	crimean_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter 
+			Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" 
+			"von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	ukraine_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund 
+			Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" 
+			"von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" 
+			"von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" 
+			"von Bredow" "von Brandt"
+		}
+	}
+	baltic_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf 
+			Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  
+			"von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	balkan_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar 
+			Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" 
+			"von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	nordic_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar 
+			Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" 
+			"aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" 
+			"von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	volhynian_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard 
+			Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" 
+			"von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	siberian_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert 
+			Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" 
+			"von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Vladivostok" "von Sibirien" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	anatolian_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik 
+			Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" 
+			"Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	ural_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert 
+			Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" 
+			"von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	north_africa_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar 
+			Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" 
+			"Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	iberia_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus 
+			Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" 
+			"von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	french_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict 
+			Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" 
+			"von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	italian_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar 
+			Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "Marcks" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Bern" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Rom" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" 
+			"von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	irish_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar 
+			Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" 
+			"von Breitenbuch" "von Dublin" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	middleeast_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick 
+			Gerard Gebhard Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" 
+			"von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Tripolis" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Damaskus" "von Beirut" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	persian_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Azmad Aziz Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard 
+			Giselmar Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Thüna" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Neitschütz" "von Minckwitz" "von Bergen" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Celle" 
+			"Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" "von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Tehran" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Keller" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
+		}
+	}
+	pontic_steppe_german = {
+		#primary = XXX
+		male_names = {
+			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard Günther HermannLukas Micharl Reimund Ulrich Wilfried Wolfram Konrad Edwin Marcus Osmund Peter Ralph Reginald Sigehelm Wulfhelm Wulfhere Alfred Alwin Adémar Alwin Adolf Albert Albrecht Arnold Baltasar Benedict Bernd Bernard Bernhard Bertold Bertram Bertrand 
+			Burchard Claus Nicholas Cobbo Cord Dietmar Diederik Ekkehard Ekbert Engelbert Engelhard Erik Albert Ewald Frederick Gerard Gebhard Giselmar Vladimir Kyu Gottschalk Günther Hans Heideke Herbert Hermann Hinrik Jacob Jaspar Caspar Jochim Joakim Johann Kersten Christian Laurentz Lambert Liawizo Liemar Liudger Otto Ludolf Ludwig Louis Mathias Matthew Meinwerk Merten Martin Michael Norbert Ordulf Peter Philip Renard Reinmar Roger Rudolf Ralph Sigbert Sigisbert Sigfrid Siegfried Sigward Sigurd Simon Steffen Thomas Waldemar Werner Victor Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Ulf
+		}
+		female_names = { 
+			Amalia Bianka Eleonora Agatha Balthild Christina Cuthburg Cynehild Cyneswith Cynethryth Eadburg Edith Gunhilda Gunhild Helga Judith Maud Matilda Sigri Wulfhild Addila Adela Adelheid Alof Agnes Anna Athela Beatrix Beatrice Bertha Bertha Bertrada Bia Beatrice Bisina Bithild Brigida Brigid Elisabeth Elisabeth Enda Gertrud Gisela Hedwig Heilwig Helene Hildegard Ida Emma Irmgard Judith Katharina Margarete Mathilde Matilda Mechthild Reginlint Richardis Ricarda Rodelinda Sophia Sophia Suanhilde Swanahild Wienke Wiltrud Wulfhild Ulfhild
+		}
+		dynasty_names = {
+			"von Schwarzburg" "von Schönburg" "von Schlotheim" "von Salza" "von Kospoth"
+			"von Knuth" "von Wettin" "Askanier" "von Hohenzollern" "von Erffa" "von Bodungen" "von Eckersberg" "von Brandenstein" "von Pappenheim" "von Wiehe" "von Westernhagen" "von Jena" "von Trützschler" "von Plessen" "von Haugwitz" "von Kanitz" "von Falkenhayn" "von Rostov" "von Thüringen" "von Nostitz" "von Bieberstein" "von Meerheimb" "von Freiberg" "von Asov" "von Neitschütz" "von Minckwitz" "von Arnswaldt" "von Auerswald" "aus dem Winckel" "von Beichlingen" "von Bendeleben" "von Beneckendorff"  "von Berbisdorf" "von Bissingen" "von Bock" "von Bomsdorff" "von Bose" "von Breitenbach" "von Breitenbuch" "von Brühl" "von Bünau" "von Hoym" "Holtzendorff" "von Hohenthal" "von Heynitz" "von Hessler" "von Helldorff" "von Harling" "von Görschen" 
+			"von Glaubitz" "von Gfug" "von Gersdorff" "von Germar" "von Fritsch" "von Friesen" "von Flanss" "von Etzdorff" "von Erdmannsdorff" "von Einsiedel" "von Dyhrn" "von Dieskau" "von Creytzen" "von Carlowitz" "von Maltitz" "von Mansfeld" "von Miltitz" "von Mücheln" "von Pflugk" "von Pölnitz" "von Ponickau" "von Rackel" "von Raumer" "von Rechenberg" "von Rex" "Sack" "von Scheidingen" "von Schleinitzstrasse" "von Schönberg" "Senfft von Pilsach" "von Stolberg" "von Kannewurf" "Karras" "von Moskau" "von Kirchbach" "von Sternberg" "von Leisnig" "von Liebenau" "von Loeben" "von Logau" "von Lüttichau" "von Taube" "von Tettau" Vitzthum "von Wolffersdorff" Wöhrmann "von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
 		}
 	}
 	franconian = {
@@ -147,11 +467,51 @@ germanic = {
 	silesian_german = {
 		#primary = #no tag so no seperatists
 	}
+	#Colonial Cultures
+	alaskaner = {	#Alaska
+	}
+	kalifornier = {	#California
+	}
+	pennsilfaanisch = {	#American East Coast
+	}
+	mexikaner = {	#Mexico region
+	}
+	kubaner = {	#Carribean
+	}
+	neu_prussian = {	#Acadia, Canada, Newfoundland
+	}
+	deutschkolumbian = {	#Colombia
+	}
+	hunsrik = {		#Brazil
+	}
+	argentiner = {	#Argentina, La Plata,
+	}
+	australier = {	#Australia
+	}
+	seelander = {	#New Zealand
+	}
+	afrikaner = {	#Cape Africa
+	}
 	female_names = {
-		Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda Amelie Andrea Angela Angelika Angelina Anika Anita Anja Anke Ann-Katrin Anna Anne Annegret Anneli Annelie Anneliese Annemarie Anni Annika Annina Anny Antje Antonia Astrid Augusta Auguste Barbara Bärbel Beate Beatrice Beatrix Bernadette Berta Bertha Bettina Bianca Bianka Birgit Brigitte Britta Brunhild Brünhild Brunhilde Brünhilde Cäcilia Cäcilie Caren Carina Carla Carmen Carolin Caroline Catarina Catharina Cathrin Catrin Cecilia Cecilie Celina Celine Charlotte Chiara Christa Christel Christiane Christina Christine Clara Claudia Constanze Cordula Corina Corinna Cornelia Dagmar Daniela Denise Desirée Désirée Diana Dietlind Dietlinde Dora Doris Dorothea Edda Edith Elena Eleonora Eleonore Elfriede Elisa Elisabeth Elise Elke Ella Ellen Elli Elly Elma Elsa Elsbeth Else Elvira Emelie Emely Emilia Emilie Emily Emma Emmeline Emmi Emmy Erdmute Erica Erika Erna Ester Esther Eugenie Eva Evelyn Fabienne Fanny Felicia Felicitas Felizia Felizitas Finja Finnja Fiona Flora Florentina Florentine Franziska Frauke Freya Frida Fridegunde Frieda Friedegund Friedegunde Friederike Gabriela Gabriele Genoveva Gerda Gerlind Gerlinde Gertraud Gertrud Gertrudis Gesine Gina Gisela Grete Gretel Grethe Gudrun Gunda Gundula Hanna Hannah Hanne Hannelore Hedwig Heide Heidemarie Heidi Heike Helena Helene Helga Helge Hella Helmina Helmine Henny Hermina Hermine Herta Hertha Hilda Hilde Hildegard Hulda Ida Ilse Ines Inga Inge Ingeborg Ingeburg Ingrid Irene Irina Iris Irma Irmela Irmelin Irmgard Isabel Isabell Isabella Isabelle Isolde Ivonne Jacqueline Jana Janina Janine Jaqueline Jasmin Jennifer Jessica Johanna Johanne Josefine Josephine Judith Jule Julia Juliane Jutta Kai Karen Karin Karina Karla Karolin Karoline Katarina Käte Katharina Käthe Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin Kristina Kunigunde Lara Larissa Laura Lea Lena Leni Leoni Leonie Leonore Liane Liesel Lieselotte Lili Lilli Lilly Lina Linda Lisa Liselotte Lore Lotte Louisa Louise Lucia Lucie Luisa Luise Lulu Luna Luzia Luzie Lydia Madeleine Madleen Madlen Madlene Magda Magdalena Magdalene Maike Maja Manuela Mareike Marga Margareta Margarete Margaretha Margarethe Margit Margot Margret Margrit Maria Marianne Marie Marie-Theres Marie-Therese Marina Marion Marleen Marlen Marlene Marlies Marlis Marta Martha Martina Mathilde Maya Mechthild Meike Melanie Melina Melissa Merle Meta Mia Michaela Michelle Minna Miriam Mirjam Mona Monica Monika Nadia Nadin Nadine Nadja Natali Natalie Natascha Nathalie Neele Nele Nicola Nicole Nina Noemi Nora Oda Olga Olivia Ottilie Patricia Patrizia Paula Paulina Pauline Petra Pia Rachel Rafaela Raffaela Rahel Ramona Raphaela Rebecca Rebekka Regina Renate Ricarda Rita Rolanda Ronja Rosa Rose Rosemarie Roswitha Ruth Sabina Sabine Sabrina Samantha Sandra Sara Sarah Saskia Selina Seraphina Seraphine Sibylle Sieglind Sieglinde Siglind Siglinde Sigrid Silke Silvia Simone Sina Sissi Sofia Sofie Sonja Sophia Sophie Stefanie Stella Stephanie Susanna Svenja Swenja Sybille Sylvia Tabea Tamara Tanja Tatjana Teresa Thekla Theres Theresa Therese Theresia Thirza Tina Tirza Traute Trude Ulrike Ursel Ursula Uta Ute Valentina Valerie Vanessa Vera Verena Verona Veronika Victoria Viktoria Walburg Walburga Waldtraud Waldtraut Walpurga Walpurgis Waltraud Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Xenia Yasmin Yvonne Zäzilia Zäzilie Zoe
+		Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda Amelie Andrea Angela Angelika Angelina Anika Anita Anja Anke Ann-Katrin Anna Anne Annegret Anneli Annelie Anneliese Annemarie Anni Annika Annina Anny Antje Antonia Astrid Augusta Auguste Barbara Bärbel Beate Beatrice Beatrix Bernadette Berta Bertha Bettina Bianca Bianka Birgit Brigitte Britta Brunhild Brünhild Brunhilde Brünhilde Cäcilia Cäcilie Caren Carina Carla Carmen Carolin Caroline Catarina Catharina Cathrin 
+		Catrin Cecilia Cecilie Celina Celine Charlotte Chiara Christa Christel Christiane Christina Christine Clara Claudia Constanze Cordula Corina Corinna Cornelia Dagmar Daniela Denise Desirée Désirée Diana Dietlind Dietlinde Dora Doris Dorothea Edda Edith Elena Eleonora Eleonore Elfriede Elisa Elisabeth Elise Elke Ella Ellen Elli Elly Elma Elsa Elsbeth Else Elvira Emelie Emely Emilia Emilie Emily Emma Emmeline Emmi Emmy Erdmute Erica Erika Erna Ester Esther Eugenie Eva Evelyn Fabienne Fanny Felicia Felicitas Felizia Felizitas Finja 
+		Finnja Fiona Flora Florentina Florentine Franziska Frauke Freya Frida Fridegunde Frieda Friedegund Friedegunde Friederike Gabriela Gabriele Genoveva Gerda Gerlind Gerlinde Gertraud Gertrud Gertrudis Gesine Gina Gisela Grete Gretel Grethe Gudrun Gunda Gundula Hanna Hannah Hanne Hannelore Hedwig Heide Heidemarie Heidi Heike Helena Helene Helga Helge Hella Helmina Helmine Henny Hermina Hermine Herta Hertha Hilda Hilde Hildegard Hulda Ida Ilse Ines Inga Inge Ingeborg Ingeburg Ingrid Irene Irina Iris Irma Irmela Irmelin Irmgard Isabel 
+		Isabell Isabella Isabelle Isolde Ivonne Jacqueline Jana Janina Janine Jaqueline Jasmin Jennifer Jessica Johanna Johanne Josefine Josephine Judith Jule Julia Juliane Jutta Kai Karen Karin Karina Karla Karolin Karoline Katarina Käte Katharina Käthe Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin Kristina Kunigunde Lara Larissa Laura Lea Lena Leni Leoni Leonie Leonore Liane Liesel Lieselotte Lili Lilli Lilly Lina Linda Lisa Liselotte Lore Lotte Louisa Louise Lucia Lucie Luisa Luise Lulu Luna Luzia Luzie Lydia Madeleine 
+		Madleen Madlen Madlene Magda Magdalena Magdalene Maike Maja Manuela Mareike Marga Margareta Margarete Margaretha Margarethe Margit Margot Margret Margrit Maria Marianne Marie Marie-Theres Marie-Therese Marina Marion Marleen Marlen Marlene Marlies Marlis Marta Martha Martina Mathilde Maya Mechthild Meike Melanie Melina Melissa Merle Meta Mia Michaela Michelle Minna Miriam Mirjam Mona Monica Monika Nadia Nadin Nadine Nadja Natali Natalie Natascha Nathalie Neele Nele Nicola Nicole Nina Noemi Nora Oda Olga Olivia Ottilie Patricia Patrizia 
+		Paula Paulina Pauline Petra Pia Rachel Rafaela Raffaela Rahel Ramona Raphaela Rebecca Rebekka Regina Renate Ricarda Rita Rolanda Ronja Rosa Rose Rosemarie Roswitha Ruth Sabina Sabine Sabrina Samantha Sandra Sara Sarah Saskia Selina Seraphina Seraphine Sibylle Sieglind Sieglinde Siglind Siglinde Sigrid Silke Silvia Simone Sina Sissi Sofia Sofie Sonja Sophia Sophie Stefanie Stella Stephanie Susanna Svenja Swenja Sybille Sylvia Tabea Tamara Tanja Tatjana Teresa Thekla Theres Theresa Therese Theresia Thirza Tina Tirza Traute Trude Ulrike 
+		Ursel Ursula Uta Ute Valentina Valerie Vanessa Vera Verena Verona Veronika Victoria Viktoria Walburg Walburga Waldtraud Waldtraut Walpurga Walpurgis Waltraud Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Xenia Yasmin Yvonne Zäzilia Zäzilie Zoe
 	}
 	dynasty_names = {
-		"von Oldenburg" "von Mecklenburg" "von Hohenzollern" "von Habsburg"	"von Zweibrücken" "von Wittelsbach" "von Holstein" "von Hesse-Kassel" "von Holstein-Gottorp" "von Pfalz-Neumarkt" "von Braunschweig-Lüneburg" "von Hannover" "von Wettin" "von Rügen" "von Diepholz" "von Silesia-Glogau" "von Bibra" "von Bodeck" "Boeselager" "Jaworski" "Brauchitsch" "von Bülow" "von Calw" "von Cham" "von Steutzlingen" "von Wetterau" "von Julichgau" "von Helffenstein" "von Venis" "von Kyburg" "von Arbon" "von Urach" "von Cilli" "von Utlede" "von Katzenelnbogen" "von Altena" "von der Marck" "von Hessen" "von Arnsberg" "von Bucheck" "Walter" "Grelle" "von Dolen" "von Liebnitz" "von Virneberg" "Rübsamen" "von Bardewik" "Vorrade" "Warendorp" "Lüneburg" "Wittenborg" "von Klingenberg" "von Parchim" "von Kärnten" "von Rügen" "von Neuenburg" "von Werle" "von Mecklemburg" "von Wittenberg" "von Brandenburg" "von Glogau" "von Rendsburg" "von Pommern" "von Slesvig" "von Plain" "von Formbach" "von Wasserburg" "von Lengenfeld" "von Eberstein" "von Heinsberg" "von Weimar" "von Andechs" "von Sulzbach" "von Kleve" "von Versfleth" "von Wickerode" "von Winzenburg" "von Thüringen" "von Bogen" "von Meissen" "von Genf" "von Arstein" "von Veldenz" "von Landsberg" "von Franken" "von Babenberg" "von Berg" "von Hohenstauf" "von Saarbrucken" "von Puteledorg" "von Henneberg" "von Stade" "von Sommerchenberg" "von Kirchberg" "von Württemberg" "von Tübingen" "von Raabs" "von Heimbach" "von Nörvenich" "von Jülich" "von Metz" "von Limburg" "von Eppstein" "von Luxemburg" "von Hornes" "von Sachsen" "von Beilstein" "von Eppenstein" "von Lusatia" "Orlamunde" "von Hohenstaufen" "von Otakar" "Weimar" "von Tirol" "von Haldensleben" "von Schweinfurt" "von Stad" "von Rheinfelden" "von Ringelheim" "de Luxembourg" "Hainaut" "von Lenzburg" "Prochaska" "von Boulogne" "von Nordheim" "von Egisheim" "Asperger" "Hunfriding" "Witte" "von Hagen" "von Mölln" "Runese" Pleskow "von Supplingenburg" "von Plotzkau" "von Katlenburg" "von Goslar" "von Wunstorf" "von Goltern" "von Wölpe" "von Nellenburg" "von Arnstein" "von Holte" "von Wippra" "von der Mark" "von Diest" "von Rietberg" "von Löningen" "von Corvey" "von Steinfurt" "von Tecklenburg" "von Rüssel" "von Waldeck" "von Ravensberg" "von Weyhe" "von Hoya" "von Dachau" "von Bassenheim" "von Kerpen" "von Tunna" "von Salza" "von Malberg" "von Hohenlohe" "von Wüllersleben" "von Osterna" "von Sangershausen" "von Heldrungen" "von Orseln" "von Nauen" "Suerbeer" "von Lunen" "von Vechta" "Pernstein" "von Schwerin" "von Dorpat" "von Haseldorf" "von Vyshusen" "von Dolen" "von Friesack" "von Hildesheim" "von Lechsgmünd" "von Komburg" "von Stahleck" "von Ziegenhain" "von Dinslaken" "von Lambach" "von Pluyvoise" "von Scharfenberg" "von Leistenberg" "von Schwarzburg" "von Badewide" "von Wassel" "von Dassel" "von Greyerz" "von Grenchen" "von Abensberg" "von Grünberg" "von Lichtenberg" "von Hachberg" "von Wartenberg" "von Wolfach" "von Gudensberg" "von Gerhausen" "von Signau" "von Groitzsch" "von Frickingen" "von Sigmaringen" "von Regensburg" "von Lurngau" "von Leibrechtskirchen" "von Meran" "von Treven" "Gross" "Gualch" "Beck" "zu Schwaben" "von Attems" "von Schweipünt" "von Saffenberg" "von Nörvenich" "von Querfurt" "von Mansfeld" "von Kärnten" "von Eschenloch" "von Naumburg" "von Schrapelnau" "von Magdeburg" "von Hardegg" "von Arneburg" "von Seeburg" "von Veldenz" "von Schmidtburg" "von Bamberg" "von Kyrburg" "von Baumberg" "von Stolzenberg" "von Altenbaumberg" "von Tyrol" "von Ortenburg" "von Wangen" "von Frontenhausen" "von Andechs" "von Eurasburg" "von Geroldseck" "von Bocksberg" "von Vinstingen" "von Schoenecken" "von Daun" "von Leiningen" "von Hohenfels" "von Hunolstein" "von Blankenheim" "von Salm" "von Falkenstein" "von Sponheim" "von Brunshorn" "von Stein" "von Bikkenbach" "von Heinsberg" "van Valkenburg" "von Sayn" "von Veringen" "von Gruningen" "von Eselsberg" "von Muhlhausen" "von Pfirt" "von Lövenstein" "von Landau" "von Tschudi" "von Glarus" "von Chalôns" "von Ratzeburg" "von Schlawe" "von Schwelz" "von Liebschau" "von der Lippe" "von Schauenburg" "von Rostock" "von Gustrow" "von Rendsburg" "von Segeberg" "von Neuhaus" "von Friedenthal" "von Rosenberg" "von Waldenstein" "von Altenburg" "von Pernstein" "von Monheim" "von Urslingen" "von Assel" "von Osnabrück" "von Münster" "von Kleve" "von Jülich" "von Andernach" "von Göttingen" "von Pfalz" "von Baden" "von Nordgau" "von Metz" "von Sundgau" "von Bern" "von Schwyz" "von Neuchatel" "von Aargau" "von Breisgau" "von Fürstenberg" "von Württemberg" "von Franken" "von Thüringen" "von Weimar" "von Celle" "von Amsberg" "von Wolgast" "von Altmark" "von Anhalt" "von Plauen" "von Ansbach" "von Kempten" "von Arnim" "von Trent" "von Innsbruck" "von Lausitz" "von Stettin" "von Abensberg" "von Berlichingen" "von Beetzen" "Sieghardinger" "von Walbeck" "von Knorring" "von Creytzen" Sack "von Taube" "Wöhrmann" "von Keller" "von der Mark" "von Wittelsbach" "von Baden" "Rotberg" "von Frankenstein" "von Taube" "von Uffeln" "von Hessen" "von Boyneburg" "von Schack" "von Fabrice" "von Hardenberg" "von Welf" "von Schauenburg" "von Holstein-Gottorp" "Askanier" "von Oldenburg"
+		"von Oldenburg" "von Mecklenburg" "von Hohenzollern" "von Habsburg"	"von Zweibrücken" "von Wittelsbach" "von Holstein" "von Hesse-Kassel" "von Holstein-Gottorp" "von Pfalz-Neumarkt" "von Braunschweig-Lüneburg" "von Hannover" "von Wettin" "von Rügen" "von Diepholz" "von Silesia-Glogau" "von Bibra" "von Bodeck" "Boeselager" "Jaworski" "Brauchitsch" "von Bülow" "von Calw" "von Cham" "von Steutzlingen" "von Wetterau" "von Julichgau" "von Helffenstein" "von Venis" "von Kyburg" "von Arbon" "von Urach" "von Cilli" "von Utlede" "von Katzenelnbogen" 
+		"von Altena" "von der Marck" "von Hessen" "von Arnsberg" "von Bucheck" "Walter" "Grelle" "von Dolen" "von Liebnitz" "von Virneberg" "Rübsamen" "von Bardewik" "Vorrade" "Warendorp" "Lüneburg" "Wittenborg" "von Klingenberg" "von Parchim" "von Kärnten" "von Rügen" "von Neuenburg" "von Werle" "von Mecklemburg" "von Wittenberg" "von Brandenburg" "von Glogau" "von Rendsburg" "von Pommern" "von Slesvig" "von Plain" "von Formbach" "von Wasserburg" "von Lengenfeld" "von Eberstein" "von Heinsberg" "von Weimar" "von Andechs" "von Sulzbach" "von Kleve" 
+		"von Versfleth" "von Wickerode" "von Winzenburg" "von Thüringen" "von Bogen" "von Meissen" "von Genf" "von Arstein" "von Veldenz" "von Landsberg" "von Franken" "von Babenberg" "von Berg" "von Hohenstauf" "von Saarbrucken" "von Puteledorg" "von Henneberg" "von Stade" "von Sommerchenberg" "von Kirchberg" "von Württemberg" "von Tübingen" "von Raabs" "von Heimbach" "von Nörvenich" "von Jülich" "von Metz" "von Limburg" "von Eppstein" "von Luxemburg" "von Hornes" "von Sachsen" "von Beilstein" "von Eppenstein" "von Lusatia" "Orlamunde" "von Hohenstaufen" 
+		"von Otakar" "Weimar" "von Tirol" "von Haldensleben" "von Schweinfurt" "von Stad" "von Rheinfelden" "von Ringelheim" "de Luxembourg" "Hainaut" "von Lenzburg" "Prochaska" "von Boulogne" "von Nordheim" "von Egisheim" "Asperger" "Hunfriding" "Witte" "von Hagen" "von Mölln" "Runese" Pleskow "von Supplingenburg" "von Plotzkau" "von Katlenburg" "von Goslar" "von Wunstorf" "von Goltern" "von Wölpe" "von Nellenburg" "von Arnstein" "von Holte" "von Wippra" "von der Mark" "von Diest" "von Rietberg" "von Löningen" "von Corvey" "von Steinfurt" "von Tecklenburg" 
+		"von Rüssel" "von Waldeck" "von Ravensberg" "von Weyhe" "von Hoya" "von Dachau" "von Bassenheim" "von Kerpen" "von Tunna" "von Salza" "von Malberg" "von Hohenlohe" "von Wüllersleben" "von Osterna" "von Sangershausen" "von Heldrungen" "von Orseln" "von Nauen" "Suerbeer" "von Lunen" "von Vechta" "Pernstein" "von Schwerin" "von Dorpat" "von Haseldorf" "von Vyshusen" "von Dolen" "von Friesack" "von Hildesheim" "von Lechsgmünd" "von Komburg" "von Stahleck" "von Ziegenhain" "von Dinslaken" "von Lambach" "von Pluyvoise" "von Scharfenberg" "von Leistenberg" 
+		"von Schwarzburg" "von Badewide" "von Wassel" "von Dassel" "von Greyerz" "von Grenchen" "von Abensberg" "von Grünberg" "von Lichtenberg" "von Hachberg" "von Wartenberg" "von Wolfach" "von Gudensberg" "von Gerhausen" "von Signau" "von Groitzsch" "von Frickingen" "von Sigmaringen" "von Regensburg" "von Lurngau" "von Leibrechtskirchen" "von Meran" "von Treven" "Gross" "Gualch" "Beck" "zu Schwaben" "von Attems" "von Schweipünt" "von Saffenberg" "von Nörvenich" "von Querfurt" "von Mansfeld" "von Kärnten" "von Eschenloch" "von Naumburg" "von Schrapelnau" 
+		"von Magdeburg" "von Hardegg" "von Arneburg" "von Seeburg" "von Veldenz" "von Schmidtburg" "von Bamberg" "von Kyrburg" "von Baumberg" "von Stolzenberg" "von Altenbaumberg" "von Tyrol" "von Ortenburg" "von Wangen" "von Frontenhausen" "von Andechs" "von Eurasburg" "von Geroldseck" "von Bocksberg" "von Vinstingen" "von Schoenecken" "von Daun" "von Leiningen" "von Hohenfels" "von Hunolstein" "von Blankenheim" "von Salm" "von Falkenstein" "von Sponheim" "von Brunshorn" "von Stein" "von Bikkenbach" "von Heinsberg" "van Valkenburg" "von Sayn" "von Veringen" 
+		"von Gruningen" "von Eselsberg" "von Muhlhausen" "von Pfirt" "von Lövenstein" "von Landau" "von Tschudi" "von Glarus" "von Chalôns" "von Ratzeburg" "von Schlawe" "von Schwelz" "von Liebschau" "von der Lippe" "von Schauenburg" "von Rostock" "von Gustrow" "von Rendsburg" "von Segeberg" "von Neuhaus" "von Friedenthal" "von Rosenberg" "von Waldenstein" "von Altenburg" "von Pernstein" "von Monheim" "von Urslingen" "von Assel" "von Osnabrück" "von Münster" "von Kleve" "von Jülich" "von Andernach" "von Göttingen" "von Pfalz" "von Baden" "von Nordgau" 
+		"von Metz" "von Sundgau" "von Bern" "von Schwyz" "von Neuchatel" "von Aargau" "von Breisgau" "von Fürstenberg" "von Württemberg" "von Franken" "von Thüringen" "von Weimar" "von Celle" "von Amsberg" "von Wolgast" "von Altmark" "von Anhalt" "von Plauen" "von Ansbach" "von Kempten" "von Arnim" "von Trent" "von Innsbruck" "von Lausitz" "von Stettin" "von Abensberg" "von Berlichingen" "von Beetzen" "Sieghardinger" "von Walbeck" "von Knorring" "von Creytzen" Sack "von Taube" "Wöhrmann" "von Keller" "von der Mark" "von Wittelsbach" "von Baden" "Rotberg" 
+		"von Frankenstein" "von Taube" "von Uffeln" "von Hessen" "von Boyneburg" "von Schack" "von Fabrice" "von Hardenberg" "von Welf" "von Schauenburg" "von Holstein-Gottorp" "Askanier" "von Oldenburg"
 	}
 }
 low_franconian = {
@@ -359,6 +719,8 @@ scandinavian = { #Nordic
 		dynasty_names = {
 			"Hårfagreætta" "Bielke" "Bildt" "Galte" "Paus" "Smør" "Benkestok" "Kane" "Bonde" "Drake" "av Hafrsfjord" "Ytra" "av Askø" "Koss" "av Røra" "av Nordland" "Hylling" "Alfr" "Herja" "Vansö" "Flod" "af Vendel" "av Alfheim" "af Åland" Vidfamne "Bille" "Iuel" "Kaas" "Rosenkrantz" "Urne" "Adeler" "Blixenskiold" "Gyldenpalm" "Holberg" "Rosenheim" "Schouboe" "Tordenskiold" "Wessel" "Westervick" "Falsen" "Knagenhjelm" "Galtung" "Heubsch" "Kløcker" "Løvenskiold" "Rosenvinge" "Werenskiold" "Kruckow" "Mowat" "Rømer" "Handingmann" "Skaktavl" "Tordenstierne" Roos "Skanke" "Bolt" "Giske" "Brockenhuus" "Adelswärd" "Kane" "Blixen" "Løvendal" "Balke" "Vedel" "Bjelke" "Galle" "Griis"
 		}
+	}
+	vinlandic = {	#Colonial Culture for Canada, Acadia and America
 	}
 	male_names = {
 		Christian Christoph Oskar Adolf August Göran Sigismund Alfred Axel Edvard Gottfrid Jakob Ludvig Mikael Olof Patrik Rangvald Rettil Sigvard Simon Sture Svante Tomas Ulrik	Albrikt Albert Alf Algot Anders Arne Arnfast Astrad Bengt Benedict Bertil Birger Björn Bo Borkvard Brage Bror Dag Dan Dyre Egil Einar Erik Eskild Faste Fredrik Frederick Filip Folke Georg Greger Gregory Gunnar Gustav Halsten Hans Harald Harold Helge Henrik Hjalmar Holmger Håkan Inge Ingemar Ingvar Edward Johan John Karl Klas Knut Lars Magnus Markus Marcus Mats Matthew Nils Nicholas Niklas Odd Olaf Peter Ragnar Rolf Ragnvald Sörkver Sigurd Starkad Sten Styrbjörn Sune Sven Sverker Sölve Thomas Tjudmund Toke Torbjörn Tord Torbrand Torkel Torolf Thorolf Torsten Toste Totil Tyke Ulf Valdemar Åke Östen 
@@ -576,6 +938,48 @@ british	= {
 		female_names = {
 			Alice Elizabeth Darcy Joan Eva Agnes Margaret Muriel Catherine Christina Eleanor Martha
 			Maria Matilda Mary
+		}
+	}
+	#VU - Cultures by Noobminer72
+	aussie = {
+		graphical_culture = westerngfx
+		primary = XXX
+		dynasty_names = {
+			Macarthur Phillip Bligh Hunter Darling Macquarie King Wentworth Parks Barton Fisher Cooke Bruce 
+			Lyons Menzies Hawke Holt Hawke Fraser Gillard Morrison Turnbull Abbott Keating Whitlam Hughes 
+			McMahon Gorton Brisbane Chifley Curtin Rudd
+		}
+		male_names = {
+			Arthur Bertie Bert Darcy Hugh William Piers Raymond John Thomas
+			Aaron Abel Alwin Angus Augustine Walter Bran Kenneth Clemens Clement Nicholas Constantine
+			David Donald Duncan Douglas Eric Eugene Jacob Malcolm Nigel Oscar Peter Ernest
+			Paul Francis Roy Roderick Shaw Godfrey William Philip George Robert Jonathan Edmund Oliver
+			Gerald Richard Edward Augustus Henry
+		}
+		female_names = {
+			Alice Elizabeth Darcy Joan Eva Agnes Margaret Muriel Catherine Christina Eleanor Martha
+			Maria Matilda Mary Michelle Kylie Kayla Enid Ethel Hazel Victoria 
+		}
+	}
+	#VU - Cultures by Noobminer72
+	kiwi= {
+		graphical_culture = westerngfx
+		primary = XXX
+		dynasty_names = {
+			Sewell Fox Stafford Domett Whitaker Weld Waterhouse Vogel Pollen Atkinsosn Grey Hall Stout Ballance
+			Seddon Hall-Jones Ward Mackenzie Massey Bell Coates Forbes Savage Fraser Holland Holyoake Nash Marshall
+			Kirk watt Rowling Muldoon Lane Palmer Moore Bolger Shipley Clark Key English Arden
+		}
+		male_names = {
+			Arthur Bertie Bert Darcy Hugh William Piers Raymond John Thomas
+			Aaron Abel Alwin Angus Augustine Walter Bran Kenneth Clemens Clement Nicholas Constantine
+			David Donald Duncan Douglas Eric Eugene Jacob Malcolm Nigel Oscar Peter Ernest
+			Paul Francis Roy Roderick Shaw Godfrey William Philip George Robert Jonathan Edmund Oliver
+			Gerald Richard Edward Augustus Henry
+		}
+		female_names = {
+			Alice Elizabeth Darcy Joan Eva Agnes Margaret Muriel Catherine Christina Eleanor Martha
+			Maria Matilda Mary Michelle Kylie Kayla Enid Ethel Hazel Victoria Jacinda Helen Jenny
 		}
 	}
 }
@@ -934,6 +1338,28 @@ iberian	= {
 	leonese = {
 		primary = LON
 	}
+	andalucian = {
+		#primary culture of a Andalusian duchy tag (BTU Note: Potentially new Seville tag, SVL)
+		dynasty_names = {
+			Nasrid Ummayad Zirid
+		}
+		male_names = {
+			Muhammad Yûsuf 'Alî Sa'd Isma'îl Nasr 'Abd al-Karim Ayman Barakat Basir Dawud Fahd Faris Faruq 
+			Haidar Hashim Husam Iqbal Jabbar Ja'far Jamal Junayd Khaliq Malik Mansur Mustafa Najib Qasim Qusay 
+			Rashîd Safi Sakhr Samir Tariq Umar Wahid Zahir Firdaus Fuad Rahim
+			Abbad Abbas Abbas Abdallah Abdullah Abdul-Aziz Abdul-Hakam Abdul-Hasan Hasan Abdul-Hazm 
+			Abdul-Rahman Abdul-Razzaq Abdul Abdul Abu Abu-Bakr Abu-Bakr Adfuns Alphonse Ahmad Ahmad Ali Ali Amr 
+			Ayyub Balashk Vasco Bilal Fadl Fath Galind Galindo Garsiya Garcia Hakam Hakam Hilal Ibrahim Abraham 
+			Isma'il Ismail Jyad Lubb Lupo Ma'n Mubashir Muhammad Muhammad Mundir Musa Moses Muyahid Raf Rashid 
+			Rasiq Sa'd Sanyo Sancho Siddray Suleyman Solomon Tariq Tifilwit Umar Umar Utman Wannaqo Inigo 
+			Ya'far Yahaff Yahya John Yusuf Joseph
+		}
+		female_names = {
+			Aliya Fahima Haifa Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda 
+			Ibtisam Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+		}
+	}
 	aragonese = {
 		primary = ARA
 		dynasty_names = {
@@ -957,6 +1383,39 @@ iberian	= {
 			Brunisenda Constança Constance Dolça Douce Elionor Eleanor Elisenda Ermessenda Ermesinda 
 			Estefania Stephania Gueraua Guillelma Guisla Gisela Isabel Elisabeth Margarida Margaret 
 			Maria Marquesa Marquise Sança Sancha Sibila Sibylla Teresa Teresa Toda Toda Violant Yolanda
+		}
+	}
+	brazilian = {
+		primary = BRZ
+		dynasty_names = {
+			"de Bragança" "de Camargo" "de Alburquerque" "de Vassouras" "de Noronha" "de Melo" 
+			"de Moura" "de Medeiros" "de Menezes" "de Saldanha" "de Alencar"
+			#CK2
+			"da Câmara" "da Maia" "de Abrantes" "de Moura Barreto" "de Sousa" "de Guanabara" "de Oliveira"
+			"da Fonseca" "de Caxias"
+		}
+		male_names = {
+			João Filipe Pedro António Duarte Henrique José Manuel Sebastião Miguel Teodósio Diniz 
+			Alexandre Carlos Diego Jaime Luís Álvaro André Bartolomeu Caetano Damião Estevão Francisco 
+			Xavier Gabriel Garcia Gaspar Gil Guilherme Inácio Joaquim Jorge Lourenço Marco Nicolau 
+			Paulo Rafael Rogério Rui Simão Vicente Otávio
+			Afonso Aires Álvaro Bermudo Diogo Diaco Egas Estêvão Fernão 
+			Ferdinando Fernando Garcia Gil Gomes Gonçalo Gutierre 
+			Valter Henrique Hermígio João Lourenço Martim Martin
+			Mendo Munio Nuno Pôncio Mem
+			Rodrigo Rui Raimundo Vasco Vicente
+			Moacir Caíque Ubirajara Ubiratã Joacir Domingos Quintino Deodoro Eduardo Emílio Castro Pascoal
+			Moreira Cláudio Dirceu Evandro Tomé Amado Silvério Basílio Cipriano Amaro Cosme Júlio Lucas
+			Severino Severiano Benjamim Epaminondas Seixas Torquato Antônio Getúlio Silveriano Brás
+
+		}
+		female_names = {
+			Aldara Alduara Beatriz Berengária Branca
+			Constância Elvira Estevânia Fruilhe Fronilde Gontinha Gontroda 
+			Guiomar Inês Agnes Joana Leonor Eleanor Mafalda Matilda Margarida Maria 
+			Marinha Marinês Ouroana Teresa Urraca Constança Célia
+			Maiara Janaína Iara Tainara Iracema Mariana Bárbara Josefina Ana "Ana Paula" Aurélia
+			Adelaide Firmina Emília Cecília Lauriana Isabel
 		}
 	}
 	catalan = {
@@ -1002,54 +1461,27 @@ iberian	= {
 			Blanche Antía Branca Carme Catarina Dores Iria Lía Margarida María Noela Rosalía Sabela Uxía Xoana
 		}
 	}
-	andalucian = {
-		#primary culture of a Andalusian duchy tag (BTU Note: Potentially new Seville tag, SVL)
+	katsila = {
+		primary = XXX
 		dynasty_names = {
-			Nasrid Ummayad Zirid
+			Osorio Andrade
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			"de Cabrera" "de Villena" "de Miranda"
 		}
 		male_names = {
-			Muhammad Yûsuf 'Alî Sa'd Isma'îl Nasr 'Abd al-Karim Ayman Barakat Basir Dawud Fahd Faris Faruq 
-			Haidar Hashim Husam Iqbal Jabbar Ja'far Jamal Junayd Khaliq Malik Mansur Mustafa Najib Qasim Qusay 
-			Rashîd Safi Sakhr Samir Tariq Umar Wahid Zahir Firdaus Fuad Rahim
-			Abbad Abbas Abbas Abdallah Abdullah Abdul-Aziz Abdul-Hakam Abdul-Hasan Hasan Abdul-Hazm 
-			Abdul-Rahman Abdul-Razzaq Abdul Abdul Abu Abu-Bakr Abu-Bakr Adfuns Alphonse Ahmad Ahmad Ali Ali Amr 
-			Ayyub Balashk Vasco Bilal Fadl Fath Galind Galindo Garsiya Garcia Hakam Hakam Hilal Ibrahim Abraham 
-			Isma'il Ismail Jyad Lubb Lupo Ma'n Mubashir Muhammad Muhammad Mundir Musa Moses Muyahid Raf Rashid 
-			Rasiq Sa'd Sanyo Sancho Siddray Suleyman Solomon Tariq Tifilwit Umar Umar Utman Wannaqo Inigo 
-			Ya'far Yahaff Yahya John Yusuf Joseph
+			García Ordoño Afonso Sancho Ramiro Bermudo Froila Aleixo Alvaro Anxo Baltasar 
+			Bernaldo Brais Carlos Cristovo Domingos Estevo Felipe Fernán Francisco Frederico 
+			Gonzalo Guillerme Gumersindo Henrique Hermenexildo Hixinio Hugo Iago Ignacio 
+			Leandro Lope Miguel Nuno Odón Paulo Pedro Ramón Roi Tomé Vitor Xoan Xorxe
 		}
 		female_names = {
-			Aliya Fahima Haifa Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda 
-			Ibtisam Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
-			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+			Branca Iria Sabela Lúa Rodolfa Sofía Aldara Alduara Aldonça Aldonza Beatriz 
+			Beatrice Berengária Berengaria Branca Blanche Antía Branca Carme Catarina Dores 
+			Iria Lía Margarida María Noela Rosalía Sabela Uxía Xoana
 		}
-	}
-	dynasty_names = {
-		"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
-		Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
-		#CK2
-		"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
-		"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-		Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
-	}
-	male_names = {
-		Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
-		Bernardo Bertrán Hernando
-		Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
-		Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
-		Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
-		Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila García Garcia Gil 
-		Egidius Gómez Gomez Gonzalo Gonzalo Guillén William Guillermo William Gutierre Walter Juan 
-		Lope Lupo Luis Louis Manrique Amalric Martín Martin Munio Munio Nuño Nuno Ordoño Ordono 
-		Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho 
-		Suero Tello Vela Vela Suero Oveco John Enrique
-	}
-	female_names = {
-		Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
-		Constance Elvira Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
-		Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
-		Mayor Mayor Mencía Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
-		Isabel
 	}
 	portugese = {
 		primary = POR
@@ -1078,38 +1510,32 @@ iberian	= {
 			Marinha Marine Mor Mayor Ouroana Sancha Sancha Teresa Teresa Urraca Urraca Gotruda Constança
 		}
 	}
-	brazilian = {
-		primary = BRZ
-		dynasty_names = {
-			"de Bragança" "de Camargo" "de Alburquerque" "de Vassouras" "de Noronha" "de Melo" 
-			"de Moura" "de Medeiros" "de Menezes" "de Saldanha" "de Alencar"
-			#CK2
-			"da Câmara" "da Maia" "de Abrantes" "de Moura Barreto" "de Sousa" "de Guanabara" "de Oliveira"
-			"da Fonseca" "de Caxias"
-		}
-		male_names = {
-			João Filipe Pedro António Duarte Henrique José Manuel Sebastião Miguel Teodósio Diniz 
-			Alexandre Carlos Diego Jaime Luís Álvaro André Bartolomeu Caetano Damião Estevão Francisco 
-			Xavier Gabriel Garcia Gaspar Gil Guilherme Inácio Joaquim Jorge Lourenço Marco Nicolau 
-			Paulo Rafael Rogério Rui Simão Vicente Otávio
-			Afonso Aires Álvaro Bermudo Diogo Diaco Egas Estêvão Fernão 
-			Ferdinando Fernando Garcia Gil Gomes Gonçalo Gutierre 
-			Valter Henrique Hermígio João Lourenço Martim Martin
-			Mendo Munio Nuno Pôncio Mem
-			Rodrigo Rui Raimundo Vasco Vicente
-			Moacir Caíque Ubirajara Ubiratã Joacir Domingos Quintino Deodoro Eduardo Emílio Castro Pascoal
-			Moreira Cláudio Dirceu Evandro Tomé Amado Silvério Basílio Cipriano Amaro Cosme Júlio Lucas
-			Severino Severiano Benjamim Epaminondas Seixas Torquato Antônio Getúlio Silveriano Brás
-
-		}
-		female_names = {
-			Aldara Alduara Beatriz Berengária Branca
-			Constância Elvira Estevânia Fruilhe Fronilde Gontinha Gontroda 
-			Guiomar Inês Agnes Joana Leonor Eleanor Mafalda Matilda Margarida Maria 
-			Marinha Marinês Ouroana Teresa Urraca Constança Célia
-			Maiara Janaína Iara Tainara Iracema Mariana Bárbara Josefina Ana "Ana Paula" Aurélia
-			Adelaide Firmina Emília Cecília Lauriana Isabel
-		}
+	dynasty_names = {
+		"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+		Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+		#CK2
+		"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+		"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+		Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+	}
+	male_names = {
+		Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
+		Bernardo Bertrán Hernando
+		Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
+		Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
+		Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
+		Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila García Garcia Gil 
+		Egidius Gómez Gomez Gonzalo Gonzalo Guillén William Guillermo William Gutierre Walter Juan 
+		Lope Lupo Luis Louis Manrique Amalric Martín Martin Munio Munio Nuño Nuno Ordoño Ordono 
+		Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho 
+		Suero Tello Vela Vela Suero Oveco John Enrique
+	}
+	female_names = {
+		Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
+		Constance Elvira Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
+		Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
+		Mayor Mayor Mencía Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
+		Isabel
 	}
 }
 
@@ -1683,6 +2109,15 @@ west_slavic = {
 	polabian_culture = {
 		graphical_culture = westerngfx
 		primary = RUG
+		dynasty_names = {
+			Dubik Pinca Rapak Recka Horjan Smola Wrobl Liska Bramborski Salowski Salow Holanski Wowcer Kowar Korcmar Burik Smoler
+		}
+		male_names = {
+			Stanislaw Peter Jan Jakub Boscij Pavle Hansl Miklaws Mato Korla Kito  
+		}
+		female_names = {
+			Maria Alzbeta Ludmila Eva Anna Trudla Hilza Herta Worsa Agnes Maria Hilza
+		}
 	}
 	#BtPLegacy Culture
 	kashubian_culture = {
@@ -3250,6 +3685,17 @@ iranian	= {
 		dynasty_names = {
 			Afrasiyab Paduspanid Alid "Banu Kawus" "Banu Iskandar" Marashi Kiya
 			Bavandid Eshaqvand
+		}
+	}
+	alan = {
+		male_names = {
+			Aelbeg Aembalan Aghsartan Alatey Akhsar Anbal Anbazuk Aravat Arsen Askhkadar Ashot Aslan Aspar Athom Balambar Balsag Barlah Baeqaetar Basil Bazuk Beler Ber Biraeg Boz-Uruz Buürgur Buriberdi
+			Burikhan Candak Chelakhsartag Davit Djadaron Durgulel Dzaeraes Gaetaeg Georgy Girgon Gokhar Gubaz Guram Hasqar Huddan Istor Itaz Iveri Kandak Kandz Kavtia Kaur
+			Khankhusy Khaetag Konstantin Kubal Kuddana Kul Kuluk Lak Levan Pulad Respendial Rosmag Safrak Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Syrdon Taymuraz Taus Totraz Urdure Uruzma Uturku Yasynya Zaur
+		}
+		female_names = {
+			Adadza Alda Altun Ana Atsyrukhs Baia Bedisa Borena Btsenon Burudukan Duda Elene Eliso Gergana Gulchara Guranduht Kera Keratsa Ketevan Koser
+			Lamara Lashin Lela Mariami Natia Nino Rusudan Sanatha Satinik Shatana Shorena Shukhia Tamari Tinatini Tsiala Vardo Vedokha Yeran
 		}
 	}
 	dynasty_names = {
@@ -8735,10 +9181,16 @@ southern_african = {
 			Zulu
 		}
 		male_names = {
-			Bonginkosi Kagiso Bhekizizwe Bhekumbuso Shaka Funani Kgabu Solomon Gatsha Langa Phila Msizi Nkosiyabo Mpilo Siyanda Nkanyezi Bafana Lwandle Sfiso Thulani Thando Sanele Anele Lungelo Dumisani Bangizwe Fanyana Bhekimuzi Mandla Maphikelela Mpumelelo Mthunzi Philani Musawenkosi Nkosenye Nkosinhle Phiwokwakhe Sifiso Zithulele Sithembiso Sipho Siphiwe Sibusiso Velaphi Thamsanqa Vusumuzi Themba Zenzele Ndleleni
+			Bonginkosi Kagiso Bhekizizwe Bhekumbuso Shaka Funani Kgabu Solomon Gatsha Langa Phila Msizi Nkosiyabo Mpilo Siyanda 
+			Nkanyezi Bafana Lwandle Sfiso Thulani Thando Sanele Anele Lungelo Dumisani Bangizwe Fanyana Bhekimuzi Mandla Maphikelela 
+			Mpumelelo Mthunzi Philani Musawenkosi Nkosenye Nkosinhle Phiwokwakhe Sifiso Zithulele Sithembiso Sipho Siphiwe Sibusiso 
+			Velaphi Thamsanqa Vusumuzi Themba Zenzele Ndleleni
 		}
 		female_names = {
-			Ayanda Uluthando Nofoto Yibanathi Thadie Ulwazi Lerato Amahle Khulekani Jabulile Mthunzi Sindisiwe Inyoni Ntombizodwa Zobuhle Samukelisiwe Nonhlanhla Nhlakanipho Liyana Nonjabulo Ntokozo Nokuthula Buhle Isisa Thobeka Thabisa Zanele Sizani Nkosingiphile Mhambi Nomvula Thulisile Lukhona Mbalienhle Sizakele Khethiwe Nolwazi Sinenhlanhla Ayize Duduzile Busisiwe Hlengiwe Jabulile Khanyisile Nandi Ndondoloza Nozipho Nonkululeko Sibongile Siphephelo
+			Ayanda Uluthando Nofoto Yibanathi Thadie Ulwazi Lerato Amahle Khulekani Jabulile Mthunzi Sindisiwe Inyoni Ntombizodwa Zobuhle 
+			Samukelisiwe Nonhlanhla Nhlakanipho Liyana Nonjabulo Ntokozo Nokuthula Buhle Isisa Thobeka Thabisa Zanele Sizani Nkosingiphile 
+			Mhambi Nomvula Thulisile Lukhona Mbalienhle Sizakele Khethiwe Nolwazi Sinenhlanhla Ayize Duduzile Busisiwe Hlengiwe Jabulile 
+			Khanyisile Nandi Ndondoloza Nozipho Nonkululeko Sibongile Siphephelo
 		}
 	}
 	#BtPLegacy Culture
@@ -8787,16 +9239,42 @@ southern_african = {
 	}
 }
 
-kongo_group = {
+kongo_group = { #Group 1
 	graphical_culture = africangfx
-	lunda = {
-		primary = LND
-	}
+	mbundu = { #ambundu (Change name in loc file!
+        primary = NDO 
+        male_names = {
+            Mbombo Mbumba Fundanga Ngonga Njali Mbandi Kilwanji Ngudi Hadi Muhongo Ndala Mussudi 
+			Ndambi Kambolo Nzaji Kituxi Masoxi
+        }
+        female_names = {
+            Mwongo Bebeka Ndémbu Fúxi Ngongo Lemba Kifunji Kambu Kumbi Maxongo Makufu Samba 
+			Kangala Kamana Masoxi
+        }
+		dynasty_names = {
+	        Mbombo Mbumba Fundanga Ngonga Njali Mbandi Kilwanji Ngudi Hadi Muhongo Ndala Mussudi 
+			Ndambi Kambolo Nzaji Kituxi Mwongo Bebeka Ndémbu Fúxi Ngongo Lemba Kifunji 
+			Kambu Kumbi Maxongo Makufu Samba Kangala Kamana Masoxi
+	    }
+    }
 	luba = {
 		primary = LUB
 	}
-	kongolese = {
+	matamba = {
+		primary = MTB
+	}
+	kongolese = { #Rename to "Bakongo"
 		primary = KON
+		male_names = {
+            Lukeni Nimi Nanga Nlaza Nzinga Mvemba Mpanzu Nkumbi Mpudi Mbiki Misaki Nganga Mwanda Myala Kyese Nkembi Lusala Mbunga Nkuwu 
+        }
+        female_names = {
+            Lukeni Nzinga Kyaku Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi Nkuwu 
+        }
+		dynasty_names = {
+	        Lukeni Nimi Nanga Nlaza Nzinga Mvemba Mpanzu Nkumbi Mpudi Mbiki Misaki Nganga Mwanda Myala Kyese Nkembi Lusala Mbunga Nkuwu 
+			Lukeni Nzinga Kyaku Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi
+	    }
 	}
 	yaka = {
 		primary = YAK
@@ -8804,43 +9282,169 @@ kongo_group = {
 	kuba = {
 		primary = KUB
 	}
-	mbundu = {
-		primary = NDO
-	}
-	chokwe = {
-		primary = CKW
-	}
-	mbangala = {
+	mbangala = { #Imbangala (Change name in loc file!
 		primary = KSJ
 	}
-	jukun = {
-
+	jukun = { #OLD
+	    #primary = XXX
 	}
-	sawabantu = {
-
+	sawabantu = { #OLD
+	    #primary = XXX
 	}
 	#BtPLegacy Culture
-	tegali_culture = {
+	tegali_culture = { #OLD
 		primary = TEG
 	}
-	#BtPLegacy Culture
-	ovambo_culture = {
-		#primary = XXX
+	dynasty_names = { #generic
+	    Mbombo Mbumba Fundanga Ngonga Njali Mbandi Kilwanji Ngudi Hadi Muhongo Ndala Mussudi Ndambi Kambolo Nzaji Kituxi Masoxi 
+		Mwongo Bebeka Ndémbu Fúxi Ngongo Lemba Kifunji Kambu Kumbi Maxongo Makufu Samba Kangala Kamana Masoxi Lukeni Nimi Nanga 
+		Nlaza Nzinga Mvemba Mpanzu Nkumbi Mpudi Mbiki Misaki Nganga Mwanda Myala Kyese Nkembi Lusala Mbunga Lukeni Nzinga Kyaku 
+		Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi Nkuwu
 	}
-	#BtPLegacy Culture
-	kavango_culture = {
-		#primary = XXX
-	}
-	dynasty_names = {
-		Lukeni Loanga Kalumbwe Kikondja Imbangala Kasanje Shila Kazembe Lunda Kuba
-	}
-	male_names = {
+	male_names = { #generic
 		Garcia Álvaro Pedro Afonso Ntinu Nkuwu Henrique António Bernardo José Ambrósio Aleixo André Daniel Diogo 
 		Nicolau Nzinga Nkuwa Sebastião Ilunga Sanza Kumwimba Kasongo Kekenya Kaumbo Miketo Nday Mwine Maloba 
-		Kitamba Cibind Nawej Munying Kateng Cakasekene Cikombe Kalong Mutand Mbala Mukaz Mpemba
+		Kitamba Cibind Nawej Munying Kateng Cakasekene Cikombe Kalong Mutand Mbala Mukaz Mpemba Nkuwu
 	}
-	female_names = {
-		Jetta Vandana Zody
+	female_names = { #generic
+		Jetta Vandana Zody Lukeni Nzinga Kyaku Luzolo Nsoki Luyelula Mbwanda Kyese Myezi Mafuta Lukawu Nkenge Mayamba Lwena Kudankami Nlandu Nkembi
+		 Mwongo Bebeka Ndémbu Fúxi Ngongo Lemba Kifunji Kambu Kumbi Maxongo Makufu Samba Kangala Kamana Masoxi Nkuwu 
+	}
+}
+
+#southwest_bantu = {}
+
+southwestern_bantu = { #NEW Group 2
+    graphical_culture = africangfx
+    ovambo_culture = {
+        primary = XXX
+        male_names = {
+            Kambungo Mandume Ndemufayo Akwenye Amunime Amutenya Angula Uukongo Uusiku 
+			Tulitungeni	Ndewtelela Mwaifanange Hasondisi Hashetu Nghidulika Nghilifilwa 
+			Nghinashamunhu Lipuleni Shafodino Shiepo Shikudule Shilengifa Shimwefeleni
+        }
+        female_names = {
+            Ndapona Namatembu Namutenya Nangula Nathinge Nuusiku Etuhole Nghinashamunhu 
+			Ndafyaalako Ndapunikwa Ndateelela Ndeshihafela Ndeshipanda Ndeshiyala Ndilipofina 
+			Ndilokelwa Kuwilileni
+        }
+    }
+	#BtPLegacy Culture
+	kavango_culture = { #Move to Group 2
+		#primary = XXX
+	}
+	mucubal = { #herero & NEW Farsen entry by San Felipe
+        #primary = XXX
+    }
+    ovimbundu = { #NEW Farsen entry by San Felipe
+        #primary = XXX
+    }
+    nyaneka_humbe = { #nhaneca_humbe & NEW Farsen entry by San Felipe
+        #primary = XXX
+		male_names = { #generic
+            Tyapukulwa Tchilunlum Mumbanda Pefiko Nkhole Sekulo Mukongo Kataleko Fito Nandjila 
+			Tchipito Tchimutambo Mutenya Wolumba Mbula Muholo Muhepe Mahuku Nangula 
+			Nangombe Lyeniveni Hinambendi Hinaounye Hamba Hitali Hulya Kahali Kaike Kandjala 
+			Kalitoko Kalukilwe Kambwale Katito Kavemundi 
+        }
+		female_names = { #generic
+		    Nangula Nangombe Tyapukulwa Tchilunlum Mumbanda Pefiko Nkhole Sekulo Mukongo Ndenge 
+			Kataleko Fito Nandjila Tchipito Tchimutambo Mutenya Wolumba Mbula Muholo 
+			Muhepe Mahuku Lyeniveni Hinambendi Hinaounye Hitali Hulya Kahali Kaike Kalukilwe 
+			Katito Kavemundi
+        }
+		dynasty_names = { #generic
+	        Tchilunlum Mumbanda Pefiko Nkhole Sekulo Mukongo Kataleko Fito Nandjila Tchipito 
+			Tchimutambo Mutenya Wolumba Mbula Muholo Muhepe Mahuku Nangula Nangombe Lyeniveni 
+			Hinambendi Hinaounye Hamba Hitali Hulya Kahali Kaike Kandjala Kalitoko Kalukilwe 
+			Kambwale Katito Kavemundi Tyapukulwa Ndenge 
+		}
+    }
+	male_names = {
+        Kambungo Mandume Ndemufayo Akwenye Amunime Amutenya Angula Uukongo Uusiku Tulitungeni 
+		Ndewtelela Mwaifanange Hasondisi Hashetu Nghidulika Nghilifilwa Nghinashamunhu Lipuleni 
+		Shafodino Shiepo Shikudule Shilengifa Shimwefeleni
+    }
+    female_names = {
+        Ndapona Namatembu Namutenya Nangula Nathinge Nuusiku Etuhole Nghinashamunhu Ndafyaalako 
+		Ndapunikwa Ndateelela Ndeshihafela Ndeshipanda Ndeshiyala Ndilipofina Ndilokelwa 
+		Kuwilileni
+    }
+}
+
+east_angolan = { #NEW Group 3
+    graphical_culture = africangfx
+    chokwe = {#tchokwe (Change name in loc file!
+        primary = CKW
+    }
+	lunda = {
+		primary = LND
+	}
+	ganguela = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+	}
+	mbunda = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+		male_names = { #generic
+            Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga 
+			Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando Kayando Ndzita 
+			Vusiwa Katye Kavindama Tchihili 
+		}
+		female_names = { #generic
+		    Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo Kahuti Lamba Vusiwa Kayando Ndzita Katye 
+			Kavindama Masozi
+		}
+		dynasty_names = { #generic
+		    Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo 
+			Kahuti Lamba Vusiwa Kayando Ndzita Katye Kavindama Masozi
+		}
+	}
+	malwena = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+		male_names = { #generic
+            Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili 
+		}
+		female_names = { #generic
+		    Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo Kahuti Lamba Vusiwa Kayando Ndzita Katye 
+			Kavindama Masozi
+		}
+		dynasty_names = { #generic
+		    Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo 
+			Kahuti Lamba Vusiwa Kayando Ndzita Katye Kavindama Masozi
+		}
+	}
+	malwimbi = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+		male_names = { #generic
+            Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili 
+		}
+		female_names = { #generic
+		    Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo Kahuti Lamba Vusiwa Kayando Ndzita Katye 
+			Kavindama Masozi
+		}
+		dynasty_names = { #generic
+		    Txilunda Ndala Kambinda Ntsandala Ntyamba Kasanga Kativa Ntyiakativa Ntyakasanga Ndumba Tchilunda Inge Ndjamba Munthomba Kanyanga Kahuti Masozi Kayando 
+			Lamba Ndzita Vusiwa Katye Kavindama Tchihili Mutango Ngeve Kalumbu Nthumba Mbaku Kakuhu Kasongo Tchihili Mbaka Mbakakuhu Katavu Ndanda Tchikulu Mbakasongo 
+			Kahuti Lamba Vusiwa Kayando Ndzita Katye Kavindama Masozi
+		}
+	}
+	xindonga = { #NEW Farsen entry by San Felipe
+		#primary = XXX
+	}
+	male_names = { #generic
+        Mwambumba Mwakahya Ngunji Nanjimi Mwatchisenge Satchikuta Tchikuta Tchicolasonhi Matfuka Mafo Tchikamamba Ngombe Sekesa Muchingweno Museheno Kaxita Muxete 
+		Napasa Kafunga Mwambeno Mulambeno Kufa Kachala
+    }
+    female_names = { #generic
+        Kaxita Matfuka Mafwo Tchikamamba Ngombe Muxete Napasa Kafunga Mwambeno Mulambeno Kufa Kachala
+    }
+	dynasty_names = { #generic
+	    Mwambumba Mwakahya Ngunji Nanjimi Mwatchisenge Satchikuta Tchikuta Tchicolasonhi Matfuka Mafo Tchikamamba Ngombe Sekesa Muchingweno Museheno Kaxita Muxete 
+		Napasa Kafunga Mwambeno Mulambeno Kufa Kachala Kaxita Matfuka Mafwo Tchikamamba Ngombe Muxete Napasa Kafunga Mwambeno Mulambeno Kufa Kachala
 	}
 }
 
@@ -9557,31 +10161,6 @@ lost_cultures_group = {
 			"Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti
 		}
 	}
-	roman = { #EU Rome
-		dynasty_names = {
-			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
-			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
-			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia
-			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
-			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
-		}
-		male_names = {
-			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
-			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo
-			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
-			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto
-			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
-			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
-			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
-			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher
-			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna
-			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus
-			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
-		}
-		female_names = {
-			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
-		}
-	}
 	jan_mayenese = {
 		dynasty_names = {
 			Beliy Medved Bjorn Rawrrorr Rrrrr Grrr Gyp Qoi Styrbjorn Blomstfjellet
@@ -9725,7 +10304,7 @@ lost_cultures_group = {
 			Amestris Amytis Anzaza Artazostre Artystone Atossa Barsine Damaspia Mandane Parmys Parysatis Phaedymia Rinu Stateira Vashti
 		}
 	}
-	aramaic = { #EU Rome
+	aramaic_old = { #EU Rome
 		dynasty_names = {
 			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid
 			Milkiramid Philosirid
@@ -9766,6 +10345,128 @@ lost_cultures_group = {
 		female_names = {
 			Amage Ghadani Opoin Polemakratia
 		}
+	}
+}
+mesopotamian_group = {
+	graphical_culture = muslimgfx
+	assyrian = {
+		dynasty_names = {
+			"Shalmaneser" "Ashur-dan" "Ashur-nirari" "Adad-nirari" "Ashurnasirpal" "Tukurti" "Ninurtal" "Ashur-uballit" "Enlil-nirar" "Puzur-ashur" "Shalim-ahum" "Ilu-shuma"
+			"Ikunum" "Sargon" "Erishum"
+		}
+		male_names = {
+			Izates Bazeus Monobaz Meharaspes Narsai Shahrat Aphraates Sargon Ashur Aphrahat Pkidha Ninos Noh Habel 
+			Abedhmiha Hiran Saloupha Ahadabuhi Soubaliso Rhima Abbousta Erishum Ikunum Asinum Lullaya Bazaya Adad-Nirari
+			Essarhaddon Sennacherib Ashurbanipal Tiglath-Pileser Tukulti-Ninurta Shalmaneser Adad-Nirari Shu-Ninua Tudiya
+		}
+		female_names = {
+			Alala Allat Allatu Amuhia Anat Anatu Anunit Aralu Aruru Astarte Atheh Belit Dadu Dadu-Ghipa Gula Ishtar Li-Lit
+			Mylitta Nairi Ninharrissi Ninkigal Ninkummu Nukimmut Nuri Pihirim Pirisati Rabbituri Ri Rubati Sammuramat Sar-Rat
+			Seruya Seruya-Edirat Shala Tabuya Tap-Nakhti Tasmit Tihamtu Ukubutu Urmitu Zirratbanit
+		}
+	}
+	aramaic = { #EU Rome
+		dynasty_names = {
+			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
+			Milkiramid Philosirid
+		}
+		male_names = {
+			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
+			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+			Paltibaal Philosir
+		}
+		female_names = {
+			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
+		}
+	}
+}
+old_latin = {
+	graphical_culture = westerngfx
+	roman = { #EU Rome
+		dynasty_names = {
+			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia
+			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+		}
+		male_names = {
+			Augustus Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+		}
+		female_names = {
+			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+			Aeliana Albia Antonia Aquilia Argentia Camilla Cassia Clemensia Decima Flavia Florentina Fortunata Gaia Galle
+			Drusilla Dulcia Fabia Faustina Flavia Hilaria Horatia Julia Junia Laelia Laurentia Mercella Marilla 
+			Martia Maxima Mila Nerilla Octavia Prima Priscilla Quintia Sabina Septima Sergia Tanaquil Tatana
+			Tauria Tertia Tullia Urbana Valentina Varinia Vita
+		}
+	}
+	gallo_roman = {
+		male_names = {
+			Appius Aulus Decimus Gaius Gnaeus Kaeso Lucius Mamercus Manius Mercus Numerius Publius Quintus Servius Sextus
+			Spurius Tiberius Titus Agrippa Ancus Caesar Faustus Hostus Opiter Postumus Proculus Sertor Statius Tullus Volero 
+			Vopiscus Adaryn Abenzio Abhann Allan "Ap Owen" Arthmeal Arto 
+			Belenus Biorach Bran Breanainn Briano Brigh Brog Bruaich
+			Cadan Caol Caradoc Carden Ceall Ceallair Cearbh Chadh Cionnaith
+			Craeg Deoradhan Donaghy Dorran Dougal Drausus Drest Dubno
+			Eburacon Edgan Egan Eimh Eirdirsceaol Ferghus Fear Faol
+			Keeland Kegan Laogh Lorcc Lugubelenus Lugus Maccus Maoilios 
+			Nuireadhach Phelan Raigan Seaghdh Teigen Trahern Tremaine 
+			Tristian Tristram Aius Amaina Amia Avaro Bilinos
+		}
+	}
+	afro_roman = {
+	
+	}
+	illyro_roman = {
+	
+	}
+	romano_britanian = {
+	
+	}
+	hispanic_roman = {
+	
+	}
+	romano_pannonian = {
+	
+	}
+	
+	dynasty_names = {
+		Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+		Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+		Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia
+		Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+		Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+	}
+	male_names = {
+		Augustus Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+		Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo
+		Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+		Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto
+		Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+		Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+		Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+		Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher
+		Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna
+		Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus
+		Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+	}
+	female_names = {
+		Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+		Aeliana Albia Antonia Aquilia Argentia Camilla Cassia Clemensia Decima Flavia Florentina Fortunata Gaia Galle
+		Drusilla Dulcia Fabia Faustina Flavia Hilaria Horatia Julia Junia Laelia Laurentia Mercella Marilla 
+		Martia Maxima Mila Nerilla Octavia Prima Priscilla Quintia Sabina Septima Sergia Tanaquil Tatana
+		Tauria Tertia Tullia Urbana Valentina Varinia Vita
 	}
 }
 
@@ -9888,6 +10589,28 @@ illyrian = {
 	}
 	arvanite = {
 		#primary = #no tag so no seperatists
+	}
+	old_illyrian = {
+		#primary = #no tag, maybe Illyria in the future
+		
+		male_names = {
+			Cadmus Hyllus Galatea Encheleus Autarieus Dardanus Maedus Taulas Perrhaebus Triballus Sirras Bardylis Pleuratus
+			Cleitus Monunius Mytilus Agron Scerdilaidas Pinnes Gentius Galaurus Gentius Epulon Opis Bato Baton Astius Nicetas 
+			Decius Probus Diocletian Jovian Scordiscus Triballus 
+			Gjergj Lekë Gjon Lulëzim Pal Tanush Aleksandër Karolus Filippo Adnan Agim 
+			Dardan Dritëro Elidon Erjon Flamur Florin Hekuran Ilir Klodian Luigj
+			Pashko Pëllumb Përparim Pjetër Rrok Shpëtim Tahir Viktor Xhevat Ylli Zenel Halil Ali
+			Ramiz Edi Demaci Edon Dukagjin Haxhi Lishëndri Mensur Rahman Nxhiku Riza Rexhep Bujar Nikolla Enver
+		}
+		female_names = {
+			Teuta Partho Daortho Dassaro Gjylo Afërdita Blerta Bora Dafina Dardana Era Flutura Gentiana Jehona Lindita Lule Luljeta Pranvera Shpresa 
+			Shqipe Teuta Venera Vera Vesa Yllka
+		}
+		dynasty_names = {
+			Cadmio Hyllio Galatea Enchelea Dardanea Taulai Epuloi Batoi Batonoi Astinoi Nicetai Cadmusai Hyllusai Pinnai Batoai Batonai 
+			Deciu Diocletiai Joviae Triballai Agronai Mytilai Maedai 
+			Trpimirovic Svetoslavic Kosovic Kresimirovic Zrinski Domagojevic Hrvatinic Kotromanic Brankovic Lazarevic
+		}
 	}
 	male_names = {
 		Gjergj Lekë Gjon Kostandin Lulëzim Pal Tanush Aleksandër Karolus Filippo Adnan Agim Bashkim Besnik 

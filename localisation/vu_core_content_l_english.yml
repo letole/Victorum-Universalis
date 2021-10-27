@@ -72,6 +72,12 @@
  default_II_long_desc:0 "Error, please report to Draiocht ST4"
  default_II_is_our:0 "Error, please report to Draiocht ST5"
  default_II_no_overlord_dow:0 "Error, please report to Draiocht ST6"
+ silesian_duke:0 "Silesian Duchy"
+ silesian_duke_title:0 "Silesian Duchy"
+ silesian_duke_title_plural:0 "Silesian Duchies"
+ silesian_duke_long_desc:0 "A Silesian Duchy is special subject type present in the region of Silesia. Represents many fractured duchies that formed there during middle ages and were subsequently subjugated by foreign powers. Silesian Duchy will recieve various bonuses. It doesn't cost diplomatic relation slot but will recieve significant penalties for growing too large. Silesian dichies may ally, rival and wage war on each other but overlord can intervene and enforce peace. For obvious reasons, Silesian Duchy can only be established for certain nations and by limited number of overlords. Can be normally annexed."
+ silesian_duke_is_our:0 "$NAME|Y$ is our Silesian Duchy."
+ silesian_duke_no_overlord_dow:0 "You cannot declare war on Silesian Duchy."
 
 
 
@@ -100,8 +106,33 @@
  griko:0 "Griko"
  anatolian_greek:0 "Antiochene" # May also be Phrygian or Pamphylian
  karchidoniac:0 "Karchidoniac"
- egyptian_greek:0 "Alexandrian" # May also Ptolemean or Aigyptios
+ egyptian_greek:0 "Alexandrian" # May also be Ptolemean or Aigyptios
  persic:0 "Persic"
+ old_latin:0 "Old Latin"        # Can also be Old Roman
+ gallo_roman:0 "Gallo-Roman"
+ afro_roman:0 "African Romance" # Romano-African, African Roman or Afro-Roman also fit
+ illyro_roman:0 "Illyrian Roman"        # May also be Istriot
+ romano_britanian:0 "Romano Brytanic"   # May also be British, Britanican or British Latin
+ hispanic_roman:0 "Hispanic"    # May also be Iberian, Hispanic Roman or Ibero-Romance
+ romano_pannonian:0 "Pannonian Romance" # May also be Pannonian
+ old_illyrian:0 "Illyrian"      # Old native Illyrians before Huns genocided them all
+ alan:0 "Alani"
+ mesopotamian_group:0 "Mesopotamian"
+ assyrian:0 "Assyrian"
+ aramaic_old:0 "Old Aramaic"
+ alaskaner:0 "Alaskaner"
+ kalifornier:0 "Kalifornier"
+ mexikaner:0 "Mexikaner"
+ kubaner:0 "Kubaner"
+ pennsilfaanisch:0 "Pennsilfaanisch"
+ neu_prussian:0 "Neu Prussisch"
+ deutschkolumbian:0 "Deutschkolumbianer"
+ hunsrik:0 "Hunsrik"
+ argentiner:0 "Argentiner"
+ australier:0 "Australier"
+ seelander:0 "Seelander"
+ afrikaner:0 "Afrikaner"
+ vinlandic:0 "Vinlandic"
  berber_group:0 "Berber"
  shilha:0 "Shilha"
  riffian:0 "Riffian"
@@ -667,8 +698,32 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  desc_apalachicola_estuary_modifier:0 "Controlling the important estuary of the Apalachicola River strengthens our hold of the trade in the region."
  potomac_estuary_modifier:0 "Potomac River Estuary"
  desc_potomac_estuary_modifier:0 "Controlling the important estuary of the Potomac River strengthens our hold of the trade in the region."
+ rappahannock_estuary_modifier:0 "Rappahannock River Estuary"
+ desc_rappahannock_estuary_modifier:0 "Controlling the important estuary of the Rappahannock River strengthens our hold of the trade in the region."
+ york_estuary_modifier:0 "York River Estuary"
+ desc_york_estuary_modifier:0 "Controlling the important estuary of the York River strengthens our hold of the trade in the region."
+ susquenhanna_estuary_modifier:0 "Susquenhanna River Estuary"
+ desc_susquenhanna_estuary_modifier:0 "Controlling the important estuary of the Susquenhanna River strengthens our hold of the trade in the region."
+ patuxent_estuary_modifier:0 "Patuxent River Estuary"
+ desc_patuxent_estuary_modifier:0 "Controlling the important estuary of the Patuxent River strengthens our hold of the trade in the region."
+ raritan_estuary_modifier:0 "Raritan River Estuary"
+ desc_raritan_estuary_modifier:0 "Controlling the important estuary of the Raritan River strengthens our hold of the trade in the region."
+ connecticut_estuary_modifier:0 "Connecticut River Estuary"
+ desc_raritan_estuary_modifier:0 "Controlling the important estuary of the Connecticut River strengthens our hold of the trade in the region."
+ nansemond_estuary_modifier:0 "Nansemond River Estuary"
+ desc_nansemond_estuary_modifier:0 "Controlling the important estuary of the Nansemond River strengthens our hold of the trade in the region."
+ straits_of_florida_estuary_modifier:0 "Florida Strait"
+ desc_straits_of_florida_estuary_modifier:0 "Controlling the important straits that skirts the southern coast of Florids will not only strengthens our hold of the trade in the region but increase our chances in capturing treasure fleets bound for Europe."
+ massachusetts_bay_modifier:0 "Massachusetts Bay"
+ desc_massachusetts_bay_modifier:0 "The Massachusetts Bay is located in the Mid-Atlantic region and is situated within close proximity to Cape Cod. Massachusetts Bay is a very important feature for the ecology and economy of those two states, as well as others surrounding within its watershed."
+ burwell_bay_modifier:0 "Burwell Bay"
+ desc_burwell_bay_modifier:0 "The Burwell Bay is located in the Mid-Atlantic region and is situated within close proximity to Cape Cod. Massachusetts Bay is a very important feature for the ecology and economy of those two states, as well as others surrounding within its watershed."
+ straits_of_northumberland_estuary_modifier:0 "Northumberland Strait"
+ desc_straits_of_northumberland_estuary_modifier:0 "Controlling the important straits of Northumberland strengthens our hold of the trade in the region."
  straits_of_cabot_estuary_modifier:0 "Cabot Strait"
  desc_straits_of_cabot_estuary_modifier:0 "Controlling the important straits of Cabot strengthens our hold of the trade in the region."
+
+
  essequibo_river_estuary_modifier:0 "Essequibo River Estuary"
  desc_essequibo_river_estuary_modifier:0 "Controlling the important estuary of the Essequibo River strengthens our hold of the trade in the region."
 
@@ -925,13 +980,13 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  curonian_strait_toll:0 "Curonian Strait Toll"
  desc_curonian_strait_toll:0 "The Curonian Lagoon is seperated from the rest of the Baltic Sea by a narrow strip of land called the Curonian Spit, creating a natural chokepoint at the only exit for the many cities and towns along the lagoon. Just some couple hundred metres wide, gaining control of this natural chokepoint will ensure our continued relevance in regional trade."
 
-bohai_bay_modifier:0 "Bohai Bay"
+ bohai_bay_modifier:0 "Bohai Bay"
  desc_bohai_bay_modifier:0 "Bohai Bay is one of the three major bays of the Bohai Sea, the northwestern and innermost gulf of the Yellow Sea. It is bounded by the coastlines of eastern Hebei province, Tianjin municipality and northern Shandong province south of the Daqing River estuary and north of the Yellow River estuary. It is the most southerly water in the northern hemisphere where sea ice can form."
 
-osaka_bay_modifier:0 "Osaka Bay"
+ osaka_bay_modifier:0 "Osaka Bay"
  desc_osaka_bay_modifier:0 "Osaka Bay is a bay in western Japan. As an eastern part of the Seto Inland Sea, it is separated from the Pacific Ocean by the Kii Channel and from the neighbor western part of the Inland Sea by the Akashi Strait. Its western shore is formed by Awaji Island, and its northern and eastern shores are part of the Kansai metropolitan area."
 
-ijsselmeer_bay_modifier:0 "IJsselmeer"
+ ijsselmeer_bay_modifier:0 "IJsselmeer"
  desc_ijsselmeer_bay_modifier:0 "The IJsselmeer, also known as Lake IJssel, is a closed off inland bay in the central Netherlands bordering the provinces of Flevoland, North Holland and Friesland. It covers an area of 1,100 km2 (420 sq mi) with an average depth of 5.5 m (18 ft). The river IJssel flows into the IJsselmeer. "
 
  #Specials - New World
@@ -943,19 +998,19 @@ ijsselmeer_bay_modifier:0 "IJsselmeer"
  #golden_gate_strait_modifier:0 "Golden Gate"
  #desc_golden_gate_strait_modifier:0 "The Golden Gate is a natural strait, less than a league across, separating the San Francisco and Marin Peninsulas to form a natural gateway into the well protected San Francisco Bay. Named 'Chrysopylae', or the Golden Gate, after 'Chrysoceras', the Golden Horn of the Bosporus, because of the strategic position's obvious potential as a center for trade with the Orient. Later, this name would prove prophetic when a certain rare mineral was found to be abundant in the mountains and hills beyond the bay."
 
-chesapeake_bay_modifier:0 "Chesapeake Bay"
+ chesapeake_bay_modifier:0 "Chesapeake Bay"
  desc_chesapeake_bay_modifier:0 "The Chesapeake Bay is the largest estuary in the United States. The Bay is located in the Mid-Atlantic region and is primarily separated from the Atlantic Ocean by the Delmarva Peninsula with its mouth of the Bay at the south end located between Cape Henry and Cape Charles. With its northern portion in Maryland and the southern part in Virginia, the Chesapeake Bay is a very important feature for the ecology and economy of those two states, as well as others surrounding within its watershed. More than 150 major rivers and streams flow into the Bay's 64,299-square-mile drainage basin."
 
-maracaibo_bay_modifier:0 "Maracaibo Bay"
+ maracaibo_bay_modifier:0 "Maracaibo Bay"
  desc_maracaibo_bay_modifier:0 "Lake Maracaibo is a large brackish tidal bay in Venezuela and an "inlet of the Caribbean Sea". It is sometimes considered a lake rather than a bay or lagoon. It is connected to the Gulf of Venezuela by Tablazo Strait, which is 5.5 kilometres (3.4 mi) wide at the northern end. It is fed by numerous rivers, the largest being the Catatumbo. At 13,210 square kilometres (5,100 sq mi) it was once the largest lake in South America; the geological record shows that it was a true lake in the past, and as such is one of the oldest lakes on Earth at 20–36 million years old."
 
-pudget_sound_modifier:0 "The Pudget Sound"
+ pudget_sound_modifier:0 "The Pudget Sound"
  desc_pudget_sound_modifier:0 "The Puget Sound, is a sound of the Pacific Northwest, an inlet of the Pacific Ocean, and part of the Salish Sea. It is located along the northwestern coast of the U.S. state of Washington. It is a complex estuarine system of interconnected marine waterways and basins, with one major and two minor connections to the open Pacific Ocean via the Strait of Juan de Fuca. Admiralty Inlet being the major connection and Deception Pass and Swinomish Channel being the minor. "
 
  ###########################
  #Other modifiers
  ###########################
-  #European
+ #European
  irish_fealty_negotiations_ongoing:0 "Demanding Irish Fealty"
  desc_irish_fealty_negotiations_ongoing:0 "Negotiations to arrange a formal declaration of fealty from an Old English lord in Ireland to the English Throne is ongoing."
  humiliated_by_former_vassal:0 "Humiliated by Former Vassal"
@@ -1059,6 +1114,27 @@ pudget_sound_modifier:0 "The Pudget Sound"
  desc_bt_spanish_colonial_enthusiasm:0 "Large groups of ambitious people are interested in moving to the colonies."
  bt_daring_navigator:0 "A Daring Explorer"
  desc_bt_daring_navigator:0 "This country is employing an ambitious and daring explorer who is determined to push further than anyone has before and discover new lands on distant shores."
+ 
+ #Subject modifiers
+ silesian_duke_modifier:0 "Is Silesian Duchy"
+ desc_silesian_duke_modifier:0 "We are silesian duchy subject type"
+ silesian_duke_size_modifier:0 "Large Silesian Duchy"
+ desc_silesian_duke_size_modifier:0 "Our duchy is gorwing too large for its diplomatic capabilities"
+ 
+ 
+ swedish_military_miracle:0 "Swedish military golden age"
+ desc_swedish_military_miracle:0 ""
+ gave_vodka_timer:0 "Gave vodka timer"
+ desc_gave_vodka_timer:0 ""
+ vodka_distributed:0 "Distributed vodka to masses"
+ desc_vodka_distributed:0 ""
+ great_horde_humiliated:0 "Great Horde Humiliated"
+ desc_great_horde_humiliated:0 "Rip our military might..."
+ 
+ ice_rediscovered_greenland:0 "Greenland Rediscovered"
+ desc_ice_rediscovered_greenland:0 "Re-disovering forgoten viking routes brings back new opportunities"
+ second_viking_colonization:0 "Second Era of Colonization"
+ desc_second_viking_colonization:0 "Era of new viking colonization has begun. New lands await to be settled!"
  
  ##########################
  # New province modifiers
@@ -1450,6 +1526,8 @@ pudget_sound_modifier:0 "The Pudget Sound"
  united_kingdom_nation_desc:0 "We have established a firm hegemony over all of the British Isles, but autonomous and sometimes rebellious vassals frustrate our plans whilst uneccessary local governments divert our taxes and complicate administration. We should unite our various kingdoms, once and for all, into a single, strong, and unified nation!"
  duchy_warsaw_nation_title:0 "Form Duchy of Warsaw"
  duchy_warsaw_nation_desc:0 "Poland and Commonwealth have both ceased to exist. We must continue Polish legacy and create new state centered around the city of Warsaw."
+ denmark_norway_nation_title:0 "Form Twin Realms of Denmark-Norway"
+ denmark_norway_nation_desc:0 "Time has come to unite the regions of Denmark and Norway into one nation."
  #Non-European Old World
  btpl_kabylia_nation_title:0 "Form Kabylia"
  btpl_kabylia_nation_desc:0 "Uniting the rich, fertile hills of Kabylia is the first step in establishing a strong Berber nation in the Maghreb!"
@@ -1476,6 +1554,12 @@ pudget_sound_modifier:0 "The Pudget Sound"
  create_the_kingdom_of_ireland_as_england_desc:0 "We have established dominance over Ireland, but we face the wrath of other European countries because of this annexation, and the rebellious nature of this frontier makes it difficult to govern effectively. The ideal solution may be to create a new Irish viceroyalty, similar to the former feudal system but significantly more organised, who may rule in our stead and protect our interests while distancing us from direct governance."
  cede_stragglers_to_koi_as_ruler_title:0 "Cede Irish Territory to Our Vassal"
  cede_stragglers_to_koi_as_ruler_desc:0 "We own land which de jure belongs to Ireland, our vassal kingdom. We may gift this land to them as a gesture of good will."
+ religious_conversions_romuva_title:0 "Revert back to old gods"
+ religious_conversions_romuva_desc:0 "As baltic pagans following Romuva faith remain strong, it is time for us to abandon our current faith and revert to the old ways."
+ religious_conversions_suomenusko_title:0 "Adopt Suomenusko paganism as dominant faith"
+ religious_conversions_suomenusko_desc:0 "As northern scandinavian pagans following Suomenusko fath grow ever-stronger, it is time for us to abandon our current faith and adopt their ways of life instead."
+ distribute_vodka_to_masses_title:0 "Distribute vodka to pesants"
+ distribute_vodka_to_masses_desc:0 "Spend some of our vodka production and distribute it to poor pesants across our nation. This will hopefully keep the population drunk and calm. Such promotion of alcoholism will have negative impact on our population but such population will be much easier to rule over. Ditributing vodka for free will also satisfy nobles."
  #Beyond Typus and BTPL Decisions
  #sweads_and_geats_one_big_happy_family_title:0 "Unify Swedish Culture"         #removed in 11.5
  #sweads_and_geats_one_big_happy_family_desc:0 "The two primary peoples of Sweden, the Swedes in the north and the Geats in the south, have lived together under the Swedish banner for many years and despite occasional friction, the two groups largely accept one another and recognise each other as kin. It is time we made it official and formally proclaim Swedes and Geats to be one and the same people, for the glory of Sweden!"         #removed in 11.5
@@ -1523,6 +1607,12 @@ pudget_sound_modifier:0 "The Pudget Sound"
  move_trade_to_mogador_desc:0 "The ancient trading port of Safi no longer suits our purposes, and trade flows in and out of our many semi-autonomous ports largely outside of our control, and more importantly, outside of the reach of our tax collection. The solution is to create a new trading capital firmly under our control and give it a monopoly on all foreign trade. Let us hire the greatest architects and workers to create a beautiful, grand, new port!"
 
  #New World
+ 
+ #Misc
+ remove_primitive_nations_all_title:0 "Remove primitive nations"
+ remove_primitive_nations_all_desc:0 "Removes all primitive nations that should not be considered a proper state at this moment. This applies to most of America and Oceania but not only. Will also reduce lag of the game!"
+ restore_vanilla_status_title:0 "Restore Vanilla Setup"
+ restore_vanilla_status_desc:0 "Resets the map removing nearly all non-vanilla nations. Tags added by the mod will be carved up and integrated to vanilla countries. This drastically reduces amount of nations and units on the map, therefore this decision is meant for those wishing to reduce lag and improve game performance at the cost of accuracy and realism. MAKE SURE YOU ARE NOT PLAYING ONE OF THOSE NATIONS OR WILL TOO DISAPPEAR!"
 
 
 
@@ -1547,6 +1637,26 @@ pudget_sound_modifier:0 "The Pudget Sound"
  wayward_trebizond_btpl_desc:0 "Trebizond was a successor state of the fallen Byzantine empire when Constantinople fell during the Fourth Crusade. Even after the Nicaean reconquest of Constantinople in 1261, Trebizond continued to insist of its rightful claim to the Imperial Throne. Now is finally the time to reincorporate this wayward successor state."
  wayward_cappadocia_btpl_title:0 "Reincorporate Cappadocia"
  wayward_cappadocia_btpl_desc:0 "After the fall of the eastern portion of the Roman Empire to Islamic Sultans, a new Greek successor state rose to prominence, Cappadocia. Now that the true Roman Empire rises again, it is time to reincorporate these cousins in our Eastern hinterlands."
+ 
+ #Icelandic missions
+ ice_explorer_fleet_title:0 "Exploration fleet"
+ ice_explorer_fleet_desc:0 "Who knows what lies on the forgotten old viking routes? We have discovered Greenland, we must go further as our ancestors once did. We cannot achieve this without a solid navy ready for voyages."
+ ice_purchase_better_ships_title:0 "Purchase heavy fleet"
+ ice_purchase_better_ships_desc:0 "A lot has changes since first Vikings sailed west of Greenland - mostly the naval technology. We are in a need of a strong and impressive ships that will withstand harsh conditions of northern waters. Since Iceland offers little resources to build such sizeable ships, we need to aquire enough founds and purchase heavy ships from other nations. Preferabely some Scandinavian merchants."
+ ice_rediscover_greenland_title:0 "Forgotten icy land"
+ ice_rediscover_greenland_desc:0 "Our earlier colonization attempts in Greenland have failed due to external reasons. We need to go back and establish bases there once again if we want to go further westward."
+ ice_settle_greenland_title:0 "Resettle Greenland"
+ ice_settle_greenland_desc:0 "Bring new opportunists and resettle the lands once colonized by Vikings."
+ ice_jan_mayen_title:0 "Reach Jan Mayen"
+ ice_jan_mayen_desc:0 "There may be other islands north or northeast of Greenland that our ancestors knew about. Although, they would likely be ice wasteland, they will be useful outposts for whaling and hunting animals."
+ ice_markland_helluland_title:0 "Markland & Helluland"
+ ice_markland_helluland_desc:0 "We have secured Greenland. Time to go beyond and explore west in hope of reaching the mythical lands of Helluland and Markland that Viking Sagas mention."
+ ice_north_bay_title:0 "Norhtern Voyage"
+ ice_north_bay_desc:0 "We have already sailed south of Helluland into warmer waters of Markland and Vinland. It is time to go in the other direction and see if there's a possible passage to the North. Pray to the Lord we will not freeze to death there."
+ ice_rebuild_leifsbuoir_title:0 "Rebuild Leifsbuoir"
+ ice_rebuild_leifsbuoir_desc:0 "Rebuild one of the legendary viking settlments."
+ ice_return_vinland_title:0 "Return to Vinland"
+ ice_return_vinland_desc:0 "We shall finally reach the fertile lands of Vinland and establish a prominent colony there. With new technology, we will not be driven out by natives."
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later
  bt_establish_newfoundland_colony_title:0 "Establish a colony in Newfoundland"
@@ -1854,6 +1964,14 @@ pudget_sound_modifier:0 "The Pudget Sound"
  bt_enforce_temporal_authority_action_title:0 "Enforce Temporal Authority"
  bt_enforce_temporal_authority_action_desc:0 "In order to enforce your temporal authority over your Autonomous Papal State, neither of you may be at war, you must share a border, and your state must have at least §Y+175§! opinion of you. Doing so, however, will anger the autonomous state as it chafes against the reduced autonomy, and other autonomous papal states will look upon this move with suspicion and hostility.\n\nEnforcing Temporal Authority will have the following effects:\n -[From.GetName] becomes a normal §Yvassal§! of [Root.GetName]\n -[From.GetName] losses §Y-5 trust§! with [Root.GetName]\n -[From.GetName] will receive §Y-60 opinion§! of [Root.GetName]\n -All other Autonomous Papal States loss §Y-3 trust§! with [Root.GetName]\n -All other Autonomous Papal States will recieve §Y-30 opinion§! of [Root.GetName]"
  bt_enforce_temporal_authority_action_tooltip:0 "The Papacy may enforce its temporal authority over an autonomous subject state, making it a normal vassal"
+ vu_release_silesian_duchy:0 "Release Silesian Duchy"
+ vu_release_silesian_duchy_title:0 "Release Silesian Duchy"
+ vu_release_silesian_duchy_desc:0 "It is time to abandon our Silesian Duchy and grant it full sovereignty."
+ vu_release_silesian_duchy_tooltip:0 "."
+ vu_create_silesian_duchy:0 "Transform into Silesian Duchy"
+ vu_create_silesian_duchy_title:0 "Transform into Silesian Duchy"
+ vu_create_silesian_duchy_desc:0 "Grant special rights and status to our vassal, making it Silesian Duchy."
+ vu_create_silesian_duchy_tooltip:0 "."
 
 
 

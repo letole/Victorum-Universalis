@@ -684,6 +684,9 @@
  kapuas_area:0 "Kapuas"
  kapuas_area_name:0 "Kapuas"
  kapuas_area_adj:0 "Kapuas"
+ south_china_sea_islands_area:0 "South China Sea Islands"
+ south_china_sea_islands_area_name:0 "South China Sea Islands"
+ south_china_sea_islands_area_adj:0 "South China Sea Islander"
  palembang_area:0 "Palembang"
  palembang_area_name:0 "Palembang"
  palembang_area_adj:0 "Palembang"
@@ -1009,10 +1012,34 @@
  baffin_bay_area_name:0 "Baffin Bay"
  grand_banks_sea_area:0 "Grand Banks"
  grand_banks_sea_area_name:0 "Grand Banks"
- true_north_atlantic_sea_area:0 "North Atlantic"
- true_north_atlantic_sea_area_name:0 "North Atlantic"
-
-
+ #VU addition by San Felipe
+ #AREAS
+ true_north_atlantic_sea_area:0 "Raykjanes Ridge"
+ true_north_atlantic_sea_area_name:0 "Raykjanes Ridge"
+ denmark_strait_area:0 "Denmark Strait"
+ denmark_strait_area_name:0 "Denmark Strait"
+ davis_strait_area:0 "Davis Strait"
+ davis_strait_area_name:0 "Davis Strait"
+ rockall_strait_area:0 "Rockall Strait"
+ rockall_strait_area_name:0 "Rockall Strait"
+ labrador_basin_area:0 "Labrador Basin"
+ labrador_basin_name:0 "Labrador Basin"
+ coast_of_indochina_area:0 "Coast of Indochina"
+ coast_of_indochina_area_name:0 "Coast of Indochina"
+ west_philippine_sea_area:0 "West Philippine Sea"
+ west_philippine_sea_area_name:0 "West Philippine Sea"
+ sulu_sea_area:0 "Sulu Sea"
+ sulu_sea_area_name:0 "Sulu Sea"
+ east_caribbean_sea_area:0 "East Caribbean Sea"
+ east_caribbean_sea_area_name:0 "East Caribbean Sea"
+ #REGIONS
+ east_caribbean_sea_region:0 "East Caribbean Sea"
+ gulf_of_mexico_region:0 "Gulf of Mexico"
+ coast_of_indochina_region:0 "Coast of Indochina"
+ bahama_channel_region:0 "Antillas Mayores"
+ sulu_sea_region:0 "Sulu Sea"
+ gulf_of_siam_region:0 "Gulf of Siam"
+ sea_of_japan_region:0 "Sea of Japan"
 
  ######################################
  ####Beyond Typus Placeholders####

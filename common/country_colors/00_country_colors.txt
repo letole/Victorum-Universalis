@@ -2670,6 +2670,13 @@ LIB = {
     color3= { 222 222 222 } # white
 }
 
+# Sussy Pirates
+RED = {
+    color1= { 30 30 30 } # black
+    color2= { 222 222 222 } # white
+    color3= { 30 30 30 } # black
+}
+
 TNA = {
     color1= { 4  36  132 }
     color2= { 255 204 0 }

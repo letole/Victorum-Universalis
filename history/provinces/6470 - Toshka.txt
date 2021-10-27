@@ -1,0 +1,4 @@
+#6470 - Toshka
+
+discovered_by = muslim
+discovered_by = east_african

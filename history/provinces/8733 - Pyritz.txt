@@ -9,7 +9,7 @@ capital = "Pyritz"
 base_tax = 1
 base_production = 2 
 base_manpower = 2
-trade_goods = grain
+trade_goods = lumber
 is_city = yes
 hre = yes
 
@@ -92,9 +92,9 @@ discovered_by = western
 	base_tax = 3
 }	# Pyritz given seat of district administration
 1871.1.18 = {
-	owner = GEM
-	controller = GEM
-	add_core = GEM
+	owner = GER
+	controller = GER
+	add_core = GER
 } # Unification of Germany, peace in Versailles
 1882.2.1 = {
 	base_production = 4

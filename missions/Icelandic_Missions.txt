@@ -1,0 +1,512 @@
+iceland_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = ICE
+	}
+	has_country_shield = yes
+	
+	ice_explorer_fleet = {
+		icon = mission_corsairs_of_the_north_sea
+		required_missions = { ice_rediscover_greenland }
+		position = 7
+		
+		trigger = {
+			navy_size_percentage = 0.9
+		}
+		
+		effect = {
+			add_navy_tradition = 15
+			define_explorer = {
+				name = "Gofhensen Erikson"
+				shock = 2
+				fire = 1
+				manuever = 5
+				siege = 1
+			}
+		}
+	}
+	
+	ice_purchase_better_ships = {
+		icon = mission_aragonese_navy
+		required_missions = { ice_explorer_fleet }
+		position = 8
+		
+		trigger = {
+			treasury = 100
+			dip_power = 50
+			adm_power = 25
+			sailors = 400
+		}
+		
+		effect = {
+			add_treasury = -100
+			add_dip_power = -50
+			add_adm_power = -25
+			add_sailors = -400
+			NOR = {
+				add_treasury = 50
+			}
+			DAN = { 
+				add_treasury = 50
+			}
+			random_owned_province = {
+				limit = { has_port = yes }
+				heavy_ship = ROOT
+			}
+			random_owned_province = {
+				limit = { has_port = yes }
+				heavy_ship = ROOT
+			}
+			random_owned_province = {
+				limit = { has_port = yes }
+				heavy_ship = ROOT
+			}
+		}
+	}
+	
+	ice_rebuild_leifsbuoir = {
+		icon = mission_rb_increase_our_reach
+		required_missions = { ice_markland_helluland }
+		position = 9
+		provinces_to_highlight = {
+			province_id = 981
+		}
+		
+		trigger = {
+			has_discovered = 981
+			owns_or_non_sovereign_subject_of = 981
+			981 = {
+				base_tax = 4
+				base_production = 3
+				base_manpower = 3
+				OR = {
+					has_building = fort_15th
+					has_building = workshop
+					has_building = dock
+					has_building = shipyard
+					fort_level = 1
+				}
+				culture_group = scandinavian
+			}
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					981 = {
+						NOT = { fort_level = 1 }
+					}
+				}
+				981 = {
+					add_building = fort_15th
+				}
+			}
+			981 = {
+				add_base_production = 2
+				change_culture = vinlandic
+				change_province_name = "Leifsbuoir"
+				rename_capital = "Leifsgard"
+			}
+			980 = {
+				change_province_name = "Northern Markland"
+			}
+			2573 = {
+				change_province_name = "Southern Markland"
+				change_trade_goods = naval_supplies
+			}
+			4974 = {
+				change_province_name = "Straumfjord"
+			}
+			5059 = {
+				change_province_name = "Straumsoy"
+			}
+			5013 = {
+				change_province_name = "Beotheim"
+			}
+			5058 = {
+				change_province_name = "Ethaylingfjord"
+			}
+			5019 = {
+				change_province_name = "Eyju Karlsefni"
+			}
+			add_sailors = 500
+		}
+	}
+}
+
+iceland_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = ICE
+	}
+	has_country_shield = yes
+	
+	ice_rediscover_greenland = {
+		icon = mission_protect_white_sea_trade
+		required_missions = { }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1104
+				province_id = 3113
+				province_id = 3112
+				province_id = 5588
+				province_id = 5589
+				province_id = 5590
+			}
+		}
+
+		trigger = {
+			has_discovered = 5483
+			has_discovered = 1481
+			has_discovered = 1924
+			has_discovered = 1482
+			has_discovered = 1104
+			OR = {
+				has_discovered = 1104
+				has_discovered = 3113
+				has_discovered = 3112
+				has_discovered = 5588
+				has_discovered = 5589
+				has_discovered = 5590
+			}
+		}
+		
+		effect = {
+			add_prestige = 5
+			add_country_modifier = {
+				name = ice_rediscovered_greenland
+				duration = 9125		#25 years
+				hidden = no
+			}
+		}
+	}
+	
+	ice_settle_greenland = {
+		icon = mission_rb_settle_the_north
+		required_missions = { ice_rediscover_greenland }
+		position = 7
+		provinces_to_highlight = {
+			province_id = 1104
+		}
+		
+		trigger = {
+			OR = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 2
+					colonial_region = colonial_greenland
+					is_city = yes
+				}
+				AND = {
+					owns = 1104
+					has_discovered = 1104
+					has_discovered = 1105
+					has_discovered = 3113
+					has_discovered = 3112
+					has_discovered = 5588
+					has_discovered = 5589
+					has_discovered = 5590
+				}
+			}
+		}
+		
+		effect = {
+			add_prestige = 5
+			add_country_modifier = {
+				name = second_viking_colonization
+				duration = -1
+				hidden = no
+			}
+		}
+	}
+	
+	ice_markland_helluland = {
+		icon = mission_invade_island
+		required_missions = {
+			ice_settle_greenland 
+			ice_explorer_fleet
+		}
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = labrador_area
+				area = newfoundland_area
+			}
+		}
+		
+		trigger = {
+			OR = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 1
+					area = labrador_area
+					is_city = yes
+				}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 1
+					area = newfoundland_area
+					is_city = yes
+				}
+			}
+			AND = {
+				has_discovered = 5472
+				has_discovered = 5473
+				has_discovered = 5474
+				has_discovered = 1483
+				has_discovered = 1496
+				has_discovered = 5470
+				has_discovered = 1493
+				has_discovered = 1484
+			}
+		}
+		
+		effect = {
+			add_prestige = 5
+			if = {
+				limit = {
+					980 = {
+						NOT = { owned_by = ROOT }
+					}
+				}
+				980 = {
+					change_native_hostileness = -3
+					change_trade_goods = lumber
+				}
+			}
+			981 = {
+				change_trade_goods = whaling
+			}
+			if = {
+				limit = {
+					997 = {
+						NOT = { owned_by = ROOT }
+					}
+				}
+				997 = {
+					change_trade_goods = tar
+					change_native_hostileness = -5
+				}
+				
+			}
+			random_owned_province = {
+				limit = {
+					OR = {
+						area = labrador_area
+						area = newfoundland_area
+					}
+					has_empty_adjacent_province = yes
+					has_port = yes
+				}
+				random_empty_neighbor_province = {
+					limit = { 
+						OR = {
+							area = labrador_area
+							area = newfoundland_area
+						}
+					}
+					create_colony = 950
+				}
+			}
+			random_owned_province = {
+				limit = {
+					OR = {
+						area = labrador_area
+						area = newfoundland_area
+					}
+					has_empty_adjacent_province = yes
+					has_port = yes
+				}
+				random_empty_neighbor_province = {
+					limit = { 
+						OR = {
+							area = labrador_area
+							area = newfoundland_area
+						}
+					}
+					create_colony = 950
+				}
+			}
+			random_owned_province = {
+				limit = {
+					OR = {
+						area = labrador_area
+						area = newfoundland_area
+					}
+					has_empty_adjacent_province = yes
+					has_port = yes
+				}
+				random_empty_neighbor_province = {
+					limit = { 
+						OR = {
+							area = labrador_area
+							area = newfoundland_area
+						}
+					}
+					create_colony = 500
+				}
+			}
+		}
+	}
+	
+	ice_return_vinland = {
+		icon = mission_rb_conquer_the_isles
+		required_missions = { ice_markland_helluland }
+		position = 0
+		provinces_to_highlight = {
+			OR = {
+				area = lower_acadia_area
+				area = upper_acadia_area
+			}
+		}
+		
+		trigger = {
+			OR = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 3
+					area = lower_acadia_area
+					is_city = yes
+				}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 3
+					area = upper_acadia_area
+					is_city = yes
+				}
+			}
+			AND = {
+				has_discovered = 982
+				has_discovered = 983
+				has_discovered = 985
+				has_discovered = 5049
+				has_discovered = 4891
+				has_discovered = 5048
+				has_discovered = 2578
+				has_discovered = 984
+			}
+		}
+		
+		effect = {
+			add_prestige = 5
+			random_owned_province = {
+				limit = {
+					OR = {
+						area = upper_acadia_area
+						area = lower_acadia_area
+					}
+					has_port = yes
+				}
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			random_owned_province = {
+				limit = {
+					OR = {
+						area = upper_acadia_area
+						area = lower_acadia_area
+					}
+					has_port = yes
+				}
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+	}
+}
+
+iceland_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = ICE
+	}
+	has_country_shield = yes
+	
+	ice_jan_mayen = {
+		icon = mission_rb_settle_the_north
+		required_missions = { ice_rediscover_greenland }
+		position = 7
+		provinces_to_highlight = {
+			province_id = 5591
+		}
+		
+		trigger = {
+			owns = 5591
+			has_discovered = 5591
+			has_discovered = 1473
+		}
+		
+		effect = {
+			add_navy_tradition = 5
+			5591 = {
+				change_trade_goods = ivory
+				change_province_name = "Eyja Bjarni"
+				rename_capital = "Freya"
+			}
+		}
+	}
+	
+	ice_north_bay = {
+		icon = mission_protect_white_sea_trade
+		required_missions = { ice_markland_helluland }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				area = qikiqtaaluk_area
+				area = kivalliq_area
+				area = hudson_bay_area
+				area = east_hudson_bay_area
+				area = james_bay_area
+				area = west_james_bay_area
+			}
+		}
+		
+		trigger = {
+			qikiqtaaluk_area = {
+				type = all
+				has_discovered = ROOT
+			}
+			kivalliq_area = {
+				type = all
+				has_discovered = ROOT
+			}
+			hudson_bay_area = {
+				type = all
+				has_discovered = ROOT
+			}
+			east_hudson_bay_area = {
+				type = all
+				has_discovered = ROOT
+			}
+			james_bay_area = {
+				type = all
+				has_discovered = ROOT
+			}
+			west_james_bay_area = {
+				type = all
+				has_discovered = ROOT
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 1
+				colonial_region = colonial_hudson_bay
+				is_city = yes
+			}
+		}
+		
+		effect = {
+			add_navy_tradition = 5
+			add_sailors = 500
+			define_conquistador = {
+				name = "Harald Karlsefni"
+				shock = 3
+				fire = 2
+				manuever = 4
+				siege = 2
+			}
+		}
+	}
+}

@@ -15,7 +15,6 @@ tribal_owner = WAM
 
 discovered_by = north_american
 
-
 1620.11.21 = {
 	owner = ENG
 	controller = ENG

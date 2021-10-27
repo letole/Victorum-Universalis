@@ -9,7 +9,7 @@ capital = "Aluksne"			#DE Marienburg
 base_tax = 1
 base_production = 1
 base_manpower = 2
-trade_goods = naval_supplies
+trade_goods = lumber
 is_city = yes
 hre = no
 

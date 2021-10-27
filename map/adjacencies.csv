@@ -35,8 +35,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1767;8188;sea;8355;-1;-1;-1;-1;Szlavonia-Zombor
 4706;1756;sea;8344;-1;-1;-1;-1;Tulcea-Basarabia
 7451;7452;sea;7296;-1;-1;-1;-1;Afula-Irbid
-358;362;sea;7391;-1;-1;-1;-1;Alexandria-Rashid
-5261;4316;sea;8338;-1;-1;-1;-1;Damietta-Phelbes
+361;5264;sea;8339;-1;-1;-1;-1;Qahira-Giza
+5267;6574;sea;8339;-1;-1;-1;-1;Beni_Suef-Sandafa
+5181;364;sea;6548;-1;-1;-1;-1;Nekhel-Gazzah
+7183;4353;sea;1397;-1;-1;-1;-1;Biliran-Leyte
+6983;8282;sea;1395;-1;-1;-1;-1;Bataan-Cavite
 1146;1145;sea;7303;-1;-1;-1;-1;Ife-Nupe
 987;4872;sea;7341;-1;-1;-1;-1;Windsor-Buffalo
 988;944;sea;7342;-1;-1;-1;-1;Simcoe-Detroit
@@ -52,6 +55,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3242;7256;sea;8361;-1;-1;-1;-1;Buhogard-Kremenchuk
 303;2418;sea;8366;-1;-1;-1;-1;Saratov-Ukek
 8362;8365;canal;1971;-1;-1;-1;-1;don_and_volga_canal
+1365;1347;canal;2390;-1;-1;-1;-1;kra_canal
 7954;6951;sea;8326;-1;-1;-1;-1;Helder-Hoorn
 97;6951;sea;8352;-1;-1;-1;-1;Amsterdam-Hoorn
 7954;100;sea;8326;-1;-1;-1;-1;Helder-Friesland
@@ -105,7 +109,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 8363;8365;canal;1971;-1;-1;-1;-1;don_and_volga_canal
 1268;5494;canal;1775;-1;-1;-1;-1;kiel_canal
 1548;1515;canal;835;-1;-1;-1;-1;panama_canal
-1328;1316;canal;363;-1;-1;-1;-1;suez_canal
+1328;7393;canal;2315;-1;-1;-1;-1;suez_canal
+7393;1316;canal;5261;-1;-1;-1;-1;second_suez_canal
 2348;318;sea;5493;-1;-1;-1;-1;Chios-Sugla
 4700;2296;sea;1319;-1;-1;-1;-1;Lesbos-Biga
 3245;2447;sea;1323;-1;-1;-1;-1;Kerch-Mapa
@@ -209,19 +214,55 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5729;5866;sea;1559;-1;-1;-1;-1;Nisga'a-Kichxaan
 5728;5866;sea;1559;-1;-1;-1;-1;Taan-Kichxaan
 976;5864;sea;1559;-1;-1;-1;-1;Tlingit-Taan
-8633;8635;sea;1400;-1;-1;-1;-1;Moro- Jailolo
-8630;8722;sea;1356;-1;-1;-1;-1;Bima- Manggarai
-2692;8708;sea;1355;-1;-1;-1;-1;Madura- Gresik
-624;8695;sea;1360;-1;-1;-1;-1;Banten- Lampung
-2716;4796;sea;1357;-1;-1;-1;-1;Buton- Kendari
+8633;8635;sea;1400;-1;-1;-1;-1;Moro-Jailolo
+8630;8722;sea;1356;-1;-1;-1;-1;Bima-Manggarai
+2692;8708;sea;1355;-1;-1;-1;-1;Madura-Gresik
+624;8695;sea;1360;-1;-1;-1;-1;Banten-Lampung
+2716;4796;sea;1357;-1;-1;-1;-1;Buton-Kendari
 1829;6984;sea;1372;-1;-1;-1;-1;Quanzhou-Kinmen
-6985;738;sea;1372;-1;-1;-1;-1;Penghu-Siraya
+6985;6760;sea;1372;-1;-1;-1;-1;Penghu-Siraya
+1821;6868;sea;6717;-1;-1;-1;-1;Nanjing-Pukou
+6883;682;sea;6718;-1;-1;-1;-1;Wuhan-Wuchang
+665;6912;sea;7282;-1;-1;-1;-1;Jiangmen-Zhaoqing
+665;6732;sea;6713;-1;-1;-1;-1;Jiangmen-Zhongshan
+6732;6904;sea;6712;-1;-1;-1;-1;Zhongshan-Foshan
+1822;6813;sea;7281;-1;-1;-1;-1;Suzhou-Natong
+6769;6813;sea;6709;-1;-1;-1;-1;Chongming-Natong
+6869;6811;sea;6987;-1;-1;-1;-1;Changzhou-Jianyin
+6867;6755;sea;6988;-1;-1;-1;-1;Yangzhou-Taizhou
+6841;6840;sea;7280;-1;-1;-1;-1;Yancheng-Xiangshui
+6839;6842;sea;6698;-1;-1;-1;-1;Xiaodun-Suqian
+688;6770;sea;6720;-1;-1;-1;-1;Kaifeng-Changyuan
+692;6800;sea;6716;-1;-1;-1;-1;Huaiqing-Jiyuan
+6799;6798;sea;6722;-1;-1;-1;-1;Jincheng-Jiazuo
+2137;6780;sea;6993;-1;-1;-1;-1;Daming-Jinzhong
+2140;6788;sea;6995;-1;-1;-1;-1;Yanzhou-Anyang
+2138;691;sea;6719;-1;-1;-1;-1;Wuding-Jinan
+1816;695;sea;6991;-1;-1;-1;-1;Beijing-Tientsin
+6779;6773;sea;6715;-1;-1;-1;-1;Boading-Changzhou
+6843;6844;sea;6706;-1;-1;-1;-1;Sihong-Huaibei
+6796;6771;sea;6997;-1;-1;-1;-1;Yuanyang-Yanjin
+684;6891;sea;6730;-1;-1;-1;-1;Hangzhou-Zhuji
+684;6808;sea;6987;-1;-1;-1;-1;Hangzhou-Tongxiang
+6808;6890;sea;6729;-1;-1;-1;-1;Tongxiang-Xiaoshan
+6890;2148;sea;6729;-1;-1;-1;-1;Xiaoshan-Shaoxin
+2148;2149;sea;6986;-1;-1;-1;-1;Shaoxin-Ningbo
+6890;6893;sea;6986;-1;-1;-1;-1;Xiaoshan-Jinhua
+2149;6807;sea;7402;-1;-1;-1;-1;Ningbo-Zhoushan
+6807;6889;sea;7402;-1;-1;-1;-1;Zhoushan-Jiaxing
+686;6873;sea;6725;-1;-1;-1;-1;Anqing-Pengze
+1838;6806;sea;6717;-1;-1;-1;-1;Hefei-Wuhu
+6806;1821;sea;6728;-1;-1;-1;-1;Wuhu-Nanjing
+6870;1822;sea;1895;-1;-1;-1;-1;Wuxi-Suzhou
+2141;6796;sea;6990;-1;-1;-1;-1;Xuzhou-Yuanyang
+6865;6843;sea;6706;-1;-1;-1;-1;Xuyi-Sihong
+6846;6802;sea;6706;-1;-1;-1;-1;Mengjin-Jili
 7162;8555;sea;1393;-1;-1;-1;-1;Orchid-Paiwan
 7189;4356;sea;7887;-1;-1;-1;-1;Calamian-Taytay
 7185;7189;sea;4357;-1;-1;-1;-1;Agutuya-Cuyo-Calamian
 2699;8294;sea;1397;-1;-1;-1;-1;Bikol-Lawan
 654;4353;sea;1397;-1;-1;-1;-1;Samar-Leyte
-4352;8713;sea;1397;-1;-1;-1;-1;Cebu- Leyte
+4352;8713;sea;1397;-1;-1;-1;-1;Cebu-Leyte
 4354;8720;sea;1398;-1;-1;-1;-1;Zamboanga-Taguima
 8721;651;sea;1398;-1;-1;-1;-1;Tawi Tawi-Sulu
 651;8720;sea;1398;-1;-1;-1;-1;Sulu-Taguima
@@ -270,13 +311,61 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5584;493;sea;1526;-1;-1;-1;-1;St Croix-St Thomas
 493;492;sea;1526;-1;-1;-1;-1;St Thomas-Puerto Rico
 492;5584;sea;1526;-1;-1;-1;-1;Puerto Rico-St Croix
-5576;5575;sea;1503;-1;-1;-1;-1;Acklins-Long Island
-5575;5574;sea;1503;-1;-1;-1;-1;Long Island-Eleuthera
-5574;482;sea;1503;-1;-1;-1;-1;Eleuthera-Bahama
+5920;965;sea;7356;-1;-1;-1;-1;Long Island-Manhattan
+5921;2639;sea;5929;-1;-1;-1;-1;Statten Island-Raritan
+6006;6003;sea;1505;-1;-1;-1;-1;Florida Keys-Sowena
+6011;6012;sea;1503;-1;-1;-1;-1;Grand Bahama-Great Abaco
+6012;6013;sea;1503;-1;-1;-1;-1;Great Abaco-Andros
+482;6013;sea;1503;-1;-1;-1;-1;Bahama-Eleuthera
+6010;482;sea;1503;-1;-1;-1;-1;Andros-Bahama
+6010;6012;sea;1503;-1;-1;-1;-1;Andros-Great Abaco
+6013;6014;sea;1503;-1;-1;-1;-1;Eleuthera-Cat Island
+6014;5575;sea;1503;-1;-1;-1;-1;Cat Island-Yuma
+5575;6015;sea;1503;-1;-1;-1;-1;Yuma-Great Exuma
+5575;6016;sea;1503;-1;-1;-1;-1;Yuma-Rum-Cay Island
+6016;5574;sea;1503;-1;-1;-1;-1;Rum Cay-Guanahani
+5575;6017;sea;1503;-1;-1;-1;-1;Yuma-Crooked Island
+6017;5576;sea;1524;-1;-1;-1;-1;Crooked Island-Mayaguana
 5577;483;sea;1524;-1;-1;-1;-1;Inagua-Turks & Caicos
 5577;5576;sea;1524;-1;-1;-1;-1;Inagua-Acklins
 5578;2808;sea;1519;-1;-1;-1;-1;Aruba-Coro
 491;2808;sea;1519;-1;-1;-1;-1;Curacao-Coro
 2807;830;sea;1519;-1;-1;-1;-1;Altagracia-Maracaibo
 134;7672;sea;8355;-1;-1;-1;-1;Wein-Donaustadt
+6560;1233;sea;5301;-1;-1;-1;-1;Said-Kharga
+1233;6563;sea;5301;-1;-1;-1;-1;Kharga-Esna
+6643;6604;sea;5301;-1;-1;-1;-1;Cara-Ezbet
+5273;2318;sea;5301;-1;-1;-1;-1;Siwa-Bahariya
+2318;6565;sea;5301;-1;-1;-1;-1;Bahariya-Abu Minqar
+6565;6559;sea;5301;-1;-1;-1;-1;Abu Minqar-Mut
+6559;1233;sea;5301;-1;-1;-1;-1;Mut-Kharga
+6603;6954;sea;1795;2994;1434;2998;1377;Jalu-Tazirbu
+6954;6955;sea;6671;2999;1372;3003;1358;Tazirbu-Buzaymah
+6955;6958;sea;6671;3004;1359;3014;1350;Buzaymah-Al-Jawf
+4270;2328;sea;8738;-1;-1;-1;-1;Maan-Tayma
+380;7458;sea;8738;-1;-1;-1;-1;Kerak-Al-Qurayyat
+7458;4272;sea;8739;3221;1513;3225;1510;Al-Qurayyat-Jawf
+2328;4272;sea;8739;3231;1496;3236;1496;Tayma-Jawf
+383;4272;sea;8739;3252;1462;3258;1464;Tabuk-Jawf
+4272;7459;sea;8739;3266;1490;3266;1494;Jawf-Sakaka
+7459;2338;sea;8739;3316;1481;3318;1475;Sakaka-Batin
+4272;393;sea;8739;3278;1457;3284;1455;Jawf-Jabal Shammar
+5231;393;sea;8739;-1;-1;3247;1438;Dedan-Jabal Shammar
+4273;5232;sea;8739;-1;-1;-1;-1;Khaybar-Ghazalah
+5232;4276;sea;8739;-1;-1;-1;-1;Ghazalah-Otaibah
+4276;2332;sea;8739;-1;-1;-1;-1;Otaibah-Truba
+4276;2337;sea;8739;-1;-1;-1;-1;Otaibah-Qassim
+393;2337;sea;8739;3310;1441;3314;1440;Jabal Shammar-Qassim
+2337;2338;sea;8739;3335;1454;3346;1456;Qassim-Batin
+4276;4274;sea;8739;-1;-1;-1;-1;Otaibah-Sudayr
+2336;2332;sea;8739;-1;-1;-1;-1;Washm-Truba
+2337;5256;sea;8739;3360;1443;3372;1443;Qassim-Summan
+4274;5256;sea;8739;-1;-1;-1;-1;Sudayr-Summan
+2339;7461;sea;1779;3439;1364;3452;1370;Yabrin-Batha
+2335;2332;sea;8739;-1;-1;-1;-1;Dawasir-Truba
+391;2335;sea;1779;-1;-1;3340;1293;Najran-Dawasir
+2457;2472;sea;1794;-1;-1;-1;-1;Mzab-Ouargla
+2472;2456;sea;1794;-1;-1;-1;-1;Ouargla-Touggourt
+2472;4567;sea;1794;-1;-1;-1;-1;Ouargla-Ghadames
+6146;413;sea;4170;-1;-1;-1;-1;Arak-Khorramabad
 -1;-1;;-1;-1;-1;-1;-1;-1;

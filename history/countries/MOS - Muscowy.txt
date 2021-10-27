@@ -5,8 +5,8 @@ primary_culture = russian
 religion = orthodox
 technology_group = eastern
 historical_rival = NOV
-capital = 295 # Moskva
-fixed_capital = 295 # Cannot move capital away from this province & no power cost to move to it
+capital = 6975 # Kremlin
+fixed_capital = 6975 # Cannot move capital away from this province & no power cost to move to it
 
 national_focus = ADM
 

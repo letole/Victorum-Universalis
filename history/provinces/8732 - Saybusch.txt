@@ -31,7 +31,7 @@ discovered_by = eastern
 
 1564.2.25 = {
 	remove_core = ASC
-} Sigismund II Augustus issues bill integrating Duchies of Oswiecim and Zator to Polish Crown.
+} # Sigismund II Augustus issues bill integrating Duchies of Oswiecim and Zator to Polish Crown.
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

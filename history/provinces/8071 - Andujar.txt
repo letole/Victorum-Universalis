@@ -10,7 +10,7 @@ capital = "Andújar"
 base_tax = 2
 base_production = 2
 base_manpower = 2
-trade_goods = saffron
+trade_goods = gunpowder
 is_city = yes
 hre = no
 

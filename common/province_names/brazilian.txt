@@ -39,7 +39,7 @@
 358 = "Alexandria"
 360 = "Qena"
 361 = "Cairo"
-362 = "Roseta"
+362 = "Kafr"
 363 = "Damieta"
 364 = "Gaza"
 377 = "Alepo" 
@@ -88,6 +88,8 @@
 2327 = { "Magna" "Magna" }
 2469 = "Mazagão"
 2999 = "Ormuz"
+5261 = "Porta Disse"
+6524 = "Roseta"
 
 1102 = "Ilha do Cirne"
 1103 = "Santa Apolónia"

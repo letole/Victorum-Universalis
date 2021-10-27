@@ -4,7 +4,7 @@ owner = TUR
 controller = TUR
 add_core = TUR
 culture = bulgarian
-religion = orthodox
+religion = bogomilist_new	#was orthodox, but secluded bogomilist communities were still present in 15th century Macedonia
 capital = "Vodena"
 base_tax = 2
 base_production = 2
@@ -73,3 +73,5 @@ discovered_by = western
 #} #Return to proper mod added owners and cuts vanilla core, typically.
 
 #1444 on
+
+1475.1.1 = { religion = orthodox }

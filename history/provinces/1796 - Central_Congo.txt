@@ -1,0 +1,4 @@
+#1796 - Central_Congo
+
+discovered_by = central_african
+discovered_by = sub_saharan

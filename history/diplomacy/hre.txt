@@ -18,74 +18,182 @@
 # Vassals #
 ###########
 
-vassal = {
+dependency = {
+	subject_type = silesian_duke
 	first = BOH
 	second = GLG
 	start_date = 1444.1.1
-	end_date = 1450.1.1
+	end_date = 1476.2.22
 }
 
-vassal = {
+dependency = {
+	subject_type = silesian_duke
+	first = BOH
+	second = GLG
+	start_date = 1480.6.1
+	end_date = 1488.5.25
+}
+
+dependency = {
+	subject_type = silesian_duke
 	first = BOH
 	second = LEG
 	start_date = 1444.1.1
-	end_date = 1450.1.1
+	end_date = 1526.8.30
 }
 
-vassal = {
+dependency = {
+	subject_type = silesian_duke
+	first = HAB
+	second = LEG
+	start_date = 1526.8.30
+	end_date = 1676.6.1
+}
+
+dependency = {
+	subject_type = silesian_duke
 	first = BOH
 	second = OLE
 	start_date = 1444.1.1
-	end_date = 1450.1.1
+	end_date = 1492.9.21
 }
 
+dependency = {
+	subject_type = silesian_duke
+	first = BOH
+	second = BET
+	start_date = 1492.9.21
+	end_date = 1498.6.1
+}
+
+dependency = {
+	subject_type = silesian_duke
+	first = BOH
+	second = MSTS
+	start_date = 1472.6.1
+	end_date = 1526.8.30
+}
+
+dependency = {
+	subject_type = silesian_duke
+	first = HAB
+	second = MSTS
+	start_date = 1526.8.30
+	end_date = 1542.6.1
+}
 vassal = {
+	first = HAB
+	second = MSTS
+	start_date = 1551.6.1
+	end_date = 1569.3.17
+}
+
+dependency = {
+	subject_type = silesian_duke
 	first = BOH
 	second = OPL
 	start_date = 1444.1.1
-	end_date = 1450.1.1
+	end_date = 1526.8.30
+}
+
+dependency = {
+	subject_type = silesian_duke
+	first = HAB
+	second = OPL
+	start_date = 1526.8.30
+	end_date = 1650.1.1
 }
 
 vassal = {
+	first = PLC
+	second = OPL
+	start_date = 1650.1.1
+	end_date = 1660.1.1
+}
+
+vassal = {
+	first = HAB
+	second = OPL
+	start_date = 1660.1.1
+	end_date = 1668.9.16
+}
+
+dependency = {
+	subject_type = silesian_duke
 	first = BOH
 	second = TRO
 	start_date = 1444.1.1
-	end_date = 1450.1.1
+	end_date = 1526.8.30
 }
 
-vassal = {
+dependency = {
+	subject_type = silesian_duke
 	first = BOH
 	second = BEG
 	start_date = 1444.1.1
-	end_date = 1450.1.1
+	end_date = 1521.5.30
 }
 
-vassal = {
+dependency = {
+	subject_type = silesian_duke
 	first = BOH
 	second = TES
 	start_date = 1444.1.1
-	end_date = 1450.1.1
+	end_date = 1526.8.30
 }
 
-vassal = {
+dependency = {
+	subject_type = silesian_duke
+	first = HAB
+	second = TES
+	start_date = 1526.8.30
+	end_date = 1653.6.1
+}
+
+dependency = {
+	subject_type = silesian_duke
 	first = BOH
 	second = RAC
 	start_date = 1444.1.1
-	end_date = 1450.1.1
+	end_date = 1521.6.1
 }
 
-vassal = {
+dependency = {
+	subject_type = silesian_duke
 	first = BOH
 	second = NIE
 	start_date = 1444.1.1
-	end_date = 1450.1.1
+	end_date = 1447.8.9
+}
+
+dependency = {
+	subject_type = silesian_duke
+	first = BOH
+	second = ASC
+	start_date = 1444.1.1
+	end_date = 1457.1.1
+}
+
+dependency = {
+	subject_type = silesian_duke
+	first = BOH
+	second = SAG
+	start_date = 1461.1.1
+	end_date = 1468.6.1
 }
 
 vassal = {
 	first = BOH
-	second = ASC
-	start_date = 1444.1.1
-	end_date = 1450.1.1
+	second = SAG
+	start_date = 1476.1.1
+	end_date = 1480.6.1
+}
+
+vassal = {
+	first = BOH
+	second = SAG
+	start_date = 1488.5.25
+	end_date = 1504.9.22
 }
 
 ################################################################

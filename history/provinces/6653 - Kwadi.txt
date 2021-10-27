@@ -1,0 +1,4 @@
+#6653 - Kwadi
+
+discovered_by = central_african
+discovered_by = sub_saharan

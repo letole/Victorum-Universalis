@@ -82,27 +82,16 @@ monarch_names = {
 }
 
 leader_names = {
-	Ameland Amersfoort Amstel Appingedam Arnhem
-	Bieldeers Blokker Bolsward Botha Breda Brielle
-	Coemans Coevorden Cornelis Costers Culemborg
-	"De Witt" "Den Burg" Deodati Dokkum Dordrecht Drenthe Driesman
-	Eindhoven Elst "Elten Leur" Enkhuizen
-	Fliesingen Friesen
-	Geelvinck Geerit Genk Goes Gouda Groningen Gulder
-	Haag Haarlem Hebenal Heerlen Heertognebosh Heineken Helder Hendryck Hilversum
-	Jansz
-	Kampen Karstens Kortenaer Kortrijk
-	Lauwers Lemmer Leyden Limburg
-	Maastricht Meppel Middenmeer Middleburg
-	Neuwegen Nijkerk Nijmegen
-	Oldenbarneveld Olderzaal Opdorf Overijssel
-	Philipps Piet Poszt
-	Scheveningen Schiedam Scholtecheren Schoonebeck Schouwen Sluis Smuts Spijkenise
-	Terchelling Texel Twente
-	Utrecht
-	Valkenswaard "Van Den Dorp" "Van der Does" "Van Hessling" "Van Spilbergen" "Van Stabel" "Van Wick" Veendam Venloo Venray Volendam Vroom
-	Willem Woerden Waalwijck
-	Zandwort Zoetermeer Zuiderzee Zwijndrecht Zwolle
+	Ameland Amersfoort Amstel Appingedam Arnhem Bieldeers Blokker Bolsward Botha Breda Brielle
+	Coemans Coevorden Cornelis Costers Culemborg "De Witt" "Den Burg" Deodati Dokkum Dordrecht 
+	Drenthe Driesman Eindhoven Elst "Elten Leur" Enkhuizen Fliesingen Friesen Geelvinck Geerit 
+	Genk Goes Gouda Groningen Gulder Haag Haarlem Hebenal Heerlen Heertognebosh Heineken Helder 
+	Hendryck Hilversum Jansz Kampen Karstens Kortenaer Kortrijk	Lauwers Lemmer Leyden Limburg
+	Maastricht Meppel Middenmeer Middleburg Neuwegen Nijkerk Nijmegen Oldenbarneveld Olderzaal 
+	Opdorf Overijssel Philipps Piet Poszt Scheveningen Schiedam Scholtecheren Schoonebeck 
+	Schouwen Sluis Smuts Spijkenise Terchelling Texel Twente Utrecht Valkenswaard "Van Den Dorp" 
+	"Van der Does" "Van Hessling" "Van Spilbergen" "Van Stabel" "Van Wick" Veendam Venloo Venray 
+	Volendam Vroom Willem Woerden Waalwijck Zandwort Zoetermeer Zuiderzee Zwijndrecht Zwolle
 }
 
 ship_names = {
@@ -117,18 +106,20 @@ ship_names = {
 	"Sint Andries" "Sint Jacob" "Sint Laurens" "Sint Maria" "Sint Matheeus" "Sint Pieter" "Stad en Lande" "Stad Gouda" "Stad Haarlem" "Stad Utrecht" "Ter Goes"
 	"Ter Veere" "Verenigde Provinciën" "Vergulden Draeck" "Vliegende Vis" "Vogel Phesant" "Vogel Struis" "Wakende Boei" "Wakende Kraan" "Wapen van Edam"
 	"Wapen van Haarlem" "Wapen van Holland" "Wapen van Leijden" "Wapen van Nassau" "Wapen van Utrecht" "Wapen van Zeeland" "Willem van Nieuhoff" "Witte Lam"
-	"Zwarte Arend" "Zwarte Bul" Aemilia Agatha Ajax Akerboom Alida Alkmaar Alliantie Alphen Amalia Amazoon Amphitrite Amsterdam Arend Argo Arnhem Assendelft Banier
-	Barbestein Batavia Batavier Beekvliet Beemster Beemsterlust Beliona Beschermer Boekenrode Boetzelaar Bommel Braave Brakel Breda Brederode Brielle Broederschap
-	Brutus Buis Bul Burgvliet Caleb Callantsoog Castricum Catharina Cerberus Convertine Curacao Dalem Damiaten Dankbaarheid Delfland Delft Deutekom Deventer Diepenheim
-	Dieren Doesburg Doggersbank Dolfijn Dolfijn Dordrecht Draak Drakestein Drente Drielst Duinveld Duivenvoorde Echo Edam Eendracht Eenhoorn Elswoud Engel Erfprins
-	Fortuin Friesland Galei Gelderland Geloof Gideon Glindhorst Goes Gouda Gouderak Haarlem Haarlemmerhout Hardenbroek Harderwijk Havik Hector Heemstede Hersteller
-	Het Loo Hilverbeek Hilversum Hollandia Hoop Jaarsveld Jonas Jozua Jupiter Kalandsoog Kameel Kampen Kampveere Kennemerland Koevorden Komeet Kooge Landman Landskroon
-	Leeuwarden Leeuwenhorst Liefde Loosdregt Luipaard Lynx Maan Maarseveen Maas Margarethe Mars Matenes Medusa Meermin Mercuur Middelbare Middelburg Morgenstar
-	Moriaanshoofd Naerden Neptunus Noorderkwartier Olifant Omlandia Oostergo Oosterwijk Oranjeboom Oudshoorn Overijssel Overwinnaer Pacificatie Parel Pelikaan Pijl
-	Post Prins Raaf Ramhorst Reebok Reigersberg Rijnland Rosenkranz Salamander Schieland Schonauwen Souterwoude Spiegel Spion Starrenburg Stavoren Susanna Tholen
-	Tijdverdrijf Tijger Triton Tromp Unie Utrecht Valk Veere Velsen Vlaming Vlissingen Voorzichtigheid Vrede Vrijheid Waag Waakzamheid Walcheren Wassenaer Westergo
-	Westfriesland Weststellingwerft Windhond Wolf Wolfswinkel Wreker Zeelandia Zeepaard Zephier Zierikzee Zon Zuiderhuis Zuileveld Zutphen Zwaan Zwaluw Zwanenburg
-	Zwieten
+	"Zwarte Arend" "Zwarte Bul" "Aemilia" "Agatha" "Ajax" "Akerboom" "Alida" "Alkmaar" "Alliantie" "Alphen" "Amalia" "Amazoon" "Amphitrite" "Amsterdam" "Arend" 
+	"Argo" "Arnhem" "Assendelft" "Banier" "Barbestein" "Batavia" "Batavier" "Beekvliet" "Beemster" "Beemsterlust" "Beliona" "Beschermer" "Boekenrode" "Boetzelaar" 
+	"Bommel" "Braave" "Brakel" "Breda" "Brederode" "Brielle" "Broederschap" "Brutus" "Buis" "Bul" "Burgvliet" "Caleb" "Callantsoog" "Castricum" "Catharina" "Cerberus" 
+	"Convertine" "Curacao" "Dalem" "Damiaten" "Dankbaarheid" "Delfland" "Delft" "Deutekom" "Deventer" "Diepenheim" "Dieren" "Doesburg" "Doggersbank" "Dolfijn" "Dolfijn" 
+	"Dordrecht" "Draak" "Drakestein" "Drente" "Drielst" "Duinveld" "Duivenvoorde" "Echo" "Edam" "Eendracht" "Eenhoorn" "Elswoud" "Engel" "Erfprins" "Fortuin" "Friesland" 
+	"Galei" "Gelderland" "Geloof" "Gideon" "Glindhorst" "Goes" "Gouda" "Gouderak" "Haarlem" "Haarlemmerhout" "Hardenbroek" "Harderwijk" "Havik" "Hector" "Heemstede" 
+	"Hersteller" "Het" "Loo" "Hilverbeek" "Hilversum" "Hollandia" "Hoop" "Jaarsveld" "Jonas" "Jozua" "Jupiter" "Kalandsoog" "Kameel" "Kampen" "Kampveere" "Kennemerland" 
+	"Koevorden" "Komeet" "Kooge" "Landman" "Landskroon" "Leeuwarden" "Leeuwenhorst" "Liefde" "Loosdregt" "Luipaard" "Lynx" "Maan" "Maarseveen" "Maas" "Margarethe" "Mars" 
+	"Matenes" "Medusa" "Meermin" "Mercuur" "Middelbare" "Middelburg" "Morgenstar" "Moriaanshoofd" "Naerden" "Neptunus" "Noorderkwartier" "Olifant" "Omlandia" "Oostergo" 
+	"Oosterwijk" "Oranjeboom" "Oudshoorn" "Overijssel" "Overwinnaer" "Pacificatie" "Parel" "Pelikaan" "Pijl" "Post" "Prins" "Raaf" "Ramhorst" "Reebok" "Reigersberg" 
+	"Rijnland" "Rosenkranz" "Salamander" "Schieland" "Schonauwen" "Souterwoude" "Spiegel" "Spion" "Starrenburg" "Stavoren" "Susanna" "Tholen" "Tijdverdrijf" "Tijger" 
+	"Triton" "Tromp" "Unie" "Utrecht" "Valk" "Veere" "Velsen" "Vlaming" "Vlissingen" "Voorzichtigheid" "Vrede" "Vrijheid" "Waag" "Waakzamheid" "Walcheren" "Wassenaer" 
+	"Westergo" "Westfriesland" "Weststellingwerft" "Windhond" "Wolf" "Wolfswinkel" "Wreker" "Zeelandia" "Zeepaard" "Zephier" "Zierikzee" "Zon" "Zuiderhuis" "Zuileveld" 
+	"Zutphen" "Zwaan" "Zwaluw" "Zwanenburg" "Zwieten"
 }
 
 army_names = {
