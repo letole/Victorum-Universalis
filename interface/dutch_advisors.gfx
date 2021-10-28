@@ -1,0 +1,549 @@
+## germanic Culture ##
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_advisor_dutch_artist"
+		texturefile = "gfx//interface//advisors//dutch_artist.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_philosopher"
+		texturefile = "gfx//interface//advisors//dutch_philosopher.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_natural_scientist"
+		texturefile = "gfx//interface//advisors//dutch_natural_scientist.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_theologian"
+		texturefile = "gfx//interface//advisors//dutch_theologian.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_inquisitor"
+		texturefile = "gfx//interface//advisors//dutch_inquisitor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_master_of_mint"
+		texturefile = "gfx//interface//advisors//dutch_master_of_mint.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_treasurer"
+		texturefile = "gfx//interface//advisors//dutch_treasurer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_statesman"
+		texturefile = "gfx//interface//advisors//dutch_statesman.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_colonial_governor"
+		texturefile = "gfx//interface//advisors//dutch_colonial_governor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_diplomat"
+		texturefile = "gfx//interface//advisors//dutch_diplomat.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_naval_reformer"
+		texturefile = "gfx//interface//advisors//dutch_naval_reformer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_navigator"
+		texturefile = "gfx//interface//advisors//dutch_navigator.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_trader"
+		texturefile = "gfx//interface//advisors//dutch_trader.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_spymaster"
+		texturefile = "gfx//interface//advisors//dutch_spymaster.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_grand_captain"
+		texturefile = "gfx//interface//advisors//dutch_grand_captain.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_commandant"
+		texturefile = "gfx//interface//advisors//dutch_commandant.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_army_organiser"
+		texturefile = "gfx//interface//advisors//dutch_army_organiser.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_army_reformer"
+		texturefile = "gfx//interface//advisors//dutch_army_reformer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_recruitmaster"
+		texturefile = "gfx//interface//advisors//dutch_recruitmaster.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_fortification_expert"
+		texturefile = "gfx//interface//advisors//dutch_fortification_expert.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_quartermaster"
+		texturefile = "gfx//interface//advisors//dutch_quartermaster.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+spriteType = {
+		name = "GFX_advisor_dutch_noAdvisorType"
+		texturefile = "gfx//interface//advisors//dutch_noAdvisorType.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_artist_female"
+		texturefile = "gfx//interface//advisors//dutch_artist_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_philosopher_female"
+		texturefile = "gfx//interface//advisors//dutch_philosopher_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_natural_scientist_female"
+		texturefile = "gfx//interface//advisors//dutch_natural_scientist_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_theologian_female"
+		texturefile = "gfx//interface//advisors//dutch_theologian_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_inquisitor_female"
+		texturefile = "gfx//interface//advisors//dutch_inquisitor_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_master_of_mint_female"
+		texturefile = "gfx//interface//advisors//dutch_master_of_mint_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_treasurer_female"
+		texturefile = "gfx//interface//advisors//dutch_treasurer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_advisor_dutch_noAdvisorType_female"
+		texturefile = "gfx//interface//advisors//dutch_noAdvisorType_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}	
+
+
+###Flemish
+
+spriteType = {
+		name = "GFX_advisor_flemish_artist"
+		texturefile = "gfx//interface//advisors//dutch_artist.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_philosopher"
+		texturefile = "gfx//interface//advisors//dutch_philosopher.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_natural_scientist"
+		texturefile = "gfx//interface//advisors//dutch_natural_scientist.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_theologian"
+		texturefile = "gfx//interface//advisors//dutch_theologian.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_inquisitor"
+		texturefile = "gfx//interface//advisors//dutch_inquisitor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_master_of_mint"
+		texturefile = "gfx//interface//advisors//dutch_master_of_mint.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_treasurer"
+		texturefile = "gfx//interface//advisors//dutch_treasurer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_statesman"
+		texturefile = "gfx//interface//advisors//dutch_statesman.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_colonial_governor"
+		texturefile = "gfx//interface//advisors//dutch_colonial_governor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_diplomat"
+		texturefile = "gfx//interface//advisors//dutch_diplomat.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_naval_reformer"
+		texturefile = "gfx//interface//advisors//dutch_naval_reformer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_navigator"
+		texturefile = "gfx//interface//advisors//dutch_navigator.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_trader"
+		texturefile = "gfx//interface//advisors//dutch_trader.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_spymaster"
+		texturefile = "gfx//interface//advisors//dutch_spymaster.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_grand_captain"
+		texturefile = "gfx//interface//advisors//dutch_grand_captain.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_commandant"
+		texturefile = "gfx//interface//advisors//dutch_commandant.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_army_organiser"
+		texturefile = "gfx//interface//advisors//dutch_army_organiser.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_army_reformer"
+		texturefile = "gfx//interface//advisors//dutch_army_reformer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_recruitmaster"
+		texturefile = "gfx//interface//advisors//dutch_recruitmaster.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_fortification_expert"
+		texturefile = "gfx//interface//advisors//dutch_fortification_expert.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_quartermaster"
+		texturefile = "gfx//interface//advisors//dutch_quartermaster.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+spriteType = {
+		name = "GFX_advisor_flemish_noAdvisorType"
+		texturefile = "gfx//interface//advisors//dutch_noAdvisorType.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_artist_female"
+		texturefile = "gfx//interface//advisors//dutch_artist_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_philosopher_female"
+		texturefile = "gfx//interface//advisors//dutch_philosopher_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_natural_scientist_female"
+		texturefile = "gfx//interface//advisors//dutch_natural_scientist_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_theologian_female"
+		texturefile = "gfx//interface//advisors//dutch_theologian_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_inquisitor_female"
+		texturefile = "gfx//interface//advisors//dutch_inquisitor_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_master_of_mint_female"
+		texturefile = "gfx//interface//advisors//dutch_master_of_mint_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_treasurer_female"
+		texturefile = "gfx//interface//advisors//dutch_treasurer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_advisor_flemish_noAdvisorType_female"
+		texturefile = "gfx//interface//advisors//dutch_noAdvisorType_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+}
