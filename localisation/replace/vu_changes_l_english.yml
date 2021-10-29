@@ -3769,10 +3769,10 @@
  construct_lake_baikal_title: "You cant construct Lake Baikal!"
  construct_lake_baikal_desc: "Seriously, is monument description even visible anywhere? If you are reading this during your game, contact curious mod dev."
  #
- great_project_tomb_of_genghis_kahn: "The tomb of Genghis Kahn"
- tomb_of_genghis_kahn_title: "The tomb of Genghis Kahn"
- tomb_of_genghis_kahn: "The tomb of Genghis Kahn"
- construct_tomb_of_genghis_kahn_title: "You cant desecrate the tomb of Genghis Kahn!"
+ great_project_tomb_of_genghis_kahn: "The Tomb of Genghis Kahn"
+ tomb_of_genghis_kahn_title: "The Tomb of Genghis Kahn"
+ tomb_of_genghis_kahn: "The Tomb of Genghis Kahn"
+ construct_tomb_of_genghis_kahn_title: "You cant desecrate the Tomb of Genghis Kahn!"
  construct_tomb_of_genghis_kahn_desc: "Seriously, is monument description even visible anywhere? If you are reading this during your game, contact curious mod dev."
  #
  great_project_peak_pobeda: "Peak Pobeda"

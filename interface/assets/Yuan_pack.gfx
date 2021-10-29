@@ -123,7 +123,7 @@ pdxmesh = {
 		animation = { id = "horse_retreat"		type = "ibup_light_cavalry_moving_animation" }
 		
 		
-		scale = 0.48
+		scale = 0.35
 	}
 
 pdxmesh = {
