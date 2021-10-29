@@ -16,7 +16,7 @@ pdxmesh = {
 		animation = { id = "artillery_attack"	type = "idle_animation_hre" }
 
 
-scale = 0.48924
+scale = 0.35
 
 }
 
@@ -24,7 +24,7 @@ pdxmesh = {
 		name = "xangelo_TYR_infantry_02_mesh"
 		file = "gfx/models/Units/xangelo_TYR_infantry_02.mesh"			
 		
-		 animation = { id = "idle"				type = "musketeer_02_idle_animation" }
+		animation = { id = "idle"				type = "musketeer_02_idle_animation" }
 		animation = { id = "walk"				type = "musketeer_02_moving_animation" }
 		animation = { id = "attack"				type = "rifleman_attack_animation" }
 		animation = { id = "death"				type = "rifleman_death_animation" }
@@ -98,9 +98,9 @@ pdxmesh = {
 		scale = 0.7
 	}
 
-        ###################################################################################################################
+    ####################################################################################################################
 	#####                                            British CAVALRY                                               #####
-	###################################################################################################################
+	####################################################################################################################
 
 
 	pdxmesh = {

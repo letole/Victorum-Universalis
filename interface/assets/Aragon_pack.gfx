@@ -117,7 +117,7 @@ pdxmesh = {
 		animation = { id = "horse_retreat"		type = "iberian_knight_moving_animation" }
 		
 		
-		scale = 0.48
+		scale = 0.35
 	}
 
 pdxmesh = {
