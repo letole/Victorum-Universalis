@@ -1673,16 +1673,130 @@ country_decisions = {
 		}
 	}
 
-
 ###################################################################################################
-################################			NEWCOUNTRY			 ##############################################
+################################			Damietta			 ##############################################		
 ###################################################################################################
-#Added in 1.23, so cut and replaced.
-#	bt_yemen_formation = {
-#	}
 
-#Added in 1.23, so cut and replaced.
-#	bt_armenia_formation = {
-#	}
-
+ damietta_nation= {
+	major = yes
+	potential = {
+		bt_generic_can_form_potential_check = yes
+		NOT = { has_country_flag = formed_damietta }
+		NOT = { exists = DAM }
+		normal_or_historical_nations = yes
+		OR = {
+			ai = no
+			is_playing_custom_nation = no
+		}
+		religion = catholic
+		NOT = { government = monarchy }
+		OR = {
+			owns = 363
+			AND = {
+				ai = no
+				tag = KNI
+			}
+		}
+		OR = {
+			current_age = age_of_discovery
+			current_age = age_of_reformation
+		}
+	}
+	provinces_to_highlight = {
+		OR = {
+			province_id = 363 #Damietta
+		}
+		OR = {
+			NOT = { owned_by = ROOT }
+			NOT = { is_core = ROOT }
+		}
+	}
+	allow = {
+		is_at_war = no
+		owns_core_province = 363 #Gazzah
+		363 = {
+			is_state = yes
+		}
+		if = {
+			limit = {
+				OR = {
+					tag = KNI
+				}
+				was_never_end_game_tag_trigger = yes
+			}
+			is_emperor = no
+		}
+	}
+	effect = {
+		add_prestige = 25
+		every_province = {
+			limit = {
+				OR = {
+					province_id = 363 #Damietta
+				}
+			}
+			add_core = DAM
+		}
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						NOT = { tag = KNI }
+					}
+					was_never_end_game_tag_trigger = no
+				}
+			}
+			release = DAM
+			DAM = { change_primary_culture = ROOT }
+		}
+		if = {
+			limit = {
+				OR = {
+					tag = KNI
+				}
+				was_never_end_game_tag_trigger = yes
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				set_in_empire = no
+			}
+			change_tag = DAM
+			swap_ideas = yes
+		}
+		if = {
+			limit = { tag = KNI }
+			set_country_flag = knights_formed_damietta
+		}
+		DAM = {
+			set_capital = 363 #Damietta
+			change_religion = catholic
+			if = {
+				limit = {
+					NOT = { government = theocracy }
+				}
+				change_government_to_republic = yes
+				add_government_reform = admiralty_reform
+			}
+			else_if = {
+				limit = {
+					government = theocracy
+				}
+				add_government_reform = admiralty_reform
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			swap_non_generic_missions = no
+			set_country_flag = formed_damietta
+		}
+	}
+	ai_will_do = {
+		factor = 0
+        }
+    }
 }
