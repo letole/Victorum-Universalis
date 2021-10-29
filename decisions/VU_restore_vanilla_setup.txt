@@ -304,6 +304,22 @@ country_decisions = {
 			LBV = { inherit = BAV }
 			HAB = { inherit = BRX }
 			}
+			#Indochina
+			KHM = { inherit = DMA }
+			RHA = { inherit = MNN }
+			SUN = { inherit = GLU }
+			BLI = { inherit = SPR }
+			BMA = { inherit = SBW }
+			BEI = { inherit = SGG }
+			SMB = {
+				inherit = SKD 
+				inherit = LDA
+				inherit = STG
+			}
+			MKS = { inherit = SPP }
+			BNE = { inherit = WJO }
+			MAS = { inherit = RMB }
+			PGS = { inherit = IFG }
 		}
 		ai_will_do = {
 			factor = 0
