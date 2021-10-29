@@ -2961,3 +2961,52 @@ DNR_ideas = {
 		colonist_placement_chance = 0.1
 	}
 }
+
+RED_ideas = {
+	start = {
+		own_coast_naval_combat_bonus = 1.0
+		free_leader_pool = 1
+	}
+	bonus = {
+		may_perform_slave_raid_on_same_religion = yes
+	}
+	trigger = {
+		OR = {
+			has_reform = pirate_republic_reform
+			tag = RED
+		}
+		NOT = { culture_group = iberian }
+		NOT = { tag = PRY }
+		NOT = { tag = TET }
+		NOT = { tag = SLE }
+	}
+	free = yes
+	
+	red_religious_apathy = {
+		no_religion_penalty = yes
+	}	
+	red_plunder = {
+		loot_amount = 0.45
+	}
+	red_bucanneers_ideas = {	
+		privateer_efficiency = 0.25
+		leader_naval_fire = 1
+	}
+	red_sail_in_consort = {
+		leader_naval_manuever = 1
+		global_naval_engagement_modifier = 0.25
+		movement_speed_in_fleet_modifier = 1
+	}
+	red_elected_quartermasters = {
+		global_ship_cost = -0.2
+		naval_morale = 0.1
+	}
+	red_pirate_bays = {
+		naval_maintenance_modifier = -0.25
+		sailor_maintenance_modifer = -0.15
+	}
+	red_life_of_liberty = {
+		allowed_marine_fraction = 0.5
+		global_sailors_modifier = 0.5
+	}
+}

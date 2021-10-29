@@ -2,7 +2,7 @@
 
 culture = delaware
 religion = totemism
-capital = "Delaware"
+capital = "Askiminokonson"
 trade_goods = unknown
 hre = no
 base_tax = 4
@@ -46,7 +46,7 @@ discovered_by = north_american
 	add_core = ENG
 	remove_core = NED
 	culture = english
-	capital = "Wilmington"
+	capital = "Dover"
 	religion = protestant
 } # Treaty of Breda
 1692.1.1 = { add_core = ENG }

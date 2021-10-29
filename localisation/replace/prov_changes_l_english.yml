@@ -283,7 +283,10 @@
  PROV1299:0 "Pentland Firth"
  PROV1300:0 "Sea of Sardinia"
  PROV1329:0 "Mandeb Strait"
+ PROV1367:0 "Rifleman Bank"
  PROV1380:0 "Auckland Islands"
+ PROV1397:0 "Southern Visayan Sea"
+ PROV1399:0 "Southern Sea of Celebes"
  PROV1413:0 "Eastern North Atlantic"
  PROV1435:0 "Mariana Islands"
  PROV1473:0 "Southern Norwegian Sea"
@@ -300,6 +303,9 @@
  PROV1495:0 "Grand Banks"
  PROV1496:0 "Labrador Approach"
  PROV1497:0 "Northwestern Atlantic"
+ PROV1517:0 "Colombian Basin"
+ PROV1517:0 "Cayman Basin"
+ PROV1521:0 "Venezuelan Basin"
  PROV1560:0 "Cook Inlet"
  PROV1561:0 "Gulf of Alaska"
  PROV1569:0 "North Sargasso Sea"
@@ -371,6 +377,7 @@
  PROV2007:0 "Sahnish"
  PROV2008:0 "Hunkpapha"            #Northern Lakota name in Crow/Hidatsa land... shame on me. Fix it later.
  PROV2009:0 "Oglála"            #Southern Lakota name in Arikara land... shame on me. Fix it later.
+ PROV2010:0 "Saukiog"
  PROV2012:0 "Awabaska"
  PROV2015:0 "Michipicoten"
  PROV2016:0 "Hinono'eino"

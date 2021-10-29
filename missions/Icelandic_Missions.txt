@@ -65,6 +65,75 @@ iceland_missions_1 = {
 			}
 		}
 	}
+	
+	ice_rebuild_leifsbuoir = {
+		icon = mission_rb_increase_our_reach
+		required_missions = { ice_markland_helluland }
+		position = 9
+		provinces_to_highlight = {
+			province_id = 981
+		}
+		
+		trigger = {
+			has_discovered = 981
+			owns_or_non_sovereign_subject_of = 981
+			981 = {
+				base_tax = 4
+				base_production = 3
+				base_manpower = 3
+				OR = {
+					has_building = fort_15th
+					has_building = workshop
+					has_building = dock
+					has_building = shipyard
+					fort_level = 1
+				}
+				culture_group = scandinavian
+			}
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					981 = {
+						NOT = { fort_level = 1 }
+					}
+				}
+				981 = {
+					add_building = fort_15th
+				}
+			}
+			981 = {
+				add_base_production = 2
+				change_culture = vinlandic
+				change_province_name = "Leifsbuoir"
+				rename_capital = "Leifsgard"
+			}
+			980 = {
+				change_province_name = "Northern Markland"
+			}
+			2573 = {
+				change_province_name = "Southern Markland"
+				change_trade_goods = naval_supplies
+			}
+			4974 = {
+				change_province_name = "Straumfjord"
+			}
+			5059 = {
+				change_province_name = "Straumsoy"
+			}
+			5013 = {
+				change_province_name = "Beotheim"
+			}
+			5058 = {
+				change_province_name = "Ethaylingfjord"
+			}
+			5019 = {
+				change_province_name = "Eyju Karlsefni"
+			}
+			add_sailors = 500
+		}
+	}
 }
 
 iceland_missions_2 = {
@@ -80,7 +149,17 @@ iceland_missions_2 = {
 		icon = mission_protect_white_sea_trade
 		required_missions = { }
 		position = 6
-		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1104
+				province_id = 3113
+				province_id = 3112
+				province_id = 5588
+				province_id = 5589
+				province_id = 5590
+			}
+		}
+
 		trigger = {
 			has_discovered = 5483
 			has_discovered = 1481
@@ -111,6 +190,9 @@ iceland_missions_2 = {
 		icon = mission_rb_settle_the_north
 		required_missions = { ice_rediscover_greenland }
 		position = 7
+		provinces_to_highlight = {
+			province_id = 1104
+		}
 		
 		trigger = {
 			OR = {
@@ -149,6 +231,12 @@ iceland_missions_2 = {
 			ice_explorer_fleet
 		}
 		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = labrador_area
+				area = newfoundland_area
+			}
+		}
 		
 		trigger = {
 			OR = {
@@ -262,6 +350,71 @@ iceland_missions_2 = {
 			}
 		}
 	}
+	
+	ice_return_vinland = {
+		icon = mission_rb_conquer_the_isles
+		required_missions = { ice_markland_helluland }
+		position = 0
+		provinces_to_highlight = {
+			OR = {
+				area = lower_acadia_area
+				area = upper_acadia_area
+			}
+		}
+		
+		trigger = {
+			OR = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 3
+					area = lower_acadia_area
+					is_city = yes
+				}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 3
+					area = upper_acadia_area
+					is_city = yes
+				}
+			}
+			AND = {
+				has_discovered = 982
+				has_discovered = 983
+				has_discovered = 985
+				has_discovered = 5049
+				has_discovered = 4891
+				has_discovered = 5048
+				has_discovered = 2578
+				has_discovered = 984
+			}
+		}
+		
+		effect = {
+			add_prestige = 5
+			random_owned_province = {
+				limit = {
+					OR = {
+						area = upper_acadia_area
+						area = lower_acadia_area
+					}
+					has_port = yes
+				}
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			random_owned_province = {
+				limit = {
+					OR = {
+						area = upper_acadia_area
+						area = lower_acadia_area
+					}
+					has_port = yes
+				}
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+	}
 }
 
 iceland_missions_3 = {
@@ -277,6 +430,9 @@ iceland_missions_3 = {
 		icon = mission_rb_settle_the_north
 		required_missions = { ice_rediscover_greenland }
 		position = 7
+		provinces_to_highlight = {
+			province_id = 5591
+		}
 		
 		trigger = {
 			owns = 5591
@@ -298,6 +454,16 @@ iceland_missions_3 = {
 		icon = mission_protect_white_sea_trade
 		required_missions = { ice_markland_helluland }
 		position = 9
+		provinces_to_highlight = {
+			OR = {
+				area = qikiqtaaluk_area
+				area = kivalliq_area
+				area = hudson_bay_area
+				area = east_hudson_bay_area
+				area = james_bay_area
+				area = west_james_bay_area
+			}
+		}
 		
 		trigger = {
 			qikiqtaaluk_area = {

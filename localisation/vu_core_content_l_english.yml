@@ -698,8 +698,32 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  desc_apalachicola_estuary_modifier:0 "Controlling the important estuary of the Apalachicola River strengthens our hold of the trade in the region."
  potomac_estuary_modifier:0 "Potomac River Estuary"
  desc_potomac_estuary_modifier:0 "Controlling the important estuary of the Potomac River strengthens our hold of the trade in the region."
+ rappahannock_estuary_modifier:0 "Rappahannock River Estuary"
+ desc_rappahannock_estuary_modifier:0 "Controlling the important estuary of the Rappahannock River strengthens our hold of the trade in the region."
+ york_estuary_modifier:0 "York River Estuary"
+ desc_york_estuary_modifier:0 "Controlling the important estuary of the York River strengthens our hold of the trade in the region."
+ susquenhanna_estuary_modifier:0 "Susquenhanna River Estuary"
+ desc_susquenhanna_estuary_modifier:0 "Controlling the important estuary of the Susquenhanna River strengthens our hold of the trade in the region."
+ patuxent_estuary_modifier:0 "Patuxent River Estuary"
+ desc_patuxent_estuary_modifier:0 "Controlling the important estuary of the Patuxent River strengthens our hold of the trade in the region."
+ raritan_estuary_modifier:0 "Raritan River Estuary"
+ desc_raritan_estuary_modifier:0 "Controlling the important estuary of the Raritan River strengthens our hold of the trade in the region."
+ connecticut_estuary_modifier:0 "Connecticut River Estuary"
+ desc_raritan_estuary_modifier:0 "Controlling the important estuary of the Connecticut River strengthens our hold of the trade in the region."
+ nansemond_estuary_modifier:0 "Nansemond River Estuary"
+ desc_nansemond_estuary_modifier:0 "Controlling the important estuary of the Nansemond River strengthens our hold of the trade in the region."
+ straits_of_florida_estuary_modifier:0 "Florida Strait"
+ desc_straits_of_florida_estuary_modifier:0 "Controlling the important straits that skirts the southern coast of Florids will not only strengthens our hold of the trade in the region but increase our chances in capturing treasure fleets bound for Europe."
+ massachusetts_bay_modifier:0 "Massachusetts Bay"
+ desc_massachusetts_bay_modifier:0 "The Massachusetts Bay is located in the Mid-Atlantic region and is situated within close proximity to Cape Cod. Massachusetts Bay is a very important feature for the ecology and economy of those two states, as well as others surrounding within its watershed."
+ burwell_bay_modifier:0 "Burwell Bay"
+ desc_burwell_bay_modifier:0 "The Burwell Bay is located in the Mid-Atlantic region and is situated within close proximity to Cape Cod. Massachusetts Bay is a very important feature for the ecology and economy of those two states, as well as others surrounding within its watershed."
+ straits_of_northumberland_estuary_modifier:0 "Northumberland Strait"
+ desc_straits_of_northumberland_estuary_modifier:0 "Controlling the important straits of Northumberland strengthens our hold of the trade in the region."
  straits_of_cabot_estuary_modifier:0 "Cabot Strait"
  desc_straits_of_cabot_estuary_modifier:0 "Controlling the important straits of Cabot strengthens our hold of the trade in the region."
+
+
  essequibo_river_estuary_modifier:0 "Essequibo River Estuary"
  desc_essequibo_river_estuary_modifier:0 "Controlling the important estuary of the Essequibo River strengthens our hold of the trade in the region."
 
@@ -956,13 +980,13 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  curonian_strait_toll:0 "Curonian Strait Toll"
  desc_curonian_strait_toll:0 "The Curonian Lagoon is seperated from the rest of the Baltic Sea by a narrow strip of land called the Curonian Spit, creating a natural chokepoint at the only exit for the many cities and towns along the lagoon. Just some couple hundred metres wide, gaining control of this natural chokepoint will ensure our continued relevance in regional trade."
 
-bohai_bay_modifier:0 "Bohai Bay"
+ bohai_bay_modifier:0 "Bohai Bay"
  desc_bohai_bay_modifier:0 "Bohai Bay is one of the three major bays of the Bohai Sea, the northwestern and innermost gulf of the Yellow Sea. It is bounded by the coastlines of eastern Hebei province, Tianjin municipality and northern Shandong province south of the Daqing River estuary and north of the Yellow River estuary. It is the most southerly water in the northern hemisphere where sea ice can form."
 
-osaka_bay_modifier:0 "Osaka Bay"
+ osaka_bay_modifier:0 "Osaka Bay"
  desc_osaka_bay_modifier:0 "Osaka Bay is a bay in western Japan. As an eastern part of the Seto Inland Sea, it is separated from the Pacific Ocean by the Kii Channel and from the neighbor western part of the Inland Sea by the Akashi Strait. Its western shore is formed by Awaji Island, and its northern and eastern shores are part of the Kansai metropolitan area."
 
-ijsselmeer_bay_modifier:0 "IJsselmeer"
+ ijsselmeer_bay_modifier:0 "IJsselmeer"
  desc_ijsselmeer_bay_modifier:0 "The IJsselmeer, also known as Lake IJssel, is a closed off inland bay in the central Netherlands bordering the provinces of Flevoland, North Holland and Friesland. It covers an area of 1,100 km2 (420 sq mi) with an average depth of 5.5 m (18 ft). The river IJssel flows into the IJsselmeer. "
 
  #Specials - New World
@@ -974,19 +998,19 @@ ijsselmeer_bay_modifier:0 "IJsselmeer"
  #golden_gate_strait_modifier:0 "Golden Gate"
  #desc_golden_gate_strait_modifier:0 "The Golden Gate is a natural strait, less than a league across, separating the San Francisco and Marin Peninsulas to form a natural gateway into the well protected San Francisco Bay. Named 'Chrysopylae', or the Golden Gate, after 'Chrysoceras', the Golden Horn of the Bosporus, because of the strategic position's obvious potential as a center for trade with the Orient. Later, this name would prove prophetic when a certain rare mineral was found to be abundant in the mountains and hills beyond the bay."
 
-chesapeake_bay_modifier:0 "Chesapeake Bay"
+ chesapeake_bay_modifier:0 "Chesapeake Bay"
  desc_chesapeake_bay_modifier:0 "The Chesapeake Bay is the largest estuary in the United States. The Bay is located in the Mid-Atlantic region and is primarily separated from the Atlantic Ocean by the Delmarva Peninsula with its mouth of the Bay at the south end located between Cape Henry and Cape Charles. With its northern portion in Maryland and the southern part in Virginia, the Chesapeake Bay is a very important feature for the ecology and economy of those two states, as well as others surrounding within its watershed. More than 150 major rivers and streams flow into the Bay's 64,299-square-mile drainage basin."
 
-maracaibo_bay_modifier:0 "Maracaibo Bay"
+ maracaibo_bay_modifier:0 "Maracaibo Bay"
  desc_maracaibo_bay_modifier:0 "Lake Maracaibo is a large brackish tidal bay in Venezuela and an "inlet of the Caribbean Sea". It is sometimes considered a lake rather than a bay or lagoon. It is connected to the Gulf of Venezuela by Tablazo Strait, which is 5.5 kilometres (3.4 mi) wide at the northern end. It is fed by numerous rivers, the largest being the Catatumbo. At 13,210 square kilometres (5,100 sq mi) it was once the largest lake in South America; the geological record shows that it was a true lake in the past, and as such is one of the oldest lakes on Earth at 20–36 million years old."
 
-pudget_sound_modifier:0 "The Pudget Sound"
+ pudget_sound_modifier:0 "The Pudget Sound"
  desc_pudget_sound_modifier:0 "The Puget Sound, is a sound of the Pacific Northwest, an inlet of the Pacific Ocean, and part of the Salish Sea. It is located along the northwestern coast of the U.S. state of Washington. It is a complex estuarine system of interconnected marine waterways and basins, with one major and two minor connections to the open Pacific Ocean via the Strait of Juan de Fuca. Admiralty Inlet being the major connection and Deception Pass and Swinomish Channel being the minor. "
 
  ###########################
  #Other modifiers
  ###########################
-  #European
+ #European
  irish_fealty_negotiations_ongoing:0 "Demanding Irish Fealty"
  desc_irish_fealty_negotiations_ongoing:0 "Negotiations to arrange a formal declaration of fealty from an Old English lord in Ireland to the English Throne is ongoing."
  humiliated_by_former_vassal:0 "Humiliated by Former Vassal"
@@ -1587,6 +1611,8 @@ pudget_sound_modifier:0 "The Pudget Sound"
  #Misc
  remove_primitive_nations_all_title:0 "Remove primitive nations"
  remove_primitive_nations_all_desc:0 "Removes all primitive nations that should not be considered a proper state at this moment. This applies to most of America and Oceania but not only. Will also reduce lag of the game!"
+ restore_vanilla_status_title:0 "Restore Vanilla Setup"
+ restore_vanilla_status_desc:0 "Resets the map removing nearly all non-vanilla nations. Tags added by the mod will be carved up and integrated to vanilla countries. This drastically reduces amount of nations and units on the map, therefore this decision is meant for those wishing to reduce lag and improve game performance at the cost of accuracy and realism. MAKE SURE YOU ARE NOT PLAYING ONE OF THOSE NATIONS OR WILL TOO DISAPPEAR!"
 
 
 
@@ -1627,6 +1653,10 @@ pudget_sound_modifier:0 "The Pudget Sound"
  ice_markland_helluland_desc:0 "We have secured Greenland. Time to go beyond and explore west in hope of reaching the mythical lands of Helluland and Markland that Viking Sagas mention."
  ice_north_bay_title:0 "Norhtern Voyage"
  ice_north_bay_desc:0 "We have already sailed south of Helluland into warmer waters of Markland and Vinland. It is time to go in the other direction and see if there's a possible passage to the North. Pray to the Lord we will not freeze to death there."
+ ice_rebuild_leifsbuoir_title:0 "Rebuild Leifsbuoir"
+ ice_rebuild_leifsbuoir_desc:0 "Rebuild one of the legendary viking settlments."
+ ice_return_vinland_title:0 "Return to Vinland"
+ ice_return_vinland_desc:0 "We shall finally reach the fertile lands of Vinland and establish a prominent colony there. With new technology, we will not be driven out by natives."
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later
  bt_establish_newfoundland_colony_title:0 "Establish a colony in Newfoundland"

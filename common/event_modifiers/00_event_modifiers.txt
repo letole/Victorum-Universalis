@@ -491,6 +491,67 @@ potomac_estuary_modifier = {
 	picture = "estuary_icon"
 }
 
+rappahannock_estuary_modifier = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}
+
+york_estuary_modifier = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}
+
+susquenhanna_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+patuxent_estuary_modifier = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}
+
+raritan_estuary_modifier = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}
+
+connecticut_estuary_modifier = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}
+
+nansemond_estuary_modifier = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}
+
+massachusetts_bay_modifier = {
+	province_trade_power_value = 5
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "bay_icon"
+}
+
+burwell_bay_modifier = {
+	province_trade_power_value = 5
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "bay_icon"
+}
+
+straits_of_florida_estuary_modifier = {
+	province_trade_power_value = 15
+	picture = "sea_lane_icon"
+}
+
+straits_of_northumberland_estuary_modifier = {
+	province_trade_power_value = 15
+	picture = "sea_lane_icon"
+}
+
 straits_of_cabot_estuary_modifier = {
 	province_trade_power_value = 15
 	picture = "sea_lane_icon"
