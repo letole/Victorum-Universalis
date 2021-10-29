@@ -230,6 +230,7 @@ AHE = "countries/Austria_Hungary.txt"
 LES = "countries/Lesbos.txt"
 
 #BT - Holy Orders
+DAM = "countries/Damietta.txt"
 KNT = "countries/KnightsTemplar.txt"
 LTE = "countries/LatinEmpire.txt"
 
