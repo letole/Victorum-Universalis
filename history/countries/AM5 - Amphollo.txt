@@ -142,3 +142,31 @@ fixed_capital = 8745 # Cannot move capital away from this province & no power co
 	} 
 }
 
+1712.11.20 = {
+	monarch = {
+		name = "Armand"
+		birth_date = 1650.4.10
+		adm = 4
+		dip = 1
+		mil = 1
+	} 
+}
+1725.11.20 = {
+	monarch = {
+		name = "Armand"
+		birth_date = 1650.4.10
+		adm = 3
+		dip = 1
+		mil = 5
+	} 
+}
+
+1762.1.1 = {
+	monarch = {
+		name = "Armand"
+		birth_date = 1710.4.10
+		adm = 3
+		dip = 1
+		mil = 6
+	} 
+}

@@ -6,3 +6,4 @@ primary_culture = norman
 add_accepted_culture = norman
 religion = catholic
 capital = 363
+capital = 363	# Damietta
