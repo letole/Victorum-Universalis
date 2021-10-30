@@ -771,6 +771,7 @@ republic = {
 				trading_city
 				ambrosian_republic
 				veche_republic
+				improved_veche_republic
 				american_republic
 				federal_republic
 				colonial_government

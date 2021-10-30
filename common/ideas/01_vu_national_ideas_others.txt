@@ -3010,3 +3010,54 @@ RED_ideas = {
 		global_sailors_modifier = 0.5
 	}
 }
+
+#VU Novgorodian Rus ideas by docRobert
+NRU_ideas = {
+	start = {
+		land_maintenance_modifier = -0.15
+		diplomatic_reputation = 1
+		num_accepted_cultures = 1
+	}
+	
+	bonus = {
+		defensiveness = 0.15
+		siege_ability = 0.10
+		administrative_efficiency = 0.05
+	}
+	
+	trigger = {
+		tag = NRU
+	}
+	free = yes		#will be added at load.
+	
+	northern_center_of_arts_1 = {
+		prestige = 1
+		improve_relation_modifier = 0.1
+	}
+	city_of_churches_1 = {
+		global_missionary_strength = 0.01
+		global_tax_modifier = 0.05
+	}
+	ivans_hundred_1 = {
+		republican_tradition = 0.3
+		stability_cost_modifier = -0.1
+	}
+	control_of_the_hanseatic_kontor_1 = {
+		merchants = 1
+		global_trade_power = 0.1
+	}
+	grand_dukes_army_1 = {
+		global_manpower_modifier = 0.1
+		artillery_power = 0.05
+		leader_land_shock = 1
+	}
+	exploration_tradition_1 = {
+		navy_tradition = 1
+		ship_durability = 0.1
+		ship_power_propagation = 0.1
+	}
+	baltic_shipyard_1 = {
+		light_ship_cost = -0.15
+		global_ship_recruit_speed = -0.05
+	}
+}
