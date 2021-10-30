@@ -1,0 +1,59 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 0.1
+primary_culture = norman
+add_accepted_culture = greek
+religion = catholic
+technology_group = western
+capital = 8745	# Amphollo
+fixed_capital = 8745 # Cannot move capital away from this province & no power cost to move to it
+
+
+1384.1.1 = {
+	monarch = {
+		name = "Entillo"
+		dynasty = "d'Armigeonne"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1384.1.1 = {
+	heir = {
+		name = "Jacartius"
+		monarch_name = "Jacartius"
+		dynasty = "d'Armigeonne"
+		birth_date = 1384.1.1
+		death_date = 1428.1.1 
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Authareus"
+		dynasty = "d'Armigeonne"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1404.1.1 = {
+	heir = {
+		name = "Authareus"
+		monarch_name = "Authareus"
+		dynasty = "d'Armigeonne"
+		birth_date = 1400.1.1
+		death_date = 1488.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 6
+	}
+}
