@@ -1,8 +1,9 @@
 #Country Name: Please see filename.
 
-graphical_culture = easterngfx
+graphical_culture = westerngfx
 
-color = { 14 46 31 }
+color = { 56 26 24 }
+revolutionary_colors = { 1  0  1 }
 
 historical_idea_groups = {
 	trade_ideas
