@@ -1531,6 +1531,8 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  #Non-European Old World
  btpl_kabylia_nation_title:0 "Form Kabylia"
  btpl_kabylia_nation_desc:0 "Uniting the rich, fertile hills of Kabylia is the first step in establishing a strong Berber nation in the Maghreb!"
+ btpl_damietta_nation_title:0 "Form Damietta"
+ btpl_damietta_nation_desc:0 "Uniting the rich, fertile hills of Damietta is the first step in establishing a strong Berber nation in the Knights!"
  #Cut for now, replaced in 1.24
  #bt_yemen_formation_title:0 "Form Yemen"
  #bt_yemen_formation_desc:0 "We have achieved a position of hegemony over the mountainous corner of southeastern Arabia, and can rightfully call ourselves Yemen, the primary nation of all Yemeni people."          #Bad placeholder localisation
