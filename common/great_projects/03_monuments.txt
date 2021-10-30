@@ -1286,7 +1286,7 @@ wailing_wall = {
 		}
 
 		province_modifiers = {
-			trade_value = 2
+			trade_value = 0.5
 			local_tax_modifier = 0.1
 		}
 
@@ -1313,7 +1313,7 @@ wailing_wall = {
 		}
 
 		province_modifiers = {
-			trade_value = 4
+			trade_value = 1
 			local_tax_modifier = 0.2
 		}
 
@@ -1341,7 +1341,7 @@ wailing_wall = {
 		}
 
 		province_modifiers = {
-			trade_value = 8
+			trade_value = 2
 			local_tax_modifier = 0.25
 		}
 

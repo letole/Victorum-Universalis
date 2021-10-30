@@ -408,6 +408,7 @@ VLG = "countries/Vologda.txt"
 VTN = "countries/Vorotynsk.txt"
 VYA = "countries/Vyatka.txt"
 ZBT = "countries/Zubtsov.txt"
+NRU = "countries/NovgorodRus.txt"
 
 #BT - Scandinavia & Baltics
 GTA = "countries/Gotaland.txt"

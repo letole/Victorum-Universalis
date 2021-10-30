@@ -7,7 +7,10 @@ tr_novgorod_1 = {
 		has_dlc = "Third Rome"
 	}
 	potential = {
-		tag = NOV
+		OR = {
+			tag = NOV
+			tag = NRU
+		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -187,7 +190,10 @@ tr_novgorod_2 = {
 		has_dlc = "Third Rome"
 	}
 	potential = {
-		tag = NOV
+		OR = {
+			tag = NOV
+			tag = NRU
+		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -296,7 +302,10 @@ tr_novgorod_3 = {
 		has_dlc = "Third Rome"
 	}
 	potential = {
-		tag = NOV
+		OR = {
+			tag = NOV
+			tag = NRU
+		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -520,7 +529,10 @@ tr_novgorod_4 = {
 		has_dlc = "Third Rome"
 	}
 	potential = {
-		tag = NOV
+		OR = {
+			tag = NOV
+			tag = NRU
+		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -858,7 +870,10 @@ tr_novgorod_5 = {
 		has_dlc = "Third Rome"
 	}
 	potential = {
-		tag = NOV
+		OR = {
+			tag = NOV
+			tag = NRU
+		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
 	}
