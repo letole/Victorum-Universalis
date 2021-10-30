@@ -2703,6 +2703,7 @@ mills = {
 	manufactory = {
 		paper
 		gems
+		diamonds
 		tropical_wood
 		glass
 		chinaware
@@ -2720,6 +2721,7 @@ mills = {
 		OR = {
 			trade_goods = paper
 			trade_goods = gems
+			trade_goods = diamonds
 			trade_goods = tropical_wood
 			trade_goods = glass
 			trade_goods = chinaware
@@ -3010,6 +3012,7 @@ state_house = {
 		paper
 		glass
 		gems
+		diamonds
 		jewellery
 		jade
 		marble
