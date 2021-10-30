@@ -1,8 +1,8 @@
 #Written with Eu4 Easy Province Creator by emiroercn
-#Amphollo
-add_core = AM5
-owner = AM5
-controller = AM5
+#Orchomenos
+add_core = OR3
+owner = OR3
+controller = OR3
 culture = greek
 religion = catholic
 hre = no
@@ -10,7 +10,7 @@ base_tax = 9
 base_production = 8
 trade_goods = glass
 base_manpower = 6
-capital = "Amphion"
+capital = "Orchomenos"
 is_city = yes
 extra_cost = 26
 center_of_trade = 2
