@@ -6,7 +6,7 @@
 
 western_mediterrenean_area = {
     color = { 70 169 186 }
-	1293 1294 1295 1296 1297 1298 1300 1301 1302 1303 1304 1305 7313 8316 8317 8337
+	1293 1294 1295 1296 1297 1298 1300 1301 1302 1303 1304 1305 7313 8316 8317 8337 8745  8744  8743  8742  8741 
 }
 
 siberian_lakes_area = {
@@ -2036,11 +2036,40 @@ coastal_kongo = { #5
 }
 
 kongo_area = { #5
-	798 1168 1170 2949 4080 6518 6520
+	798 1170 2949 4080 6518 6520
 }
 
-angola_namibia_area = { #3
-	1167 1171 1172 4084 5266 5426 6517 6522 6523 6527 6528 6554 6558 6567 6569 6570 6572 6652 6654 6657 6660 6662 6663 6668
+#ANGOLA
+#angola_namibia_area = { #3
+#}
+
+namibe_area = { #Red
+    5426 6651 6652
+}
+
+hwila_area = { #Pink
+    6654 6653 6655
+}
+kwanyama_area = { #White
+    6657 6658 6656 1801
+}
+ngangela_area = { #Yellow
+    6663 6558 6586
+}
+moxico_area = { #Green
+    6660 6661 6662 6554 6659
+}
+wambu_area = { #Light blue
+    6570 6664 1172 6567
+}
+benguela_area = { #Brown
+    1168 6522 6523
+}
+bengo_area = { #Dark Blue
+    6572 5266 6668 1167
+}
+bailundo_area = { #Purple
+    6569 6527 6528 4084 6517
 }
 
 cape_of_good_hope_area = { #5

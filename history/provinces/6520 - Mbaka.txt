@@ -1,8 +1,9 @@
 #6520 - Mbaka
 
 owner = KON
-controller = KON 
-culture = kongolese
+controller = KON
+add_core = MBW 
+culture = mbundu
 religion = shamanism #Fetishism
 capital = "Mbaka"
 trade_goods = livestock

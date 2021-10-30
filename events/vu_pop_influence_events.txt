@@ -857,8 +857,8 @@ country_event = {
 		ai_chance = {
 			factor = 40
 			modifier = {
+			    factor = 2
 				stability = 2
-				factor = 2
 			}
 		}
 		add_years_of_income = 1
@@ -868,10 +868,10 @@ country_event = {
 		ai_chance = {
 			factor = 60
 			modifier = {
+			    factor = 2
 				NOT = {
 					stability = -1	
 				}
-				factor = 2
 			}
 		}
 		add_stability = 1

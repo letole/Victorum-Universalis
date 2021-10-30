@@ -124,8 +124,26 @@
  hudson_bay_sea_region_name:0 "Hudson Bay"
  labrador_sea_region:0 "Labrador Sea"
  labrador_sea_region_name:0 "Labrador Sea"
-
-
+ 
+ #VU regions
+ namibe_area_region:0 "Namibe"
+ namibe_area_region_name:0 "Namibe"
+ hwila_area_region:0 "Hwila"
+ hwila_area_region_name:0 "Hwila"
+ kwanyama_area_region:0 "Kwanyama"
+ kwanyama_area_region_name:0 "Kwanyama"
+ ngangela_area_region:0 "Ngangela"
+ ngangela_area_region_name:0 "Ngangela"
+ moxico_area_region:0 "Moxico"
+ moxico_area_region_name:0 "Moxico"
+ wambu_area_region:0 "Wambu"
+ wambu_area_region_name:0 "Wambu"
+ benguela_area_region:0 "Benguela"
+ benguela_area_region_name:0 "Benguela"
+ bengo_area_region:0 "Bengo"
+ bengo_area_region_name:0 "Bengo"
+ bailundo_area_region:0 "Bailundo"
+ bailundo_area_region_name:0 "Bailundo"
 
  #################################################################################
  #################################################################################

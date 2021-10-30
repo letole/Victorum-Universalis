@@ -1,7 +1,6 @@
 government = tribal
 add_government_reform = tribal_kingdom
-add_accepted_culture = mbundu
-primary_culture = matamba
+primary_culture = mbundu
 religion = shamanism
 technology_group = central_african
 unlock_cult = mwari_cult

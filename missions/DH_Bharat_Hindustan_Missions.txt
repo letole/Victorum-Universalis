@@ -200,6 +200,13 @@ hin_slot_2 = {
 				trade_goods = gems
 				value = yes
 			}
+			production_leader = {
+				trade_goods = diamonds
+			}
+			trading_bonus = {
+				trade_goods = diamonds
+				value = yes
+			}
 			OR = {
 				AND = {
 					production_leader = {

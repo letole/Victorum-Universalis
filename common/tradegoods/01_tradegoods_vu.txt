@@ -771,9 +771,6 @@ jade = {
 			}
 
 		}
-
-
-
 	}
 }
 
@@ -2795,6 +2792,223 @@ vodka = { #Limited to Russia and Eastern Europe
 			OR = {
 				region = mongolia_region
 				region = central_asia_region
+			}
+		}
+	}
+}
+
+diamonds = {
+	color = { 0.96 0.78 0.78 }
+	modifier = {
+		inflation_reduction = 0.05
+	}
+	province = {
+		local_tax_modifier = 0.15
+	}
+	chance = {
+		factor = 3			#reduced from 5, gems were a bit too common
+		modifier = {
+			factor = 0
+			area = newfoundland_area
+		}
+		modifier = {
+			factor = 0
+			is_random_new_world = no
+			NOT = { region = west_siberia_region }
+			NOT = { region = east_siberia_region }
+			NOT = { region = australia_region }
+			#NOT = { region = south_africa_region }
+			NOT = { area = highveld_area }
+			NOT = { area = transvaal_area }
+			NOT = { area = lowveld_area }
+			NOT = { area = south_african_plateau_area }
+			NOT = { area = orange_river_area }
+			NOT = { area = bechuanaland_area }
+			NOT = { area = upper_limpopo_area }
+			NOT = { area = kalahari_area }
+			NOT = { area = skeleton_coast_land_area }
+			NOT = { area = northern_cape_area }
+			NOT = { region = central_africa_region }
+			NOT = { region = central_america_region }
+			NOT = { region = peru_region }
+			NOT = { region = upper_peru_region }
+			NOT = { region = colombia_region }
+			NOT = { region = indonesia_region }
+			NOT = { region = moluccas_region }
+			NOT = { region = hindusthan_region }
+			NOT = { region = west_india_region }
+			NOT = { region = bengal_region }
+			NOT = { region = deccan_region }
+			NOT = { region = coromandel_region }
+			NOT = { region = indo_china_region }
+			NOT = { region = borneo_region }
+			NOT = { region = sumatran_region }
+			NOT = { region = celebes_region }
+			NOT = { region = philippines_region }
+			NOT = { continent = oceania }
+			NOT = { continent = north_america }	#I think this is a bug/oversight on Paradox's part? There were plenty of gems in the new world and below they have a NA bonus
+			NOT = { area = minas_gerais_area }
+			NOT = { area = diamantina_area }
+			NOT = { area = amazon_area }
+			NOT = { area = bogota_area }
+			NOT = { area = popayan_area }
+			NOT = { area = venezuela_area }
+			NOT = { area = guyana_area }
+			NOT = { area = upper_guyana_area }
+			NOT = { area = guapore_area }
+			NOT = { area = amapa_area }
+			NOT = { area = grao_para_area }
+			NOT = { area = goias_area }
+			NOT = { area = mato_grosso_area }
+			NOT = { area = pontal_area }
+			NOT = { area = guapore_area }
+		}
+		modifier = {
+			factor = 0
+			is_random_new_world = yes
+			NOT = { continent = new_world }
+			NOT = { region = west_siberia_region }
+			NOT = { region = east_siberia_region }
+			NOT = { region = australia_region }
+			NOT = { region = south_africa_region }
+		}
+		modifier = {
+			factor = 0
+			is_random_new_world = yes
+			continent = new_world
+			OR = {
+				has_terrain = forest
+				has_terrain = woods
+				has_terrain = drylands
+				has_terrain = grasslands
+				has_terrain = savannah
+				has_terrain = steppe
+				has_terrain = coastline
+				has_terrain = coastal_desert
+				has_terrain = marsh
+			}
+		}
+		#modifier = {
+		#	factor = 1.5
+		#	OR = {
+		#		has_terrain = mountain
+		#		has_terrain = jungle
+		#		has_terrain = hills
+		#		has_terrain = highlands
+		#		has_terrain = coastline #Pearls
+		#	}
+		#}
+		modifier = {			#Inverting above, disabling for the wrong terrain types like most other trade goods. Enabled terrains are now Forest, Coastline, Hills, Highlands, Mountains, Jungle, Deserts, Coastal Deserts, and Glacial
+			factor = 0
+			OR = {
+				has_terrain = farmlands
+				has_terrain = grasslands
+				has_terrain = steppe
+				has_terrain = woods
+			}
+		}
+		modifier = {			#Also allowing gems in dryland and savannah only in Africa (at a penalty)
+			factor = 0.5
+			OR = {
+				has_terrain = drylands
+				has_terrain = savannah
+			}
+			continent = africa
+		}
+		modifier = {			#And gems in march only the Americas (at a penalty)
+			factor = 0.5
+			has_terrain = marsh
+			OR = {
+			continent = north_america
+			continent = south_america
+			}
+		}
+		modifier = {			#Furthermore, making gems in some enabled terrains less common. Only full chance terrains are now Coastline (pearls), Hills, Mountains, Jungles, Coastal Deserts (pearls), and Glacial
+			factor = 0.5
+			OR = {
+				has_terrain = forest
+				has_terrain = highlands
+				has_terrain = desert
+			}
+		}
+		modifier = {
+			factor = 1.2
+			has_climate = arctic			#Something about diamonds and arctic tundra
+		}
+		modifier = {
+			factor = 2.5
+			OR = {
+				continent = africa			#Diamonds in Africa
+				region = northwest_territories_region			#Gems quite common in the north, especially diamonds. Offsetting penalties above
+				area = diamantina_area
+				area = bogota_area
+			}
+		}
+		modifier = {
+			factor = 1.5
+			region = brazil_region
+		}
+		modifier = {
+			factor = 1.2
+			region = moluccas_region
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				region = indonesia_region
+				continent = oceania
+				continent = north_america			#Gems were occuring far too often without this
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				region = california_region			#Gold and salt more common than gems here
+				region = alaska_region			#Gold and metal more common than gems here
+				region = great_plains_region			#Gems were much too common in the mountains
+				region = new_zealand_region			#Gold and other more common here
+				area = nunavut_area			#Gems too common due to lack of other options
+				area = klondike_area			#We want gold to be more common here, offsetting the NWT bonus above
+				province_id = 5071			#Gems too common due to lack of other options, offsetting the NWT bonus above
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_random_new_world = yes
+			has_terrain = mountain
+			continent = new_world #Always in RNW
+		}
+		modifier = {
+			factor = 1.5
+			normal_or_historical_nations = no
+		}
+		modifier = {
+			factor = 32.0
+			OR = {
+				province_id = 5579			#Margarita Island - pearls
+				province_id = 5387			#Sperrgebiet
+				province_id = 5585			#Kimberley
+			}
+		}
+		modifier = {			#Not the greatest... bit rushed for update, so I'll probably come back and clean this up later
+			factor = 8.0
+			OR = {
+				#province_id = 4781			#Praetoria
+				province_id = 1175			#Orange River
+				province_id = 5386			#Orange River
+				province_id = 5347			#Orange River
+				province_id = 2864			#Orange River
+				province_id = 5362			#Orange River
+				province_id = 2880			#Orange River
+				province_id = 5384			#Orange River
+			}
+		}
+		modifier = {
+			factor = 0.0			#disabled for specific provinces
+			OR = {
+				province_id = 481			#Bermuda
+				province_id = 4999			#Belcher Islands
+				province_id = 5077			#Sivuqaq
 			}
 		}
 	}

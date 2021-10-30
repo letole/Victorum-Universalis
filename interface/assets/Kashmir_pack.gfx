@@ -99,7 +99,7 @@ pdxmesh = {
 		animation = { id = "horse_retreat"		type = "char_heavy_cavalry_moving_animation" }
 		
 		
-		scale = 0.45
+		scale = 0.35
 	}
 
 pdxmesh = {

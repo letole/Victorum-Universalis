@@ -3,8 +3,7 @@
 owner = MWI
 controller = MWI
 add_core = MWI
-add_core = MBW
-culture = mbundu
+culture = nyaneka_humbe
 religion = shamanism #Fetishism
 capital = "Kuvango"
 trade_goods = fruit
