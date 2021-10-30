@@ -4172,6 +4172,7 @@ has_mining_goods = {
 		trade_goods = salt
 		trade_goods = coal
 		trade_goods = gems
+		trade_goods = diamonds
 		#TGESTUFFS
 		trade_goods = amber
 		trade_goods = jade

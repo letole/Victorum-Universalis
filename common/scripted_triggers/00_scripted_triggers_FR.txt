@@ -6131,6 +6131,7 @@ frloc_trade_goods_pl_cons = {
 		trade_goods = chinaware
 		trade_goods = dyes
 		trade_goods = gems
+		trade_goods = diamonds
 		trade_goods = cloves
 	}
 }

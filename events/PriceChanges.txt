@@ -2475,6 +2475,7 @@ country_event = {
 			OR = {
 				trade_goods = glass
 				trade_goods = gems
+				trade_goods = diamonds
 				trade_goods = amber
 			}
 			development = 15
@@ -2497,6 +2498,7 @@ country_event = {
 					OR = {
 						trade_goods = glass
 						trade_goods = gems
+						trade_goods = diamonds
 						trade_goods = amber
 					}
 					development = 15
@@ -2515,10 +2517,10 @@ country_event = {
 		event_target:diamond_city = {
 			if = {
 				limit = {
-					NOT = { trade_goods = gems }
+					NOT = { trade_goods = diamonds }
 					NOT = { trade_goods = amber }
 				}
-				change_trade_goods = gems
+				change_trade_goods = diamonds
 			}
 			add_permanent_province_modifier = {
 				name = diamond_district
@@ -2526,7 +2528,7 @@ country_event = {
 			}
 		}
 		change_price = {
-			trade_goods = gems
+			trade_goods = diamonds
 			key = FACETING
 			value = 0.2			#BTAddOn changed from 0.25 - Now goes 5 - 6 - 4.5 (Vanilla was 4 - 5 - 3)
 			duration = -1
@@ -2560,11 +2562,11 @@ country_event = {
 	major = yes
 
 	trigger = {
-		NOT = { has_global_flag = brazilian_gems_happened }
+		NOT = { has_global_flag = brazilian_diamonds_happened }
 		NOT = { current_age = age_of_discovery }
 		primitives = no
 		any_owned_province = {
-			trade_goods = gems
+			trade_goods = diamonds
 			OR = {
 				continent = new_world
 				continent = north_america
@@ -2573,7 +2575,7 @@ country_event = {
 		}
 		calc_true_if = {
 			all_province = {
-				trade_goods = gems
+				trade_goods = diamonds
 				OR = {
 					continent = new_world
 					continent = north_america
@@ -2593,7 +2595,7 @@ country_event = {
 		add_years_of_income = 1.5
 		add_prestige = 20
 		change_price = {
-			trade_goods = gems
+			trade_goods = diamonds
 			key = BRAZILIAN_DIAMONDS
 			value = -0.3			#BTAddOn changed from -0.5 - Now goes 5 - 6 - 4.5 (Vanilla was 4 - 5 - 3)
 			duration = -1

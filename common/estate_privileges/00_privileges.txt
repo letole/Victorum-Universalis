@@ -4716,7 +4716,10 @@ estate_nobles_monopoly_of_gems = {
 	is_valid = {
 		has_dlc = "Emperor"
 		any_owned_province = {
-			trade_goods = gems
+			OR = { 
+			    trade_goods = diamonds
+				trade_goods = gems
+			}
 		}
 	}
 	can_select = {
@@ -4744,7 +4747,10 @@ estate_nobles_monopoly_of_gems = {
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
-				trade_goods = gems
+				OR = { 
+			        trade_goods = diamonds
+				    trade_goods = gems
+				}
 			}
 			custom_tooltip = MONOPOLY_INCOME_GEMS_DESC
 		}
@@ -4752,7 +4758,10 @@ estate_nobles_monopoly_of_gems = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					trade_goods = gems
+					OR = {
+					    trade_goods = diamonds
+						trade_goods = gems
+					}
 				}
 				add_province_modifier = {
 					name = estate_nobles_monopoly_of_gems_mod
@@ -4991,7 +5000,10 @@ estate_rajput_monopoly_of_gems = {
 	is_valid = {
 		has_dlc = "Emperor"
 		any_owned_province = {
-			trade_goods = gems
+			OR = { 
+			    trade_goods = diamonds
+				trade_goods = gems
+			}
 		}
 		NOT = { has_estate = estate_nobles }
 	}
@@ -5020,7 +5032,10 @@ estate_rajput_monopoly_of_gems = {
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
-				trade_goods = gems
+				OR = { 
+			        trade_goods = diamonds
+				    trade_goods = gems
+				}
 			}
 			custom_tooltip = MONOPOLY_INCOME_GEMS_DESC
 		}
@@ -5028,7 +5043,10 @@ estate_rajput_monopoly_of_gems = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					trade_goods = gems
+					OR = { 
+			            trade_goods = diamonds
+						trade_goods = gems
+					}
 				}
 				add_province_modifier = {
 					name = estate_rajput_monopoly_of_gems_mod
@@ -5265,7 +5283,10 @@ estate_maratha_monopoly_of_gems = {
 	is_valid = {
 		has_dlc = "Emperor"
 		any_owned_province = {
-			trade_goods = gems
+			OR = { 
+			    trade_goods = diamonds
+				trade_goods = gems
+			}
 		}
 		NOT = { has_estate = estate_nobles }
 	}
@@ -5294,7 +5315,10 @@ estate_maratha_monopoly_of_gems = {
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
-				trade_goods = gems
+				OR = { 
+			        trade_goods = diamonds
+				    trade_goods = gems
+				}
 			}
 			custom_tooltip = MONOPOLY_INCOME_GEMS_DESC
 		}
@@ -5302,7 +5326,10 @@ estate_maratha_monopoly_of_gems = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					trade_goods = gems
+					OR = {
+					    trade_goods = diamonds
+						trade_goods = gems
+					}
 				}
 				add_province_modifier = {
 					name = estate_maratha_monopoly_of_gems_mod

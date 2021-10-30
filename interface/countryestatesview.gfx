@@ -392,6 +392,11 @@ spriteTypes = {
 		name = "privilege_monopoly_of_goods_gems"
 		texturefile = "gfx/interface/privileges/privilege_monopoly_of_goods_gems.dds"
 	}
+	
+	spriteType = {
+		name = "privilege_monopoly_of_goods_diamonds"
+		texturefile = "gfx/interface/privileges/privilege_monopoly_of_goods_diamonds.dds"
+	}
 							
 	spriteType = {
 		name = "privilege_monopoly_of_goods_incence"
