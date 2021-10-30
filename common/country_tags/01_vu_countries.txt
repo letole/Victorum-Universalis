@@ -92,6 +92,7 @@ YYK = "countries/YnysyKedyrn.txt"
 ARC	= "countries/ArchbishopricofCanterbury.txt"
 
 #BT - Eastern Mediterranean
+LAZ = "countries/Lazarus.txt"
 ROC = "countries/RepublicofCyprus.txt"
 
 #BT France
@@ -227,7 +228,11 @@ AUE = "countries/Austrian_Empire.txt"
 AHE = "countries/Austria_Hungary.txt"
 
 #BT - Greece & Aegean Islands
+DO4 = "countries/Dodecanese.txt"
+GE4 = "countries/Phocaea.txt"
 LES = "countries/Lesbos.txt"
+OR3 = "countries/Orchomenos.txt"
+TEN = "countries/Tenedos.txt"
 
 #BT - Holy Orders
 DAM = "countries/Damietta.txt"
@@ -483,6 +488,7 @@ AZD = "countries/Azd.txt"
 CAA = "countries/Cappadocia.txt"
 CIK = "countries/Canik.txt"
 CIL = "countries/Cilicia.txt"
+CN6 = "countries/Cnidus.txt"
 FDI = "countries/Fadhli.txt"
 LHJ = "countries/Lahej.txt"
 MRU = "countries/Mrudah.txt"
