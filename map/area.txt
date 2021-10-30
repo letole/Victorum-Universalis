@@ -1167,6 +1167,10 @@ lower_saxony_area = { #4
 	53 1758 2972 3203 4772 7516 7517 7518 7519 7520 7523 7620 7621 7623 7810 7811
 }
 
+#northern_saxony_area = {}
+
+#south_saxony_area = {}
+
 mecklenburg_area = { #3
 	46 2996 7617 7618 7619 7812 7813
 }
@@ -4657,11 +4661,9 @@ unused_area = {
 #oran_area = {}
 #upper_rhineland_area = {}
 #upper_franconia_area = {}
-#northern_saxony_area = {}
 #upper_bavaria_area = {}
 #lower_bavaria_area = {}
 #east_bavaria_area = {}
-#south_saxony_area = {}
 #middle_silesia_area = {}
 #lower_silesia_area = {}
 #southern_rockies = {}
