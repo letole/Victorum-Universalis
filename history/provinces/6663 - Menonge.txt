@@ -1,8 +1,8 @@
 #6663 - Barotseland
 
-culture = kwadi_culture
+culture = malwimbi
 religion = shamanism 
-capital = "Barotseland" 
+capital = "Lwimbi" 
 trade_goods = unknown
 hre = no 
 base_tax = 1 

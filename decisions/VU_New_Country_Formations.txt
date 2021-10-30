@@ -1682,24 +1682,14 @@ country_decisions = {
 	potential = {
 		bt_generic_can_form_potential_check = yes
 		NOT = { has_country_flag = formed_damietta }
-		NOT = { exists = DAM }
-		normal_or_historical_nations = yes
-		OR = {
-			ai = no
-			is_playing_custom_nation = no
-		}
-		religion = catholic
 		NOT = { government = monarchy }
 		OR = {
-			owns = 363
+			tag = KNI
 			AND = {
-				ai = no
-				tag = KNI
+				owns_core_province = 363
+				culture_group = west_slavic
+				religion_group = catholic
 			}
-		}
-		OR = {
-			current_age = age_of_discovery
-			current_age = age_of_reformation
 		}
 	}
 	provinces_to_highlight = {

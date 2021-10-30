@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = tribal_kingdom
-primary_culture = mbundu
+primary_culture = nyaneka_humbe
 religion = shamanism
 technology_group = central_african
 unlock_cult = mwari_cult

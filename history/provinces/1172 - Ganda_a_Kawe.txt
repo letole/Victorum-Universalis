@@ -3,10 +3,10 @@
 owner = WMB
 controller = WMB
 add_core = WMB
-culture = ovambo_culture
+culture = ovimbundu
 religion = shamanism #Fetishism
 capital = "Benguela"
-trade_goods = slaves
+trade_goods = cattle
 hre = no
 base_tax = 2
 base_production = 2
