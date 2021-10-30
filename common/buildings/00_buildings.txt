@@ -2578,25 +2578,25 @@ farm_estate = {
 		
 		#Changed for VU: With different effects of serfs farm estates can produce more
 		#As I don't know how it interacts if the same modifier is 2 times active, I have added them together within the if-clause -Lord_Bowser
-		if = {
-			limit = {
-				has_country_flag = vu_serfs_1
-			}
-			trade_goods_size = 0.75
-			trade_goods_size_modifier = 0.8
-		
-		}
-		else_if = {
-			limit = {
-				has_country_flag = vu_serfs_2
-			}
-			trade_goods_size = 1
-			trade_goods_size_modifier = 1
-		}
-		else = {
-			trade_goods_size = 0.4
-			trade_goods_size_modifier = 0.5	
-		}
+		#if = {		#if-s ARE NOT ALLOWED WITHIN MODIFIER SLOT!
+		#	limit = {
+		#		has_country_flag = vu_serfs_1
+		#	}
+		#	trade_goods_size = 0.75
+		#	trade_goods_size_modifier = 0.8
+		#
+		#}
+		#else_if = {
+		#	limit = {
+		#		has_country_flag = vu_serfs_2
+		#	}
+		#	trade_goods_size = 1
+		#	trade_goods_size_modifier = 1
+		#}
+		#else = {	#Are those flat bonuses alright?
+			trade_goods_size = 0.25
+			trade_goods_size_modifier = 0.25
+		#}
 	}
 	onmap = yes
 
