@@ -908,6 +908,123 @@ veche_republic = {
 	duration = 4
 }
 
+improved_veche_republic = {
+	icon = "merchant"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			AND = {
+				culture_group = east_slavic
+				tag = NRU
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = improved_veche_republic
+			}
+			tag = NRU
+		}
+	}
+	nation_designer_trigger = {
+		culture_group = east_slavic
+	}
+	modifiers = {
+		merchants = 1
+		governing_capacity = 150
+		global_trade_power = 0.1
+		num_accepted_cultures = 1
+		max_absolutism = -50
+		trade_deals_slots = 0.02    #Added in VU
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+
+	factions = {
+		mr_aristocrats
+		mr_traders
+		mr_guilds
+	}
+	boost_income = yes
+
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+			NOT = { has_dlc = "Third Rome" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+			NOT = { has_dlc = "Third Rome" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Third Rome" }
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Third Rome"
+			NOT = { has_dlc = "Mare Nostrum" }
+			NOT = { has_dlc = "Res Publica" }
+		}
+		government_abilities = {
+			russian_mechanic
+		}
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Third Rome"
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		government_abilities = {
+			russian_mechanic
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Third Rome"
+			NOT = { has_dlc = "Mare Nostrum" }
+			has_dlc = "Res Publica"
+		}
+		government_abilities = {
+			russian_mechanic
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Third Rome"
+			has_dlc = "Mare Nostrum"
+			has_dlc = "Res Publica"
+		}
+		government_abilities = {
+			russian_mechanic
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	duration = 4
+}
+
 american_republic = {
 	icon = "parliament"
 	allow_normal_conversion = yes
@@ -1519,6 +1636,7 @@ consolidate_power_in_doge_reform = {
 			has_reform = venice_merchants_reform
 			has_reform = merchants_reform
 			has_reform = veche_republic
+			has_reform = improved_veche_republic
 		}
 	}
 	trigger = {
@@ -1526,6 +1644,7 @@ consolidate_power_in_doge_reform = {
 			has_reform = venice_merchants_reform
 			has_reform = merchants_reform
 			has_reform = veche_republic
+			has_reform = improved_veche_republic
 		}
 	}
 	modifiers = {
@@ -1563,6 +1682,7 @@ consolidate_power_in_cities_reform = {
 			has_reform = venice_merchants_reform
 			has_reform = merchants_reform
 			has_reform = veche_republic
+			has_reform = improved_veche_republic
 		}
 	}
 	trigger = {
@@ -1570,6 +1690,7 @@ consolidate_power_in_cities_reform = {
 			has_reform = venice_merchants_reform
 			has_reform = merchants_reform
 			has_reform = veche_republic
+			has_reform = improved_veche_republic
 		}
 	}
 	modifiers = {
