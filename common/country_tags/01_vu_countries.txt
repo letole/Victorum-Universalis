@@ -227,7 +227,9 @@ AUE = "countries/Austrian_Empire.txt"
 AHE = "countries/Austria_Hungary.txt"
 
 #BT - Greece & Aegean Islands
+AM5 = "countries/Amphollo.txt"
 LES = "countries/Lesbos.txt"
+TEN = "countries/Tenedos.txt"
 
 #BT - Holy Orders
 DAM = "countries/Damietta.txt"
