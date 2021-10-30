@@ -1,6 +1,6 @@
 namespace = BeyondTypusColonialCultures
 namespace = dutchcolonial
-namespace = VUcolonialculture
+namespace = VUcolonialcultures
 
 # Canadian
 province_event = {

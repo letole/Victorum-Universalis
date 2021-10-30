@@ -2245,41 +2245,41 @@ plantations = {
 	modifier = {
 			#Changed for VU: With different effects of slaves/indentured servants the plantation gets better and better
 			#As I don't know how it interacts if the same modifier is 2 times active, I have added them together within the if-clause -Lord_Bowser
-			#		trade_goods_size = 0.4			#BTAddon Note - Alright, alright. I'm giving in. It makes no sense, but vanilla apparently didn't bother to code in compatibility with the modifier version, so I have little choice but to give a flat bonus here.
-			#		trade_goods_size_modifier = 0.5			#BTAddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
+		trade_goods_size = 0.4			#BTAddon Note - Alright, alright. I'm giving in. It makes no sense, but vanilla apparently didn't bother to code in compatibility with the modifier version, so I have little choice but to give a flat bonus here.
+		trade_goods_size_modifier = 0.5			#BTAddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
 		local_production_efficiency = 0.25			#BTAddOn new - Just a fun little new bonus#
-		if = {
-			limit = {
-				has_country_flag = vu_slaves_size_1
-			}
-			trade_goods_size = 0.75
-			trade_goods_size_modifier = 0.7
-		}
-		else_if = {
-			limit = {
-				has_country_flag = vu_slaves_size_2
-			}
-			trade_goods_size = 1
-			trade_goods_size_modifier = 0.8
-		}
-		else_if = {
-			limit = {
-				has_country_flag = vu_slaves_size_3
-			}
-			trade_goods_size = 1.5
-			trade_goods_size_modifier = 1
-		}
-		else_if = {
-			limit = {
-				has_country_flag = vu_indentured_servants
-			}
-			trade_goods_size = 0.6
-			trade_goods_size_modifier = 0.6
-		}
-		else = {
-			trade_goods_size = 0.4
-			trade_goods_size_modifier = 0.5
-		}
+		# if = {
+			# limit = {
+				# has_country_flag = vu_slaves_size_1
+			# }
+			# trade_goods_size = 0.75
+			# trade_goods_size_modifier = 0.7
+		# }
+		# else_if = {
+			# limit = {
+				# has_country_flag = vu_slaves_size_2
+			# }
+			# trade_goods_size = 1
+			# trade_goods_size_modifier = 0.8
+		# }
+		# else_if = {
+			# limit = {
+				# has_country_flag = vu_slaves_size_3
+			# }
+			# trade_goods_size = 1.5
+			# trade_goods_size_modifier = 1
+		# }
+		# else_if = {
+			# limit = {
+				# has_country_flag = vu_indentured_servants
+			# }
+			# trade_goods_size = 0.6
+			# trade_goods_size_modifier = 0.6
+		# }
+		# else = {
+			# trade_goods_size = 0.4
+			# trade_goods_size_modifier = 0.5
+		# }
 	}
 	onmap = yes
 
@@ -2402,42 +2402,42 @@ tradecompany = {
 
 			#Changed for VU: With different effects of slaves/indentured servants more spices and cloves get produced
 			#As I don't know how it interacts if the same modifier is 2 times active, I have added them together within the if-clause -Lord_Bowser
-		if = {
-			limit = {
-				OR = {
-					trade_goods = spices
-					trade_goods = cloves
-				}
-			}
-			if = {
-				limit = {
-					has_country_flag = vu_slaves_size_1
-				}
-				trade_goods_size = 0.75
-				trade_goods_size_modifier = 0.7
-			}
-			else_if = {
-				limit = {
-					has_country_flag = vu_slaves_size_2
-				}
-				trade_goods_size = 1
-				trade_goods_size_modifier = 0.8
-			}
-			else_if = {
-				limit = {
-					has_country_flag = vu_slaves_size_3
-				}
-				trade_goods_size = 1.5
-				trade_goods_size_modifier = 1
-			}
-			else_if = {
-				limit = {
-					has_country_flag = vu_indentured_servants
-				}
-				trade_goods_size = 0.6
-				trade_goods_size_modifier = 0.6
-			}
-		}
+		# if = {
+			# limit = {
+				# OR = {
+					# trade_goods = spices
+					# trade_goods = cloves
+				# }
+			# }
+			# if = {
+				# limit = {
+					# has_country_flag = vu_slaves_size_1
+				# }
+				# trade_goods_size = 0.75
+				# trade_goods_size_modifier = 0.7
+			# }
+			# else_if = {
+				# limit = {
+					# has_country_flag = vu_slaves_size_2
+				# }
+				# trade_goods_size = 1
+				# trade_goods_size_modifier = 0.8
+			# }
+			# else_if = {
+				# limit = {
+					# has_country_flag = vu_slaves_size_3
+				# }
+				# trade_goods_size = 1.5
+				# trade_goods_size_modifier = 1
+			# }
+			# else_if = {
+				# limit = {
+					# has_country_flag = vu_indentured_servants
+				# }
+				# trade_goods_size = 0.6
+				# trade_goods_size_modifier = 0.6
+			# }
+		# }
 	}
 	onmap = yes
 
@@ -2572,31 +2572,31 @@ farm_estate = {
 		vodka
 	}
 	modifier = {
-		#trade_goods_size = 0.4			#BTAddon Note - Alright, alright. I'm giving in. It makes no sense, but vanilla apparently didn't bother to code in compatibility with the modifier version, so I have little choice but to give a flat bonus here.
-		#trade_goods_size_modifier = 0.5			#BTAddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
+		trade_goods_size = 0.4			#BTAddon Note - Alright, alright. I'm giving in. It makes no sense, but vanilla apparently didn't bother to code in compatibility with the modifier version, so I have little choice but to give a flat bonus here.
+		trade_goods_size_modifier = 0.5			#BTAddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
 		local_production_efficiency = 0.25			#BTAddOn new - Just a fun little new bonus
 		
 		#Changed for VU: With different effects of serfs farm estates can produce more
 		#As I don't know how it interacts if the same modifier is 2 times active, I have added them together within the if-clause -Lord_Bowser
-		if = {
-			limit = {
-				has_country_flag = vu_serfs_1
-			}
-			trade_goods_size = 0.75
-			trade_goods_size_modifier = 0.8
-		
-		}
-		else_if = {
-			limit = {
-				has_country_flag = vu_serfs_2
-			}
-			trade_goods_size = 1
-			trade_goods_size_modifier = 1
-		}
-		else = {
-			trade_goods_size = 0.4
-			trade_goods_size_modifier = 0.5	
-		}
+		# if = {
+		#	  limit = {
+		#		  has_country_flag = vu_serfs_1
+		#	  }
+		#	  trade_goods_size = 0.75
+		#	  trade_goods_size_modifier = 0.8
+		#
+		# }
+		# else_if = {
+		#	  limit = {
+		#		  has_country_flag = vu_serfs_2
+		#	  }
+		#	  trade_goods_size = 1
+		#	  trade_goods_size_modifier = 1
+		# }
+		# else = {
+		#	  trade_goods_size = 0.4
+		#	  trade_goods_size_modifier = 0.5	
+		# }
 	}
 	onmap = yes
 

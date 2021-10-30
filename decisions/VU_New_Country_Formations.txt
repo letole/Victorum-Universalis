@@ -1639,20 +1639,20 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					NOR = { subject_of = ROOT }
+					NOR = { is_subject_of = ROOT }
 				}
 				inherit = NOR
 			}
 			if = {
 				limit = {
-					DAN = { subject_of = ROOT }
+					DAN = { is_subject_of = ROOT }
 				}
 				inherit = DAN
 			}
 			if = {
 				limit = {
 					ICE = { 
-						subject_of = ROOT
+						is_subject_of = ROOT
 						ai = yes
 					}
 				}
@@ -1661,7 +1661,7 @@ country_decisions = {
 			if = {
 				limit = {
 					GOT = { 
-						subject_of = ROOT
+						is_subject_of = ROOT
 						ai = yes
 					}
 				}
@@ -1743,5 +1743,5 @@ damietta_nation = {
 	}
 	ai_will_do = { #Keep at factor = 1
 		factor = 1
+		}
 	}
-}
