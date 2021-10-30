@@ -462,11 +462,6 @@ estate_nobles = {
 		estate_noble_baron_squires
 		estate_noble_baron_titles
 		estate_noble_absolute_taxation
-		#BT-specific privileges
-		estate_nobles_very_strong_duchies
-		estate_nobles_extremely_strong_duchies
-		estate_nobles_british_strong_marches
-		#End of BT-specific privileges
 	}
 
 	agendas = {
