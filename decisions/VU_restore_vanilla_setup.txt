@@ -356,6 +356,9 @@ country_decisions = {
 				cede_province = DTE
 			}
 			RFR = { inherit = KSA }
+			#North Africa
+			MAK = { inherit = HWW }
+			ALO = { inherit = FNJ }
 			}
 		}
 		ai_will_do = {
