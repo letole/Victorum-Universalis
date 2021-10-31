@@ -131,12 +131,12 @@ country_decisions = {
 				}
 				add_permanent_claim = SNA
 			}
-			nayarit_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = SNA
-			}
+			#nayarit_area = {
+			#	limit = {
+			#		NOT = { owned_by = ROOT }
+			#	}
+			#	add_permanent_claim = SNA
+			#}
 			2476 = {
 				add_permanent_claim = SNA
 			}
