@@ -605,6 +605,7 @@ country_event = {
 				enlightenment = 100
 				}
 			}
+		}
 		add_prestige = 15
 		#counter to make a for loop out of a while loop
 		set_variable = {
