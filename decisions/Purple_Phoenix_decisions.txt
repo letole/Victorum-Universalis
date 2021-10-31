@@ -35,9 +35,9 @@ country_decisions = {
 			northern_greece_area = { type = all owned_by = BYZ }
 			morea_area = { type = all owned_by = BYZ }
 			western_aegean_area = { type = all owned_by = BYZ }
-			#northern_peloponnesus_area = { type = all owned_by = BYZ }
+			macedonia_area = { type = all owned_by = BYZ }
 			aetolia_area = { type = all owned_by = BYZ }
-			#euboea_area = { type = all owned_by = BYZ }
+			northern_epirus_area = { type = all owned_by = BYZ }
 			thessaly_area = { type = all owned_by = BYZ }
 			aegean_archipelago_area = { type = all owned_by = BYZ }
 		}
