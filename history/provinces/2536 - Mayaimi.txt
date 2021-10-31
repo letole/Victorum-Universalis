@@ -1,6 +1,6 @@
 #2536 - Mayaimi
 
-culture = creek			#changed from arawak, but not overhauled yet
+culture = seminole			#changed from arawak, but not overhauled yet
 religion = totemism
 capital = "Mayaimi"
 trade_goods = unknown

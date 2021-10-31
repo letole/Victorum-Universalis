@@ -1,10 +1,14 @@
 #489 - Tortuga
 #VU Discovery Bug Fix
 
+owner = MRN
+controller = MRN
+add_core = MRN
 culture = west_taino
+is_city = yes
 religion = animism
 capital = "Xarama"
-trade_goods = unknown 
+trade_goods = naval_supplies 
 hre = no
 base_tax = 3
 base_production = 4

@@ -1,6 +1,6 @@
 #5999 - Spring_Hill_fl
 
-culture = creek
+culture = seminole
 religion = totemism
 capital = "E-cun-holwa-miscostos"
 trade_goods = unknown

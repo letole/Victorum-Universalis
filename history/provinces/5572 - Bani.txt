@@ -1,10 +1,14 @@
 #5572 - Bani
 #VU Discovery Bug Fix
 
+owner = CIB
+controller = CIB
+add_core = CIB
 culture = west_taino
+is_city = yes
 religion = animism
 capital = "Bani"
-trade_goods = unknown 
+trade_goods = tobacco 
 hre = no
 base_tax = 2
 base_production = 3

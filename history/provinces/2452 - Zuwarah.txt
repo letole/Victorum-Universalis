@@ -13,8 +13,7 @@ base_manpower = 1
 is_city = yes
 add_core = TUN
 add_core = TRP
-
-
+add_core = HWW
 
 discovered_by = western
 discovered_by = eastern

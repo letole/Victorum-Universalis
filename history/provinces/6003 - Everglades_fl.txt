@@ -1,6 +1,6 @@
 #6003 - Everglades
 
-culture = creek
+culture = seminole
 religion = totemism
 capital = "Sowena"
 trade_goods = unknown

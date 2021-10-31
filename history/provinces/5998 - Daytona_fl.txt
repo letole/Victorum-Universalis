@@ -1,6 +1,6 @@
 #5998 - Daytona_fl
 
-culture = creek
+culture = seminole
 religion = totemism
 capital = "Nethlay"
 trade_goods = unknown

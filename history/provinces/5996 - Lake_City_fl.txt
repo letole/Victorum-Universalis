@@ -1,6 +1,10 @@
 #5996 - Alpata Telophka
 
-culture = creek
+owner = TMC
+controller = TMC
+add_core = TMC
+culture = seminole
+is_city = yes
 religion = totemism
 capital = "Alpata Telophka"
 trade_goods = cotton

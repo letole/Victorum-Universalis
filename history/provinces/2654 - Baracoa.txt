@@ -1,9 +1,13 @@
-# No previous file for Baracoa
+#2654 - Baracoa
 
+owner = CIB
+controller = CIB
+add_core = CIB
 culture = arawak
+is_city = yes
 religion = animism
 capital = "Baracoa"
-trade_goods = unknown
+trade_goods = cocoa
 hre = no
 base_tax = 3
 base_production = 4

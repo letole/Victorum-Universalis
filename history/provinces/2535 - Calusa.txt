@@ -1,6 +1,6 @@
 # No previous file for Calusa
 
-culture = creek
+culture = seminole
 religion = totemism
 capital = "Calusa"
 trade_goods = unknown

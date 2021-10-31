@@ -1,9 +1,13 @@
 #6004 - Fort_Lauderdale_fl
 
-culture = creek			#changed from arawak, but not overhauled yet
+owner = AIS
+controller = AIS
+add_core = AIS
+culture = seminole
+is_city = yes
 religion = totemism
 capital = "Tequesta"
-trade_goods = unknown
+trade_goods = cotton
 hre = no
 base_tax = 1 
 base_production = 1

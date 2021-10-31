@@ -1,6 +1,6 @@
 #5997 - Orlando_fl
 
-culture = creek
+culture = seminole
 religion = totemism
 capital = "Alaha"
 trade_goods = unknown

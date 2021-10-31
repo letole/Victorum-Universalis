@@ -1,10 +1,14 @@
 #2659 - Magua
 #VU Discovery Bug Fix
 
+owner = MGU
+controller = MGU
+add_core = MGU
 culture = macoris
+is_city = yes
 religion = animism
 capital = "Cibao"
-trade_goods = unknown
+trade_goods = grain
 hre = no
 base_tax = 5
 base_production = 6

@@ -1,9 +1,13 @@
 #6015 - Great_Exuma_bs
 
+owner = KLO
+controller = KLO
+add_core = KLO
 culture = west_taino
+is_city = yes
 religion = animism
 capital = "Guanahani"
-trade_goods = unknown 
+trade_goods = sugar 
 hre = no
 base_tax = 1
 base_production = 1

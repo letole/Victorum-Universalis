@@ -1,10 +1,14 @@
 #492 - Puerto Rico
 #VU Discovery Bug Fix
 
+owner = HGY
+controller = HGY
+add_core = HGY
 culture = arawak
+is_city = yes
 religion = animism
 capital = "Borikén"
-trade_goods = unknown 
+trade_goods = sugar 
 hre = no
 base_tax = 4
 base_production = 6

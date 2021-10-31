@@ -1,10 +1,14 @@
 #5565 - Lesser Antilles
 #VU Discovery Bug Fix
 
+owner = JRA
+controller = JRA
+add_core = JRA
 culture = macoris
+is_city = yes
 religion = animism
 capital = "Baoruco"
-trade_goods = unknown 
+trade_goods = sugar 
 hre = no
 base_tax = 4
 base_production = 5

@@ -1,7 +1,11 @@
 #4624 - Guane
 #VU Discovery Bug Fix
 
+owner = GNU
+controller = GNU
+add_core = GNU
 culture = guanahatabey
+is_city = yes
 religion = animism
 capital = "Guanajay"			#Not clear... is this a native name, or Spanish?
 trade_goods = unknown 
