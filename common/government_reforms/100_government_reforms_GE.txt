@@ -806,14 +806,14 @@
 		potential = {
 			OR = {
 				AND = {
-					religion_group = zoroastrian
+					religion_group = zoroastrian_group
 					culture_group = iranian
 				}
 			}
 		}
 		trigger = {
 			AND = {
-				religion_group = zoroastrian
+				religion_group = zoroastrian_group
 				culture_group = iranian	
 			}
 		}
@@ -4755,14 +4755,14 @@
 		potential = {
 			OR = {
 				AND = {
-					religion_group = zoroastrian
+					religion_group = zoroastrian_group
 					culture_group = iranian	
 				}
 			}
 		}
 		trigger = {
 			AND = {
-				religion_group = zoroastrian
+				religion_group = zoroastrian_group
 				culture_group = iranian	
 			}
 		}
@@ -6203,14 +6203,14 @@
 		potential = {
 			OR = {
 				AND = {
-					religion_group = zoroastrian
+					religion_group = zoroastrian_group
 					culture_group = iranian	
 				}
 			}
 		}
 		trigger = {
 			AND = {
-				religion_group = zoroastrian
+				religion_group = zoroastrian_group
 				culture_group = iranian	
 			}
 		}
@@ -7312,14 +7312,14 @@
 		potential = {
 			OR = {
 				AND = {
-					religion_group = zoroastrian
+					religion_group = zoroastrian_group
 					culture_group = iranian	
 				}
 			}
 		}
 		trigger = {
 			AND = {
-				religion_group = zoroastrian
+				religion_group = zoroastrian_group
 				culture_group = iranian	
 			}
 		}
@@ -9369,14 +9369,14 @@
 		potential = {
 			OR = {
 				AND = {
-					religion_group = zoroastrian
+					religion_group = zoroastrian_group
 					culture_group = iranian	
 				}
 			}
 		}
 		trigger = {
 			AND = {
-				religion_group = zoroastrian
+				religion_group = zoroastrian_group
 				culture_group = iranian	
 			}
 		}
