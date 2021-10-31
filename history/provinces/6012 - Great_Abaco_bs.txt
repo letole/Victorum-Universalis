@@ -1,9 +1,13 @@
-#482 - Bahamas
+#6012 - Great Abaco
 
+owner = KLO
+controller = KLO
+add_core = KLO
 culture = west_taino
+is_city = yes
 religion = animism
 capital = "Bahama"
-trade_goods = unknown
+trade_goods = fish
 hre = no
 base_tax = 1
 base_production = 1

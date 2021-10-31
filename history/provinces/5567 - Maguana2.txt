@@ -1,10 +1,14 @@
 #5567 - Maguana
 #VU Discovery Bug Fix
 
+owner = MGA
+controller = MGA
+add_core = MGA
 culture = arawak
+is_city = yes
 religion = animism
 capital = "Maguana"
-trade_goods = unknown 
+trade_goods = sugar 
 hre = no
 base_tax = 5
 base_production = 6

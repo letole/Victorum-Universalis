@@ -1,9 +1,13 @@
 #6017 - Crooked_Island_bs (Fortune Island)
 
+owner = KLO
+controller = KLO
+add_core = KLO
 culture = west_taino
+is_city = yes
 religion = animism
 capital = "Cay"
-trade_goods = unknown 
+trade_goods = fish 
 hre = no
 base_tax = 1
 base_production = 1

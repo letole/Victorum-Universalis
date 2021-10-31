@@ -1,6 +1,6 @@
 #6006 - Florida_Keys_fl
 
-culture = creek			#changed from arawak, but not overhauled yet
+culture = seminole			#changed from arawak, but not overhauled yet
 religion = totemism
 capital = "Em-pak-pa-ke"
 trade_goods = unknown

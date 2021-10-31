@@ -686,6 +686,23 @@ RED = "countries/SussyPirates.txt"
 #YZY = "countries/Guanahatabey.txt"
 #RED = "countries/SussyPirates.txt"
 
+#VU - Additions
+CIB = "countries/Ciboney.txt"
+JRA = "countries/Jaragua.txt"
+KLO = "countries/Kalinago.txt"
+LCC = "countries/Lenca.txt"
+PPL = "countries/Pipil.txt"
+TMC = "countries/Timuca.txt"
+AIS = "countries/Ais.txt"
+HGY = "countries/Higuey.txt"
+MRN = "countries/Marien.txt"
+MGA = "countries/Maguana.txt"
+MGU = "countries/Magua.txt"
+SHB = "countries/Carib.txt"
+KRN = "countries/Karina.txt"
+IRI = "countries/Ineri.txt"
+GNU = "countries/Guanahatabeyes.txt"
+
 ###########
 # Oceania #
 ###########

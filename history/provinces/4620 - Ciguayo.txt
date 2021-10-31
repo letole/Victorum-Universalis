@@ -1,10 +1,14 @@
 #4620 - Ciguayo
 #VU Discovery Bug Fix
 
+owner = MGU
+controller = MGU
+add_core = MGU
 culture = ciguayo
+is_city = yes
 religion = animism
 capital = "Magua"
-trade_goods = unknown 
+trade_goods = gold 
 hre = no
 base_tax = 3
 base_production = 4

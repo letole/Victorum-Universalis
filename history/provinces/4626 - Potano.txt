@@ -1,6 +1,6 @@
 #4626 - Potano
 
-culture = creek
+culture = seminole
 religion = totemism
 capital = "Tampa"
 trade_goods = unknown

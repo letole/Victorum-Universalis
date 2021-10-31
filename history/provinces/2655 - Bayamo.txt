@@ -1,7 +1,11 @@
 #2655 - Bayamo
 #VU Discovery Bug Fix
 
+owner = CIB
+controller = CIB
+add_core = CIB
 culture = west_taino
+is_city = yes
 religion = animism
 capital = "Bayamo"
 trade_goods = unknown

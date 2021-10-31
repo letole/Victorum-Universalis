@@ -1,6 +1,6 @@
 #6002 - Fort_Meyers_fl
 
-culture = creek
+culture = seminole
 religion = totemism
 capital = "To-pee-kee"
 trade_goods = unknown

@@ -1,6 +1,6 @@
 #6001 - Sarasota_fl
 
-culture = creek
+culture = seminole
 religion = totemism
 capital = "Pusketa"
 trade_goods = unknown

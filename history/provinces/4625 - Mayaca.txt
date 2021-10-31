@@ -1,9 +1,13 @@
 #4625 - Mayaca
 
-culture = creek
+owner = TMC
+controller = TMC
+add_core = TMC
+culture = seminole
+is_city = yes
 religion = totemism
 capital = "St. Augustine"
-trade_goods = unknown
+trade_goods = sugar
 hre = no
 base_tax = 1  
 base_production = 1 

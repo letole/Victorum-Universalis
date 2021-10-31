@@ -1,9 +1,13 @@
 #501 - Barbados
 
+owner = IRI
+controller = IRI
+add_core = IRI
 culture = ineri
+is_city = yes
 religion = animism
 capital = "Ichirouganaim"
-trade_goods = unknown
+trade_goods = tobacco
 hre = no
 base_tax = 2
 base_production = 2

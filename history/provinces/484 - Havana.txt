@@ -1,10 +1,14 @@
 #484 - Havana
 #VU Discovery Bug Fix
 
+owner = CIB
+controller = CIB
+add_core = CIB
 culture = west_taino
+is_city = yes
 religion = animism
 capital = "Habaguanex"
-trade_goods = unknown
+trade_goods = tobacco
 hre = no
 base_tax = 5
 base_production = 5

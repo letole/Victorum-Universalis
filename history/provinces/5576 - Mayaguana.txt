@@ -1,9 +1,13 @@
-# No previous file - Beyond Typus new
+#5576 - Mayaguana
 
+owner = KLO
+controller = KLO
+add_core = KLO
 culture = west_taino
+is_city = yes
 religion = animism
 capital = "Mayaguana"
-trade_goods = unknown 
+trade_goods = cotton 
 hre = no
 base_tax = 1
 base_production = 1

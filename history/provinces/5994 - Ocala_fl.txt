@@ -1,6 +1,6 @@
 #5994 - Ocala
 
-culture = creek
+culture = seminole
 religion = totemism
 capital = "Ocale"
 trade_goods = unknown

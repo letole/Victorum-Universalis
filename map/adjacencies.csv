@@ -308,14 +308,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5586;5585;sea;1523;-1;-1;-1;-1;St Martin-St Barthelemy
 5585;1881;sea;1523;-1;-1;-1;-1;St Barthelemy-Anguilla
 1881;5586;sea;1523;-1;-1;-1;-1;Anguilla-St Martin
-5584;493;sea;1526;-1;-1;-1;-1;St Croix-St Thomas
-493;492;sea;1526;-1;-1;-1;-1;St Thomas-Puerto Rico
-492;5584;sea;1526;-1;-1;-1;-1;Puerto Rico-St Croix
+5584;493;sea;6087;-1;-1;-1;-1;St Croix-St Thomas
+492;5584;sea;6086;-1;-1;-1;-1;Puerto Rico-St Croix
 5920;965;sea;7356;-1;-1;-1;-1;Long Island-Manhattan
 5921;2639;sea;5929;-1;-1;-1;-1;Statten Island-Raritan
 6006;6003;sea;1505;-1;-1;-1;-1;Florida Keys-Sowena
-6011;6012;sea;1503;-1;-1;-1;-1;Grand Bahama-Great Abaco
-6012;6013;sea;1503;-1;-1;-1;-1;Great Abaco-Andros
+6011;6012;sea;1502;-1;-1;-1;-1;Grand Bahama-Great Abaco
+6012;6013;sea;1503;-1;-1;-1;-1;Great Abaco-Eleuthera
 482;6013;sea;1503;-1;-1;-1;-1;Bahama-Eleuthera
 6010;482;sea;1503;-1;-1;-1;-1;Andros-Bahama
 6010;6012;sea;1503;-1;-1;-1;-1;Andros-Great Abaco
@@ -324,10 +323,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5575;6015;sea;1503;-1;-1;-1;-1;Yuma-Great Exuma
 5575;6016;sea;1503;-1;-1;-1;-1;Yuma-Rum-Cay Island
 6016;5574;sea;1503;-1;-1;-1;-1;Rum Cay-Guanahani
-5575;6017;sea;1503;-1;-1;-1;-1;Yuma-Crooked Island
+5575;6017;sea;1525;-1;-1;-1;-1;Yuma-Crooked Island
 6017;5576;sea;1524;-1;-1;-1;-1;Crooked Island-Mayaguana
-5577;483;sea;1524;-1;-1;-1;-1;Inagua-Turks & Caicos
-5577;5576;sea;1524;-1;-1;-1;-1;Inagua-Acklins
+5577;483;sea;6088;-1;-1;-1;-1;Inagua-Turks & Caicos
+5577;5576;sea;6088;-1;-1;-1;-1;Inagua-Acklins
 5578;2808;sea;1519;-1;-1;-1;-1;Aruba-Coro
 491;2808;sea;1519;-1;-1;-1;-1;Curacao-Coro
 2807;830;sea;1519;-1;-1;-1;-1;Altagracia-Maracaibo
@@ -339,6 +338,42 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2318;6565;sea;5301;-1;-1;-1;-1;Bahariya-Abu Minqar
 6565;6559;sea;5301;-1;-1;-1;-1;Abu Minqar-Mut
 6559;1233;sea;5301;-1;-1;-1;-1;Mut-Kharga
+893;5993;sea;7336;-1;-1;-1;-1;Chitimacha-Huoma
+2529;4885;sea;7337;-1;-1;-1;-1;Natchez-Avoyel
+919;4923;sea;7337;-1;-1;-1;-1;Chickasha-Pacaha
+917;900;sea;7413;-1;-1;-1;-1;Cahokia-Tamaroa
+5924;963;sea;5927;-1;-1;-1;-1;U-puku-ipi-sing-Machkantowoon
+965;5922;sea;7339;-1;-1;-1;-1;Manahattan-Pomperaug
+5984;2010;sea;5985;-1;-1;-1;-1;Nowashe-Saukiog
+5976;5977;sea;6022;-1;-1;-1;-1;Shawhomett-Aquidnett
+5937;956;sea;5930;-1;-1;-1;-1;Unalachtigo-Sakimauchheening
+5937;957;sea;5931;-1;-1;-1;-1;Unalachtigo-Wicontiss
+5973;2554;sea;5941;-1;-1;-1;-1;Conestoga-Nentego
+5975;950;sea;7414;-1;-1;-1;-1;Gingoteague-Chesapeake
+953;5956;sea;5943;-1;-1;-1;-1;Moyaons-Anacostia
+5958;6020;sea;5944;-1;-1;-1;-1;Piscataway-Moraughticund
+6020;6039;sea;5945;-1;-1;-1;-1;Moraughticund-Werowocomoco
+6039;5952;sea;5946;-1;-1;-1;-1;Werowocomoco-Kecoughtan
+5952;950;sea;5950;-1;-1;-1;-1;Kecoughtan-Chesapeake
+5959;5960;sea;7415;-1;-1;-1;-1;Pashquotank-Chocowinity
+2547;938;sea;5968;-1;-1;-1;-1;Roanoke-Pomouik
+6105;2934;sea;6155;-1;-1;-1;-1;Iranduba-Manaos
+6105;6115;sea;6165;-1;-1;-1;-1;Iranduba-Autazes
+6092;6115;sea;7331;-1;-1;-1;-1;Beruri-Cuina_ou_cuiu_ana
+6095;6099;sea;6164;-1;-1;-1;-1;Tefe-Santo_Antonio_d_ica
+6099;6103;sea;6154;-1;-1;-1;-1;Santo_Antonio_d_ica-Codajas
+6102;6100;sea;6153;-1;-1;-1;-1;Villa_Bittencourt-Japura
+6097;6098;sea;6162;-1;-1;-1;-1;Amatura-Belem_do_Solemoes
+6110;6107;sea;6156;-1;-1;-1;-1;Santa_Isabel_do_Rio_Negro-Barcelos
+6090;6112;sea;6157;-1;-1;-1;-1;Humaita-Manicore
+2934;6114;sea;6166;-1;-1;-1;-1;Manaos-Borba
+6117;2930;sea;6167;-1;-1;-1;-1;Obidos-Tupaius
+2930;6116;sea;6161;-1;-1;-1;-1;Tupaius-Santarem
+6124;6125;sea;6152;-1;-1;-1;-1;Jacareacanga-Trairao
+6119;2935;sea;7324;-1;-1;-1;-1;Altamira-Muturu
+6119;6120;sea;7325;-1;-1;-1;-1;Altamira-Sen_Jose_Porfirio
+2929;2928;sea;6168;-1;-1;-1;-1;Para-Tucurui
+2805;742;sea;7335;-1;-1;-1;-1;Uyapari-Angostura
 6603;6954;sea;1795;2994;1434;2998;1377;Jalu-Tazirbu
 6954;6955;sea;6671;2999;1372;3003;1358;Tazirbu-Buzaymah
 6955;6958;sea;6671;3004;1359;3014;1350;Buzaymah-Al-Jawf
