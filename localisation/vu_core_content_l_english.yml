@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
  #Reorganised format as of 11.5 -
  # Note main folder contains all NEW localisations. Entries which replace vanilla content are found in the replace subfolder.
@@ -1242,6 +1242,8 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  puppet_kingdom_reform_desc:0 "A Viceroyalty is typically a subordinate government ruled by proxy. A representative of the parent government safeguards the interests of the parent nation, and the transplanted elite from the parent nation often occupy the majority of government offices while the local poulation is often given little representation. Governments of this type are highly unpopular, but few can object to their productivity and tax collection. Well, few outside of those paying those taxes..."
  transitional_government_reform:0 "Transitional Government"
  transitional_government_reform_desc:0 "A transitional government fulfills administrative duties in a society in transition, often a nation recently independent from a foreign power, or a nation in the throws of a revolution. While this government may be all that stands between the country and pure anarchy, it is rarely much better than anarchy. Warlords and oligarchs vie for positions of power in the new society, patriots and revolutionaries scheme to take the country in a new direction, while loyalists and conservatives try to return the country to its former structure. Thankfully, this chaos most often proves very temporary, as one faction or another usually wins out within a few years and the nation returns to a more stable form of government."
+ improved_veche_republic:0 "Reformed Veche Republic"
+ improved_veche_republic_desc:0 "This state is governed by a Veche, a council with the highest legislative and juidicial authority. This Veche council has been reformed and improved to account for more efficient administration of large realm."
 
 
 
@@ -1528,11 +1530,11 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  duchy_warsaw_nation_desc:0 "Poland and Commonwealth have both ceased to exist. We must continue Polish legacy and create new state centered around the city of Warsaw."
  denmark_norway_nation_title:0 "Form Twin Realms of Denmark-Norway"
  denmark_norway_nation_desc:0 "Time has come to unite the regions of Denmark and Norway into one nation."
+ novgorod_rus_nation_title:0 "Proclaim Novgorodian Rus"
+ novgorod_rus_nation_desc:0 "Unite all lands of Eastern Europe and restore Great Rus under the Novgorod rule"
  #Non-European Old World
  btpl_kabylia_nation_title:0 "Form Kabylia"
  btpl_kabylia_nation_desc:0 "Uniting the rich, fertile hills of Kabylia is the first step in establishing a strong Berber nation in the Maghreb!"
- btpl_damietta_nation_title:0 "Form Damietta"
- btpl_damietta_nation_desc:0 "Uniting the rich, fertile hills of Damietta is the first step in establishing a strong Berber nation in the Knights!"
  #Cut for now, replaced in 1.24
  #bt_yemen_formation_title:0 "Form Yemen"
  #bt_yemen_formation_desc:0 "We have achieved a position of hegemony over the mountainous corner of southeastern Arabia, and can rightfully call ourselves Yemen, the primary nation of all Yemeni people."          #Bad placeholder localisation
