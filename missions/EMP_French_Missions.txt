@@ -481,6 +481,7 @@ emp_france_missions_2 = {
 		provinces_to_highlight = {
 			region = france_region
 			NOT = { province_id = 87 }
+			NOT = { province_id = 3110 }
 			OR = {
 				owned_by = ENG
 				owned_by = GBR
@@ -492,9 +493,9 @@ emp_france_missions_2 = {
 				tooltip = fra_hyw_tt
 				france_region = {
 					type = all
-					NOT = { province_id = 3110 }
 					OR = {
 						province_id = 87
+						province_id = 3110
 						AND = {
 							NOT = { owned_by = ENG }
 							NOT = { owned_by = GBR }

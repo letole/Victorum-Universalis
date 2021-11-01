@@ -598,12 +598,13 @@ self_governing_colony = {
 
 #VU addition by San Felipe with input from Letole & Piano
 self_governing_dominion_vu = {
-	copy_from = colony
-	
-	# Graphics:
-	sprite = GFX_dominion
 
-	change_colonial_type = no
+    # Graphics:
+	sprite = GFX_dominion_icon
+	
+	copy_from = self_governing_colony
+
+	change_colonial_type = yes
 	upgrade_subject_type = yes
 	is_colony_subtype = yes
 	count = colony
@@ -654,13 +655,14 @@ self_governing_dominion_vu = {
 
 #VU addition by San Felipe with input from Letole & Piano
 self_governing_super_dominion_vu = {
-	copy_from = colony
-	
-	# Graphics:
-	sprite = GFX_dominion
 
-	change_colonial_type = no
-	upgrade_subject_type = yes
+    # Graphics:
+	sprite = GFX_super_dominion_icon
+
+	copy_from = self_governing_dominion_vu
+
+	change_colonial_type = yes
+	upgrade_subject_type = Yes
 	is_colony_subtype = yes
 	count = colony
 	

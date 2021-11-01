@@ -82,6 +82,8 @@
  DWA_ADJ:0 "Warsaw"
  DNR:0 "Denmark-Norway"
  DNR_ADJ:0 "Dano-Norge"
+ NRU:0 "Novgorodian Rus"
+ NRU_ADJ:0 "Novgorodian Rus"
  EGH:0 "Enghien"
  EGH_ADJ:0 "Enghienan"
  ELW:0 "Elwangen"
@@ -852,3 +854,8 @@
  MBB_ADJ: "Mbalundan"
  VYE: "Vye"
  VYE_ADJ: "Vyean"
+ 
+ #VU Sussy additions by Mellstrom
+ RED: "Sussy Pirates"
+ RED_ADJ: "Sussy"
+ RED_ADJ2: "Sussy"

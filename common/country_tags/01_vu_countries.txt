@@ -35,6 +35,9 @@
 #New 1.3.4 notes from San Felipe
 #I've taken the liberty to re-organise and sort out the mess that was left here before.
 
+#New 1.3.4 notes from Mellstrom
+#RED
+
 ##########
 # Europe #
 ##########
@@ -45,7 +48,7 @@ CUM = "countries/Cumania.txt"
 DRJ = "countries/Dobruja.txt"
 DWA = "countries/DuchyWarsaw.txt"
 ILY = "countries/Illyria.txt"
-KCH = "countries/Khachen.txt"
+KCN = "countries/Khachen.txt"
 KMI = "countries/Kammin.txt"
 #KRN = "countries/Kran.txt"
 #KPS = "countries/Kopsis.txt"
@@ -227,6 +230,7 @@ AHE = "countries/Austria_Hungary.txt"
 LES = "countries/Lesbos.txt"
 
 #BT - Holy Orders
+DAM = "countries/Damietta.txt"
 KNT = "countries/KnightsTemplar.txt"
 LTE = "countries/LatinEmpire.txt"
 
@@ -404,6 +408,7 @@ VLG = "countries/Vologda.txt"
 VTN = "countries/Vorotynsk.txt"
 VYA = "countries/Vyatka.txt"
 ZBT = "countries/Zubtsov.txt"
+NRU = "countries/NovgorodRus.txt"
 
 #BT - Scandinavia & Baltics
 GTA = "countries/Gotaland.txt"
@@ -659,6 +664,7 @@ YZG = "countries/Laurentian.txt"
 YZH = "countries/Missisauga.txt"
 YZI = "countries/NeutralConfederacy.txt"
 ZIA = "countries/Zia.txt"
+RED = "countries/SussyPirates.txt"
 
 ##################
 # BT - Caribbean #
@@ -678,6 +684,24 @@ ZIA = "countries/Zia.txt"
 #YZU = "countries/Shebaye.txt"
 #YZV = "countries/Waikeri.txt"
 #YZY = "countries/Guanahatabey.txt"
+#RED = "countries/SussyPirates.txt"
+
+#VU - Additions
+CIB = "countries/Ciboney.txt"
+JRA = "countries/Jaragua.txt"
+KLO = "countries/Kalinago.txt"
+LCC = "countries/Lenca.txt"
+PPL = "countries/Pipil.txt"
+TMC = "countries/Timuca.txt"
+AIS = "countries/Ais.txt"
+HGY = "countries/Higuey.txt"
+MRN = "countries/Marien.txt"
+MGA = "countries/Maguana.txt"
+MGU = "countries/Magua.txt"
+SHB = "countries/Carib.txt"
+KRN = "countries/Karina.txt"
+IRI = "countries/Ineri.txt"
+GNU = "countries/Guanahatabeyes.txt"
 
 ###########
 # Oceania #

@@ -179,4 +179,10 @@ province_event = {
     name = "gems"
     change_trade_goods = gems
   }
+  
+#30: Diamonds
+  option = {
+    name = "diamonds"
+    change_trade_goods = diamonds
+  }
 }

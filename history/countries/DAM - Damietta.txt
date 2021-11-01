@@ -1,0 +1,8 @@
+government = gov_admiralty
+add_government_reform = gov_admiralty_reform
+government_rank = 1
+technology_group = western
+primary_culture = norman
+add_accepted_culture = norman
+religion = catholic
+capital = 363

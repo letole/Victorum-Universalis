@@ -1,9 +1,13 @@
 #483 - Turks Islands
 
+owner = KLO
+controller = KLO
+add_core = KLO
 culture = arawak
+is_city = yes
 religion = animism
 capital = "Abawana"
-trade_goods = unknown
+trade_goods = fish
 hre = no
 base_tax = 1
 base_production = 1

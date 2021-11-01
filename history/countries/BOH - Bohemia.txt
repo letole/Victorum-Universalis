@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = crown_of_saint_wenceslaus_2
 primary_culture = czech
 religion = catholic
 elector = yes
@@ -48,6 +48,8 @@ add_country_modifier = {
 		mil = 2
 	}
 }
+
+# Personal Union with Habsburg under Ladislaus Postumus 1453-1457
 
 1444.10.1 = {
 	set_estate_privilege = estate_nobles_strong_duchies

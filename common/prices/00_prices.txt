@@ -128,6 +128,10 @@ gems = {
 	base_price = 5			#BTAddOn changed from 4 - Now goes 5 - 6 - 4.5 (Vanilla was 4 - 5 - 3)
 }	#Making this into a top trade good, as it should be. After all, who doesn't like diamonds, pearls, rubies, emeralds, and opals?
 
+diamonds = {
+	base_price = 7			#BTAddOn changed from 4 - Now goes 6 - 7 - 5.5 (Vanilla was 4 - 5 - 3)
+}	#Making this into a top trade good, as it should be. After all, who doesn't like diamonds, pearls, rubies, emeralds, and opals?
+
 paper = {
 	base_price = 3			#BTAddOn changed from 3.5 - Now goes 3 - 3.75 - 4.5 - 3 - 4.05 -  (Vanilla was 3.5 - 4.375 - 5.25 - 3.5 - 4.375)
 }	#Paper was an important component in the development of modern society, but no one ever got that rich trading it.

@@ -1,10 +1,14 @@
 #4619 - Lesser Antilles
 #VU Discovery Bug Fix
 
-culture = arawak
+owner = MRN
+controller = MRN
+add_core = MRN
+culture = macoris
+is_city = yes
 religion = animism
 capital = "Guárico"
-trade_goods = unknown 
+trade_goods = sugar 
 hre = no
 base_tax = 4
 base_production = 5

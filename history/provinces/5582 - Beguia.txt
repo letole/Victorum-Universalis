@@ -1,9 +1,13 @@
 # No previous file - Beyond Typus new
 
+owner = KRN
+controller = KRN
+add_core = KRN
 culture = karina
+is_city = yes
 religion = animism
 capital = "Beguia"
-trade_goods = unknown 
+trade_goods = sugar 
 hre = no
 base_tax = 1
 base_production = 1

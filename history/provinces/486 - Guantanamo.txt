@@ -1,7 +1,11 @@
 #486 - Guantanamo
 #VU Discovery Bug Fix
 
+owner = CIB
+controller = CIB
+add_core = CIB
 culture = west_taino
+is_city = yes
 religion = animism
 capital = "Guantánamo"
 trade_goods = unknown 

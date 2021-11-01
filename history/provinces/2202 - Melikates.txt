@@ -1,7 +1,7 @@
 #2202 - Karabakh
 
-owner = KCH
-controller = KCH
+owner = KCN
+controller = KCN
 culture = armenian
 religion = miaphysite
 capital = "Shusha"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4 
 base_manpower = 4 
 is_city = yes
-add_core = KCH
+add_core = KCN
 fort_15th = yes
 center_of_trade = 1
 discovered_by = muslim

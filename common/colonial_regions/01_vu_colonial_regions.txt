@@ -989,8 +989,10 @@ colonial_bahamas = {
 	}
 
 	provinces = {
-		482 483 5574 5575 5576 5577
-		481 #Bermuda - I don't know if I want it in a colonial region or not....
+		481 482 483 5574 5575 5576 5577 
+		
+		#VU Additions by San Felipe
+		6010 6011 6012 6013 6014 6015 6016 6017
 	}
 
 	# Specific

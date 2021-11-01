@@ -1,4 +1,4 @@
-﻿#Events changing the availability of slaves and the influence different demographics have over a country
+﻿﻿#Events changing the availability of slaves and the influence different demographics have over a country
 #Mostly set country flags which then have an effect on buildings
 #Made originally for Victorum Universalis by Lord_Bowser
 ###################################################################################################################################################################################################
@@ -603,7 +603,6 @@ country_event = {
 			}
 			has_province_modifier = {
 				enlightenment = 100
-				}
 			}
 		}
 		add_prestige = 15
@@ -857,8 +856,8 @@ country_event = {
 		ai_chance = {
 			factor = 40
 			modifier = {
+			    factor = 2
 				stability = 2
-				factor = 2
 			}
 		}
 		add_years_of_income = 1
@@ -868,10 +867,10 @@ country_event = {
 		ai_chance = {
 			factor = 60
 			modifier = {
+			    factor = 2
 				NOT = {
 					stability = -1	
 				}
-				factor = 2
 			}
 		}
 		add_stability = 1

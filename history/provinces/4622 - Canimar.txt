@@ -1,7 +1,11 @@
 #4622 - Canimar
 #VU Discovery Bug Fix
 
+owner = GNU
+controller = GNU
+add_core = GNU
 culture = guanahatabey
+is_city = yes
 religion = animism
 capital = "Carapachibey"			#Serious iffy name
 trade_goods = unknown 

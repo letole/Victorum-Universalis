@@ -25,6 +25,7 @@ bohemia_region = {
 	    erzgebirge_area
 	    moravia_area
 	    prague_area
+	    bohemian_forest_area
 	}
 }
 
@@ -188,7 +189,6 @@ south_german_region = {
 		#BTMovedFromNorthGermany
 		#BTADDITIONS
 		#carniola_area #Temporarily disabled, as it contains only 1 province for the moment
-		bohemian_forest_area
 	}
 }
 
@@ -690,6 +690,15 @@ angola_region = {
 		kasai_area
 		kongo_area
 		matamba_area
+		namibe_area
+		hwila_area
+		kwanyama_area
+		ngangela_area
+		moxico_area
+		wambu_area
+		benguela_area
+		bengo_area
+		bailundo_area
 	}
 	monsoon = {
 		00.02.01
@@ -1877,8 +1886,10 @@ north_atlantic_region = {
 		celtic_sea_area
 		english_channel_area
 		bay_of_biscay_area
-		north_atlantic_area
-		denmark_strait_area			#Repurposed to Arctic Sea area
+		#north_atlantic_area
+		denmark_strait_area
+		davis_strait_area
+		rockall_strait_area
 		#BTADDITIONS
 		true_north_atlantic_sea_area
 	}
@@ -1892,21 +1903,53 @@ american_east_coast_region = {
 	}
 }
 
+western_atlantic_region = { #New VU
+	areas = {
+		western_atlantic_area
+	}
+}
+
+central_atlantic_region = { #New VU
+	areas = {
+		sargasso_sea_area
+		coast_of_guyana_area
+	}
+}
+
 mediterrenean_region = {
 	areas = {
 		eastern_mediterrenean_area
 		western_mediterrenean_area
+	}
+}
+
+black_sea_region = {
+	areas = {
 		black_sea_area
 	}
 }
 
 caribbean_sea_region = {
 	areas = {
-		bahama_channel_area
-		coast_of_guyana_area
 		caribbean_sea_area
+	}
+}
+
+bahama_channel_region = {
+	areas = {
+		bahama_channel_area
+	}
+}
+
+gulf_of_mexico_region = {
+	areas = {
 		gulf_of_mexico_area
-		sargasso_sea_area
+	}
+}
+
+east_caribbean_sea_region = {
+	areas = {
+		east_caribbean_sea_area
 	}
 }
 
@@ -1949,17 +1992,72 @@ south_indian_ocean_region = {
 
 south_china_sea_region = {
 	areas = {
-		java_sea_area
-		south_china_sea_area
-		celebes_sea_area
+	    south_china_sea_area
+	}
+}
+
+west_philippine_sea_region = {
+	areas = {
+	    west_philippine_sea_area
+	}
+}
+
+coast_of_indochina_region = {
+	areas = {
+		coast_of_indochina_area
+	}
+}
+
+sulu_sea_region = {
+	areas = {
+		sulu_sea_area
+	}
+}
+
+gulf_of_siam_region = {
+	areas = {
+		gulf_of_siam_area
+	}
+}
+
+banda_sea_region = {
+	areas = {
 		banda_arafura_seas_area
+	}
+}
+
+celebes_sea_region = {
+	areas = {
+		celebes_sea_area
+	}
+}
+
+java_sea_region = {
+	areas = {
+		java_sea_area
+	}
+}
+
+malacca_straits_region = {
+	areas = {
+		malacca_straits_area
+	}
+}
+
+chinese_coast_region = {
+	areas = {
+		east_china_sea_area
 	}
 }
 
 east_china_sea_region = {
 	areas = {
-		east_china_sea_area
 		philipine_sea_area
+	}
+}
+
+sea_of_japan_region = {
+	areas = {
 		sea_of_japan_area
 	}
 }

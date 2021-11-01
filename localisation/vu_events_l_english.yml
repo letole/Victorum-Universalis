@@ -160,3 +160,20 @@
  vu_GOL.4.t:0 "The fall of Great Horde"
  vu_GOL.4.d:0 "Great Horde has been utterly defeated and dominated by enemy invasion. Great host in Sarai has been completely sacked. Now the remaining lands are to be carved up by the neighbors. It seems that steppe nomads around Astrakhan, seeing the inevitable collapse, decided to rise up and separate from the Horde to save themselves."
  vu_GOL.4.a:0 "Great Horde is no more and we are victorious!"
+ #New cultures in new world
+ VUcolonialcultures.1.t:0 "Rise of Vinlandic culture"
+ VUcolonialcultures.1.d:0 "After establishing our colony, we have reached stable population. Over time, this growing population switched from simple migrants from Old World into its own distinct culture, with their own traditions, somewhat different from ours."
+ VUcolonialcultures.1.a:0 "Okay"
+ VUcolonialcultures.1.b:0 "No thanks"
+ VUcolonialcultures.2.t:0 "Rise of Afrikaner culture"
+ VUcolonialcultures.3.t:0 "Rise of Mexicaner culture"
+ VUcolonialcultures.4.t:0 "Rise of Hunsrik culture"
+ VUcolonialcultures.5.t:0 "Rise of Seelander culture"
+ VUcolonialcultures.6.t:0 "Rise of Afrikaner culture"
+ VUcolonialcultures.7.t:0 "Rise of Pennsilfaanisch culture"
+ VUcolonialcultures.8.t:0 "Rise of Argentiner culture"
+ VUcolonialcultures.9.t:0 "Rise of Neu-Prussisch culture"
+ #VU - By Mellstrom
+ sussy_pirate_nation_title: "Gather Some Sussy Pirates"
+ sussy_pirate_nation_desc: "And now for something completely different..."
+ 

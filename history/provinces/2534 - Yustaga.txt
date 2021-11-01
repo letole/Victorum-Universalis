@@ -1,6 +1,10 @@
 # No previous file for Yustaga
 
-culture = creek
+owner = TMC
+controller = TMC
+add_core = TMC
+culture = seminole
+is_city = yes
 religion = totemism
 capital = "Yustaga"
 trade_goods = unknown

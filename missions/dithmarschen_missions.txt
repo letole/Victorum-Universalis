@@ -244,6 +244,7 @@ peasants_1 = {
 				trade_goods = wine
 				trade_goods = paper
 				trade_goods = gems
+				trade_goods = diamonds
 				trade_goods = tropical_wood
 				trade_goods = glass
 				trade_goods = chinaware

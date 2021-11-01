@@ -2961,3 +2961,103 @@ DNR_ideas = {
 		colonist_placement_chance = 0.1
 	}
 }
+
+RED_ideas = {
+	start = {
+		own_coast_naval_combat_bonus = 1.0
+		free_leader_pool = 1
+	}
+	bonus = {
+		may_perform_slave_raid_on_same_religion = yes
+	}
+	trigger = {
+		OR = {
+			has_reform = pirate_republic_reform
+			tag = RED
+		}
+		NOT = { culture_group = iberian }
+		NOT = { tag = PRY }
+		NOT = { tag = TET }
+		NOT = { tag = SLE }
+	}
+	free = yes
+	
+	red_religious_apathy = {
+		no_religion_penalty = yes
+	}	
+	red_plunder = {
+		loot_amount = 0.45
+	}
+	red_bucanneers_ideas = {	
+		privateer_efficiency = 0.25
+		leader_naval_fire = 1
+	}
+	red_sail_in_consort = {
+		leader_naval_manuever = 1
+		global_naval_engagement_modifier = 0.25
+		movement_speed_in_fleet_modifier = 1
+	}
+	red_elected_quartermasters = {
+		global_ship_cost = -0.2
+		naval_morale = 0.1
+	}
+	red_pirate_bays = {
+		naval_maintenance_modifier = -0.25
+		sailor_maintenance_modifer = -0.15
+	}
+	red_life_of_liberty = {
+		allowed_marine_fraction = 0.5
+		global_sailors_modifier = 0.5
+	}
+}
+
+#VU Novgorodian Rus ideas by docRobert
+NRU_ideas = {
+	start = {
+		land_maintenance_modifier = -0.15
+		diplomatic_reputation = 1
+		num_accepted_cultures = 1
+	}
+	
+	bonus = {
+		defensiveness = 0.15
+		siege_ability = 0.10
+		administrative_efficiency = 0.05
+	}
+	
+	trigger = {
+		tag = NRU
+	}
+	free = yes		#will be added at load.
+	
+	northern_center_of_arts_1 = {
+		prestige = 1
+		improve_relation_modifier = 0.1
+	}
+	city_of_churches_1 = {
+		global_missionary_strength = 0.01
+		global_tax_modifier = 0.05
+	}
+	ivans_hundred_1 = {
+		republican_tradition = 0.3
+		stability_cost_modifier = -0.1
+	}
+	control_of_the_hanseatic_kontor_1 = {
+		merchants = 1
+		global_trade_power = 0.1
+	}
+	grand_dukes_army_1 = {
+		global_manpower_modifier = 0.1
+		artillery_power = 0.05
+		leader_land_shock = 1
+	}
+	exploration_tradition_1 = {
+		navy_tradition = 1
+		ship_durability = 0.1
+		ship_power_propagation = 0.1
+	}
+	baltic_shipyard_1 = {
+		light_ship_cost = -0.15
+		global_ship_recruit_speed = -0.05
+	}
+}

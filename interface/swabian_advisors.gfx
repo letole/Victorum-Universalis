@@ -1,0 +1,139 @@
+## germanic Culture ##
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_advisor_swabian_artist"
+		texturefile = "gfx//interface//advisors//swabian_artist.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_philosopher"
+		texturefile = "gfx//interface//advisors//swabian_philosopher.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_natural_scientist"
+		texturefile = "gfx//interface//advisors//swabian_natural_scientist.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_theologian"
+		texturefile = "gfx//interface//advisors//swabian_theologian.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_inquisitor"
+		texturefile = "gfx//interface//advisors//swabian_inquisitor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_master_of_mint"
+		texturefile = "gfx//interface//advisors//swabian_master_of_mint.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_treasurer"
+		texturefile = "gfx//interface//advisors//swabian_treasurer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_statesman"
+		texturefile = "gfx//interface//advisors//swabian_statesman.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_swabian_trader"
+		texturefile = "gfx//interface//advisors//swabian_trader.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_grand_captain"
+		texturefile = "gfx//interface//advisors//swabian_grand_captain.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_commandant"
+		texturefile = "gfx//interface//advisors//swabian_commandant.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_army_organiser"
+		texturefile = "gfx//interface//advisors//swabian_army_organiser.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_army_reformer"
+		texturefile = "gfx//interface//advisors//swabian_army_reformer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_recruitmaster"
+		texturefile = "gfx//interface//advisors//swabian_recruitmaster.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_swabian_spymaster"
+		texturefile = "gfx//interface//advisors//swabian_spymaster.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+}

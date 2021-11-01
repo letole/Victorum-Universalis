@@ -155,8 +155,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_combat_terrain_farmlands"	
-		texturefile = "gfx//interface//combat_terrain_hills.tga"
+		name = "GFX_combat_terrain_swamp"	
+		texturefile = "gfx//interface//combat_terrain_swamp.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_farmlands"
+		texturefile = "gfx/interface/combat_terrain_farmlands.dds"
 	}
 	
 	spriteType = {
@@ -228,10 +233,25 @@ spriteTypes = {
 		name = "GFX_combat_terrain_highlands"
 		texturefile = "gfx/interface/combat_terrain_highlands.dds"
 	}
-
+	
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_tundra_terrain"
+        texturefile = "gfx/interface/tundra_terrain.dds"
+  }
+    
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_cold_mountains"
+        texturefile = "gfx/interface/cold_mountains.dds"
+  }
+	
 	spriteType = {
-		name = "GFX_combat_terrain_farmlands"
-		texturefile = "gfx/interface/combat_terrain_farmlands.dds"
+		name = "GFX_combat_terrain_desert_ranges"
+		texturefile = "gfx/interface/desert_ranges.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_dry_highlands"
+		texturefile = "gfx/interface/dry_highlands.dds"
 	}
 	
 	spriteType = {                                                        
@@ -4874,6 +4894,10 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_nancy"
         texturefile = "gfx/interface/nancy.dds"
     }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_toul"
+        texturefile = "gfx/interface/toul.dds"
+    }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_besancon"
         texturefile = "gfx/interface/besancon.dds"
@@ -5733,10 +5757,6 @@ spriteTypes = {
                                             spriteType = {                                                       
         name = "GFX_combat_terrain_urban_portland_me"
         texturefile = "gfx/interface/portland_me.dds"
-    }
-													spriteType = {                                                        
-        name = "GFX_combat_terrain_tundra_terrain"
-        texturefile = "gfx/interface/tundra_terrain.dds"
     }
 	
 #############################################

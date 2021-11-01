@@ -124,8 +124,26 @@
  hudson_bay_sea_region_name:0 "Hudson Bay"
  labrador_sea_region:0 "Labrador Sea"
  labrador_sea_region_name:0 "Labrador Sea"
-
-
+ 
+ #VU regions
+ namibe_area_region:0 "Namibe"
+ namibe_area_region_name:0 "Namibe"
+ hwila_area_region:0 "Hwila"
+ hwila_area_region_name:0 "Hwila"
+ kwanyama_area_region:0 "Kwanyama"
+ kwanyama_area_region_name:0 "Kwanyama"
+ ngangela_area_region:0 "Ngangela"
+ ngangela_area_region_name:0 "Ngangela"
+ moxico_area_region:0 "Moxico"
+ moxico_area_region_name:0 "Moxico"
+ wambu_area_region:0 "Wambu"
+ wambu_area_region_name:0 "Wambu"
+ benguela_area_region:0 "Benguela"
+ benguela_area_region_name:0 "Benguela"
+ bengo_area_region:0 "Bengo"
+ bengo_area_region_name:0 "Bengo"
+ bailundo_area_region:0 "Bailundo"
+ bailundo_area_region_name:0 "Bailundo"
 
  #################################################################################
  #################################################################################
@@ -1012,10 +1030,34 @@
  baffin_bay_area_name:0 "Baffin Bay"
  grand_banks_sea_area:0 "Grand Banks"
  grand_banks_sea_area_name:0 "Grand Banks"
- true_north_atlantic_sea_area:0 "North Atlantic"
- true_north_atlantic_sea_area_name:0 "North Atlantic"
-
-
+ #VU addition by San Felipe
+ #AREAS
+ true_north_atlantic_sea_area:0 "Raykjanes Ridge"
+ true_north_atlantic_sea_area_name:0 "Raykjanes Ridge"
+ denmark_strait_area:0 "Denmark Strait"
+ denmark_strait_area_name:0 "Denmark Strait"
+ davis_strait_area:0 "Davis Strait"
+ davis_strait_area_name:0 "Davis Strait"
+ rockall_strait_area:0 "Rockall Strait"
+ rockall_strait_area_name:0 "Rockall Strait"
+ labrador_basin_area:0 "Labrador Basin"
+ labrador_basin_name:0 "Labrador Basin"
+ coast_of_indochina_area:0 "Coast of Indochina"
+ coast_of_indochina_area_name:0 "Coast of Indochina"
+ west_philippine_sea_area:0 "West Philippine Sea"
+ west_philippine_sea_area_name:0 "West Philippine Sea"
+ sulu_sea_area:0 "Sulu Sea"
+ sulu_sea_area_name:0 "Sulu Sea"
+ east_caribbean_sea_area:0 "East Caribbean Sea"
+ east_caribbean_sea_area_name:0 "East Caribbean Sea"
+ #REGIONS
+ east_caribbean_sea_region:0 "East Caribbean Sea"
+ gulf_of_mexico_region:0 "Gulf of Mexico"
+ coast_of_indochina_region:0 "Coast of Indochina"
+ bahama_channel_region:0 "Antillas Mayores"
+ sulu_sea_region:0 "Sulu Sea"
+ gulf_of_siam_region:0 "Gulf of Siam"
+ sea_of_japan_region:0 "Sea of Japan"
 
  ######################################
  ####Beyond Typus Placeholders####

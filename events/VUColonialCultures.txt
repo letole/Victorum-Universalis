@@ -1,5 +1,6 @@
 namespace = BeyondTypusColonialCultures
 namespace = dutchcolonial
+namespace = VUcolonialcultures
 
 # Canadian
 province_event = {
@@ -233,5 +234,421 @@ province_event = {
 
 	option = {
 		name = "dutchcolonialindonesianoption1"
+	}
+}
+# Vinlandic
+province_event = {
+	id = VUcolonialcultures.1
+	title = "VUcolonialcultures.1.t"
+	desc = "VUcolonialcultures.1.d"
+	picture = COLONIZATION_eventPicture
+	
+	trigger = {
+		OR = {
+			colonial_region = colonial_canada
+			colonial_region = colonial_eastern_america
+			colonial_region = colonial_hudson_bay
+			colonial_region = colonial_newfoundland
+			colonial_region = colonial_acadia
+		}
+		owner = {
+			culture_group = scandinavian
+		}
+		NOT = { culture = vinlandic }
+	}
+
+	mean_time_to_happen = {
+		months = 76 #80 years
+	}
+
+	option = { # Okay
+		name = "VUcolonialcultures.1.a"
+		ai_chance = { factor = 80 }
+		add_local_autonomy = 10
+		change_culture = vinlandic
+		if = {
+			limit = { owner = { NOT = { accepted_culture = vinlandic } } }
+			owner = { add_accepted_culture = vinlandic }
+		}		#Adding culture as an accepted culture to prevent AI flipping.
+		if = {
+			limit = {
+				is_capital = yes
+				is_overseas = no
+				owner = {
+            				culture_group = scandinavian
+				}
+			}
+			owner = { change_primary_culture = vinlandic }
+		}		#If this event hits in a capital, make the national culture the colonial culture. Yes, it will have far reaching effects. This is WaD.
+	}
+	
+	option = { # Nah
+		name = "VUcolonialcultures.1.b"
+		ai_chance = { factor = 20 }
+	}
+}
+#Afrikaner German
+province_event = {
+	id = VUcolonialcultures.2
+	title = "VUcolonialcultures.2.t"
+	desc = "VUcolonialcultures.1.d"
+	picture = COLONIZATION_eventPicture
+	
+	trigger = {
+		colonial_region = colonial_cape
+		owner = {
+			culture_group = germanic
+		}
+		NOT = { culture = afrikaner }
+	}
+
+	mean_time_to_happen = {
+		months = 76 #80 years
+	}
+
+	option = { # Okay
+		name = "VUcolonialcultures.1.a"
+		ai_chance = { factor = 80 }
+		add_local_autonomy = 10
+		change_culture = afrikaner
+		if = {
+			limit = { owner = { NOT = { accepted_culture = afrikaner } } }
+			owner = { add_accepted_culture = afrikaner }
+		}		#Adding culture as an accepted culture to prevent AI flipping.
+		if = {
+			limit = {
+				is_capital = yes
+				is_overseas = no
+				owner = {
+            				culture_group = germanic
+				}
+			}
+			owner = { change_primary_culture = afrikaner }
+		}		#If this event hits in a capital, make the national culture the colonial culture. Yes, it will have far reaching effects. This is WaD.
+	}
+	
+	option = { # Nah
+		name = "VUcolonialcultures.1.b"
+		ai_chance = { factor = 20 }
+	}
+}
+#Mexicaner
+province_event = {
+	id = VUcolonialcultures.3
+	title = "VUcolonialcultures.3.t"
+	desc = "VUcolonialcultures.1.d"
+	picture = COLONIZATION_eventPicture
+	
+	trigger = {
+		colonial_region = colonial_mexico
+		owner = {
+			culture_group = germanic
+		}
+		NOT = { culture = mexikaner }
+	}
+
+	mean_time_to_happen = {
+		months = 76 #80 years
+	}
+
+	option = { # Okay
+		name = "VUcolonialcultures.1.a"
+		ai_chance = { factor = 80 }
+		add_local_autonomy = 10
+		change_culture = mexikaner
+		if = {
+			limit = { owner = { NOT = { accepted_culture = mexikaner } } }
+			owner = { add_accepted_culture = mexikaner }
+		}		#Adding culture as an accepted culture to prevent AI flipping.
+		if = {
+			limit = {
+				is_capital = yes
+				is_overseas = no
+				owner = {
+            				culture_group = germanic
+				}
+			}
+			owner = { change_primary_culture = mexikaner }
+		}		#If this event hits in a capital, make the national culture the colonial culture. Yes, it will have far reaching effects. This is WaD.
+	}
+	
+	option = { # Nah
+		name = "VUcolonialcultures.1.b"
+		ai_chance = { factor = 20 }
+	}
+}
+#Hunsrik
+province_event = {
+	id = VUcolonialcultures.4
+	title = "VUcolonialcultures.4.t"
+	desc = "VUcolonialcultures.1.d"
+	picture = COLONIZATION_eventPicture
+	
+	trigger = {
+		colonial_region = colonial_brazil
+		owner = {
+			culture_group = germanic
+		}
+		NOT = { culture = hunsrik }
+	}
+
+	mean_time_to_happen = {
+		months = 76 #80 years
+	}
+
+	option = { # Okay
+		name = "VUcolonialcultures.1.a"
+		ai_chance = { factor = 80 }
+		add_local_autonomy = 10
+		change_culture = hunsrik
+		if = {
+			limit = { owner = { NOT = { accepted_culture = hunsrik } } }
+			owner = { add_accepted_culture = hunsrik }
+		}		#Adding culture as an accepted culture to prevent AI flipping.
+		if = {
+			limit = {
+				is_capital = yes
+				is_overseas = no
+				owner = {
+            				culture_group = germanic
+				}
+			}
+			owner = { change_primary_culture = hunsrik }
+		}		#If this event hits in a capital, make the national culture the colonial culture. Yes, it will have far reaching effects. This is WaD.
+	}
+	
+	option = { # Nah
+		name = "VUcolonialcultures.1.b"
+		ai_chance = { factor = 20 }
+	}
+}
+#Seelander
+province_event = {
+	id = VUcolonialcultures.5
+	title = "VUcolonialcultures.5.t"
+	desc = "VUcolonialcultures.1.d"
+	picture = COLONIZATION_eventPicture
+	
+	trigger = {
+		region = new_zealand_region
+		owner = {
+			culture_group = germanic
+		}
+		NOT = { culture = seelander }
+	}
+
+	mean_time_to_happen = {
+		months = 76 #80 years
+	}
+
+	option = { # Okay
+		name = "VUcolonialcultures.1.a"
+		ai_chance = { factor = 80 }
+		add_local_autonomy = 10
+		change_culture = seelander
+		if = {
+			limit = { owner = { NOT = { accepted_culture = seelander } } }
+			owner = { add_accepted_culture = seelander }
+		}		#Adding culture as an accepted culture to prevent AI flipping.
+		if = {
+			limit = {
+				is_capital = yes
+				is_overseas = no
+				owner = {
+            				culture_group = germanic
+				}
+			}
+			owner = { change_primary_culture = seelander }
+		}		#If this event hits in a capital, make the national culture the colonial culture. Yes, it will have far reaching effects. This is WaD.
+	}
+	
+	option = { # Nah
+		name = "VUcolonialcultures.1.b"
+		ai_chance = { factor = 20 }
+	}
+}
+#Afrikaner
+province_event = {
+	id = VUcolonialcultures.6
+	title = "VUcolonialcultures.6.t"
+	desc = "VUcolonialcultures.1.d"
+	picture = COLONIZATION_eventPicture
+	
+	trigger = {
+		colonial_region = colonial_australia
+		owner = {
+			culture_group = germanic
+		}
+		NOT = { culture = australier }
+	}
+
+	mean_time_to_happen = {
+		months = 76 #80 years
+	}
+
+	option = { # Okay
+		name = "VUcolonialcultures.1.a"
+		ai_chance = { factor = 80 }
+		add_local_autonomy = 10
+		change_culture = australier
+		if = {
+			limit = { owner = { NOT = { accepted_culture = australier } } }
+			owner = { add_accepted_culture = australier }
+		}		#Adding culture as an accepted culture to prevent AI flipping.
+		if = {
+			limit = {
+				is_capital = yes
+				is_overseas = no
+				owner = {
+            				culture_group = germanic
+				}
+			}
+			owner = { change_primary_culture = australier }
+		}		#If this event hits in a capital, make the national culture the colonial culture. Yes, it will have far reaching effects. This is WaD.
+	}
+	
+	option = { # Nah
+		name = "VUcolonialcultures.1.b"
+		ai_chance = { factor = 20 }
+	}
+}
+#Pennsilvanian german
+province_event = {
+	id = VUcolonialcultures.7
+	title = "VUcolonialcultures.7.t"
+	desc = "VUcolonialcultures.1.d"
+	picture = COLONIZATION_eventPicture
+	
+	trigger = {
+		colonial_region = colonial_eastern_america
+		owner = {
+			culture_group = germanic
+		}
+		NOT = { culture = pennsilfaanisch }
+	}
+
+	mean_time_to_happen = {
+		months = 76 #80 years
+	}
+
+	option = { # Okay
+		name = "VUcolonialcultures.1.a"
+		ai_chance = { factor = 80 }
+		add_local_autonomy = 10
+		change_culture = pennsilfaanisch
+		if = {
+			limit = { owner = { NOT = { accepted_culture = pennsilfaanisch } } }
+			owner = { add_accepted_culture = pennsilfaanisch }
+		}		#Adding culture as an accepted culture to prevent AI flipping.
+		if = {
+			limit = {
+				is_capital = yes
+				is_overseas = no
+				owner = {
+            				culture_group = germanic
+				}
+			}
+			owner = { change_primary_culture = pennsilfaanisch }
+		}		#If this event hits in a capital, make the national culture the colonial culture. Yes, it will have far reaching effects. This is WaD.
+	}
+	
+	option = { # Nah
+		name = "VUcolonialcultures.1.b"
+		ai_chance = { factor = 20 }
+	}
+}
+#Argentina
+province_event = {
+	id = VUcolonialcultures.8
+	title = "VUcolonialcultures.8.t"
+	desc = "VUcolonialcultures.1.d"
+	picture = COLONIZATION_eventPicture
+	
+	trigger = {
+		colonial_region = colonial_la_plata
+		owner = {
+			culture_group = germanic
+		}
+		NOT = { culture = argentiner }
+	}
+
+	mean_time_to_happen = {
+		months = 76 #80 years
+	}
+
+	option = { # Okay
+		name = "VUcolonialcultures.1.a"
+		ai_chance = { factor = 80 }
+		add_local_autonomy = 10
+		change_culture = argentiner
+		if = {
+			limit = { owner = { NOT = { accepted_culture = argentiner } } }
+			owner = { add_accepted_culture = argentiner }
+		}		#Adding culture as an accepted culture to prevent AI flipping.
+		if = {
+			limit = {
+				is_capital = yes
+				is_overseas = no
+				owner = {
+            				culture_group = germanic
+				}
+			}
+			owner = { change_primary_culture = argentiner }
+		}		#If this event hits in a capital, make the national culture the colonial culture. Yes, it will have far reaching effects. This is WaD.
+	}
+	
+	option = { # Nah
+		name = "VUcolonialcultures.1.b"
+		ai_chance = { factor = 20 }
+	}
+}
+#New-Prussian
+province_event = {
+	id = VUcolonialcultures.9
+	title = "VUcolonialcultures.9.t"
+	desc = "VUcolonialcultures.1.d"
+	picture = COLONIZATION_eventPicture
+	
+	trigger = {
+		OR = {
+			colonial_region = colonial_canada
+			colonial_region = colonial_hudson_bay
+			colonial_region = colonial_newfoundland
+			colonial_region = colonial_acadia
+		}
+		owner = {
+			culture_group = germanic
+		}
+		NOT = { culture = neu_prussian }
+	}
+
+	mean_time_to_happen = {
+		months = 76 #80 years
+	}
+
+	option = { # Okay
+		name = "VUcolonialcultures.1.a"
+		ai_chance = { factor = 80 }
+		add_local_autonomy = 10
+		change_culture = neu_prussian
+		if = {
+			limit = { owner = { NOT = { accepted_culture = neu_prussian } } }
+			owner = { add_accepted_culture = neu_prussian }
+		}		#Adding culture as an accepted culture to prevent AI flipping.
+		if = {
+			limit = {
+				is_capital = yes
+				is_overseas = no
+				owner = {
+            				culture_group = germanic
+				}
+			}
+			owner = { change_primary_culture = neu_prussian }
+		}		#If this event hits in a capital, make the national culture the colonial culture. Yes, it will have far reaching effects. This is WaD.
+	}
+	
+	option = { # Nah
+		name = "VUcolonialcultures.1.b"
+		ai_chance = { factor = 20 }
 	}
 }
